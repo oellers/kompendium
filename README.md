@@ -1,6 +1,6 @@
 # Kompendium - Didaktische Metadaten
 
-Dieses Repositorium beinhaltet den Text zu dem "Kompendium - Didaktische Metadaten", welches von Manuel Oellers und Steffen Rörtgen in Kooperation mit dem Verein “Deutscher Akademischer Austauschdienst” ([DAAD](https://www.daad.de/de/)) im Kontext des Forschungs- und Entwicklungsprojekts “[BIRD | Bildungsraum Digital](https://www.daad.de/de/der-daad/was-wir-tun/digitalisierung/bird/)” entstanden ist.
+Dieses Repo beinhaltet den Text zu dem "Kompendium - Didaktische Metadaten", welches von Manuel Oellers und Steffen Rörtgen in Kooperation mit dem Verein “Deutscher Akademischer Austauschdienst” ([DAAD](https://www.daad.de/de/)) im Kontext des Forschungs- und Entwicklungsprojekts “[BIRD | Bildungsraum Digital](https://www.daad.de/de/der-daad/was-wir-tun/digitalisierung/bird/)” entstanden ist.
 Das Originaldokument ist unter der DOI [10.5281/zenodo.10828758](https://zenodo.org/doi/10.5281/zenodo.10828758) erschienen und dort abrufbar.
 Um die Nachnutzung zu vereinfachen, ist das Dokument in die Auszeichnungssprache "[Markdown](https://de.wikipedia.org/wiki/Markdown)" konvertiert worden.
 

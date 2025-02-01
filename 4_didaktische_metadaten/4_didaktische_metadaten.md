@@ -1,11 +1,12 @@
 ---
-bibliography: "metadaten.json"
+
+bibliography: "metadaten.json"  
 link-citations: true
 ---
 
-# 4 Didaktische Metadaten
+# 4 Educational metadata
 
-## 4.1 Was sind didaktische Metadaten?
+## 4.1 What is educational metadata?
 
 <table>
 <colgroup>
@@ -15,154 +16,46 @@ link-citations: true
 <tbody>
 <tr class="odd">
 <td>❓</td>
-<td><strong>Fragestellung</strong></td>
+<td><strong>Questions</strong></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><ul>
-<li><p>Was genau sind eigentlich didaktische Metadaten?</p></li>
-<li><p>Welche Potenziale und Herausforderungen bieten didaktische
-Metadaten?</p></li>
+<li><p>What exactly is educational metadata?</p></li>
+<li><p>What is the potential and what are the challenges presented by educational metadata?</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
+Educational metadata serves to characterise and contextualise, for example, educational resources and their intended reuse in learning contexts, learning environments and the associated learning processes. It comprises diverse aspects relevant to the shaping of both teaching and learning. For example, educational resources can be described by metadata statements[\^15] that identify characteristics of learning processes or learning environments and are associated with their intended use [@suttonmes2004, p. 145].
 
-Didaktische Metadaten dienen der Charakterisierung sowie
-Kontextualisierung, wie von Bildungsressourcen und deren intendierter
-Nachnutzung in Lernkontexten, Lernumgebungen und den damit verbundenen
-Lernprozessen. Sie umfassen vielseitige, relevante Aspekte für die
-Gestaltung der Lehre und des Lernens. So können Bildungsressourcen etwa
-durch Metadaten-Statements[^15] beschrieben werden, die Merkmale von
-Lernprozessen oder Lernumgebungen kennzeichnen und mit der intendierten
-Nutzung einhergehen [@suttonmes2004, S. 145].
+This broad definition allows educational, pedagogical, psychological, methodological and (subject/media-specific) didactic perspectives of educational resources and their contexts to be summarised in an interdisciplinary manner as a metadata category, which thus also includes "didactic metadata" or "pedagogic metadata". In fact, the terms *educational metadata*, *pedagogic metadata* and *didactic metadata* are frequently used interchangeably and their definitions are so similar as to render them virtually indistinguishable. The term "educational metadata" is therefore used collectively for all of these concepts within this compendium. Educational metadata is particularly relevant for teachers, learners, educational researchers and multipliers in the training and education system, as well as for people who are involved in the creation and implementation of educational services.
 
-Diese weite Definition erlaubt es, sowohl bildungswissenschaftliche,
-pädagogische, psychologische, als auch methodische sowie
-(fach-/medien-)didaktische Perspektiven auf Bildungsressourcen und deren
-Kontexte interdisziplinär als Metadaten-Kategorie zusammenzufassen,
-sodass “Bildungsmetadaten” oder “pädagogischen Metadaten” hierunter
-ebenfalls subsumiert werden. Im internationalen Raum sind die Begriffe
-*educational metadata (*Bildungsmetadaten*)*, *pedagogic metadata*
-(pädagogische Metadaten) und *didactic metadata* (didaktische Metadaten)
-verbreitet, die definitorisch verwandt und kaum voneinander abzugrenzen
-sind, sodass in diesem Kompendium diese Konzepte von der Bezeichnung
-“Didaktische Metadaten” ebenfalls umfasst werden. Didaktische Metadaten
-sind besonders relevant für Lehrende, Lernende, Bildungsforscher\*innen
-und Multiplikator\*innen im Aus- und Fortbildungssystem sowie darüber
-hinaus für Personen, die an der Konzeption und Realisierung von
-Bildungsdiensten beteiligt sind.
+This chapter primarily covers descriptive educational metadata that functions as attributes for educational resources. It should be noted that other descriptive, structural or administrative metadata can also fulfil important didactic functions in teaching/learning contexts and processes, as is demonstrated in this compendium by way of examples. Therefore, a distinction is also made here between educational metadata and other metadata that fulfils a didactic function in specific usage scenarios. Since the latter category can be quite extensive due to the multifaceted applications, only a few examples are mentioned here. Educational metadata, however, can also make content-, context- and structure-related attributions (cf. [Types of metadata](#was-sind-typen-von-metadaten)).
 
-Primär werden in diesem Kapitel deskriptive didaktische Metadaten
-herausgestellt, die als Attribute für Bildungsressourcen fungieren.
-Dabei ist zu berücksichtigen, dass darüber hinaus auch anderweitige
-deskriptive, strukturelle oder administrative Metadaten in
-Lehr-/Lernkontexten und -prozessen wichtige didaktische Funktionen
-erfüllen können, wie in diesem Kompendium exemplarisch aufgezeigt wird.
-Somit wird hier zugleich eine Unterscheidung zwischen didaktischen und
-anderweitigen Metadaten, die in bestimmten Nutzungsszenarien eine
-didaktische Funktion erfüllen, getroffen. Die letztgenannte Kategorie
-kann aufgrund facettenreicher Anwendungsfälle äußerst umfangreich sein,
-sodass hier nur einige Beispiele erwähnt werden. Auch didaktische
-Metadaten können dabei inhalts-, kontext- und strukturbezogene
-Attribuierungen vornehmen (vgl. [Typen von
-Metadaten](#was-sind-typen-von-metadaten)).
+Knowledge organisation systems, such as didactic taxonomies, typologies and ontologies \[@mederwndwvl2006\] \[@ohlyguwnafwwuiptdsigfwh22s12000\] \[@pawlowskimdk2002\] \[@schmiechdozodoal2006\] \[@swertzddlfahlmw2004\] \[@swertzwdop2005a\], can be used as a basis to describe learning objects based on didactic categories – for example, by assigning [subjects](#fach--und-themenzuordnung), [learning objectives](#lernvoraussetzungen-lernziele-und-lernkontrollen), associated knowledge types (e.g. declarative, procedural, situational, sensorimotor), media presentation forms (see also [resource types](#ressourcentyp-medientyp)) or even subject-related and logical relationships between topics, which also reflect an intended progression of the learning content (knowledge sequencing). We thus have description approaches not only for the shape and structure of the learning content, but also for the relationships between content, didactic usage scenarios and the embedding of content in different educational contexts.
 
-Wissensorganisationssysteme, wie beispielsweise didaktische Taxonomien,
-Typologien und Ontologien [@mederwndwvl2006] [@ohlyguwnafwwuiptdsigfwh22s12000] [@pawlowskimdk2002] [@schmiechdozodoal2006] [@swertzddlfahlmw2004] [@swertzwdop2005a], können als Basis verwendet
-werden, um Lernobjekte durch didaktische Kategorien zu beschreiben,
-beispielsweise über eine Zuordnung von
-[Sachthemen](#fach--und-themenzuordnung),
-[Lernzielen](#lernvoraussetzungen-lernziele-und-lernkontrollen),
-zugehörigen Wissensarten (bspw. deklarativ, prozedural, situativ,
-sensomotorisch), medialen Präsentationsformen (vgl. auch
-[Ressourcentypen](#ressourcentyp-medientyp)) oder auch fach- und
-sachlogischen Beziehungen zwischen Themen, welche zugleich eine
-intendierte Progression der Lerninhalte abbilden
-(Wissenssequenzierungen). Somit existieren nicht nur
-Beschreibungsansätze für die Gestalt und Struktur der Lerninhalte,
-sondern vielmehr auch für Zusammenhänge von Inhalten, didaktischen
-Einsatzszenarien und der Einbettung der Inhalte in verschiedene
-Bildungskontexte.
+A wide range of didactic categories can be described, such as:
 
-Dabei können vielfältige didaktische Kategorien erfasst werden, wie:
+- Teaching/learning models (e.g. instruction models with phasing of lessons)
+- Teaching/learning theories (e.g. connectivism, constructivism, cognitivism, behaviourism)
+- Teaching/learning objectives (e.g. skills to be developed)
+- Teaching/learning levels (e.g. competency level models, differentiation models)
+- Teaching/learning groups (e.g. groups of persons for which a resource has been didacticised)
+- Teaching/learning formats (e.g. self-directed or guided learning processes)
+- Teaching/learning contexts (e.g. temporal, organisational and spatial context)
+- Teaching/learning scenarios (e.g. sequencing of learning activities)
+- Teaching/learning methods (e.g. didactic principles, types of interaction)
 
-- Lehr-/Lernmodelle (z. B. Instruktionsmodelle mit Phasierungen des
-  Unterrichts)
-- Lehr-/Lerntheorien (z. B. Konnektivismus, Konstruktivismus,
-  Kognitivismus, Behaviorismus)
-- Lehr-/Lernziele (z. B. zu fördernde Kompetenzen)
-- Lern-/Lernniveaus (z. B. Kompetenzstufenmodelle,
-  Differenzierungsmodelle)
-- Lehr-/Lerngruppen (z. B. Personengruppen, für die eine Ressource
-  didaktisiert wurde)
-- Lehr-/Lernformen (z. B. selbstgesteuerte oder fremdgesteuerte
-  Lernprozesse)
-- Lehr-/Lernkontexte (z. B. zeitlicher, organisatorischer und räumlicher
-  Kontext)
-- Lehr-/Lernszenarien (z. B. Sequenzierung von Lernaktivitäten)
-- Lehr-/Lernmethoden (z. B. Didaktische Prinzipien, Interaktionsarten)
+**Heterogeneity of the usage contexts of educational resources**
 
-**Heterogenität der Nutzungskontexte von Bildungsressourcen**
+Although the education market is continuously developing, it is still the case that, from the point of view of teachers and learners, relevant didactic characteristics of resources are not or only inadequately described [@tavakoliqpoerma2020, p. 1]. The vast number of possible usage contexts increases the need for resources and specific metadata so that targeted searches can be performed to identify relevant resources among the ever-increasing diversity of information. The relevance of resources for learners and teachers is dictated by numerous factors, with the respective context of the intended reuse being one particular example. For instance, the specific learning environment, level of education, linguistic backgrounds, available learning time, technological and legal requirements and many other criteria can be crucial to the successful use of a resource. In addition, location- and time-independent learning as well as self-directed learning processes have become increasingly relevant as a result of the ongoing digitalisation.
 
-Wenngleich die Entwicklung des Bildungsmarktes stetig voranschreitet,
-ist weiterhin zu konstatieren, dass, aus Sicht von Lehrenden und
-Lernenden, relevante didaktische Merkmale von Ressourcen nicht oder nur
-unzureichend erfasst werden [@tavakoliqpoerma2020, S. 1]. Die Vielzahl
-der möglichen Verwendungskontexte erhöht die Bedarfe an Ressourcen und
-spezifischen Metadaten, damit Suchen überhaupt zielgerichtet
-durchführbar sind, um die relevanten Ressourcen in der zunehmenden
-Vielfalt auffinden zu können. Die Relevanz von Ressourcen ergibt sich
-für Lernende und Lehrende dabei aus zahlreichen Faktoren, wie
-insbesondere dem jeweiligen Kontext der intendierten Nachnutzung. So
-können für die erfolgreiche Nutzung einer Ressource unter Umständen die
-jeweilige Lernumgebung, Bildungsstufe, sprachlichen Hintergründe,
-verfügbare Lernzeit, technologischen und rechtlichen Anforderungen und
-viele weitere Kriterien bedeutsam sein. Ebenso haben orts- und
-zeitunabhängiges Lernen sowie selbstgesteuerte Lernprozesse durch die
-Digitalisierung an Relevanz gewonnen.
+**Attributes and values for the provision and exchange of data: one size fits all?**
 
-**Attribute und Werte zur Bereitstellung und Austausch von Daten: One
-size fits all?**
+In the following, a number of attributes are presented and described that are either already covered in metadata standards, have been partially conceptualised by subject matter experts, or are desired by teachers and learners but have yet to be widely adopted or be subject to any broad consensus. Reference is also made to value lists that are already available for reuse in various stages of development or have been deemed relevant by experts without yet being suitable for use as a controlled vocabulary. It is important to note that some of the value lists specified below are designed more for data exchange between distributed systems and less for the provision of elaborated metadata in local repositories or educational services. The value lists may therefore be underspecified, depending on the heterogeneity of those parties who have agreed on the attributes and value lists for exchange purposes. Within specific services, it may be expedient to use much more extensive attributes and value lists – for example, to enable specific recommendation functions or to compile collections that address the diverse needs of different target groups. However, it is not always possible to reflect this variety of local characteristics in a data exchange. For instance, when exchanging data, the elaborated, service-internal [vocabulary for the learning resource types of WirLernenOnline](http://w3id.org/openeduhub/vocabs/new_lrt/) would need to be mapped onto a vocabulary such as that used in one of the metadata profiles LOM-HS-OER or AMB.
 
-Im Folgenden werden einige Attribute vorgestellt und beschrieben, die
-sich entweder bereits in Metadatenstandards finden, von
-Fachexpert\*innen teilweise konzeptualisiert wurden oder von Lehrenden
-und Lernenden erwünscht sind, jedoch bislang keine flächendeckende
-Verbreitung oder keinen Konsens aufweisen. Dabei wird zudem auf
-Wertelisten verwiesen, die bereits in verschiedenen Stadien der
-Entwicklung zur Nachnutzung vorliegen oder von Expert\*innen als
-relevant eingestuft werden, jedoch unter Umständen bisher nicht
-unmittelbar als kontrolliertes Vokabular tauglich sind. Dabei muss
-beachtet werden, dass einige der genannten Wertelisten zum Teil eher dem
-Datenaustausch zwischen verteilten Systemen dienen und weniger der
-Bereitstellung elaborierter Metadaten in lokalen Repositorien oder
-Bildungsdiensten. Damit können die erwähnten Wertelisten eventuell
-unterspezifiziert sein, je nachdem wie heterogen die Gruppe derjenigen
-ist, die sich auf die Attribute und Wertelisten zum Austausch geeinigt
-haben. Innerhalb konkreter Dienste ist es unter Umständen sinnvoll,
-wesentlich umfangreichere Attribute und Wertelisten zu nutzen,
-beispielsweise um spezifische Empfehlungsfunktionen zu ermöglichen oder
-um Sammlungen für verschiedene Bedürfnisse von Zielgruppen
-zusammenzustellen. Diese Vielfalt lokaler Ausprägungen kann in einem
-Datenaustausch jedoch nicht immer abgebildet werden. So müsste zum
-Beispiel das elaborierte, service-interne [Vokabular der
-Lernressourcentypen von
-WirLernenOnline](http://w3id.org/openeduhub/vocabs/new_lrt/) beim
-Austausch der Daten auf ein Vokabular abgebildet werden, wie es in einem
-der Metadatenprofile LOM-HS-OER oder AMB genutzt wird.
-
-Die zunächst naheliegende Forderung, dass jeder Dienst einfach die
-gleichen Attribute und Wertelisten verwendet, würde funktional
-einschränkend wirken und den Wettbewerb sowie Innovationen hemmen. Nur
-standardisierte Wertelisten in einem Service zu verwenden, führt kaum
-zur besten Usability und User Experience, da diese Wertelisten oft ein
-gewisses Abstraktionsniveau aufweisen. Das steht jedoch nicht der
-Möglichkeit im Wege, diese spezifischen Attribute und Werte auf
-standardkonforme Daten zu mappen und sie über offene Schnittstellen
-bereitzustellen. Um den Informationsverlust möglichst zu minimieren,
-sollten der Transfer und die Harmonisierung von Metadaten zwischen
-verschiedenen Systemen bereits frühzeitig mitgedacht werden.
+While it might seem obvious to simply have every service use the same attributes and value lists, this would actually be functionally restrictive and inhibit both competition and innovation. Using only standardised value lists in a service would be to the detriment of usability and the user experience as whole since these value lists frequently possess a certain level of abstraction. However, this does not rule out the possibility of mapping these specific attributes and values onto standard-compliant data and making them available via open interfaces. To minimise the loss of information, the transfer and harmonisation of metadata between different systems should be considered at an advanced stage.
 
 <table>
 <colgroup>
@@ -172,26 +65,19 @@ verschiedenen Systemen bereits frühzeitig mitgedacht werden.
 <tbody>
 <tr class="odd">
 <td>💡</td>
-<td><strong>Zusammenfassung</strong></td>
+<td><strong>Summary</strong></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><ul>
-<li><p>Didaktische Metadaten umfassen vielseitige Aspekte von
-Bildungsressourcen und Bildungskontexten (z. B. Lernumgebungen), die für
-Lehr-/Lernprozesse relevant sind.</p></li>
-<li><p>Es kann zwischen didaktischen Metadaten und Metadaten, die in
-bestimmten Nutzungsszenarien eine didaktische Funktion erfüllen,
-unterschieden werden.</p></li>
-<li><p>(Elaborierte) Vokabulare und Harmonisierung für den
-interoperablen Datenaustausch sollten frühzeitig mitgedacht
-werden.</p></li>
+<li><p>Educational metadata encompasses diverse aspects of educational resources and contexts (e.g. learning environments) that are relevant to teaching/learning processes.</p></li>
+<li><p>A distinction can be made between educational metadata and metadata that fulfils a didactic function in specific usage scenarios.</p></li>
+<li><p>(Elaborated) vocabularies and harmonisation to support interoperable data exchange should be considered at an advanced stage.</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
-
-## 4.2 Didaktische Metadatenfelder - Welche gibt es schon?
+## 4.2 Existing educational metadata fields
 
 <table>
 <colgroup>
@@ -201,1005 +87,444 @@ werden.</p></li>
 <tbody>
 <tr class="odd">
 <td>❓</td>
-<td><strong>Fragestellung</strong></td>
+<td><strong>Questions</strong></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><ul>
-<li><p>Welche didaktischen Metadatenfelder existieren bereits in den
-vorhandenen Standards und wie werden sie eingesetzt?</p></li>
+<li><p>Which educational metadata fields already exist in the present standards and how are they used?</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
+### 4.2.1 Subject and topic assignment
 
-### 4.2.1 Fach- und Themenzuordnung
+In the institutional education sector, the assignment of an object to a subject is essential and is frequently one of the first search approaches employed [@tischlernunmbsubob2022, p. 259]. In the study conducted by Tischler et al., the assignment of the subject of study is identified by those surveyed as relevant and easy to describe [@tischlernunmbsubob2022, p. 258]. In an earlier survey on the part of LRMI working groups, more than 80% of the teachers surveyed named the specification of content and subject areas as one of the most helpful pieces of information [@wintergrouplsrj2umoo2014]. It should be noted, however, that the closed answer options available at that time do not reflect the current market situation. In a survey conducted by JOINTLY.info, only around 46% (n = 46 responses) found filtering by "subject" at least "slightly helpful" [@jointly.infosuinuo2021]. There are several possible reasons for this. For example, answers in this survey had to be provided for a combination of the two fields "subject" and "class" and could not be separated. The respective search intentions, vocabulary, interface design, as well as the presented content and its tagging, which presumably served as the background against which the answers in the survey were made, may also have differed.
 
-Die Zuordnung eines Objektes zu einem Fach ist im institutionellen
-Bildungsbereich essenziell und häufig einer der ersten Suchzugänge
-[@tischlernunmbsubob2022, S. 259]. In der Untersuchung von Tischler et al.
-wird die Zuordnung des Studienfaches von den Befragten als relevant und
-leicht beschreibbar identifiziert [@tischlernunmbsubob2022, S. 258].
-Bei einer früheren Befragung durch Arbeitsgruppen der LRMI galt die Angabe
-von Inhalts- und Themenbereichen bei mehr als 80 % der befragten
-Lehrenden als eine der hilfreichsten Angaben [@wintergrouplsrj2umoo2014],
-wenngleich zu berücksichtigen ist, dass das damalige Spektrum zur
-Verfügung stehender geschlossener Antwortmöglichkeiten sich von der
-heutigen Marktsituation unterscheidet. Bei einer Umfrage von
-JOINTLY.info empfanden nur ca. 46 % (n = 46 Antworten) eine Filterung
-nach dem “Fach” mindestens “etwas hilfreich” [@jointly.infosuinuo2021].
-Dies kann mehrere Ursachen haben. So musste etwa die Einschätzung in dieser
-Umfrage für die Kombination der beiden Felder “Fach” und “Klassenstufe”
-getroffen werden und konnte nicht getrennt erfolgen. Auch unterscheiden
-sich womöglich die jeweiligen Suchintentionen, Vokabulare, Gestaltung
-der Oberflächen und präsentierte Inhalte sowie deren Verschlagwortung,
-vor deren Hintergrund die Antworten in der Umfrage anzunehmend
-erfolgten.
+For the reasons outlined above, attributes for assigning a subject or subject area also exist in the widely adopted metadata standards. In this case, the attribute focuses on the content structure of the lesson. A range of machine-readable subject classifications already exist for schools and universities.
 
-Aus den dargelegten Gründen sind Attribute zur Zuordnung eines Faches
-oder Themenbereichs auch in den weitverbreiteten Metadatenstandards
-vorhanden. Das Attribut fokussiert die Inhaltsstruktur des Unterrichts.
-Es gibt bereits verschiedene maschinenlesbare Fachsystematiken für den
-Schul- und Hochschulbereich.
+**Logical relationships**
 
-**Sachlogische Beziehungen**
+By modelling logical relationships within and between subject areas (and topics), the intended progression, including the sequencing of learning content, is prestructured. This facilitates the interconnection of knowledge, which is relevant, for example, when implementing recommender systems. Logical relationships can support factual analyses of lesson plans and teaching concepts.
 
-Durch Modellierung sachlogischer Beziehungen innerhalb und zwischen
-Sachgebieten (sowie Themen) wird die intendierte Progression, unter
-anderem die Sequenzierung der Lerninhalte, vorstrukturiert.
-Wissenszusammenhänge können dadurch vernetzt werden, was beispielsweise
-bei der Implementierung von Vorschlagssystemen relevant ist.
-Sachlogische Beziehungen können Sachanalysen von Unterrichtsplanungen
-und Unterrichtsentwürfen unterstützen.
+Example: [Graph-based search from GeoGebra](https://www.geogebra.org/materials)
 
-Beispiel: [Graph-basierte Suche von
-GeoGebra](https://www.geogebra.org/materials)
+**Interdisciplinarity and cross-discipline topics**
 
-**Interdisziplinarität und Querschnittsthemen**
+The assignment of interdisciplinary materials remains a particular challenge \[@tischlernunmbsubob2022, p. 260\]. When there is a tendency to assign a large number of subjects to an object, this may indicate a low accuracy of the corresponding classification system. The objects in such cases frequently relate to cross-discipline topics or competencies (see also the related discussions regarding the [Hochschulfächersystematik (classification for subject groups, study areas and study subjects)](https://github.com/dini-ag-kim/hochschulfaechersystematik/issues/26) and the [description of cross-discipline core competencies](https://gitlab.com/oersi/oersi-etl/-/issues/251)). Depending on the specific application, it makes sense to use the value "interdisciplinary" in a controlled vocabulary, to store a dedicated catalogue as a value list or to use alternative metadata, such as [learning prerequisites, objectives and controls](#lernvoraussetzungen-lernziele-und-lernkontrollen). The OERSI search index substitutes the value "interdisciplinary" if more than three categories on the first level of the subject classification are used \[@hbzocos2024\]. Any decision should take into account the resulting implications for the filter logic within a portal (see chapter "[Vocabularies for filtering search results](#vokabulare-zur-filterung-von-suchergebnissen)").
 
-Eine Herausforderung bleibt die Zuordnung interdisziplinärer Materialien
-[@tischlernunmbsubob2022, S. 260]. Wenn dazu tendiert wird, bei einem
-Objekt eine große Anzahl an Fächern zuzuordnen, weist dies womöglich
-darauf hin, dass die Systematik eine geringe Passgenauigkeit aufweist.
-Häufig handelt es sich dabei um Objekte, die fächerübergreifende
-Querschnittsthemen oder -kompetenzen betreffen (vgl. auch die
-[Diskussion zur
-Hochschulfächersystematik](https://github.com/dini-ag-kim/hochschulfaechersystematik/issues/26)
-oder zur [disziplinübergreifenden
-Erfassung](https://gitlab.com/oersi/oersi-etl/-/issues/251)). Je nach
-Anwendungsfall ist es sinnvoll, hier den Wert “fachübergreifend” in
-einem kontrollierten Vokabular zu verwenden, einen dedizierten Katalog
-als Werteliste zu hinterlegen oder ein alternatives Metadatum, wie
-[Lernvoraussetzungen, -ziele und
--kontrollen](#lernvoraussetzungen-lernziele-und-lernkontrollen),
-ersatzweise zu verwenden. Der Suchindex OERSI verwendet den Wert
-“fachübergreifend” ersatzweise, wenn mehr als drei Kategorien der ersten
-Ebene der Fächersystematik verwendet werden [@hbzocos2024].
-Dabei sollte eine Entscheidung die einhergehenden Implikationen für die Filterlogik
-in einem Portal berücksichtigen (vgl. Kapitel “[Vokabulare zur Filterung
-von Suchergebnissen](#vokabulare-zur-filterung-von-suchergebnissen)”).
+Examples of cross-discipline topics and interdisciplinarity:
 
-Beispiele für Querschnittsthemen und Interdisziplinarität:
+- Innovation processes at educational institutions
+- Media-related (higher) education development
+- Basic IT education
+- Educational sciences
+- Education for Sustainable Development (ESD), sustainability
+- Digitalisation and media skills
+- Inclusion/heterogeneity (e.g. as a media/special education concept that applies to various subjects in conjunction with specialist scientific perspectives)
+- Interdisciplinary teaching, combination subjects such as mathematics, IT, natural sciences and technology (MINT) or science, technology, engineering and mathematics (STEM) (i.e. different combinations of subjects)
 
-- Innovationsprozesse an Bildungseinrichtungen
-- Medienbezogene (Hoch-)Schulentwicklung
-- Informatische Grundbildung (IGB)
-- Bildungswissenschaften
-- Bildung für nachhaltige Entwicklung (BNE); Nachhaltigkeit
-- Digitalisierung und Medienkompetenzen
-- Inklusion/(Umgang mit) Heterogenität (bspw. als medienpädagogisches /
-  förderpädagogisches Konzept, welches in verschiedenen Fächern in
-  Verbindung mit fachwissenschaftlichen Perspektiven greift)
-- Fachübergreifender Unterricht, Kombinationsfächer wie Mathematik,
-  Informatik, Naturwissenschaft und Technik (MINT) bzw. Science,
-  technology, engineering, and mathematics (STEM) (unterschiedliche
-  Kombination von Fächern)
+**Tiered and multidisciplinary study programmes**
 
-**Gestufte und multidisziplinäre Studiengänge**
+A further challenge encountered with established subject classification systems is presented by study programmes that encompass several phases, including multidisciplinary teacher training programmes that involve a combination of subject-specific studies, subject didactics (i.e. teaching methodology) and educational sciences.
 
-Eine weitere Herausforderung etablierter Fachsystematiken besteht bei
-Studiengängen, die über mehrere Phasen konzipiert sind, unter anderem
-multidisziplinäre Lehramtsstudiengänge, die das Zusammenspiel von
-Fachwissenschaften, Fachdidaktik und Bildungswissenschaften involvieren.
+*Practical example: teacher training programmes*
 
-*Praxisbeispiel: Lehramtsstudiengänge*
+Therefore, assigning the subject "mathematics" to a resource would be insufficient as the sole criterion for differentiating between subject-specific studies and subject didactics, since it is impossible to differentiate whether the resource is more relevant for subject-specific studies or subject didactics target groups (e.g. teacher training students) – unless both cases are true anyway. In addition, there are currently six different types of teaching careers (see table "KMK teaching careers" in the [Degrees](#abschlüsse) section) \[@kmkaa2023\], meaning that the target group of teacher training students must also be considered in more detail. It should be noted that teaching career type 2 for "general teaching careers at primary level and all or individual lower secondary level school types" has lost virtually all relevance since 2022, as it is no longer offered in any German state (Centre for Higher Education, 2024a). However, to avoid any overloading of the individual subject classifications, a distinction between subject-specific studies and didactics is usually omitted, and separate values, for example, for "mathematics" as a field of study and "mathematics didactics" are used instead.
 
-Die Zuweisung des Fachs “Mathematik” zu einer Ressource wäre demnach als
-einziges Kriterium unzureichend, um zwischen Fachwissenschaft und
-Fachdidaktik differenzieren zu können, da nicht unterschieden werden
-kann, ob die Ressource eher für fachwissenschaftliche oder
-fachdidaktische Zielgruppen (z. B. Lehramtsstudierende) relevant ist,
-sofern nicht ohnehin beides zutrifft. Zudem gibt es derzeit sechs
-verschiedene Lehramtstypen (vgl. Tabelle “KMK-Lehramtstypen” im
-Abschnitt [Abschlüsse](#abschlüsse)) [@kmkaa2023], sodass auch die
-Zielgruppe der Lehramtsstudierenden nochmals differenzierter zu
-betrachten ist. Wenngleich anzumerken ist, dass seit 2022 der
-Lehramtstyp 2 für “Lehrämter der Primarstufe und aller oder einzelner
-Schularten der Sekundarstufe I” kaum noch eine Relevanz hat, da dieser
-in keinem Land mehr angeboten wird (Centrum für Hochschulentwicklung,
-2024a). Um nun jedoch Fächersystematiken nicht zu überfrachten, wird in
-der Regel auf eine dortige Unterscheidung zwischen Fachwissenschaft und
--didaktik verzichtet, somit beispielsweise auf separate Werte für
-“Mathematik” als Fachwissenschaft und “Mathematikdidaktik”.
+But how do people involved in teacher study programmes and training find relevant, subject-specific didactic resources?
 
-Doch wie finden Personen mit Bezug zur Lehrkräfteaus- und -fortbildung
-relevante, fachdidaktische Ressourcen?
+If no differentiation arises from the allocation of concrete didactic topics, it is partly achieved by specifying [target groups](#zielgruppen), designating [learning objectives](#lernziele) and allocating the relevant [degrees](#abschlüsse) (Bachelor of Science, Bachelor of Education, teaching career types) or by means of curricula (e.g. KMK standards for teacher training).
 
-Sofern die Differenzierung nicht aus der Zuweisung konkreter
-didaktischer Themen hervorgeht, wird diese teils über die Benennung von
-[Zielgruppen](#zielgruppen), Ausweisung von [Lernzielen](#lernziele),
-die Zuordnung der entsprechenden [Abschlüsse](#abschlüsse) (Bachelor of
-Science; Bachelor of Education; Lehramtstypen), oder auch Curricula (z.
-B. KMK Standards für die Lehrkräftebildung), vorgenommen.
-
-**Attribute in Metadatenstandards**
+**Attributes in metadata standards**
 
 - LRMI/schema.org: [about](https://schema.org/about)
 - AMB: [about](https://dini-ag-kim.github.io/amb/20231019/#about)
 - LOM: 9.1 discipline
-- Learning Metadata (LMT):
-  [dct:subject](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/subject)
-  (DCMI Metadata Terms)
+- Learning Metadata Terms (LMT): [dct:subject](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/subject) (DCMI Metadata Terms)
 - [dfnEduPerson](https://web.archive.org/web/20231215062855/https://doku.tid.dfn.de/de:elearning_attributes)
-  - vier Attribute, drei mit Destatis-Wertebereich: “Fächergruppe”,
-    “Studienbereich”, “Studienfach”, “Studienfachbezeichnung laut
-    Hochschule”
-  - zwei kombinierte Attribute mit Destatis-Wertebereich: “Studienfach
-    und Abschluss”, “Studienfach und Studienfachart”
+  - Four attributes, three with a Destatis value range: group of study branches, group of field of studies, single field of study, field of study as it is named at the local institution
+  - Two combined attributes with Destatis value range: field of study in correlation with the final degree, type of a study branch
 
-**Wertelisten**
+**Value lists**
 
-Folgende Wertelisten bieten sich zur Einbindung oder Nachnutzung an:
+The following value lists are suitable for inclusion or reuse:
 
-- Schulfächer:
+- School subjects:
+  
+  - [School subjects](http://w3id.org/kim/schulfaecher/), DINI-AG-KIM, [repo](https://github.com/dini-ag-kim/schulfaecher)
+  - [School subjects](http://w3id.org/openeduhub/vocabs/discipline/), WirLernenOnline, [repo](https://github.com/openeduhub/oeh-metadata-vocabs)
+  - [School subjects](https://mundo.schule/search), Sodix/Sodis
+  - [Subject area classification](https://vocabs.sodix.de/index.de.html), Sodix/Sodis
+  - [School subjects](https://digitallearningtools.de/api/subjects?q=), Digital Learning Lab / Tools
+  - [EUN subject values](http://europeanschoolnet-vbe.lexaurus.net/vbe/browse), European Schoolnet Vocabulary
 
-  - [Schulfächer](http://w3id.org/kim/schulfaecher/), DINI-AG-KIM,
-    [Repo](https://github.com/dini-ag-kim/schulfaecher)
-  - [Schulfächer](http://w3id.org/openeduhub/vocabs/discipline/),
-    WirLernenOnline,
-    [Repo](https://github.com/openeduhub/oeh-metadata-vocabs)
-  - [Schulfächer](https://mundo.schule/search), Sodix/Sodis
-  - [Sachgebietssystematik](https://vocabs.sodix.de/index.de.html),
-    Sodix/Sodis
-  - [Schulfächer](https://digitallearningtools.de/api/subjects?q=),
-    Digital Learning Lab / Tools
-  - [EUN Subject
-    Values](http://europeanschoolnet-vbe.lexaurus.net/vbe/browse),
-    European Schoolnet Vocabulary
+- Training occupations:
+  
+  - [Directory of recognised training occupations 2023 (BIBB)](https://www.bibb.de/dienst/publikationen/de/19128)
 
-- Ausbildungsberufe:
-  - [Verzeichnis der anerkannten Ausbildungsberufe 2023
-    (BIBB)](https://www.bibb.de/dienst/publikationen/de/19128)
-- Hochschulfächer:
-  - Statistisches Bundesamt (Destatis): [Fächergruppen, Studienbereiche
-    und
-    Studienfächer](https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik.pdf)
-    (KIM
-    [Repo-Mirror](https://github.com/dini-ag-kim/destatis-schluesseltabellen)
-    der offiziellen Schlüsseltabellen (CSV))
-  - [Destatis-Systematik der Fächergruppen, Studienbereiche und
-    Studienfächer](https://w3id.org/kim/hochschulfaechersystematik/scheme),
-    DINI-AG-KIM,
-    [Repo](https://github.com/dini-ag-kim/hochschulfaechersystematik),
-    ebenfalls als
-    “[Hochschulfächersystematik](http://w3id.org/openeduhub/vocabs/hochschulfaechersystematik/)”
-    durch Open Edu Hub / WirLernenOnline bereitgestellt
+- Higher education subjects:
+  
+  - Federal Statistical Office (Destatis): [classification for subject groups, study areas and study subjects](https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik.pdf) (KIM [repo mirror](https://github.com/dini-ag-kim/destatis-schluesseltabellen) of the official key tables (CSV))
+  - [Destatis classification for subject groups, study areas and study subjects](https://w3id.org/kim/hochschulfaechersystematik/scheme), DINI-AG-KIM, [repo](https://github.com/dini-ag-kim/hochschulfaechersystematik), also provided by Open Edu Hub / WirLernenOnline as the "[Hochschulfächersystematik](http://w3id.org/openeduhub/vocabs/hochschulfaechersystematik/)" (subject classification system for higher education)
 
-- Sachgebietssystematiken
-  - [ELIXIER-Systematik](https://web.archive.org/web/20221006161235/https://www.bildungsserver.de/elixier/elixiersystematikliste.php)
-  - [LOM-EAF](http://agmud.de/eaf-erweitertes-austauschformat/) (AG MuD)
-    ([Repo-Mirror](https://github.com/openeduhub/oeh-metadata-eaf-sachgebietssystematiken))
-    - [Sachgebietssystematik](https://web.archive.org/web/20240222094846/http://agmud.de/wp-content/uploads/2021/09/eafsys.txt)
-      (txt)
-    - [Sachgebietssystematik
-      (](https://web.archive.org/web/20240227120643/http://agmud.de/sachgebietssystematik/)Excel,
-      PDF)
+- Subject area classification systems:
+  
+  - [ELIXIER classification](https://web.archive.org/web/20221006161235/https://www.bildungsserver.de/elixier/elixiersystematikliste.php)
+  - [LOM-EAF](http://agmud.de/eaf-erweitertes-austauschformat/) (AG MuD) ([repo mirror](https://github.com/openeduhub/oeh-metadata-eaf-sachgebietssystematiken))
+    - [Subject area classification](https://web.archive.org/web/20240222094846/http://agmud.de/wp-content/uploads/2021/09/eafsys.txt) (txt)
+    - [Subject area classification](https://web.archive.org/web/20240227120643/http://agmud.de/sachgebietssystematik/) (Excel, PDF)
 
-- Unterrichtsthemen zu Schulfächern:
-  - [Taxonomie von
-    Lehrplanthemen](http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57),
-    WirLernenOnline,
-    [Repo](https://github.com/openeduhub/oeh-metadata-vocabs)
-- Bildungsbereichsübergreifende Fächer & Themen:
+- Teaching topics for school subjects:
+  
+  - [Taxonomy of curricular topics](http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57), WirLernenOnline, [repo](https://github.com/openeduhub/oeh-metadata-vocabs)
+
+- Cross-educational subjects \& topics:
+  
   - [Subjects](https://www.re3data.org/browse/by-subject/): Re3Data.org
+  
   - [Subjects](http://id.loc.gov/authorities/subjects): MARC 21
-  - [EuroVoc](https://eur-lex.europa.eu/browse/eurovoc.html):
-    Mehrsprachiger und multidisziplinärer Thesaurus der EU
-  - [LRE
-    Thesaurus](http://europeanschoolnet-vbe.lexaurus.net/vbe/browse)
-    (European Schoolnet Vocabulary),
-  - [UNESCO
-    Thesaurus](https://vocabularies.unesco.org/browser/thesaurus/en/)
-    zur thematischen Analyse und Auffinden von Dokumenten anhand
-    multidisziplinärer Terminologie, bspw. auch:
-    [Wissenschaftsdisziplinen](https://vocabularies.unesco.org/browser/thesaurus/en/page/?uri=http%3A%2F%2Fvocabularies.unesco.org%2Fthesaurus%2Fdomain2),
-    u.a. verfügbar als JSON-LD, Turtle, RDF/XML.
+  
+  - [EuroVoc](https://eur-lex.europa.eu/browse/eurovoc.html): Multilingual and multidisciplinary thesaurus of the EU
+  
+  - [LRE Thesaurus](http://europeanschoolnet-vbe.lexaurus.net/vbe/browse) (European Schoolnet Vocabulary),
+  
+  - [UNESCO Thesaurus](https://vocabularies.unesco.org/browser/thesaurus/en/) for subject analysis and retrieval of documents based on multidisciplinary terminology, including: [scientific disciplines](https://vocabularies.unesco.org/browser/thesaurus/en/page/?uri=http%3A%2F%2Fvocabularies.unesco.org%2Fthesaurus%2Fdomain2), also available in JSON-LD, Turtle, RDF/XML format.
+  
+  - Skosmos: branches of science/art, (historic) study programmes:
+    
+    - [Branches of science/art](https://voc.uni-ak.ac.at/skosmos/disciplines/de/)
+    - [Study programmes](http://base.uni-ak.ac.at/vocabulary/study_programmes)
+    - [Historic study programmes](https://voc.uni-ak.ac.at/skosmos/basevoc/en/page/historic_study_programmes)
 
-  - Skosmos: Wissenschafts-/Kunstzweige, (historische)
-    Studienrichtungen:
-    - [Wissenschafts-/Kunstzweige](https://voc.uni-ak.ac.at/skosmos/disciplines/de/)
-    - [Study
-      Programmes](http://base.uni-ak.ac.at/vocabulary/study_programmes)
-    - [Historic Study
-      Programmes](https://voc.uni-ak.ac.at/skosmos/basevoc/en/page/historic_study_programmes)
+### 4.2.2 Learning prerequisites, objectives and controls
 
-### 4.2.2 Lernvoraussetzungen, Lernziele und Lernkontrollen
+The introduction of educational standards and Bologna reforms marks a paradigm shift in the education system towards competence-based learning. The focus is thus increasingly placed on the learning objectives and competencies of learners. As a result, it is no longer just about the standardisation of learning content, but rather about which competencies learners have acquired at the end of a learning unit, both in terms of theoretical knowledge (cognitive perspective) and its practical implementation (functional perspective) [@kopfkluphfl2010].
 
-Die Einführung der Bildungsstandards und Bologna-Reformen markiert einen
-Paradigmenwechsel im Bildungssystem, hin zur Kompetenzorientierung.
-Damit rücken verstärkt Lernziele und Kompetenzen der Lernenden in den
-Fokus. Es geht somit nun nicht länger einzig um eine Standardisierung
-von Lerninhalten, sondern vielmehr darum, welche Kompetenzen Lernende am
-Ende einer Lerneinheit aufweisen, sowohl im Hinblick auf theoretische
-Kenntnisse (kognitive Perspektive) als auch deren praktischen Umsetzung
-(funktionale Perspektive) [@kopfkluphfl2010].
+According to the results of international comparison studies (e.g. TIMMS, PISA), the institutional education system has gradually switched to objective- and competence-oriented didactics. "Learning prerequisites", "learning objectives" and "learning controls" serve as suitable attributes for mapping this competence orientation in the metadata for objects[\^16].
 
-Nach den Ergebnissen internationaler Vergleichsstudien (bspw. TIMMS,
-PISA) hat sich das institutionelle Bildungswesen sukzessive auf eine
-lernzielorientierte und kompetenzorientierte Didaktik umgestellt. Um
-diese Kompetenzorientierung in den Metadaten zu Objekten abbilden zu
-können, bieten sich die Attribute “Lernvoraussetzungen”, “Lernziele” und
-“Lernkontrollen” an[^16].
+For 57% of teachers, the assignment of educational standards is one of the most helpful criteria when searching for resources [@wintergrouplsrj2umoo2014, p. 8]. This assignment can be made based on competency structure or competency level models (e.g. reading competency level model in IGLU). The attributes focus on the target structure of lessons and have long been described as fundamental for educational resources [@suttonmes2004, p. 145], much like an orientation towards operationalisable learning objectives or the adaptation of learning environments to the learning prerequisites of learners [@schulmeisterdahl2000, p. 40f].
 
-Die Zuordnung von Bildungsstandards ist für 57 % der Lehrenden eines der
-hilfreichsten Kriterien bei der Suche nach Ressourcen [@wintergrouplsrj2umoo2014, S. 8].
-Eine Zuordnung kann durch Kompetenzstruktur- oder
-Kompetenzstufenmodelle erfolgen (Beispiel: Lesekompetenzstufenmodell in
-IGLU). Die Attribute fokussieren die Zielstruktur des Unterrichts und
-wurden, auch früher bereits, als fundamental für Bildungsressourcen
-bezeichnet [@suttonmes2004, S. 145], wie auch eine Orientierung an
-operationalisierbaren Lernzielen oder die Adaption von Lernumgebungen an
-Lernvoraussetzungen der Lernenden [@schulmeisterdahl2000, S. 40f].
+Attributes that focus on learning objectives are also relevant for the implementation of adaptive learning paths. In this context, the connection with official curricula or other competency catalogues is particularly promising, provided that these exist in machine-readable format – something which is not currently the norm. In the institutional education sector, competency frameworks frequently form the basis for teachers' work. Therefore, linking objects to these catalogues can directly support the work of teachers, while also enabling competency-oriented searches.
 
-Lernziel-orientierte Attribute sind darüber hinaus zur Umsetzung
-adaptiver Lernpfade relevant. Besonders vielversprechend ist dabei die
-Verknüpfung mit offiziellen Lehrplänen oder anderen Kompetenzkatalogen,
-sofern diese maschinenlesbar vorliegen. Dies ist zum jetzigen Zeitpunkt
-bislang nicht der Regelfall. Im institutionellen Bildungsbereich sind
-Kompetenzrahmen häufig die Arbeitsgrundlage von Lehrenden. Eine
-Verknüpfung von Objekten mit diesen Katalogen kann daher die Arbeit der
-Lehrenden unmittelbar unterstützen und ermöglicht zugleich
-kompetenzorientierte Suchzugänge.
+In this regard, it should be noted that not all resources were developed with a view to specific competency catalogues and that any subsequent allocation may not always be expedient. Competency catalogues that are quite general in nature also carry the risk of frequent assignment, since many competencies can also be furthered implicitly or indirectly by different resources. The assignment should therefore focus on the intended learning outcomes of the resources that are primarily addressed.
 
-Dabei ist zu berücksichtigen, dass nicht alle Ressourcen mit Hinblick
-auf konkrete Kompetenzkataloge entwickelt wurden und eine nachträgliche
-Zuweisung unter Umständen nicht immer zweckdienlich ist. Recht
-allgemeine Kompetenzkataloge bergen zudem die Gefahr, dass es zu einer
-häufigen Zuweisung kommt, da viele Kompetenzen von Ressourcen auch
-implizit oder indirekt gefördert werden können. Bei der Zuweisung
-sollten daher die intendierten Lernergebnisse der Ressourcen stehen,
-welche primär adressiert werden.
-
-**Exemplarische Grundlagen der Wertebereiche**
+**Example bases for value ranges**
 
 **International**
 
-[OERCommons](https://oercommons.org/browse) erlaubt die Filterung nach
-Bildungsstandards, beispielsweise “[Standards for the 21st-Century
-Learner](https://web.archive.org/web/20240126221501/https://standards.aasl.org/wp-content/uploads/2017/11/AASL-Standards-Framework-for-Learners-pamphlet.pdf)”
-der American Association of School Librarians (AASL). Auch die
-[Educational CAD Model Library](https://www.cadlibrary.org/) verwendet
-die Angabe exemplarischer Lernziele sowie die Orientierung an
-Bildungsstandards (z. B. [Common Core State
-Standards](https://corestandards.org/)) als Metadatum [@bullmseo2023].
+[OERCommons](https://oercommons.org/browse) enables filtering according to educational standards, e.g. "[Standards for the 21st-Century Learner](https://web.archive.org/web/20240126221501/https://standards.aasl.org/wp-content/uploads/2017/11/AASL-Standards-Framework-for-Learners-pamphlet.pdf)" of the American Association of School Librarians (AASL). The [Educational CAD Model Library](https://www.cadlibrary.org/) also uses the specification of exemplary learning objectives and the orientation towards educational standards (e.g. [Common Core State Standards](https://corestandards.org/)) as metadata \[@bullmseo2023\].
 
 *Common Education Data Standards (CEDS)*
 
-Das Projekt [Common Education Data Standards](https://ceds.ed.gov/)
-(CEDS) ist ein Projekt der Vereinigten Staaten zur Entwicklung
-freiwilliger, gemeinsamer Standards für Bildungsdaten, um den Austausch
-und die Semantik von Daten zwischen Bildungseinrichtungen und -sektoren
-zu harmonisieren. CEDS publiziert ein umfangreiches Datenmodell für
-Bildungsdaten. Die CEDS-Gemeinschaft entwickelt die Standards weiter. Im
-Februar 2024 erschien Version 1.2.
+The [Common Education Data Standards](https://ceds.ed.gov/) (CEDS) initiative is a United States project for the development of voluntary, common standards for educational data. It aims to harmonise the exchange and semantics of data between educational institutions and sectors. CEDS publishes a comprehensive data model for educational data. The standards are subject to continuous development by the CEDS community. Version 1.2 was released in February 2024.
 
-**Norwegen**
+**Norway**
 
-Ein Beispiel für die institutionelle Bereitstellung von Lehrplänen im
-Schulbereich in maschinenlesbarer Form findet sich in Norwegen. Dort
-können die Pläne über eine [REST-Schnittstelle oder eine
-SPARQL-Abfrage](https://www.udir.no/om-udir/data/kl06-grep)
-([Archiv](https://web.archive.org/web/20240304115600/https://www.udir.no/om-udir/data/kl06-grep))
-erhalten werden.
+A good example for the institutional provision of school curricula in machine-readable format can be found in Norway. Here, the curricula can be accessed via a [REST interface or a SPARQL query](https://www.udir.no/om-udir/data/kl06-grep) ([archive](https://web.archive.org/web/20240304115600/https://www.udir.no/om-udir/data/kl06-grep)).
 
-**Europa**
+**Europe**
 
-*ESCO  
-*Im europäischen Kontext ist ein weiterer Katalog relevant, der von der
-Europäischen Kommission mit Hinblick auf den europäischen Arbeitsmarkt
-und die berufliche Bildung gepflegt wird: [European Skills, Competencies
-and Occupations
-(ESCO).](https://esco.ec.europa.eu/en/classification/skill_main) Dieser
-Katalog liegt in maschinenlesbarer Form (RDF) vor und kann über eine
-API-Schnittstelle genutzt werden.
+\*Within Europe, a catalogue that is of particular relevance is [ESCO (European Skills, Competencies and Occupations)](https://esco.ec.europa.eu/en/classification/skill_main). It is maintained by the European Commission and geared specifically towards the European labour market and vocational training. This catalogue is available in machine-readable format (RDF) and can be accessed via an API interface.
 
 *Europass*
 
-Das Europass-Werkzeug soll als Portfolio, einschließlich digitaler
-Kompetenznachweise, dienen, welches vorhergehende Entwicklungen
-berücksichtigt, wie das Qualification Dataset Register
-([QDR](https://europa.eu/europass/de/stakeholders/qdr/documentlibrary))
-und dazugehörige Applikationsprofile:
+The Europass tool is intended to serve as a portfolio, which also includes digital credentials and certificates of competence. It takes into account previous developments such as the Qualification Dataset Register ([QDR](https://europa.eu/europass/de/stakeholders/qdr/documentlibrary)) and related application profiles:
 
 - European Digital Credentials for Learning (EDC):  
-  Applikationsprofil für die Akkreditierung
+Application profile for accreditation
 - Learning Opportunities and Qualifications (LOQ):  
-  Applikationsprofil für Lernmöglichkeiten und Qualifikationen
+Application profile for learning opportunities and qualifications
 
-*European Qualifications Framework*
-([EQF](https://europa.eu/europass/en/europass-tools/european-qualifications-framework),
-[EQR](https://europa.eu/europass/de/europass-tools/europaeischer-qualifikationsrahmen))
+*European Qualifications Framework* ([EQF](https://europa.eu/europass/en/europass-tools/european-qualifications-framework), [EQR](https://europa.eu/europass/de/europass-tools/europaeischer-qualifikationsrahmen))
 
-Der Europäische Qualifikationsrahmen soll die Vergleichbarkeit von
-Qualifikationen gewährleisten, räumliche und berufliche Mobilität
-fördern und lebenslanges Lernen ermöglichen.
+The European Qualifications Framework aims to safeguard the comparability of qualifications, promote geographical and professional mobility and facilitate lifelong learning.
 
-**Schweiz**
+**Switzerland**
 
-Das [Schweizer Lehrplan-Portal](https://www.lehrplan21.ch/) stellt
-Lehrpläne für die verschiedenen Kantone bereit, die beispielsweise vom
-[Portal zebnis.ch](https://www.zebis.ch/unterrichtsmaterial) zur
-Verschlagwortung von Lernmaterialien verwendet werden.
+The [Swiss curriculum portal](https://www.lehrplan21.ch/) provides curricula for the various cantons, which are used to tag learning materials in the [zebis.ch portal](https://www.zebis.ch/unterrichtsmaterial), for example.
 
-**Deutschland**
+**Germany**
 
-Standardisierungen von Kompetenzen und Lehrplänen werden häufig zunächst
-auf einer größeren Strukturebene entwickelt und dann auf kleineren
-Ebenen adaptiert, beispielsweise von einzelnen Teilstaaten oder auf
-institutioneller Ebene.
-
+In many cases, the standardisation of competencies and curricula first takes place at a wider structural level before being adapted to the smaller levels, for example by individual states or at institutional level.
 
 <div style="display: flex; justify-content: space-between;">
 <div style="width: 70%;">
-<p><em>Beispiele für Strukturebenen:</em></p>
+<p><em>Examples of structural levels:</em></p>
 <ul>
-<li>Weltverbund</li>
-<li>Staatenverbund (z. B. Europäische Union)</li>
-<li>Bundesstaat  </li>
-<li>(z. B. bundesweit gültige Rahmen)</li>
-<li>Teilstaat, Bundesland  </li>
-<li>(z. B. bundeslandspezifische Rahmen)</li>
-<li>Institution (z. B. für schulinterne Rahmen)</li>
+<li>World federation</li>
+<li>Federation of countries (e.g. European Union)</li>
+<li>Country</li>
+<li>(e.g. nationwide framework)</li>
+<li>Federal state</li>
+<li>(z. B. state-specific framework)</li>
+<li>Institution (e.g. for internal school frameworks)</li>
 </ul>
-</div>
-<img src="./images/4_strukturebenen.png" alt="Beispiele für Strukturebenen" style="width: 30%;">
-</div>
+</div><img src="./images/4_strukturebenen.png" alt="Examples of structural levels" style="width: 30%;"></div>
+*EU standards*
 
+If different reference frameworks are created at European level, for example, and these then have to be adapted at national level or, in the case of a federalist education system, at the level of individual states, this fragmentation has a direct impact on the use of metadata.
 
-*EU-Standards* 
+*Qualifications frameworks for lifelong learning*
 
-Werden auf europäischer Ebene beispielsweise verschiedene
-Referenzrahmen entwickelt, die dann auf nationaler Ebene oder in einem
-bildungsföderalistischen System auf Ebene der Bundesländer in eigenen
-Ausprägungen zu adaptieren sind, hat diese Fragmentierung Auswirkungen
-auf die Verwendung von Metadaten.
+The German Qualifications Framework for Lifelong Learning ([DQR](https://www.dqr.de/dqr/de/home/home_node.html)) as a national qualifications framework ([NQF](https://europa.eu/europass/de/europass-tools/europaeischer-qualifikationsrahmen/nationalen-qualifikationsrahmen)) is linked to the European Qualifications Framework for Lifelong Learning ([EQF](https://europa.eu/europass/de/europass-tools/europaeischer-qualifikationsrahmen)) to support the recognition of qualifications and enable the transfer between different education systems (cf. [Europass](https://europa.eu/europass/)). The qualifications frameworks contain individual qualification objectives (e.g. competencies as learning outcomes).
 
-*Qualifikationsrahmen für Lebenslanges Lernen*
+*KMK standards*  
+The national educational standards of the KMK define which skills and competencies students should acquire by a specific year. The state-specific framework curricula further specify these national requirements for individual school types and years, prepare them for the different situations in lessons and add any state-specific requirements. The requirements of the framework curriculum are then applied to a pedagogic action concept (internal school curriculum).
 
-Der Deutsche Qualifikationsrahmen für Lebenslanges Lernen
-([DQR](https://www.dqr.de/dqr/de/home/home_node.html)) als nationaler
-Qualifikationsrahmen
-([NQR](https://europa.eu/europass/de/europass-tools/europaeischer-qualifikationsrahmen/nationalen-qualifikationsrahmen))
-steht im Zusammenhang mit dem europäischen Qualifikationsrahmen für
-Lebenslanges Lernen
-([EQR](https://europa.eu/europass/de/europass-tools/europaeischer-qualifikationsrahmen)),
-um die Anerkennung von Abschlüssen und den Wechsel zwischen den
-verschiedenen Bildungssystemen zu ermöglichen (vgl.
-[europass](https://europa.eu/europass/)). Die Qualifikationsrahmen
-beinhalten jeweils Qualifikationsziele (z. B. Kompetenzen als Learning
-Outcomes).
+*Machine-readable curricula*
 
-*KMK-Standards*  
-Die nationalen Bildungsstandards der KMK definieren, welche Kompetenzen
-Schüler\*innen bis zu einer bestimmten Jahrgangsstufe erwerben sollten.
-Die länderspezifischen Rahmenlehrpläne präzisieren diese nationalen
-Vorgaben schulart- und jahrgangsstufenbezogen, bereiten diese für die
-Anforderungssituationen im Unterricht auf und ergänzen länderspezifische
-Vorgaben. Anschließend werden die Vorgaben des Rahmenlehrplans in ein
-pädagogisches Handlungskonzept überführt (schulinternes Curriculum).
+Since no standard exists for the presentation of curricula, but various parties have expressed a need for the development of such a standard, the [DINI-AG-KIM Curricula](https://wiki.dnb.de/display/DINIAGKIM/Curricula-Gruppe), as a working committee of various institutions, has taken up this challenge. A (prototype) [data model for representing curricula](https://github.com/dini-ag-kim/modell_lehrplaene) in the school sector has been created and is currently undergoing further development by parts of the group in the form of a [curriculum ontology](https://w3id.org/curriculum/). Related initiatives include the [Curriculum Navigator](https://curriculum.schulcampus-rlp.de/navigators/1) ([Schulcampus](https://cloud.schulcampus-rlp.de/edu-sharing/components/search) RLP) or, in an international context, the [K-12 Open Content Exchange](https://k12ocx.github.io/k12ocx-specs/) project. The aim is to provide structured data for curricula in order to establish curricular relationships between educational resources as well as connections between different curricula.
 
-*Maschinenlesbare Lehrpläne*
+*Assignment of learning objectives and competencies*
 
-Da es keinen Standard für die Darstellung von Curricula gibt, jedoch von
-verschiedenen Seiten der Bedarf an der Entwicklung eines Standards
-geäußert wurde, hat sich die [DINI-AG-KIM
-Curricula](https://wiki.dnb.de/display/DINIAGKIM/Curricula-Gruppe) als
-Arbeitsgremium verschiedener Institutionen dieses Themas angenommen. Ein
-(prototypisches) [Datenmodell zur Abbildung von
-Lehrplänen](https://github.com/dini-ag-kim/modell_lehrplaene) im
-Schulbereich wurde entwickelt und wird momentan in Form einer
-[Curriculum Ontology](https://w3id.org/curriculum/) von Teilen der
-Gruppe weiterentwickelt. Verwandte Vorhaben finden sich im [Curriculum
-Navigator](https://curriculum.schulcampus-rlp.de/navigators/1)
-([Schulcampus](https://cloud.schulcampus-rlp.de/edu-sharing/components/search)
-RLP) oder auch im internationalen Raum im Projekt [K-12 Open Content
-Exchange](https://k12ocx.github.io/k12ocx-specs/). Ziel ist es,
-strukturierte Daten für Lehrpläne bereitzustellen, um curriculare
-Beziehungen zwischen Bildungsressourcen herzustellen und die Vernetzung
-zwischen verschiedenen Lehrplänen zu ermöglichen.
+A competence can be assigned in two ways:
 
-*Zuordnung von Lernzielen und Kompetenzen*
+1) Assignment of a *reference*, e.g. by defining the competence in a closed vocabulary with a unique identifier
+2) Assignment of a specific *value*, e.g. by storing the description of the competence as text in the metadata
 
-Die Zuordnung einer Kompetenz kann dabei auf zwei Arten erfolgen:
+While the second approach may initially appear simpler, it is certainly worth considering the added value offered by the first variant, such as the resulting referential integrity, including the consistency of the metadata, particularly in the case of changes or updates to the competencies in the source frameworks. Furthermore, the first variant allows relationships to be established between competencies from different frameworks. Consequently, the search context can be expanded by interconnecting the frameworks in this manner.
 
-1)  Zuweisung einer *Referenz*, z. B. indem die Kompetenz in einem
-    geschlossenen Vokabular mit eindeutiger Bezeichnung definiert ist
-2)  Zuweisung eines konkreten *Wertes*, z. B. indem die Beschreibung der
-    Kompetenz als Text in den Metadaten hinterlegt wird
+Semantic relationships can be used to address the deviations in content between different standards. Such mappings are also metaphorically referred to as crosswalks [@suttonmes2004, p. 148-149]. The metadata is of particular significance for the creation of adaptive learning paths.
 
-Während der zweite Ansatz zunächst simpler erscheint, ist es durchaus
-lohnenswert die Mehrwerte der ersten Variante zu berücksichtigen, wie
-zum Beispiel die gewonnene referentielle Integrität, einschließlich der
-Konsistenz der Metadaten, insbesondere bei Veränderungen oder
-Aktualisierung der Kompetenzen in den Quellrahmen. Weiterhin bietet die
-erste Variante die Möglichkeit, Kompetenzen verschiedener Rahmen
-miteinander in Beziehung zu setzen und den Suchkontext durch diese
-Vernetzung der Rahmen zu erweitern.
+General requirements can be found regarding the definition of competencies, including the general description of the competence, the type of competence (knowledge, ability, attitude, etc.), the relationships between individual competencies, a measurable level of competence as well as a taxonomy or ontology for structuring the competences [@sitthisakiabcm2011, p. 22].
 
-Um eine Angleichung von inhaltlichen Abweichungen zwischen Standards
-vorzunehmen, können semantische Beziehungen verwendet werden. Solche
-Mappings werden auch metaphorisch als Crosswalk bezeichnet [@suttonmes2004, S. 148-149].
-Das Metadatum ist vor allem auch für die Erstellung von adaptiven Lernpfaden von Bedeutung.
+*Further practical examples for the use of competence frameworks*
 
-Es lassen sich generelle Anforderungen an die Erfassung von Kompetenzen
-finden, darunter exemplarisch die allgemeine Beschreibung der Kompetenz,
-die Art der Kompetenz (Wissen, Fähigkeit, Einstellung, …), die
-Beziehungen zwischen einzelnen Kompetenzen, ein messbares
-Kompetenzniveau sowie eine Taxonomie oder Ontologie zur Strukturierung
-der Kompetenzen [@sitthisakiabcm2011, S. 22].
+The projects [WirLernenOnline](https://suche.wirlernenonline.de/), [ComeIn](https://comein.nrw/portal/ressourcen/) along with some competence networks of [lernen.digital](https://lernen.digital/) use the European Framework for the Digital Competence of Educators (DigCompEdu) as well as the German framework "Competencies in the Digital World" of the Standing Conference of the Ministers of Education and Cultural Affairs (KMK) to define learning objectives for educational resources.
 
-*Weitere Praxisbeispiele für die Nutzung von Kompetenzrahmen*
+In addition, state-specific versions of DigCompEdu are used, including the "Orientation framework for teacher training in NRW" (Eickelmann, 2020). To improve the findability of resources nationwide, the individual competencies from the orientation framework were linked to the EU framework at the superordinate structural level via relationships. Such mapping of competencies also takes place between the Germany-wide framework of the KMK and the state-specific version in the "Media competence framework NRW" [@blodaumn2019].
 
-Die Projekte [WirLernenOnline](https://suche.wirlernenonline.de/),
-[ComeIn](https://comein.nrw/portal/ressourcen/) und auch einige
-Kompetenzverbünde von [lernen.digital](https://lernen.digital/) nutzen
-den Europäischen Rahmen für die Digitale Kompetenz von Lehrenden
-(DigCompEdu) sowie den bundesweiten Rahmen “Kompetenzen in der digitalen
-Welt” der Kultusministerkonferenz (KMK) zur Erfassung von Lernzielen bei
-Bildungsressourcen.
+Although resources in a federalist education system are thus described with state-specific values, the basic idea behind this approach is to establish connections to higher-level frameworks so that resources can also be effectively found at wider structural levels.
 
-Zusätzlich werden auch bundeslandspezifische Ausprägungen des
-DigCompEdu, wie beispielsweise der “Orientierungsrahmen für die
-Lehrerausbildung und Lehrerfortbildung in NRW” (Eickelmann, 2020)
-verwendet. Damit die Ressourcen nun auch bundesweit sinnvoll auffindbar
-werden, wurden die einzelnen Kompetenzen aus dem Orientierungsrahmen
-über Beziehungen mit dem EU-Framework auf der übergeordneten
-Strukturebene in Verbindung gesetzt. Darüber hinaus gibt es solche
-Mappings der Kompetenzen auch zwischen dem bundesweiten Rahmen der KMK
-und der bundeslandspezifischen Ausprägung im “Medienkompetenzrahmen NRW”
-[@blodaumn2019].
+A similar principle is pursued for the implementation of machine-processable curricula so that resources that were developed for or linked to a state-specific curriculum are easier to find in other states, not least because the means of access differ depending on the different curricula. Thus, the artificial structural boundaries of the education system are, in some respects, broken down and resources can be reused more easily in comparable contexts.
 
-Wenngleich somit Ressourcen in einem bildungsföderalistischen System mit
-bundeslandspezifischen Werten ausgezeichnet werden, ist die grundlegende
-Idee hinter dieser Aufbereitung, die Vernetzung mit übergeordneten
-Rahmen, sodass Ressourcen auch auf größeren Strukturebenen sinnvoll
-auffindbar sind.
+**Further notes on usage**
 
-Ein vergleichbares Prinzip wird bei der Umsetzung
-maschinell-verarbeitbarer Lehrpläne intendiert, um Ressourcen, die für
-ein bundeslandspezifisches Curriculum entwickelt oder mit diesem
-verknüpft wurden, auch in anderen Bundesländern besser auffindbar zu
-machen, da sich die Zugänge jeweils aufgrund der unterschiedlichen
-Lehrpläne unterscheiden. So werden die artifiziellen strukturellen
-Grenzen des Bildungssystems in gewisser Hinsicht aufgelöst und
-Ressourcen können in vergleichbaren Kontexten einfacher nachgenutzt
-werden.
+Further specification of the attributes for each usage scenario is advisable. Linking competencies with certificates is a promising approach. This necessitates the authorised publication of the corresponding competency catalogues and their integration with the issuing authorities.
 
-**Weitere Hinweise zur Verwendung**
+A study by Tavakoli et al. comparing the presence of metadata attributes before and after a quality control demonstrates that the "level" attribute, which in this case can refer to [prerequisites and prior knowledge](#lernvoraussetzungen-und-vorwissen) or [qualifications](#abschlüsse), seems difficult for the creators or describers to assign. This is indicated by the fact that this particular attribute frequently only exists after a "quality control", but is otherwise usually missing \[@tavakolimaoer2021, p. 628\].
 
-Es empfiehlt sich eine weitergehende Spezifizierung der Attribute für
-das jeweilige Nutzungsszenario. Aussichtsreich ist die Verbindung von
-Kompetenzen mit Zertifikaten. Voraussetzung ist die autorisierte
-Veröffentlichung entsprechender Kompetenzkataloge und eine entsprechende
-Einbindung dieser mit ausstellenden Autoritäten.
+**Standards associated with competencies:**
 
-Wie sich in der Untersuchung von Tavakoli et al. bei der
-Gegenüberstellung des Vorhandenseins von Metadatenattributen vor und
-nach einer Qualitätskontrolle zeigt, scheint das dort untersuchte
-Attribut “Level”, welches sich hier auf [Voraussetzungen und
-Vorwissen](#lernvoraussetzungen-und-vorwissen) oder
-[Abschlüsse](#abschlüsse) beziehen kann, für die Ersteller\*innen oder
-Erfasser\*innen schwierig zuzuordnen. Ein Indiz dafür ist, dass dieses
-Attribut häufig nur nach einer “Qualitätskontrolle” vorhanden ist,
-andernfalls jedoch meist fehlt [@tavakolimaoer2021, S. 628].
+- [CASE](https://www.imsglobal.org/activity/case): format for the representation and exchange of competency frameworks and learning objectives (1EdTech)
+- [Data model for representing curricula](https://github.com/dini-ag-kim/modell_lehrplaene) (DINI-AG-KIM) and the [curriculum ontology](https://w3id.org/curriculum/) that builds on this model
+- [Ed-Fi Assessment API and Unifying Data Model](https://techdocs.ed-fi.org/display/EFDSRFC/ED-FI+RFC+15+-+ASSESSMENT+OUTCOMES+API) (UDM): data model and interface for the exchange of assessment metadata
+- [Data model for describing and referencing competency definitions](https://ieeexplore.ieee.org/document/4445693) (Standard for Learning Technology-Data Model; IEEE 1484.20.1-2007) (IEEE, 2008)
 
-**Mit Kompetenzen assoziierte Standards:**
+**Value ranges in practice**
 
-- [CASE](https://www.imsglobal.org/activity/case): Format für die
-  Darstellung und den Austausch von Kompetenzrahmen und Lernzielen
-  (1EdTech)
-- [Datenmodell zur Abbildung von
-  Lehrplänen](https://github.com/dini-ag-kim/modell_lehrplaene) (DINI AG
-  KIM) und die darauf aufbauende [Curriculum
-  Ontology](https://w3id.org/curriculum/)
-- [Ed-Fi Assessment API und Unifying Data
-  Model](https://techdocs.ed-fi.org/display/EFDSRFC/ED-FI+RFC+15+-+ASSESSMENT+OUTCOMES+API)
-  (UDM): Datenmodell und Schnittstelle zum Austausch von
-  Bewertungsmetadaten
-- [Datenmodell zur Beschreibung und Referenzierung von
-  Kompetenzdefinitionen](https://ieeexplore.ieee.org/document/4445693)
-  (Standard for Learning Technology-Data Model; IEEE 1484.20.1-2007)
-  (IEEE, 2008)
+While various taxonomies exist for learning objectives based on learning theory models (e.g. Gagné, Ausubel, Bloom, Anderson, Krathwohl) \[@mayerlie2009, pp. 29–59\], these are not generally used as values for this field, but instead support theoretical considerations regarding the operationalisation of a [level](#niveaustufe).
 
-**Wertebereiche in der Praxis**
+Learning objectives can:
 
-Wenngleich verschiedene Taxonomien für Lernziele auf Basis
-lerntheoretischer Modelle existieren (bspw. Gagné, Ausubel, Bloom,
-Anderson, Krathwohl) [@mayerlie2009, S. 29–59], werden diese in der
-Regel nicht als Werte für dieses Feld verwendet, sondern eher für
-theoretische Überlegungen zur Operationalisierung einer
-[Niveaustufe](#niveaustufe).
+- Be formulated on the basis of operators (see also [level](#niveaustufe)).
+- Come from different knowledge dimensions (e.g. factual knowledge, conceptual knowledge, procedural knowledge and metacognitive knowledge) \[@andersontltarbteo2001] (see also [level](#niveaustufe)).
+- Serve as advance organisers for orientation in the learning process.
+- Have varying degrees of abstraction (target objectives, rough objectives, detailed objectives) \[@moellertlmupl1976, p. 80]
+- Support independent control of learning success.
+- Be categorised into cognitive, affective, psychomotor and social learning objectives [@pawlowskieevzecl2001, p. 47].
 
-Lernziele können …
+In practice, the values in the fields "learning prerequisites, "learning objectives" and "learning controls" frequently take the form of free text descriptions. Only recently have we begun to see an increased use of controlled vocabularies here. The use of references to competencies improves the target-oriented accessibility, comparability and selection of suitable resources and simplifies the creation of teaching/learning paths by establishing relationships between resources based on the individual learning prerequisites, learning objectives and learning controls.
 
-- … anhand von Operatoren formuliert werden (vgl. auch
-  [Niveaustufe](#niveaustufe)).
-- … aus verschiedenen Dimensionen des Wissens stammen (bspw.
-  Faktenwissen, Konzeptionelles Wissen, Prozedurales Wissen,
-  Metakognitives Wissen) [@andersontltarbteo2001] (vgl. auch
-  [Niveaustufe](#niveaustufe)).
-- … als Advance Organizer zur Orientierung im Lernprozess dienen.
-- … unterschiedlich abstrakt sein (Richtziele, Grobziele, Feinziele) [@moellertlmupl1976, S. 80]
-- … die eigenständige Kontrolle des Lernerfolgs unterstützen.
-- … kategorial unter anderem in kognitive, affektive, psychomotorische
-  und soziale Lernziele unterschieden werden [@pawlowskieevzecl2001, S. 47].
+**Value lists for integration or reuse**
 
-In der Praxis finden sich als Werte der Felder “Lernvoraussetzungen”,
-“Lernziele” und “Lernkontrollen” häufig auch Freitextbeschreibungen.
-Erst in jüngster Zeit werden hier vermehrt kontrollierte Vokabulare
-aufgegriffen. Die Verwendung von Referenzen auf Kompetenzen verbessert
-die zielorientierte Zugänglichkeit, Vergleichbarkeit und Selektion
-geeigneter Ressourcen und vereinfacht das Erstellen von
-Lehr-/Lernpfaden, indem Ressourcen anhand der jeweiligen
-Lernvoraussetzungen, Lernziele und Lernkontrollen in Beziehung stehen.
+*General*
 
-**Wertelisten zur Einbindung oder Nachnutzung**
+- [European Skills, Competencies and Occupations (ESCO)](https://esco.ec.europa.eu/de)
+- Language skills/knowledge
+  - [Language levels](http://w3id.org/openeduhub/vocabs/languageLevel/), Open Edu Hub / WirLernenOnline according to the Common European Framework of Reference for Languages ([CEFR](https://www.europaeischer-referenzrahmen.de/))
+- Lumina Foundation's Degree Qualifications Profile (DQP) (Categories of Learning) as part of the [Common Education Data Standards](https://ceds.ed.gov/elements.aspx): Specialized Knowledge, Broad and Integrative Knowledge, Intellectual Skills, Applied and Collaborative Learning, Civic and Global Learning
+- 4Cs of 21st Century Learning [@p21f2cld2019] \[@pfiffner4udkcuh2021]
 
-*Allgemein*
+*Digitalisation-specific competencies*
 
-- [European Skills Competencies, and Occupations
-  (ESCO)](https://esco.ec.europa.eu/de)
-- Sprachfähigkeiten/-Kenntnisse
-  - [Sprachniveaustufen](http://w3id.org/openeduhub/vocabs/languageLevel/),
-    Open Edu Hub / WirLernenOnline nach dem nach dem Gemeinsamen
-    Europäischen Referenzrahmen
-    ([GER](https://www.europaeischer-referenzrahmen.de/))
-- Lumina Foundation's Degree Qualifications Profile (DQP) (Categories of
-  Learning) als Teil der [Common Education Data
-  Standards](https://ceds.ed.gov/elements.aspx): Specialized Knowledge,
-  Broad and Integrative Knowledge, Intellectual Skills, Applied and
-  Collaborative Learning, Civic and Global Learning
-- 4K–Modell des Lernens (4Cs of 21st Century Learning) [@p21f2cld2019] [@pfiffner4udkcuh2021] 
+- [Digital Competence Framework for Educators](http://w3id.org/openeduhub/vocabs/digCompEdu/) (DigCompEdu)\[@europeancommission.jointresearchcentre.efdced2017\], Open Edu Hub / WirLernenOnline / ComeIn
+  
+  - [Orientation framework for teacher training in NRW](http://w3id.org/openeduhub/vocabs/orientierungsrahmenNRW/), Open Edu Hub / WirLernenOnline / ComeIn \[@eickelmannldwofluln2020\]
 
-*Digitalisierungsbezogene Kompetenzen*
+- [4D Competencies Framework](https://curriculumredesign.org/framework/) (Center for Curriculum Redesign) \[@ccrrc2ce2020], which defines competencies in the age of AI; v1.2 was published in January 2024 ([xlsx Download](https://web.archive.org/web/20240312154129/https://curriculumredesign.org/wp-content/uploads/4D-Competencies-Framework-1.2.xlsx))
 
-- [Digital Competence Framework for
-  Educators](http://w3id.org/openeduhub/vocabs/digCompEdu/) (DigCompEdu)
-  als europäischer Rahmen für die Digitale Kompetenz von Lehrenden [@europeancommission.jointresearchcentre.efdced2017], Open Edu Hub / WirLernenOnline / ComeIn
-  - [Orientierungsrahmen für die Lehrerausbildung und Lehrerfortbildung
-    in NRW](http://w3id.org/openeduhub/vocabs/orientierungsrahmenNRW/),
-    Open Edu Hub/WirLernenOnline/ComeIn [@eickelmannldwofluln2020]
-- [4D Competencies Framework](https://curriculumredesign.org/framework/)
-  (Center for Curriculum Redesign) [@ccrrc2ce2020], welches Kompetenzen im
-  Zeitalter der KI definiert, v1.2 erschien im Januar 2024 ([xlsx
-  Download](https://web.archive.org/web/20240312154129/https://curriculumredesign.org/wp-content/uploads/4D-Competencies-Framework-1.2.xlsx))
+- TPACK model \[@herringhtpckte2016]
+  
+  - [UDE model:](https://w3id.org/comein/vocabs/ude-modell/)[ ](https://w3id.org/comein/vocabs/ude-modell/)[an integrative model of digitalisation-specific competencies for teacher training](https://w3id.org/comein/vocabs/ude-modell/) \[@beisswengerimdkfl2020\]
 
-- TPACK-Modell [@herringhtpckte2016]
-  - [UDE-Modell: Ein integratives Modell digitalisierungsbezogener
-    Kompetenzen für die
-    Lehramtsausbildung](https://w3id.org/comein/vocabs/ude-modell/)
-    [@beisswengerimdkfl2020]
-- [Kompetenzen in der digitalen Welt
-  (KMK)](http://w3id.org/openeduhub/vocabs/digitalCompetencies/), Open
-  Edu Hub/WirLernenOnline
+- [Competencies in the digital world (KMK)](http://w3id.org/openeduhub/vocabs/digitalCompetencies/), Open Edu Hub / WirLernenOnline
 
-> [Kompetenzen in der digitalen Welt
-> (KMK)](http://w3id.org/kim/kmk-vocabs/digitalisierungsbezogene-kompetenzen/),
-> KIM
->
-> [Kompetenzen in der digitalen Welt
-> (KMK)](https://vocabs.sodix.de/index.de.html), SODIX
+> [Competencies in the digital world (KMK)](http://w3id.org/kim/kmk-vocabs/digitalisierungsbezogene-kompetenzen/), KIM
+> 
+> [Competencies in the digital world (KMK)](https://vocabs.sodix.de/index.de.html), SODIX
 
-- [Medienkompetenzrahmen
-  NRW](http://w3id.org/openeduhub/vocabs/medienkompetenzrahmenNRW/),
-  Open Edu Hub/WirLernenOnline/ComeIn
-- [DaZKom: Ein Modell professioneller Kompetenzen angehender Lehrkräfte
-  im Bereich Deutsch als
-  Zweitsprache](http://w3id.org/comein/vocabs/dazkom/), ComeIn
+- [Media competence framework NRW](http://w3id.org/openeduhub/vocabs/medienkompetenzrahmenNRW/), Open Edu Hub / WirLernenOnline / ComeIn
+- [DaZKom:](http://w3id.org/comein/vocabs/dazkom/)[ ](http://w3id.org/comein/vocabs/dazkom/)[a model of professional competencies of prospective teachers in the field of German as a foreign language](http://w3id.org/comein/vocabs/dazkom/), ComeIn
 
-*Bildungsstandards sowie Lehrplan-/Curricula-orientierte Wertelisten*
+*Educational standards and curricula-oriented value lists*
 
-- Schule: Lehrpläne der Länder
-  - Bildungsstandards (IQB)
-    ([Repo](https://github.com/iqb-vocabs/iqb-vocabs.github.io)) Das IQB
-    veröffentlicht die Bildungsstandards als kontrollierte Vokabulare in
-    SKOS auf Github
-  - [Schulcampus
-    RLP](https://cloud.schulcampus-rlp.de/edu-sharing/components/search),
-    [Curriculum-Navigator](https://curriculum.schulcampus-rlp.de/navigators/1)
-    – Digitale Lehr- und Rahmenpläne
-  - [Kompetenzbrowser](https://kompetenzbrowser.de/) des Instituts für
-    Schulqualität der Länder Berlin und Brandenburg e. V. (ISQ)
-  - [Medienkompetenz-Navigator](https://mk-navi.mebis.bycs.de/mctool/schooltypes)
-    (LehrPlan Plus, mebis, Bayern)
+- School: curricula of the federal states
+  
+  - Educational standards (IQB) ([repo](https://github.com/iqb-vocabs/iqb-vocabs.github.io)); the IQB publishes educational standards on Github as controlled vocabularies in SKOS
+  - [Schulcampus RLP](https://cloud.schulcampus-rlp.de/edu-sharing/components/search), [Curriculum Navigator](https://curriculum.schulcampus-rlp.de/navigators/1) – digital curricula and framework plans
+  - [Competence browser](https://kompetenzbrowser.de/) of the Institut für Schulqualität der Länder Berlin und Brandenburg e. V. (ISQ)
+  - [Media Competence Navigator](https://mk-navi.mebis.bycs.de/mctool/schooltypes) (LehrPlan Plus, mebis, Bavaria)
 
-- Hochschule: Standards und Modulkataloge
-  - [Hochschulkompass](https://www.hochschulkompass.de/)
-  - [KMK: Standards für die Lehrerbildung: Bildungswissenschaften (vom
-    16.12.2004 i.d.F. vom
-    16.05.2019)](http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/),
-    KIM
+- Higher education: standards and module catalogues
+  
+  - [Higher Education Compass](https://www.hochschulkompass.de/)
+  - [KMK standards for teacher training: Educational sciences (16/12/2004, amended on 16/05/2019)](http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/), KIM
 
-- Elementarbereich: Erziehungs-/Bildungspläne:
-  - [Sammlung von Plänen verschiedener
-    Länder](https://www.kindergartenpaedagogik.de/fachartikel/bildung-erziehung-betreuung/1951/)
+- Elementary level: curricula and education plans:
+  
+  - [Collection of plans for different states](https://www.kindergartenpaedagogik.de/fachartikel/bildung-erziehung-betreuung/1951/)
 
-- Curriculare Strategien für MINT/STEM-Schulen [@jimeneziglesiasessrkec2018] (z. B. verwendet im Portal [Scientix](https://www.scientix.eu/resources))
-- [NextGeneration Science Standards](https://www.nextgenscience.org/)
-  (z. B. verwendet im [TeachEngineering
-  Portal](https://www.teachengineering.org/curriculum/browse))
-- Didaktische Basismodelle (vgl. Anlage “Didaktische Basismodelle des
-  Lernens als lernzielorientierter Ansatz der Gestaltung von
-  Unterricht”)
+- Curricular strategies for MINT/STEM schools \[@jimeneziglesiasessrkec2018] (used in the [Scientix](https://www.scientix.eu/resources) portal, for example)
 
-#### 4.2.2.1 Lernvoraussetzungen und Vorwissen
+- [NextGeneration Science Standards](https://www.nextgenscience.org/) (used in the [TeachEngineering](https://www.teachengineering.org/curriculum/browse) portal, for example)
 
-Dieses Attribut listet die Kenntnisse, Fähigkeiten oder
-Lernvoraussetzungen auf, die für einen effektiven Umgang mit der
-Ressource erforderlich sind. Die Angabe hilft Lehrenden und Lernenden
-bei der Auswahl von Ressourcen, die dem aktuellen Lernstand entsprechen.
-Das Attribut unterstützt daher die Bedingungsanalyse der
-Unterrichtsplanung.
+- Basic didactic models (see appendix "Basic didactic models of learning as a goal-oriented approach to lesson design")
 
-Bei den Befragten von Tischler et al. wird dieses Attribut als relevant
-und einfach zu beschreiben eingestuft [@tischlernunmbsubob2022, S. 258].
-Diese Einschätzung ist jedoch zunächst kritisch zu betrachten, da
-einerseits praxiserprobte Wertebereiche und maschinenlesbare Abbildungen
-fehlen und andererseits das Attribut in bekannten Repositorien bislang
-kaum Verwendung findet. Es ist anzunehmen, dass sich die Antwort auf
-eine Angabe im Freitextformat bezieht, welche hinsichtlich eines
-spezifischen Faches und Themas einfacher festzulegen ist, in Bezug auf
-Interoperabilität und Maschinenlesbarkeit jedoch schwieriger nachnutzbar
-bleibt. Bezüglich der allgemeinen Relevanz des Feldes sind sich auch
-andere Expert\*innen einig, jedoch wird auch dort darauf hingewiesen,
-dass entsprechende maschinenlesbare Abbildungen noch fehlen [@pohlwhwdoeriwam2017, S. 66].
+#### 4.2.2.1 Learning prerequisites and prior knowledge
 
-Die konkrete Umsetzung und Einbindung kann daher mit Herausforderungen
-verbunden sein: Welche konkreten Kompetenzen werden beispielsweise für
-einen Mathematikvorkurs in der Hochschule vorausgesetzt? Sollen alle
-Kompetenzen von der Addition, zur Subtraktion, natürlichen Zahlen bis
-10, natürliche Zahlen bis 100, usw. aufgelistet werden? Müssen auch
-Sprachkompetenzen berücksichtigt werden? Schließlich werden Aufgaben in
-einer bestimmten Sprache auf einem gewissen Niveau gestellt. Sinnvoll
-scheint zunächst, dass für Bildungsressourcen bestimmte
-Lernvoraussetzungen (bspw. Mindeststandards für die niedrigste,
-zugewiesene Bildungsstufe) als erreicht gelten können, so dass diese
-nicht aufgeführt werden sollten.
+This attribute lists the knowledge, skills or learning prerequisites that are required to use the resource effectively. This information helps teachers and learners to select resources that reflect the current learning level. The attribute thus supports the condition analysis of lesson planning.
 
-Ein speziellerer Katalog, der fakultative und notwendige Kompetenzen für
-Berufe unterscheidet, findet sich in [European Skills Competencies, and
-Occupations (ESCO)](https://esco.ec.europa.eu/de).
+The respondents to the survey conducted by Tischler et al. consider this attribute to be relevant and easy to describe [@tischlernunmbsubob2022, p. 258]. This assessment should initially be viewed critically, however, not only due to the lack of tried-and-tested value ranges and machine-readable representations but also because the attribute has barely been used in established repositories. It can be assumed that the respondents are referring to a free-text format, which is easier to define with regard to a specific subject and topic, but is more difficult to reuse in terms of interoperability and machine readability. Other experts also agree on the general relevance of the field, but point out that corresponding machine-readable representations are still missing [@pohlwhwdoeriwam2017, p. 66].
 
-**Attribute in Metadatenstandards**
+The actual implementation and integration can therefore raise some questions: What specific skills, for example, are required for a preliminary mathematics course at university? Should all skills from addition to subtraction, natural numbers up to 10, natural numbers up to 100, etc. be listed? Do language skills also have to be taken into account? After all, exercises are set in a specific language and at a specific level. It seems reasonable that certain learning prerequisites (e.g. minimum standards for the lowest assigned level of education) can be considered to have been met for educational resources, meaning that these should not be listed.
 
-- LRMI, schema.org, AMB:
-  [competencyRequired](https://schema.org/competencyRequired)
+[ESCO (European Skills, Competencies and Occupations)](https://esco.ec.europa.eu/de) serves as a more specialised catalogue and distinguishes between optional and necessary competencies.
+
+**Attributes in metadata standards**
+
+- LRMI, schema.org, AMB: [competencyRequired](https://schema.org/competencyRequired)
 - LOM: 9.1 Classification / Purpose: prerequisite
 
-**Wertelisten zur Einbindung oder Nachnutzung**
+**Value lists for integration or reuse**
 
-- [European Skills Competencies, and Occupations
-  (ESCO)](https://esco.ec.europa.eu/de)
-- Weitere Wertelisten: siehe [einführendes
-  Kapitel](#lernvoraussetzungen-lernziele-und-lernkontrollen)
+- [European Skills, Competencies and Occupations (ESCO)](https://esco.ec.europa.eu/de)
+- Other value lists: see the [introductory chapter](#lernvoraussetzungen-lernziele-und-lernkontrollen)
 
-#### 4.2.2.2 Lernziele
+#### 4.2.2.2 Learning objectives
 
-Die Angabe der Lernziele bietet eine Zusammenfassung der Kenntnisse,
-Fertigkeiten, Einstellungen oder Kompetenzen, die die Lernenden durch
-die Nutzung der Ressource erwerben oder fördern. Die Angabe hilft den
-Lernenden, den Nutzen der Ressource zu verstehen und leitet ihre
-Lernerwartungen. Die Angabe nützt Lehrenden bei der zielgerichteten
-Auswahl und der Einschätzung der Eignung für die jeweilige Zielgruppe in
-einem bestimmten Lehr-/Lernkontext. Es unterstützt die didaktische
-Analyse von Unterrichtsplanungen und Unterrichtsentwürfen.
+The specification of learning objectives provides a summary of the knowledge, skills, attitudes or competencies that learners will acquire or develop by using the resource. This specification helps learners to understand the usefulness of the resource and guides their learning expectations. The specification helps teachers to make targeted selections and assess the suitability of the resource for the respective target group in a specific teaching/learning context. It supports the didactic analysis of lesson plans and lesson designs.
 
-Im Hinblick auf die Kompetenzen, die mit Bildungsabschlüssen verbunden
-sind, unterstützt dieses Attribut beispielsweise bei horizontalen und
-vertikalen Bewegungen im Bildungssystem. Vor dem Hintergrund des
-Alignments von Lernzielen mit Bildungsstandards, die im Schulbereich
-durch das [IQB nun auch maschinenlesbar veröffentlicht
-werden](https://github.com/iqb-vocabs), kann dieses Attribut auch
-abschlussorientiert eingesetzt werden. Auf diese Weise werden
-Bildungsabschlüssen verschiedene Lernziele zugewiesen. Für ein Attribut,
-das sich auf institutionelle Bildungsabschlüsse bezieht, siehe
-[Abschlüsse](#abschlüsse).
+In terms of the competencies associated with educational qualifications, this attribute supports horizontal and vertical movements within the education system, for example. Against the background of the alignment of learning objectives with educational standards, which the [IQB now also publishes in machine-readable form](https://github.com/iqb-vocabs) for the school sector, this attribute can also be used in a degree-focused manner. Different learning objectives can thus be assigned to educational qualifications. For an attribute that relates to institutional educational qualifications, see [Degrees](#abschlüsse).
 
-Im institutionellen Kontext erleichtert dieses Attribut die
-Lehrplangestaltung, ermöglicht es Lehrkräften, relevante Ressourcen zu
-identifizieren, und hilft den Lernenden, den Bildungskontext von
-Ressourcen zu verstehen.
+In the institutional context, this attribute facilitates curriculum design, allows teachers to identify relevant resources and helps learners understand the educational context of resources.
 
-**Attribute in Metadatenstandards**
+**Attributes in metadata standards**
 
 - LRMI/schema.org: [teaches](https://schema.org/teaches)
 - AMB: [teaches](https://dini-ag-kim.github.io/amb/20231019/#teaches)
 - LOM: ~ 9.1 Classification / Purpose: objective
-- Learning Metadata (LMT): [teaches](https://schema.org/teaches)
+- Learning Metadata Terms (LMT): [teaches](https://schema.org/teaches)
 
-**Wertelisten zur Einbindung oder Nachnutzung**
+**Value lists for integration or reuse**
 
-- Siehe [einführendes Kapitel](\l)4.2.2.3 Lernkontrollen
+- See [introductory chapter](\l)4.2.2.3 Learning controls
 
-Über das Attribut können Lernziele oder Kompetenzen referenziert werden,
-deren Erreichen oder Erwerb mit dieser Ressource überprüft werden
-können. Ressourcen werden somit als Lernkontrollen verwendet, um den
-Fortschritt der Lernenden rückzumelden oder zu bewerten, beispielsweise
-eine Prüfung des Textverständnisses. Häufig sind die dazugehörigen
-Lernobjekte beispielsweise Quizze, Feedback- / Bewertungsaktivitäten
-oder geeignete Aufgabentypen aus dem Bereich des E-Assessments (vgl.
-Anlage: “Zusammenstellung additiver Wertelisten”). Dieses Attribut
-unterstützt Lehrende bei der Auswahl und Gestaltung von Lernkontrollen
-und Constructive Alignment [@wildtlpica2011, S. 9]. Es hilft
-Lernenden beim Auffinden von Selbst- oder Eignungstests und für die
-Vorbereitung auf Beurteilungen. Von Nutzer\*innen wird häufig in
-Verbindung mit diesem Attribut auch die Verknüpfung mit entsprechenden
-Lösungs- und Begleitmaterialien gewünscht.
+This attribute can be used to reference learning objectives or competencies the achievement or acquisition of which can be verified via this resource. Resources are thus used as learning controls to report or assess the progress made by learners – for example, a test of text comprehension. In many cases, the associated learning objects take the form of quizzes, feedback/assessment activities or suitable task types from the field of e-assessment (see appendix: "Collection of additive value lists"). This attribute assists teachers with the selection and design of learning controls and constructive alignment [@wildtlpica2011, p. 9]. It helps learners to find self-tests or aptitude tests and to prepare for assessments. In addition, users frequently request links to corresponding answers and accompanying materials based on this attribute.
 
-Verwandtes Tool: [Assessment
-Toolbox](https://assessment.unibe.ch/TestingFormats)
+Related tool: [Assessment Toolbox](https://assessment.unibe.ch/TestingFormats)
 
-Verwandte Themen:
+Related topics:
 
-formatives Assessment, summatives Assessment, Self-Assessment,
-Online-Assessment, Studienorientierung, Eignungs- und Eingangstests,
-[Credentials](#standards-für-credentials) (im Hochschulkontext
-insbesondere auch die Angabe des Workloads und Nachweis von
-Studienleistungen, beispielsweise durch das
-[ECTS](https://web.archive.org/web/20240304111912/https://education.ec.europa.eu/de/education-levels/higher-education/inclusive-and-connected-higher-education/european-credit-transfer-and-accumulation-system)),
-Constructive Alignment
+formative assessment, summative assessment, self-assessment, online assessment, study orientation, aptitude and entrance tests, [credentials](#standards-für-credentials) (in particular, specification of workloads and certification of academic achievements in a higher education context, for example via the [ECTS](https://web.archive.org/web/20240304111912/https://education.ec.europa.eu/de/education-levels/higher-education/inclusive-and-connected-higher-education/european-credit-transfer-and-accumulation-system)), constructive alignment
 
-**Attribute in Metadatenstandards**
+**Attributes in metadata standards**
 
 - LRMI/schema.org: [assesses](https://schema.org/assesses)
 - AMB: [assesses](https://dini-ag-kim.github.io/amb/20231019/#assesses)
-- LOM: ~ 9.1 classification / Purpose: skill level
-- Learning Metadata (LMT): [assesses](https://schema.org/assesses)
-- [MERLOT](https://www.merlot.org/merlot/materials.htm): binäres
-  Attribut “hat Lernkontrollen” (ja/nein) (hasAssignments)
+- LOM: ~ 9.1 Classification / Purpose: skill level
+- Learning Metadata Terms (LMT): [assesses](https://schema.org/assesses)
+- [MERLOT](https://www.merlot.org/merlot/materials.htm): binary attribute "has learning controls" (yes/no) (hasAssignments)
 
-**Wertelisten zur Einbindung oder Nachnutzung**
+**Value lists for integration or reuse**
 
-- Siehe [einführendes
-  Kapitel](#lernvoraussetzungen-lernziele-und-lernkontrollen)
-- Spezifisch für Lernkontrollen:
+- See [introductory chapter](#lernvoraussetzungen-lernziele-und-lernkontrollen)
+- Specific for learning controls:
   - Common Education Data Standards:
-    - [Assessment Type](https://ceds.ed.gov/element/000029), [Assessment
-      Type Administered](https://ceds.ed.gov/element/000415)
+    - [Assessment Type](https://ceds.ed.gov/element/000029), [Assessment Type Administered](https://ceds.ed.gov/element/000415)
     - [Assessment Purpose](https://ceds.ed.gov/element/000026)
 
-### 4.2.3 Niveaustufe
+### 4.2.3 Level
 
-Die Erfassung einer Niveaustufe ist ein wiederkehrendes Unterfangen in
-der Bildungslandschaft. Aus didaktischer Perspektive gibt es einige
-Nutzungsszenarien, die mit diesem Attribut verbunden sind. Die
-Niveaustufe ist ein sehr facettenreiches Attribut, das recht divergent
-operationalisiert wird und sich in verschiedenster Ausprägung auf
-unterschiedliche Differenzierungsaspekte eines Objektes beziehen kann.
-Die Erfassung einer Niveaustufe eignet sich, um heterogenen Lerngruppen
-passende Lernressourcen vorzuschlagen und sie so auf ihrer individuellen
-Bildungsreise zu unterstützen. In den etablierten Metadatenstandards
-finden sich entsprechende Attribute, um diesen Aspekt auszudrücken.
+Defining a level is a recurring undertaking in the educational landscape. From a didactic perspective, a number of usage scenarios are associated with this attribute. The level is a very multifaceted attribute characterised by quite divergent operationalisation and can refer to a wide range of differentiating aspects of an object in a variety of ways. Levels can be defined to propose suitable learning resources to heterogeneous learning groups and thus support them on their individual educational journey. The established metadata standards contain suitable attributes to express this aspect.
 
-Exemplarische Nutzungsszenarien für Niveaustufen:
+Example usage scenarios for levels:
 
-*Angestrebtes Lernniveau*
+*Targeted learning level*
 
-- Selektion geeigneter Ressourcen anhand des Lernniveaus
-- Heterogenität: Binnendifferenzierung anhand des Lernniveaus
-- Vorschlagssysteme für individuelle Bildungsreisen
+- Selection of suitable resources based on the learning level
+- Heterogeneity: internal differentiation based on the learning level
+- Recommender systems for individual learning journeys
 
-*Erreichtes Lernniveau*
+*Achieved learning level*
 
-- Ausstellen von Zertifikaten (Bildungsnachweise) (vgl.
-  [Credentials](#standards-für-credentials))
-- Lerndiagnostik: Bewertung des Lernerfolgs von E-Learning Angeboten
+- Issuing of certificates (educational qualifications) (cf. [credentials](#standards-für-credentials))
+- Learning diagnostics: evaluation of the learning success of e-learning programmes
 
-**Skalenbasierte Operationalisierung der Niveaustufe**
+**Scale-based operationalisation of the level**
 
-Eine verbreitete Ausgestaltung des Feldes ist die skalenbasierte
-Abstufung des Niveaus. So existiert in LOM beispielsweise das Attribut
-“difficulty” (5.8.), welches mit einer fünfstufigen Skala (“sehr
-leicht”, “leicht”, “mittel”, “schwierig”, “sehr schwierig”) hinsichtlich
-der erwarteten Zielgruppe die Schwierigkeit des zu bearbeitenden
-Materials einordnen soll. Eine solche Einschätzung des Niveaus hat sich
-als wenig praktikabel erwiesen, da ein Objekt für mehrere Zielgruppen
-geeignet sein kann und damit auch unterschiedliche Schwierigkeitsgrade
-zugeordnet werden könnten. Die Komplexität dieser Mehrfachzuordnung wird
-jedoch in den aktuellen Repositorien technisch in der Regel nicht
-abgebildet, sodass diese Dienste von einer solchen Erfassung nicht
-profitieren.
+A common approach for this field involves the scale-based gradation of the level. In LOM, for example, there is the attribute "difficulty" (5.8.), which classifies the difficulty of the relevant learning material with regard to the expected target group based on a five-level scale ("very easy", "easy", "medium", "difficult", "very difficult"). Classifying the level in this manner has proven to be somewhat impractical, since an object can be suitable for several target groups and could therefore involve the assignment of different levels of difficulty. As a rule, however, the complexity of such multiple assignments is not technically reflected in the current repositories. As a result, these services do not benefit from this type of definition.
 
-Ferner wird häufig kritisiert, dass die fünfstufige Zuordnung zu
-subjektiv und ungenau sei [@abdel-qaderesdbolvl2022] [@tischlernunmbsubob2022], auch da die Zuschreibung eines einzelnen Wertes die Annahme einer eher homogenen Zielgruppe beinhaltet [@arnoldpmieapuefbvf2003, S. 382].
-Dies deckt sich mit den Aussagen in der Studie von Tischler et al., bei denen
-die Befragten das Attribut “Schwierigkeit” (difficulty) aus LOM
-ebenfalls als eher nicht so nützlich und schwierig beschreibbar
-empfinden [@tischlernunmbsubob2022].
-Gleichzeitig wird auf gegebenenfalls besser geeignete Attribute, wie [Voraussetzungen und Vorwissen](#lernvoraussetzungen-und-vorwissen), oder präzisere Angaben, wie das [Sprachniveau](#sprache-und-sprachniveau), verwiesen [@tischlernunmbsubob2022, S. 260].
-Auch die CanCore-Empfehlungen zur Implementation
-von LOM raten von einer Verwendung in verteilten Systemen ab, sehen
-jedoch auch mögliche künftige Potenziale [@fishercgvec2003, S. 18].
+Furthermore, the five-level classification is frequently criticised for being too subjective and imprecise \[@abdel-qaderesdbolvl2022\] \[@tischlernunmbsubob2022\], not least because the assignment of a single value assumes the existence of a homogeneous target group \[@arnoldpmieapuefbvf2003, p. 382\]. This is consistent with the results of the study conducted by Tischler et al., with the respondents rating the "difficulty" attribute from LOM as less useful and difficult to describe \[@tischlernunmbsubob2022\]. At the same time, reference is made to potentially more suitable attributes, including [prerequisites and prior knowledge](#lernvoraussetzungen-und-vorwissen), or more precise information, such as the [language level](#sprache-und-sprachniveau) \[@tischlernunmbsubob2022, p. 260\]. The CanCore recommendations for implementing LOM also advise against the use of the "difficulty" element in distributed environments, but also see some future potential in its application \[@fishercgvec2003, p. 18\].
 
-*Weitere Erfassungsarten von Niveaustufen finden sich in den Wertelisten
-unten.*
+*Further level description types can be found in the value lists below.*
 
-**Implizite Niveaustufen: Bildungsstufe, Alter, Abschluss und Sprache**
+**Implicit levels: educational level, age, degree and language**
 
-Neben dem Versuch, die Niveaustufe direkt zu operationalisieren, sind
-auch Varianten auszumachen, die andere Attribute implizit zur Angabe
-eines Niveaus verwenden. In der Praxis finden sich daher zur impliziten
-Angabe der Niveaustufe häufig auch pragmatische Nachnutzungen
-anderweitiger Metadatenfelder, deren Semantik eigentlich abweichend
-definiert ist. In Abhängigkeit der zugrundeliegenden Wertelisten
-erschwert dies jedoch eine KI-gestützte Generierung von Metadaten, da
-die Maschinen in diesem Fall die Bedeutung der Werte in den Feldern
-aufgrund der Mehrfachverwendung eines Feldes oder der Kombination von
-Werten verschiedener Felder unter Umständen missverständlich erlernen.
-Anderweitige Metadatenfelder als Indikatoren für ein erwartbares
-Lernniveau zu verwenden, stellt für viele Portale jedoch einen
-pragmatischen Ansatz dar, auch um die Anzahl zu erfassender Attribute zu
-reduzieren. In Abhängigkeit von subjektiven Erwartungen Lehrender und
-Lernender können daher verschiedene Metadatenfelder und Werte als
-Indikatoren des Niveaus dienen, unter anderem die Bildungsstufe, das
-Alter, der Abschluss oder die Sprache.
+Along with the attempt to operationalise the level directly, variations exist in which other attributes are used implicitly to indicate a level. In practice, therefore, the implicit indication of a level frequently involves the pragmatic reuse of other metadata fields the semantics of which are actually defined differently. However, depending on the underlying value lists, this can hinder the AI-assisted generation of metadata since, in this case, the machines may misinterpret the meaning of the field values due to the multiple use of a specific field or the combination of values from different fields. Yet using other metadata fields as indicators for an expected learning level represents a pragmatic approach for many portals, not least to reduce the number of attributes to be defined. Therefore, depending on the subjective expectations of teachers and learners, different metadata fields and values can serve as indicators of the level, including the educational level, age, degree or language.
 
-*Niveauindikator: Bildungsstufe*
+*Level indicator: educational level*
 
-Es finden sich Verwendungen des Feldes
-“[Bildungsstufe](#bildungsstufe-bildungskontext)” als implizite
-Kennzeichnung einer Niveaustufe, indem auf eine Umgebung verwiesen wird,
-in welcher die Nutzung des Lernobjekts intendiert ist und mit diesem
-Kontext subjektive Erwartungen an ein Lernniveau verbunden werden. So
-ist sicherlich erwartbar, dass ein Thema wie “Magnetismus” in der
-Bildungsstufe “Primarbereich” didaktisch anders aufbereitet ist, als bei
-einer Ressource, die im “Sekundarbereich II” oder im Hochschulkontext
-verortet würde. Die niedrigste, zugewiesene Bildungsstufe wird daher in
-der Nachnutzung teils als Indikator für das Lernniveau verwendet, da
-eine didaktische Reduktion der Lerninhalte erwartet wird.
+The field "[educational level](#bildungsstufe-bildungskontext)" is used to implicitly indicate a level by referring to an environment in which the learning object is intended to be used and subjective expectations of a learning level are associated with this specific context. In this case, it is to be expected that a topic such as "magnetism" is, from a didactic perspective, prepared differently in the "primary" educational level than for a resource that would be found in the "secondary level II" or in a higher education context. Therefore, the lowest assigned educational level is sometimes used as an indicator for the learning level during reuse, since a didactic reduction in the learning content is to be expected.
 
-So betitelt das Portal twillo das Metadatum “[Zielgruppe](#zielgruppen)”
-in den häufigen Fragen (FAQ) in der Kategorie “Didaktische Metadaten”
-unmittelbar als “Niveau” [@twillotffm2024].
-Die Argumentation ist dahingehend vergleichbar: Wird eine differenzierte Werteliste von
-Personengruppen verwendet, die typischerweise einer bestimmten
-Bildungsstufe zugeordnet werden können, gilt der Wert implizit als
-Niveauindikator. Die Werteliste von twillo unterscheidet zum Beispiel
-unter anderem “Studierende in der Studieneingangsphase” und
-“fortgeschrittene Studierende im Bachelor”. Dies impliziert eine
-mögliche Bildungsstufe “Bachelor”, einen entsprechend assoziierten
-“Abschluss” oder auch eine “Semesterzahl” (vergleichbar mit einer
-“Jahrgangsstufe”) und zugleich somit auch subjektive Erwartungen an ein
-mögliches Lernniveau, auf das die didaktische Vermittlung der Inhalte
-ausgerichtet ist. Da twillo eher den Hochschulkontext fokussiert, werden
-hier sicherlich aus pragmatischen Gründen mehrere Metadaten als Wert für
-das Feld “Zielgruppe” verschmolzen. Auch die
-[SESAM-Mediathek](https://sesam.lmz-bw.de/search) vermischt
-Bildungsstufen und Schularten als Werte im Feld “Zielgruppen”, bspw.
-“Außerschulische Jugendbildung” und “Sekundarstufe I” (vgl. untige
-Wertelisten). Vergleichbar erfolgt dies auch bei der [Materialsuche der
-Bundeszentrale für politische
-Bildung](https://www.bpb.de/lernen/materialsuche/) (bpb), die derzeit
-für das Feld “Zielgruppe” beispielsweise Personengruppen
-(“Journalist/innen”), Schularten (“Berufsschule”) oder auch
-Bildungsstufen (“Sekundarstufe I”) listet.
+The twillo portal, for example, uses the term "level" to refer to the metadata field "target group", specifically in the portal's frequently asked questions (FAQ) under "Educational metadata" \[@twillotffm2024\]. The argumentation is comparable in the following respect: When a differentiated value list is used for groups of people who can typically be assigned to a specific level of education, the value is implicitly considered a level indicator. For example, the value list used by twillo distinguishes, among other things, between "students in the introductory study phase" and "advanced bachelor students". This implies the existence of a possible education level "bachelor", a correspondingly associated "degree" or even a "semester number" (comparable to a "year") and, at the same time, subjective expectations of a possible learning level that serves as the basis for the didactic teaching of the learning content. Since twillo is geared more towards a higher education context, it is clear that several metadata items are combined here to form a single value for the "target group" field for pragmatic reasons. The [SESAM media library](https://sesam.lmz-bw.de/search) also combines educational levels and types of school as values in the "target groups" field, such as "extracurricular youth education" and "secondary level I" (see value lists below). A similar approach is employed in the [material search of the Federal Agency for Civic Education](https://www.bpb.de/lernen/materialsuche/) (bpb), which currently lists groups of people ("journalists"), types of school ("vocational school") or educational levels ("secondary level I") for the "target group" field.
 
-*Niveauindikator: Abschlüsse*
+*Level indicator: degrees*
 
-Ähnlich dem Bildungskontext kann im institutionellen Bildungsbereich
-auch eine Differenzierung anhand der [Abschlüsse](#abschlüsse) erfolgen.
-Je nach Nutzungsszenario können damit erworbene oder anvisierte
-Bildungsabschlüsse ausgezeichnet werden. Da mit unterschiedlichen
-Abschlüssen zumeist auch andere Lehrpläne verbunden werden, die wiederum
-andere Mindeststandards festlegen können, ergibt sich eine bestimmte
-Erwartung an das Niveau in Abhängigkeit des anvisierten
-Bildungsabschlusses.
+Differentiation on the basis of [degrees](#abschlüsse) can also take place in the institutional education sector. Depending on the usage scenario, this enables recognition of acquired or targeted educational qualifications. Since different degrees usually involve different curricula, which in turn can define different minimum standards, a certain expectation of the level arises based on the targeted educational qualification.
 
-*Niveauindikator: Sprachniveau*
+*Level indicator: language level*
 
-Als weitere Ausprägung der Niveaustufe kann das
-[Sprachniveau](#sprache-und-sprachniveau) gelten, welches für die
-erfolgreiche Nutzung einer Bildungsressource notwendig ist.
+Another form of level that is necessary for the successful use of an educational resource is the [language level](#sprache-und-sprachniveau).
 
-**Weitere Hinweise zur Verwendung**
+**Further notes on usage**
 
-Aufgrund subjektiver Erwartungen sind sicherlich auch weitere
-Indikatoren für die Niveaustufe vorstellbar, die über die zuvor
-genannten Metadaten hinausgehen. Bei der Realisierung von Niveaustufen
-empfiehlt sich unter Umständen eine Differenzierung der verschiedenen
-bislang erwähnten Aspekte, die durch das Attribut ausgedrückt werden
-können. Beim Datenaustausch geht diese Differenzierung bisweilen
-verloren, sofern kein spezifisches Profil gebildet wird. Indirekt kann
-eine Differenzierung durch die Verwendung der entsprechenden Vokabulare
-und Relationen ausgedrückt werden, sofern diese standardisiert
-abgebildet werden, z. B. mit SKOS.
+Based on subjective expectations, other level indicators that go beyond the metadata listed above are certainly conceivable. When implementing levels, it may be useful to differentiate between the various aforementioned aspects that can be expressed by means of the attribute. However, this differentiation is sometimes lost during data exchange if no specific profile is defined. Differentiation can be expressed indirectly using the relevant vocabularies and relations, provided that these are represented in a standardised manner, e.g. with SKOS.
 
-Besonders bei einer großen Heterogenität von Lerngruppen kann dieses
-Attribut hilfreich sein, um passende Angebote bereitzustellen. Die
-Herausforderung für Implementierende liegt in der genauen
-Ausdifferenzierung der Aspekte der gewünschten Niveaustufe und der damit
-verbundenen Auswahl geeigneter Wertelisten. Der Wunsch, dieses Attribut
-in Verbindung mit anderen Attributen für Such- und Filtermöglichkeiten
-zu nutzen, ist eine technische Herausforderung, die Bildungsangeboten
-einen Wettbewerbsvorteil und Suchenden einen Mehrwert bieten könnte.
+This attribute can be particularly helpful in providing suitable offers for very heterogeneous learning groups. The main challenge faced when implementing levels lies in the accurate differentiation of the aspects for the desired level and the associated selection of suitable value lists. The wish to use this attribute in conjunction with other attributes for search and filter options presents a technical challenge that could allow different educational offerings to gain a competitive advantage while also delivering added value to those searching for resources.
 
-**Attribute in Metadatenstandards**
+**Attributes in metadata standards**
 
-- LRMI/schema.org:
-  [educationalLevel](https://schema.org/educationalLevel)
-- LOM: Bildungsstufe (context) (5.6), Anforderungsgrad (difficulty)
-  (5.8)
-- Learning Metadata:
-  [dct:educationalLevel](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#educationLevel)
+- LRMI/schema.org: [educationalLevel](https://schema.org/educationalLevel)
+- LOM: Context (5.6), Difficulty (5.8)
+- Learning Metadata Terms: [dct:educationalLevel](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#educationLevel)
 
-**Mögliche Wertelisten für Niveaustufen**
+**Possible value lists for levels**
 
-Nachfolgend gelistete Wertelisten bieten sich zur Einbindung oder
-Nachnutzung an. Spezifische Wertelisten von Niveauindikatoren
-(Bildungsstufen, Abschlüsse und Sprachniveaus) finden sich in den
-entsprechenden Unterabschnitten.
+The value lists below are suitable for integration or reuse. Specific value lists of level indicators (educational levels, degrees and language levels) can be found in the corresponding subsections.
 
-Als Wertelisten können auch verschiedene Kompetenzstufenmodelle oder
-Operatoren verwendet werden, da letztere jeweils Anforderungsbereichen
-zugeordnet werden können und auf diese Weise ein Aufgabenniveau
-ausdrücken. Die Zuordnung sowie die verwendeten Operatoren sind in der
-Regel jedoch fach-, bundesland- und lehrplanspezifisch sowie zum Teil
-sogar aufgaben-/materialspezifisch, sodass sich einzelne Zuordnungen von
-Operatoren zu Anforderungsbereichen teils unterscheiden. Die
-Fiete.ai-Community sammelt Referenzen zu Operatorenlisten in einer
-[kollaborativen
-Liste](https://www.taskcards.de/#/board/bd30eeff-164a-4e8f-8055-8a5443ae56a3/view?token=b36196af-1a7e-46d5-8c3a-7196c8b9171a).
-Ebenfalls werden für die Niveaustufe häufig abgestufte Einschätzungen
-wie “Einsteiger”, “Fortgeschrittene”, “Experten” verwendet.
+Different competency level models or operators can also be used as value lists as the latter can be assigned to individual requirement areas and thus express a task level. However, the assignment and the operators employed are usually subject-, state- and curriculum-specific and sometimes even task/material-specific. As a result, individual assignments of operators to requirement areas will sometimes differ. The Fiete.ai community collects references to operator lists in a [collaborative list](https://www.taskcards.de/#/board/bd30eeff-164a-4e8f-8055-8a5443ae56a3/view?token=b36196af-1a7e-46d5-8c3a-7196c8b9171a). In addition, graded assessments such as "beginner", "advanced" and "expert" are often used for the level.
 
-**Niveaustufen (DQR/EQR)**
+**Levels (DQR/EQF)**
 
-Den acht Niveaustufen des DQR/EQR werden jeweils Qualifikationstypen
-oder Qualifikationen zugeordnet (vgl. [Liste der zugeordneten
-Qualifikationen](https://www.dqr.de/dqr/de/service/downloads/downloads_node.html))
-([Archiv:
-2023](https://web.archive.org/web/20240202153304/https://www.dqr.de/dqr/shareddocs/downloads/media/content/2023_dqr_liste_zugeordnete_qualifik_01082023.pdf?__blob=publicationFile&v=4))
-(BMBF, 2024; BMBF & KMK, 2023). Somit sind diese vergleichbar mit
-[Abschlüssen](#abschlüsse) und den acht Stufen der Internationalen
-Standardklassifikation des Bildungswesens
-([ISCED](https://web.archive.org/web/20240305160030/https://www.datenportal.bmbf.de/portal/de/G293.html)).
-Open Edu Hub / WirLernenOnline stellt die Kompetenzniveaus gemäß dem DQR
-als Vokabular maschinenlesbar bereit:
-[dqrCompetenceLevels](http://w3id.org/openeduhub/vocabs/dqrCompetenceLevels/).
+Qualifications or qualification types are assigned to each of the eight levels of the DQR/EQF (cf. [list of assigned qualifications](https://www.dqr.de/dqr/de/service/downloads/downloads_node.html)) ([archive:](https://web.archive.org/web/20240202153304/https://www.dqr.de/dqr/shareddocs/downloads/media/content/2023_dqr_liste_zugeordnete_qualifik_01082023.pdf?__blob=publicationFile&v=4)[ ](https://web.archive.org/web/20240202153304/https://www.dqr.de/dqr/shareddocs/downloads/media/content/2023_dqr_liste_zugeordnete_qualifik_01082023.pdf?__blob=publicationFile&v=4)[2023](https://web.archive.org/web/20240202153304/https://www.dqr.de/dqr/shareddocs/downloads/media/content/2023_dqr_liste_zugeordnete_qualifik_01082023.pdf?__blob=publicationFile&v=4)) (BMBF, 2024; BMBF \& KMK, 2023). They are thus comparable to [degrees](#abschlüsse) and the eight levels of the International Standard Classification of Education ([ISCED](https://web.archive.org/web/20240305160030/https://www.datenportal.bmbf.de/portal/de/G293.html)). Open Edu Hub / WirLernenOnline provides the competence levels according to the DQR as a machine-readable vocabulary: [dqrCompetenceLevels](http://w3id.org/openeduhub/vocabs/dqrCompetenceLevels/).
 
-**Taxonomien zu Lernprozessen und Differenzierungsmöglichkeiten**
+**Taxonomies for learning processes and differentiation reusability**
 
-- [Pädagogisches Rad nach
-  Carrington](https://designingoutcomes.com/english-speaking-world-v5-0/),  
-  basierend auf Blooms Taxonomie und dem SAMR Modell
-  - Blooms Taxonomie [@bloomtlikb1976], enthalten als
-    [Actions](http://europeanschoolnet-vbe.lexaurus.net/vbe/browse)
-    (Bloom) im European Schoolnet Vocabulary
-  - SAMR Modell [@puentedurasmet2013]
-- Lernen als dynamisches Entwicklungsmodell nach Dreyfus (Novizen,
-  fortgeschrittene Person, kompetente Person, Gewandtheit, Experten)
-- Lernstrukturgitter nach Kutzer [@kutzermeuvk2002]
-- Differenzierungsmatrix nach Sasse [@sasseuuligu2014]
-- Differenzierung nach Wember [@wemberhipomsluvzbiu2013]
-- Lernaktivitäten nach Laurillard [@laurillardtdsbpplt2012, S. 96]
-- Didaktische Taxonomie und Taxonomie von Lernzielen [@baumgartnertupfdv2014]
-- Wissensarten nach Anderson & Krathwohl in Verbindung mit kognitiven
-  Prozessen (Faktenwissen, Konzeptuelles Wissen, Prozedurales Wissen,
-  Metakognitives Wissen), basierend auf Blooms Taxonomie [@andersontltarbteo2001] \[vgl. auch Anlage: “Niveaustufenmodell und
-  Wissensarten” (nach Anderson & Krathwohl)\]
+- [Pedagogy wheel according to Carrington](https://designingoutcomes.com/english-speaking-world-v5-0/),  
+based on Bloom's Taxonomy and the SAMR model
+  - Bloom's Taxonomy \[@bloomtlikb1976\], contained as [Actions](http://europeanschoolnet-vbe.lexaurus.net/vbe/browse) (Bloom) in the European Schoolnet Vocabulary
+  - SAMR model \[@puentedurasmet2013]
+- Learning as a dynamic development model according to Dreyfus (novice, advanced beginner, competent, proficient, expert)
+- Learning structure grid according to Kutzer \[@kutzermeuvk2002]
+- Differentiation matrix according to Sasse \[@sasseuuligu2014]
+- Differentiation according to Wember \[@wemberhipomsluvzbiu2013]
+- Learning activities according to Laurillard \[@laurillardtdsbpplt2012, p. 96]
+- Educational taxonomy and taxonomy of learning objectives \[@baumgartnertupfdv2014]
+- Types of knowledge according to Anderson \& Krathwohl in connection with cognitive processes (factual knowledge, conceptual knowledge, procedural knowledge, metacognitive knowledge), based on Bloom's Taxonomy [@andersontltarbteo2001] \[see also appendix: "Level model and knowledge types" (according to Anderson \& Krathwohl)]
 
-Tabelle: *Vergleich verschiedener Niveaustufenmodelle (3-stufig,
-6-stufig)*
+Table: *Comparison of different level models (3-level, 6-level)*
 
 <table style="width:100%;">
 <colgroup>
@@ -1215,74 +540,53 @@ Tabelle: *Vergleich verschiedener Niveaustufenmodelle (3-stufig,
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Quelle</strong></td>
-<td colspan="2"><strong>Mindeststandards</strong></td>
-<td colspan="2"><strong>Regelstandards</strong></td>
-<td colspan="4"><strong>Expertenstandards</strong></td>
+<td><strong>Source</strong></td>
+<td colspan="2"><strong>Minimum standards</strong></td>
+<td colspan="2"><strong>Norm standards</strong></td>
+<td colspan="4"><strong>Expert standards</strong></td>
 </tr>
 <tr class="even">
-<td>Anforderungs-<br />
-bereich / Bildungs-<br />
-standards (KMK)</td>
-<td colspan="2"><p>A: Wiedergeben</p>
-<p>(Anforderungs-<br />
-bereich I)</p></td>
-<td colspan="2">B: Zusammenhänge herstellen (Anforderungs-<br />
-bereich II)</td>
-<td colspan="2">C: Reflektieren und Beurteilen (Anforderungs-<br />
-bereich III)</td>
+<td>Requirement <br />area / educational <br />standards (KMK)</td>
+<td colspan="2"><p>A: Reproduce</p>
+<p>(requirement <br />area I)</p></td>
+<td colspan="2">B: Apply to new contexts (requirement <br />area II)</td>
+<td colspan="2">C: Reflect and assess (requirement <br />area III)</td>
 <td colspan="2" rowspan="3"></td>
 </tr>
 <tr class="odd">
-<td>Lernzieltaxonomie (kognitive Lernziele),<br />
-Bloom (Bloom &amp; Engelhart, 1976)</td>
-<td>1:<br />
-Wissen</td>
-<td>2:<br />
-Verstehen</td>
-<td>3: Anwenden</td>
-<td>4:<br />
-Analyse</td>
-<td>5:<br />
-Synthese</td>
-<td>6: Bewer-<br />
-ten</td>
+<td>Taxonomy of educational objectives (cognitive learning objectives),<br /> Bloom (Bloom &amp; Engelhart, 1976)</td>
+<td>1:<br /> Knowledge</td>
+<td>2:<br /> Comprehension</td>
+<td>3: Application</td>
+<td>4:<br /> Analysis</td>
+<td>5:<br /> Synthesis</td>
+<td>6: Evaluation</td>
 </tr>
 <tr class="even">
-<td>“A Taxonomy for Teaching, Learning, and Assessment”,<br />
-Anderson &amp; Krathwohl (Anderson &amp; Krathwohl, 2001)</td>
-<td>1: Erinnern</td>
-<td>2: Verstehen</td>
-<td>3: Anwenden</td>
-<td>4:<br />
-Analy-<br />
-sieren</td>
-<td>5:<br />
-Bewer-<br />
-ten</td>
-<td>6: Er-<br />
-stellen</td>
+<td>&quot;A Taxonomy for Teaching, Learning, and Assessment&quot;,<br /> Anderson &amp; Krathwohl (Anderson &amp; Krathwohl, 2001)</td>
+<td>1: Remember</td>
+<td>2: Understand</td>
+<td>3: Apply</td>
+<td>4:<br /> Analyse</td>
+<td>5:<br /> Evaluate</td>
+<td>6: Create</td>
 </tr>
 <tr class="odd">
-<td>“Levels of processing”<br />
-Marzano &amp; Kendall (Marzano &amp; Kendall, 2007)</td>
-<td>Level 1: Abrufen</td>
-<td>Level 2: Verstehen</td>
+<td>&quot;Levels of processing&quot;<br /> Marzano &amp; Kendall (Marzano &amp; Kendall, 2007)</td>
+<td>Level 1: Retrieval</td>
+<td>Level 2: Comprehension</td>
 <td></td>
-<td>Level 3: Analyse</td>
-<td>Level 4: Wissens-<br />
-nutzung</td>
+<td>Level 3: Analysis</td>
+<td>Level 4: Knowledge <br />utilisation</td>
 <td></td>
-<td>Level 5: Meta-<br />
-kogni-<br />
-tion</td>
-<td>Level 6: Kritisches Selbst</td>
+<td>Level 5: Meta-<br />cognition</td>
+<td>Level 6: Critical self-reflection</td>
 </tr>
 <tr class="even">
-<td rowspan="2">Referenzrahmen GERS (Europarat) (Trim et al., 2010)</td>
-<td colspan="2">Elementar</td>
-<td colspan="2">Selbstständig</td>
-<td colspan="2">Kompetent</td>
+<td rowspan="2">CEFR reference framework (Council of Europe) (Trim et al., 2010)</td>
+<td colspan="2">Basic</td>
+<td colspan="2">Independent</td>
+<td colspan="2">Proficient</td>
 <td colspan="2" rowspan="4"></td>
 </tr>
 <tr class="odd">
@@ -1295,66 +599,42 @@ tion</td>
 </tr>
 <tr class="even">
 <td>Astleitner (Astleitner, 2009)</td>
-<td colspan="2">Leicht</td>
-<td colspan="2">Mittel</td>
-<td colspan="2">Schwer</td>
+<td colspan="2">Easy</td>
+<td colspan="2">Medium</td>
+<td colspan="2">Difficult</td>
 </tr>
 <tr class="odd">
 <td>Ziener (Ziener, 2006)</td>
-<td colspan="2">Reproduktion</td>
-<td colspan="2">Rekonstruktion</td>
+<td colspan="2">Reproduction</td>
+<td colspan="2">Reconstruction</td>
 <td colspan="2">Transfer</td>
 </tr>
 <tr class="even">
 <td>Metzger (Metzger et al., 1993)</td>
-<td colspan="2">Erinnerung</td>
-<td colspan="2">Verarbeitung</td>
-<td colspan="2">Erzeugung</td>
+<td colspan="2">Recollection</td>
+<td colspan="2">Processing</td>
+<td colspan="2">Creation</td>
 <td colspan="2"></td>
 </tr>
 </tbody>
 </table>
+**Other value list examples**
 
-**Weitere exemplarische Wertelisten**
-
-- [OpenHPI](https://open.hpi.de/courses): Beginner, Junior, Advanced,
-  Expert
-- [fobizz](https://plattform.fobizz.com/fortbildungen): Einsteiger
-  (Beginner), Fortgeschrittene (Advanced)
-- [Unterrichtsmaterial.ch](https://www.unterrichtsmaterial.ch/arbeitsblaetter):
-  erweitert (A), mittel (B), grundlegend (C), ohne Schwierigkeitsgrad
-- [OpenLearn
-  Create](https://www.open.edu/openlearncreate/local/ocwfreecourses/freecourse.php):
-  Beginner (0), Introductory (1), Intermediate (2), Advanced (3)
+- [OpenHPI](https://open.hpi.de/courses): Beginner, Junior, Advanced, Expert
+- [fobizz](https://plattform.fobizz.com/fortbildungen): Beginner, Advanced
+- [Unterrichtsmaterial.ch](https://www.unterrichtsmaterial.ch/arbeitsblaetter): advanced (A), intermediate (B), basic (C), no difficulty level
+- [OpenLearn Create](https://www.open.edu/openlearncreate/local/ocwfreecourses/freecourse.php): Beginner (0), Introductory (1), Intermediate (2), Advanced (3)
 - [Common Education Data Standards](https://ceds.ed.gov/):
-  - Lexile Framework for Reading:
-    [Textkomplexität](https://ceds.ed.gov/element/000929)
-  - National Assessment of Educational Progress: [Mathematical
-    Complexity Level](https://ceds.ed.gov/element/001088)
+  - Lexile Framework for Reading: [Text Complexity](https://ceds.ed.gov/element/000929)
+  - National Assessment of Educational Progress: [Mathematical Complexity Level](https://ceds.ed.gov/element/001088)
 
-#### 4.2.3.1 Bildungsstufe, Bildungskontext
+#### 4.2.3.1 Educational level, educational context
 
-Das Metadatum erfasst die Verortung des Lernenden (vgl.
-[Zielgruppen](#zielgruppen)) in den Zeitpunkt der
-Aus-/Fort-/Weiterbildung und somit in das Lernumfeld bzw. den
-Lehr-/Lernkontext, in welchem die Nutzung der zu beschreibenden
-Ressource primär intendiert wird. Die Werte stellen
-üblicherweise eine Stufe in Bezug auf das sukzessive
-Fortschreiten in einem Bildungssystem dar und enthalten somit implizit
-Annahmen über das übliche bzw. erwartbare Niveau oder (Mindest-)Alter
-der Lernenden, sodass sich ein Bezug zum Feld „typisches Alter der
-Zielgruppe“ ergibt (vgl. Tabelle “Zusammenhänge zwischen
-Lehr-/Lernkontexten und anderen Metadaten”).
+This metadata field defines the position of the learner (cf. [target groups](#zielgruppen)) within the timeframe of their educational journey and thus in the learning environment or teaching/learning context for which the relevant resource is primarily intended. The values usually represent stages in the gradual progression made by learners in an educational system and thus contain implicit assumptions about the usual or expected level or (minimum) age of the learners, thereby creating a reference to the field "typical age of target group" (see table "Relationships between teaching/learning contexts and other metadata").
 
-Durch solche typischen Zusammenhänge bietet es sich an, Metadaten
-automatisiert zu generieren. Dies beschleunigt und vervollständigt
-Erfassungsprozesse und kann auch zum Ergänzen bestehender Ressourcen
-verwendet werden. So könnten beispielsweise, je nach erwünschtem
-Detailgrad, die Werte für das Feld „typisches Alter“ in Abhängigkeit zur
-Auswahl des Feldes „Bildungsstufen“ gesetzt werden.
+Based on these typical relationships, metadata can be generated automatically. This automation accelerates and completes the description process and can also be used to supplement existing resources. For example, depending on the desired level of detail, the values for the "typical age" field could be set based on the selection for the "educational levels" field.
 
-Tabelle: *Zusammenhänge zwischen Lehr-/Lernkontexten und anderen
-Metadaten*
+Table: *Relationships between teaching/learning contexts and other metadata*
 
 <table>
 <colgroup>
@@ -1368,160 +648,153 @@ Metadaten*
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Klassen-<br />
-stufe</strong></td>
-<td colspan="2"><strong>Typisches<br />
-Alter</strong></td>
-<td><strong>Bildungsstufe<br />
-</strong>(WLO:<a
+<td><strong>Class or grade</strong></td>
+<td colspan="2"><strong>Typical<br /> age</strong></td>
+<td><strong>Educational level<br /> </strong>(WLO:<a
 href="http://w3id.org/openeduhub/vocabs/educationalContext/">ccm:educationalcontext</a>)</td>
-<td><strong>Lehr-/Lernkontext<br />
-</strong>(KIM:<a
+<td><strong>Teaching/learning context<br /> </strong>(KIM:<a
 href="https://w3id.org/kim/educationalLevel/">educationalLevel</a>)</td>
-<td><strong>ISCED-P/-A<br />
-</strong>(Bildungs-bericht-erstattung, 2022)</td>
-<td><strong>LOM-CH v2.1<br />
-</strong><a
-href="https://web.archive.org/web/20240226225633/https://www.educa.ch/sites/default/files/2020-11/applikationsprofil-lom-ch-v2.1-de.pdf">educationalLevel</a>
-(educa.ch, 2020)</td>
+<td><strong>ISCED-P/-A<br /> </strong>(national education report, 2022)</td>
+<td><strong>LOM-CH v2.1<br /> </strong><a
+href="https://web.archive.org/web/20240226225633/https://www.educa.ch/sites/default/files/2020-11/applikationsprofil-lom-ch-v2.1-de.pdf">educationalLevel</a> (educa.ch, 2020)</td>
 </tr>
 <tr class="even">
 <td></td>
-<td colspan="2">1–5</td>
-<td>Elementarbereich</td>
-<td>Elementarbereich</td>
+<td colspan="2">1&ndash;5</td>
+<td>Elementary level</td>
+<td>Early childhood education</td>
 <td><mark>0</mark></td>
-<td><mark>Frühbereich</mark></td>
+<td><mark>Fr&uuml;hbereich</mark></td>
 </tr>
 <tr class="odd">
 <td>1</td>
-<td>6–7</td>
-<td rowspan="4">6–10</td>
-<td rowspan="4">Primarstufe</td>
-<td rowspan="4">Primarbereich</td>
+<td>6&ndash;7</td>
+<td rowspan="4">6&ndash;10</td>
+<td rowspan="4">Primary school</td>
+<td rowspan="4">Primary education</td>
 <td rowspan="4">1</td>
 <td rowspan="4">Obligatorische Schule</td>
 </tr>
 <tr class="even">
 <td>2</td>
-<td>7–8</td>
+<td>7&ndash;8</td>
 </tr>
 <tr class="odd">
 <td>3</td>
-<td>8–9</td>
+<td>8&ndash;9</td>
 </tr>
 <tr class="even">
 <td>4</td>
-<td>9–10</td>
+<td>9&ndash;10</td>
 </tr>
 <tr class="odd">
 <td>5</td>
-<td>10–11</td>
-<td rowspan="6">11–16</td>
-<td rowspan="6">Sekundarstufe I</td>
-<td rowspan="6">Sekundarbereich I</td>
+<td>10&ndash;11</td>
+<td rowspan="6">11&ndash;16</td>
+<td rowspan="6">Secondary I</td>
+<td rowspan="6">Lower secondary education</td>
 <td rowspan="6">2</td>
 <td rowspan="6">Obligatorische Schule</td>
 </tr>
 <tr class="even">
 <td>6</td>
-<td>11–12</td>
+<td>11&ndash;12</td>
 </tr>
 <tr class="odd">
 <td>7</td>
-<td>12–13</td>
+<td>12&ndash;13</td>
 </tr>
 <tr class="even">
 <td>8</td>
-<td>13–14</td>
+<td>13&ndash;14</td>
 </tr>
 <tr class="odd">
 <td>9</td>
-<td>14–15</td>
+<td>14&ndash;15</td>
 </tr>
 <tr class="even">
 <td>10</td>
-<td>15–16</td>
+<td>15&ndash;16</td>
 </tr>
 <tr class="odd">
 <td>11</td>
-<td>16–17</td>
-<td rowspan="3">16–19</td>
-<td rowspan="3">Sekundarstufe II</td>
-<td rowspan="3">Sekundarbereich II</td>
+<td>16&ndash;17</td>
+<td rowspan="3">16&ndash;19</td>
+<td rowspan="3">Secondary II</td>
+<td rowspan="3">Upper secondary education</td>
 <td rowspan="3">3</td>
 <td rowspan="3">Sekundarstufe II</td>
 </tr>
 <tr class="even">
 <td>12</td>
-<td>17–18</td>
+<td>17&ndash;18</td>
 </tr>
 <tr class="odd">
 <td>13</td>
-<td>18–19</td>
+<td>18&ndash;19</td>
 </tr>
 <tr class="even">
 <td></td>
-<td colspan="2">16–20</td>
-<td>Berufliche Bildung</td>
-<td>Postsekundärer nicht-tertiärer Bereich</td>
+<td colspan="2">16&ndash;20</td>
+<td>Vocational education</td>
+<td>Post-secondary non-tertiary education</td>
 <td>4</td>
-<td>Tertiärstufe</td>
+<td>Terti&auml;rstufe</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td>Kurzes tertiäres Bildungsprogramm</td>
+<td>Short-cycle tertiary education</td>
 <td>5</td>
-<td>Tertiärstufe</td>
+<td>Terti&auml;rstufe</td>
 </tr>
 <tr class="even">
 <td></td>
 <td colspan="2"></td>
-<td rowspan="4">Hochschule</td>
-<td>Hochschule</td>
+<td rowspan="4">Higher education</td>
+<td>University</td>
 <td></td>
-<td rowspan="4">Tertiärstufe</td>
+<td rowspan="4">Terti&auml;rstufe</td>
 </tr>
 <tr class="odd">
 <td></td>
-<td colspan="2">18–24 *</td>
-<td>- Bachelor oder äquivalent</td>
+<td colspan="2">18&ndash;24 *</td>
+<td>- Bachelor or equivalent</td>
 <td>6</td>
 </tr>
 <tr class="even">
 <td></td>
-<td colspan="2">22–28 *</td>
-<td>- Master oder äquivalent</td>
+<td colspan="2">22&ndash;28 *</td>
+<td>- Master or equivalent</td>
 <td>7</td>
 </tr>
 <tr class="odd">
 <td></td>
-<td colspan="2">24–34 *</td>
-<td>- Promotion oder äquivalent</td>
+<td colspan="2">24&ndash;34 *</td>
+<td>- Doctoral or equivalent</td>
 <td>8</td>
 </tr>
 <tr class="even">
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td>Vorbereitungsdienst</td>
+<td>Preparatory service</td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td colspan="2"></td>
-<td>Fortbildung</td>
-<td>Fortbildung</td>
+<td>Further education</td>
+<td>Advanced training</td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td colspan="2"></td>
-<td>Förderschule</td>
+<td>Special education</td>
 <td></td>
 <td></td>
 <td></td>
@@ -1532,12 +805,12 @@ href="https://web.archive.org/web/20240226225633/https://www.educa.ch/sites/defa
 <td></td>
 <td></td>
 <td></td>
-<td>Sonderpädagogik</td>
+<td>Sonderp&auml;dagogik</td>
 </tr>
 <tr class="even">
 <td></td>
 <td colspan="2"></td>
-<td>Erwachsenenbildung</td>
+<td>Continuing education</td>
 <td></td>
 <td></td>
 <td></td>
@@ -1545,7 +818,7 @@ href="https://web.archive.org/web/20240226225633/https://www.educa.ch/sites/defa
 <tr class="odd">
 <td></td>
 <td colspan="2"></td>
-<td>Fernunterricht</td>
+<td>Distance learning</td>
 <td></td>
 <td></td>
 <td>Fernunterricht</td>
@@ -1564,7 +837,7 @@ href="https://web.archive.org/web/20240226225633/https://www.educa.ch/sites/defa
 <td></td>
 <td></td>
 <td><mark></mark></td>
-<td><mark>Stufenunabhängig</mark></td>
+<td><mark>Stufenunabh&auml;ngig</mark></td>
 </tr>
 <tr class="even">
 <td></td>
@@ -1575,168 +848,53 @@ href="https://web.archive.org/web/20240226225633/https://www.educa.ch/sites/defa
 <td>Nicht definiert</td>
 </tr>
 <tr class="odd">
-<td colspan="7">* angelehnt an Durchschnittsalter (Statistisches
-Bundesamt) (Statistisches Bundesamt (Destatis), 2021, S. 157f)</td>
+<td colspan="7">* Based on average age (Federal Statistical Office (Destatis), 2021, p. 157f)</td>
 </tr>
 </tbody>
 </table>
+According to teachers, the specification of an educational level (e.g. year or class) is particularly helpful when searching for educational resources [@wintergrouplsrj2umoo2014]. Not only does the educational level enable more accurate delimitation of resources in terms of the current progression of learners in the educational system, but it also contains implicit criteria, such as the expected level at which a learning objective or topic is taught. For example, it is assumed that the level of teaching differs for resources if they are designated as suitable for "university" or instead intended for the "elementary level". Therefore, specifying the relevant educational context in practice also implicitly communicates the didactisation of the resource for a specific target group that is typically to be expected for this educational level. This in turn is linked to expectations regarding the typical age of the target group.
 
-Die Angabe einer konkreten Bildungsstufe (z. B. Jahrgangs- bzw.
-Klassenstufe) wird von Lehrenden als äußerst hilfreich für die Suche
-nach Bildungsressourcen eingestuft [@wintergrouplsrj2umoo2014].
-Sie ermöglicht nicht nur die präzisere Eingrenzung von Ressourcen im Hinblick auf die
-aktuelle Progression Lernender im Bildungssystem, sondern enthält auch
-implizite Kriterien, wie beispielsweise das erwartete Niveau, auf
-welchem ein Lernziel oder Thema vermittelt wird. So wird in der Praxis
-angenommen, dass sich das Niveau der Vermittlung bei Ressourcen
-unterscheidet, wenn diese als Bildungsstufe beispielsweise die Eignung
-für die “Hochschule” oder eben den “Elementarbereich” ausweisen.
-Aufgrund dessen wird über die Angabe des jeweiligen Bildungskontexts in
-der Praxis zugleich implizit die Didaktisierung der Ressource für eine
-bestimmte Zielgruppe kommuniziert, die für diese Bildungsstufe
-typischerweise erwartbar ist. Damit verbunden sind Erwartungen an das
-typische Alter der Zielgruppe.
+This attribute is frequently used as a substitute for the missing machine-readable representations of learning and module catalogues, thereby allowing search results to be filtered according to relevant educational areas.
 
-Dieses Attribut wird häufig als Substitut für die nicht vorhandenen
-maschinenlesbaren Abbildungen von Lehr- und Modulkatalogen genutzt, um
-den Suchenden eine Filterung der Ergebnisse in ihren relevanten
-Bildungsbereichen zu ermöglichen.
+**Educational levels in metadata standards**
 
-**Bildungsstufen in Metadatenstandards**
+In LOM, the "context" attribute is used to describe educational levels. The very generic value list for contexts, which in LOM also includes extracurricular learning environments (cf. [learning location](#lernorte-lernräume)), has been adapted to the respective school system in the application profiles LOM-DE and LOM-CH.
 
-In LOM wird das Attribut “context” verwendet, um Bildungsstufen zu
-erfassen. Die sehr generische Werteliste für Kontexte, die in LOM auch
-außerschulische Lernumgebungen einschließt (vgl.
-[Lernort](#lernorte-lernräume)), ist von den Applikationsprofilen LOM-DE
-und LOM-CH auf das jeweilige Schulsystem angepasst worden.
+The LRMI standard contains the "[educationalLevel](http://purl.org/dc/terms/educationLevel)" attribute, which can also be used to differentiate between levels. No value list is specified in LRMI, and the values can come from a controlled vocabulary instead. LRMI thus circumvents any technical classification and allows different value ranges to be used. The Learning Metadata standard (cf. [Standards for content](#standards-für-inhalte)) also currently follows this example, though it uses the identically named "[educationalLevel](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#educationLevel)" attribute from DCMI Metadata Terms. Therefore, while LOM, LOM-DE and LOM-CH define explicit value ranges, the values used in the LRMI standard are dictated by the relevant implementation project.
 
-Der LRMI-Standard beinhaltet das Attribut
-“[educationalLevel](http://purl.org/dc/terms/educationLevel)”, mit
-welchem ebenfalls Niveaustufen differenzierbar sind. Eine Werteliste
-wird in LRMI nicht spezifiziert, die Werte können jedoch aus einem
-kontrollierten Vokabular stammen. Damit umgeht LRMI die fachliche
-Einordnung und ermöglicht die Einbindung verschiedener Wertebereiche.
-Diesem Beispiel folgt aktuell auch der Learning Metadata Standard (vgl.
-[Inhaltsstandards](#standards-für-inhalte)), wenngleich dort das
-gleichnamige Attribut
-“[educationalLevel](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#educationLevel)”
-aus den DCMI Metadata Terms verwendet wird. Während LOM, LOM-DE und
-LOM-CH hier somit explizite Wertebereiche vorgeben, obliegen diese im
-LRMI-Standard dem jeweiligen Implementierungsvorhaben.
+**Bases for value ranges**
 
-**Grundlagen der Wertebereiche**
+Common value ranges are based on the ISCED-2011 classification developed by UNESCO [@unescoiscei22012] along with the allocation of national educational programmes. The teaching-specific level "preparatory service" (practical training), which follows the university phase, is also sometimes integrated. In addition, some value ranges include a generic level such as "further training" or the alternative option "other".
 
-Gängige Wertebereiche sind an die ISCED-2011 Klassifikation der UNESCO
-[@unescoiscei22012] und die Zuordnung nationaler Bildungsgänge angelehnt.
-Zudem wird mitunter eine lehramtsspezifische Stufe „Vorbereitungsdienst“
-(Referendariat) integriert, die an die universitäre Ausbildungsphase
-anschließt. Auch eine generische Stufe wie „Fortbildung“ oder die
-Ausweichoption “Sonstige” finden sich in einigen Wertebereichen.
+In their analysis, Tavakoli et al. found that materials that are assigned a "level" are of comparatively higher quality \[@tavakoliqpoerma2020\], \[@tavakolimaoer2021\]. The "level" attribute of the "[SkillsCommons](https://www.skillscommons.org/)" data set used in the analysis conducted by Tavakoli et al. corresponds to the previously described "[prerequisites and prior knowledge](#lernvoraussetzungen-und-vorwissen)" attributes as well as the description of "[degrees](#abschlüsse)". This metadata field appears more likely to exist when the content has undergone "quality control" \[@tavakolimaoer2021, p. 628f\], which serves to highlight the complexity and difficulties encountered in the creation and description of attributes. In "Learning Metadata Terms", the successor to LOM, this attribute no longer exists as the LRMI attribute "educationalLevel" is used instead.
 
-Tavakoli et al. stellen in ihrer Analyse fest, dass Materialien, denen
-ein “level” zugewiesen wurde, eine vergleichsweise höhere Qualität
-aufweisen [@tavakoliqpoerma2020], [@tavakolimaoer2021].
-Das in der Analyse von Tavakoli et al. verwendete Attribut “level” des untersuchten
-“[SkillsCommons](https://www.skillscommons.org/)”-Datensatzes entspricht
-den hier beschriebenen Attributen “[Voraussetzungen und
-Vorwissen](#lernvoraussetzungen-und-vorwissen)” und der Erfassung der
-“[Abschlüsse](#abschlüsse)”. Dieses Metadatum scheint eher dann
-vorzuliegen, wenn die Inhalte eine “Qualitätskontrolle” durchlaufen
-haben [@tavakolimaoer2021, S. 628f], was auf die Komplexität und
-Schwierigkeiten hindeuten kann, die Ersteller\*innen oder
-Erfasser\*innen bei der initialen Attribuierung haben. In “Learning
-Metadata”, dem Nachfolger von LOM, existiert dieses Attribut nicht mehr,
-da stattdessen das LRMI-Attribut “educationalLevel” genutzt wird.
+**Differences in field usage based on value range selection**
 
-**Unterschiede in der Feldnutzung durch Selektion der Wertebereiche**
+The practical usage of the field differs depending on the value range employed.
 
-Die Praxisnutzung des Feldes unterscheidet sich in Abhängigkeit vom
-verwendeten Wertebereich.
+*Example: school types as a value range*
 
-*Beispiel: Schularten als Wertebereich*
+Assigning a school type to resources allows the relevant curricular requirements or specific didactic preparation for a certain school type to be identified. This enables the implementation of usage scenarios that aim to find systematised materials, for example, to differentiate between topics, competencies and levels based on the specific curricula for a school type. A similar systematisation can be found in school books and in the world of publishing. This helps to ensure compatibility. School types are also sometimes referred to as categories or kinds of schools.
 
-Durch die Zuweisung einer Schulart zu Ressourcen kann die Zugehörigkeit
-zu curricularen Vorgaben oder einer spezifischen didaktischen
-Aufbereitung für eine bestimmte Schulart gekennzeichnet werden. Darüber
-lassen sich Nutzungsszenarien realisieren, die darauf abzielen,
-systematisierte Materialien zu finden, beispielsweise zur
-Differenzierung zwischen Thema, Kompetenzen, Niveau anhand der
-jeweiligen spezifischen Lehrpläne, die für eine Schulart gelten. Eine
-vergleichbare Systematisierung findet sich bei Schulbüchern und im
-Verlagswesen. Auf diese Weise wird eine Anschlussfähigkeit hergestellt.
-Schularten werden bisweilen auch als Schultypen oder Schulformen
-bezeichnet.
+The idea behind this usage scenario is for teachers to be able to quickly find resources that are suitable and relevant for them as teachers of a specific school type, for example, by meeting curricular requirements for the relevant type of school. This also includes specific (types of) tasks, expectations for learning controls, differences in complexity and requirements (levels) and other characteristics that may be used to distinguish between different school types.
 
-Die Intention dieses Nutzungsszenarios ist, dass Lehrkräfte schnell und
-in gewohnter Weise Ressourcen finden, die für sie als Lehrkraft einer
-bestimmten Schulart geeignet und relevant sind, beispielsweise indem
-curriculare Vorgaben für die jeweilige Schulart erfüllt werden. Dies
-umfasst auch spezifische Aufgaben(-typen), Erwartungshorizonte für
-Lernkontrollen, Unterschiede der Komplexität und Anforderungen
-(Niveaustufe) und weitere Merkmale, die zwischen Schularten unter
-Umständen zur Differenzierung verwendet werden.
+One of the main criticisms levelled against this systematisation by education reformers, particularly against the background of inclusive education, is the general subdivision of the school system into separate school types. This also raises the question of how different types of schools differ between the federal states, not least with regard to changing teaching/learning cultures (e.g. constructivist approaches, teachers adopting a more supportive role in their teaching, opening up of lessons, self-directed learning processes).
 
-Eine grundlegende, reformpädagogische Kritik an dieser Systematisierung,
-vor dem Hintergrund einer inklusiven Bildung, ist die generelle
-Unterteilung des Schulsystems in Schularten. Daran schließt die Frage
-an, inwiefern sich verschiedene Schularten zwischen den Bundesländern
-überhaupt unterscheiden, auch im Hinblick auf sich ändernde
-Lehr-/Lernkulturen (bspw. konstruktivistische Ansätze, eher
-lernbegleitende Rolle von Lehrkräften, Öffnung des Unterrichts,
-selbstgesteuerte Lernprozesse).
+For a comparison between the individual states, see also the following appendices:
 
-Zum Vergleich der Ausprägungen in Ländern, siehe auch die folgenden
-Anlagen:
+- "Teaching career matrix: federal states / school types (teacher training programmes)"
+- "General education school types by state"
+- "Vocational school types by state"
 
-- "Matrix der Lehramtstypen: Bundesländer - Schularten
-  (Lehramtsstudiengänge)"
-- "Allgemeinbildende Schularten nach Ländern"
-- "Berufsbildende Schularten nach Ländern"
+Currently, the portals [Mundo](https://mundo.schule/), [QUA-LiS Materialdatenbank](https://www.schulentwicklung.nrw.de/materialdatenbank/), [lehrer-online](https://www.lehrer-online.de/), [lehrerbüro](https://www.lehrerbuero.de/suche.html), [meinUnterricht](https://meinunterricht.de/), [fobizz](https://tools.fobizz.com/gallery) and [schulportal.de](https://schulportal.de/?cmd=suche), among others, use the "school types" category as a common search entry and filter for teachers. The [meta-video-portal unterrichtsvideos.net](https://unterrichtsvideos.net/) also uses this metadata field. In the latter case, this assignment is also made for documentary purposes, for example, to identify a specific type of school at which the video-based educational resources listed in the portal were recorded, including, for example, authentic teaching videos \[@junkermunfl2022\].
 
-Zum jetzigen Zeitpunkt nutzen unter anderem die Portale
-[Mundo](https://mundo.schule/), [QUA-LiS
-Materialdatenbank](https://www.schulentwicklung.nrw.de/materialdatenbank/),
-[lehrer-online](https://www.lehrer-online.de/),
-[lehrerbüro](https://www.lehrerbuero.de/suche.html),
-[meinUnterricht](https://meinunterricht.de/),
-[fobizz](https://tools.fobizz.com/gallery) und
-[schulportal.de](https://schulportal.de/?cmd=suche), die Kategorie
-“Schularten” als gängigen Sucheinstieg und Filter für Lehrkräfte. Auch
-das [Meta-Videoportal
-unterrichtsvideos.net](https://unterrichtsvideos.net/) nutzt dieses
-Metadatum. Auf letzterem Portal erfolgt die Zuordnung zusätzlich zu
-dokumentarischen Zwecken, beispielsweise als Kennzeichnung einer
-konkreten Schulart, an denen die dort gelisteten videobasierten
-Bildungsressourcen aufgezeichnet wurden, darunter beispielsweise
-authentische Unterrichtsvideos [@junkermunfl2022].
+Any systematisation of resources thus refers to "school types", which, however, are not uniform across all federal states. Nevertheless, those involved in the teacher training and continuing education system are used to this presentation of resources since, for example, teachers work at specific school types and, consequently, curricula are shown for these exact school types. Therefore, an automated assignment based on the relevant educational level or other metadata may be recommended if school types cannot be described independently.
 
-Eine mögliche Systematisierung von Ressourcen bezieht sich somit auf
-“Schularten“, die jedoch bundesweit nicht einheitlich sind. Dennoch sind
-Akteur\*innen im Lehrkräfteaus- und -fortbildungssystem diese Art
-Aufbereitung gewohnt, da zum Beispiel Lehrkräfte an konkreten Schularten
-tätig sind und Lehrpläne für diese Schularten ausgewiesen werden, sodass
-sich hier ggf. eine automatisierte Zuordnung basierend auf der
-Bildungsstufe oder anderen Metadaten empfiehlt, sofern Schularten nicht
-eigenständig erfassbar sind.
+Educational institutions can be assigned to educational levels based on the ISCED-2011 classification [@bildungsberichterstattungbd2ibmab2022, p. XII]. However, particularly in schools with multiple educational programmes and wider ranges of classes, multiple assignments can be identified, and this has a direct impact on the precision of allocations. The interrelationships between the metadata fields "educational level", "class" and "school type" are shown in the figure "Educational establishments and learning environments in Germany" [@bildungsberichterstattungbd2ibmab2022, p. XIV] in the corresponding national report on education.
 
-Die Zuordnung von Bildungseinrichtungen zu den Bildungsstufen kann
-anhand der ISCED-2011 Klassifikation erfolgen
-[@bildungsberichterstattungbd2ibmab2022, S. XII].
-Hier sind jedoch insbesondere bei Schulen mit mehreren Bildungsgängen und größeren Spannen an
-Klassenstufen etwaige Mehrfachzuordnungen festzustellen, welche die
-Präzision der Zuweisungen schmälern. Gesamtzusammenhänge zwischen den
-Metadatenfeldern Bildungsstufe, Klassenstufe und Schulart sind in der
-Abbildung „Bildungsorte und Lernwelten in Deutschland“
-[@bildungsberichterstattungbd2ibmab2022, S. XIV] im Bildungsbericht
-dargestellt.
+Depending on the context, however, a systematisation according to degrees or qualifications may be more suitable for some usage scenarios in the future, since these can also be assigned to curricula. Moreover, such an approach would ensure interoperability between different federal states and school types (cf. [Degrees](#abschlüsse)).
 
-Grundsätzlich scheint jedoch, je nach Kontext, eine Systematisierung
-nach Abschlüssen unter Umständen für einige Nutzungsszenarien
-perspektivisch geeigneter, da diese ebenfalls Lehrplänen zugeordnet
-werden können und darüber hinaus anschlussfähig über die Bundesländer
-und Schularten sind (vgl. [Abschlüsse](#abschlüsse)).
-
-Tabelle: *Zusammenhänge zwischen Bildungsstufen und Schularten*
+Table: *Relationships between educational levels and school types*
 
 <table>
 <colgroup>
@@ -1745,84 +903,63 @@ Tabelle: *Zusammenhänge zwischen Bildungsstufen und Schularten*
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Bildungsstufe</strong></td>
-<td><strong>Schularten</strong> (DINI-AG KIM, 2022d) <strong>-</strong>
-Zuordnung nach (Bildungsberichterstattung, 2022, S. XII), um atypische
-Mehrfachzuordnungen bereinigt</td>
+<td><strong>Educational level</strong></td>
+<td><strong>School types</strong> (DINI-AG KIM, 2022d) <strong>&ndash;</strong> assignment according to national report on education (&quot;Bildungsberichterstattung&quot;, 2022, p. XII), adjusted for atypical multiple allocations</td>
 </tr>
 <tr class="even">
-<td>Elementarbereich</td>
+<td>Elementary level</td>
 <td>Vorschule</td>
 </tr>
 <tr class="odd">
-<td>Primarbereich</td>
+<td>Primary education</td>
 <td>Grundschule</td>
 </tr>
 <tr class="even">
-<td>Sekundarbereich I</td>
-<td>Hauptschule, Realschule, Gesamtschule, Gymnasium,
-Sekundarschule</td>
+<td>Lower secondary education</td>
+<td>Hauptschule, Realschule, Gesamtschule, Gymnasium, Sekundarschule</td>
 </tr>
 <tr class="odd">
-<td>Sekundarbereich II</td>
-<td>Gymnasium, Gemeinschaftsschule, Gesamtschule, Oberschule,
-Berufliches Gymnasium</td>
+<td>Upper secondary education</td>
+<td>Gymnasium, Gemeinschaftsschule, Gesamtschule, Oberschule, Berufliches Gymnasium</td>
 </tr>
 <tr class="even">
-<td>Postsekundärer nicht-tertiärer Bereich</td>
+<td>Post-secondary non-tertiary education</td>
 <td>Berufsfachschule, Berufsschule, Fachoberschule</td>
 </tr>
 </tbody>
 </table>
-
-**Attribute in Metadatenstandards**
+**Attributes in metadata standards**
 
 - LOM: context (5.6), difficulty (5.8)
-- AMB:
-  [educationalLevel](https://dini-ag-kim.github.io/amb/20231019/#educationallevel)
+- AMB: [educationalLevel](https://dini-ag-kim.github.io/amb/20231019/#educationallevel)
 - LRMI: [educationalLevel](https://schema.org/educationalLevel)
-- Learning Metadata:
-  [educationalLevel](https://schema.org/educationalLevel)
+- Learning Metadata Terms: [educationalLevel](https://schema.org/educationalLevel)
 
-**Mögliche Wertelisten**
+**Possible value lists**
 
-**Bildungsstufen**
+**Education levels**
 
-- [Bildungsstufen](https://w3id.org/kim/educationalLevel/), KIM (UNSECO
-  ISCED-2011), [Repo](https://github.com/dini-ag-kim/educationalLevel)
-- [Bildungsstufe](http://w3id.org/openeduhub/vocabs/educationalContext/),
-  Open Edu Hub / WirLernenOnline
+- [Educational levels](https://w3id.org/kim/educationalLevel/), KIM (UNSECO ISCED-2011), [repo](https://github.com/dini-ag-kim/educationalLevel)
+
+- [Educational context](http://w3id.org/openeduhub/vocabs/educationalContext/), Open Edu Hub / WirLernenOnline
+
 - International Standard Classification of Education (ISCED) (UNESCO):
-  - [1997](https://w3id.org/kim/isced-1997/scheme),
-    [2011](https://w3id.org/kim/isced-2011/scheme),
-    [2013](https://w3id.org/kim/isced-2013/scheme),
-    [Repo](https://github.com/dini-ag-kim/vocabs-edu)
-- LOM-CH: 5.6 Bildungsstufe | Educational Context
-  - Frühbereich, Obligatorische Schule, Sekundarstufe II,
-    Stufenunabhängig, Sonderpädagogik, Tertiärstufe, Weiterbildung,
-    Fernunterricht, Nicht definiert
-  - pre-school, compulsory education, special education, vocational
-    education, higher education, distance education, continuing
-    education, professional development, library, educational
-    administration, policy making, other
-- Common Education Data Standard: [Learning Resource Education
-  Level](https://ceds.ed.gov/element/001246)
-- European Schoolnet Vocabulary
-  - [EUN Educational Context
-    Values](http://europeanschoolnet-vbe.lexaurus.net/vbe/browse):
-    college/university, lower secondary school, post-secondary
-    institution other than university, pre-primary school, primary level
-    school, university granting advanced degrees, upper secondary school
-  - [LRE Educational Learning
-    Context](http://europeanschoolnet-vbe.lexaurus.net/vbe/browse):
-    compulsory education, continuing education, distance education,
-    educational administration, higher education, library, other, policy
-    making, pre-school, professional development, special education,
-    vocational education
+  
+  - [1997](https://w3id.org/kim/isced-1997/scheme), [2011](https://w3id.org/kim/isced-2011/scheme), [2013](https://w3id.org/kim/isced-2013/scheme), [repo](https://github.com/dini-ag-kim/vocabs-edu)
 
-- Educational Context (LOM-DE)
-  ([Archiv](https://web.archive.org/web/20220120213540/https://sodis.de/lom-de/LOM-DE_v0.9_1.pdf))
-  (FWU, 2010):
+- LOM-CH: 5.6 Bildungsstufe | Educational Context
+  
+  - Frühbereich, Obligatorische Schule, Sekundarstufe II, Stufenunabhängig, Sonderpädagogik, Tertiärstufe, Weiterbildung, Fernunterricht, Nicht definiert
+  - Pre-school, compulsory education, special education, vocational education, higher education, distance education, continuing education, professional development, library, educational administration, policy making, other
+
+- Common Education Data Standard: [Learning Resource Education Level](https://ceds.ed.gov/element/001246)
+
+- European Schoolnet Vocabulary
+  
+  - [EUN Educational Context Values](http://europeanschoolnet-vbe.lexaurus.net/vbe/browse): college/university, lower secondary school, post-secondary institution other than university, pre-primary school, primary level school, university granting advanced degrees, upper secondary school
+  - [LRE Educational Learning Context](http://europeanschoolnet-vbe.lexaurus.net/vbe/browse): compulsory education, continuing education, distance education, educational administration, higher education, library, other, policy making, pre-school, professional development, special education, vocational education
+
+- Educational.Context (LOM-DE) ([archive](https://web.archive.org/web/20220120213540/https://sodis.de/lom-de/LOM-DE_v0.9_1.pdf)) (FWU, 2010):
 
 <table>
 <colgroup>
@@ -1853,7 +990,7 @@ Berufliches Gymnasium</td>
 <tr class="even">
 <td>special education</td>
 <td>LREv3.0</td>
-<td>Sonderpädagogische Förderung</td>
+<td>Sonderp&auml;dagogische F&ouml;rderung</td>
 <td>special education</td>
 </tr>
 <tr class="odd">
@@ -1865,19 +1002,19 @@ Berufliches Gymnasium</td>
 <tr class="even">
 <td>higher education</td>
 <td>LREv3.0</td>
-<td>Hochschule</td>
+<td>Higher education</td>
 <td>higher education</td>
 </tr>
 <tr class="odd">
 <td>distance education</td>
 <td>LREv3.0</td>
-<td>Fernunterricht</td>
+<td>Distance learning</td>
 <td>distance education</td>
 </tr>
 <tr class="even">
 <td>continuing education</td>
 <td>LREv3.0</td>
-<td>Erwachsenenbildung</td>
+<td>Continuing education</td>
 <td>continuing education</td>
 </tr>
 <tr class="odd">
@@ -1925,13 +1062,13 @@ Berufliches Gymnasium</td>
 <tr class="even">
 <td>lower secondary school</td>
 <td>LOM-DE1.0</td>
-<td>Sekundarstufe I</td>
+<td>Secondary I</td>
 <td>compulsory education</td>
 </tr>
 <tr class="odd">
 <td>upper secondary school</td>
 <td>LOM-DE1.0</td>
-<td>Sekundarstufe II</td>
+<td>Secondary II</td>
 <td>compulsory education</td>
 </tr>
 <tr class="even">
@@ -1990,189 +1127,72 @@ Berufliches Gymnasium</td>
 </tr>
 </tbody>
 </table>
+**Classes, years, grades or semesters**
 
-**Klassenstufen, Jahrgangsstufen oder Fachsmester**
+- Open Edu Hub / [WirLernenOnline](https://wirlernenonline.de/): [educational level](http://w3id.org/openeduhub/vocabs/educationalLevel/)
+- [XSchule](https://www.xschule.digital/): [Jahrgangsstufe](https://web.archive.org/web/20240210154653/https://xschule.digital/def/xschule/1.0/spec/xsc_spezifikation_1.0.pdf)
+- [Meta-video-portal unterrichtsvideos.net](https://unterrichtsvideos.net) ([repo](https://github.com/unterrichtsvideos/vocabs)): [grades](https://w3id.org/unterrichtsvideos.net/vocabs/grade/)
+- [dfnEduPerson](https://doku.tid.dfn.de/de:elearning_attributes): Fachsemester ([dfnEduPersonTermsOfStudy](https://web.archive.org/web/20231215062855/https://doku.tid.dfn.de/de:elearning_attributes#a14))
 
-- Open Edu Hub / [WirLernenOnline](https://wirlernenonline.de/):
-  [Klassenstufe](http://w3id.org/openeduhub/vocabs/educationalLevel/)
-- [XSchule](https://www.xschule.digital/):
-  [Jahrgangsstufe](https://web.archive.org/web/20240210154653/https://xschule.digital/def/xschule/1.0/spec/xsc_spezifikation_1.0.pdf)
-- [Meta-Videoportal
-  unterrichtsvideos.net](https://unterrichtsvideos.net)
-  ([Repo](https://github.com/unterrichtsvideos/vocabs)):
-  [Jahrgangsstufen](https://w3id.org/unterrichtsvideos.net/vocabs/grade/)
-- [dfnEduPerson](https://doku.tid.dfn.de/de:elearning_attributes):
-  Fachsemester
-  ([dfnEduPersonTermsOfStudy](https://web.archive.org/web/20231215062855/https://doku.tid.dfn.de/de:elearning_attributes#a14))
+**Types, categories, kinds of schools**
 
-**Schularten, Schultypen, Schulformen**
+- [KIM](https://wiki.dnb.de/display/DINIAGKIM/OER-Metadatengruppe): [school type vocabulary](https://w3id.org/kim/schularten/), [repo](https://github.com/dini-ag-kim/schularten)
+- Open Edu Hub / [WirLernenOnline](https://wirlernenonline.de/): [school type vocabulary](http://w3id.org/openeduhub/vocabs/schoolType/) (Open Edu Hub)
+- [Mundo.schule](https://mundo.schule/search), FWU: Kindergarten, Grundschule, Mittel- / Hauptschule, Realschule, Gymnasium, Förderschule, Berufsschule
+- [XBildung](https://xbildung.de/): [Art der Schule](https://web.archive.org/web/20240210154500/https://xbildung.de/def/xbildung/1.0/spec/xbd_spezifikation_1.0.pdf), based on the core data set of the federal states for individual statistical school data
+- [School types](https://www.datenportal.bmbf.de/portal/de/K231.html), data portal (BMBF)
+- [Fobizz](https://plattform.fobizz.com/fortbildungen): Elementary School, Secondary School, Vocational School, Special School
+- [Meta-video-portal unterrichtsvideos.net](https://unterrichtsvideos.net/metaportal/) ([repo](https://github.com/unterrichtsvideos/vocabs)): Vorschule, Grundschule, Hauptschule, Realschule, Gesamtschule, Gymnasium, Förderschule, Privat- und Ersatzschulen, Sekundarschule, Berufliche Bildung, Sonstige Schulformen
+- [meinUnterricht](https://www.meinunterricht.de/): Berufliche Schule, Förderschule/Inklusion, Gesamtschule, Grundschule, Gymnasium, Hauptschule, Mittlere Schule, Realschule
+- [DigitalLearningLab](https://digitallearninglab.de/unterrichtsbausteine) ([API](https://digitallearninglab.de/api/schoolTypes)): Förderschule, Gemeinschaftsschule, Gesamtschule, Grundschule, Gymnasium, Hauptschule, Integrierte Gesamtschule, Integrierte Sekundarschule (ISS), Mittelschule, Mittelstufenschule, Oberschule, Realschule, Realschulen plus, Regelschule, Regionale Schule, Sekundarschule, Stadtteilschule, Vorschule, Werkrealschule, Werkschule
+- [SIF Data Model](https://data.a4l.org/sif-specifications/) (UK, AU, NZ, NA), School Type / Organisation Type within the [Schools Interoperability Framework Implementation Specification](https://data.a4l.org/)
 
-- [KIM](https://wiki.dnb.de/display/DINIAGKIM/OER-Metadatengruppe):
-  [Schularten-Vokabular](https://w3id.org/kim/schularten/),
-  [Repo](https://github.com/dini-ag-kim/schularten)
-- Open Edu Hub / [WirLernenOnline](https://wirlernenonline.de/):
-  [Schularten-Vokabular](http://w3id.org/openeduhub/vocabs/schoolType/)
-  (Open Edu Hub)
-- [Mundo.schule](https://mundo.schule/search), FWU: Kindergarten,
-  Grundschule, Mittel- / Hauptschule, Realschule, Gymnasium,
-  Förderschule, Berufsschule
-- [XBildung](https://xbildung.de/): [Art der
-  Schule](https://web.archive.org/web/20240210154500/https://xbildung.de/def/xbildung/1.0/spec/xbd_spezifikation_1.0.pdf),
-  basierend auf Kerndatensatz der Länder für schulstatistische
-  Individualdaten
-- [Schularten](https://www.datenportal.bmbf.de/portal/de/K231.html),
-  Datenportal (BMBF)
-- [Fobizz](https://plattform.fobizz.com/fortbildungen): Grundschule,
-  Weiterführende Schule, Berufliche Schule, Förderschule
-- [Meta-Videoportal
-  unterrichtsvideos.net](https://unterrichtsvideos.net/metaportal/)
-  ([Repo](https://github.com/unterrichtsvideos/vocabs)): Vorschule,
-  Grundschule, Hauptschule, Realschule, Gesamtschule, Gymnasium,
-  Förderschule, Privat- und Ersatzschulen, Sekundarschule, Berufliche
-  Bildung, Sonstige Schulformen
-- [meinUnterricht](https://www.meinunterricht.de/): Berufliche Schule,
-  Förderschule/Inklusion, Gesamtschule, Grundschule, Gymnasium,
-  Hauptschule, Mittlere Schule, Realschule
-- [DigitalLearningLab](https://digitallearninglab.de/unterrichtsbausteine)
-  ([API](https://digitallearninglab.de/api/schoolTypes)): Förderschule,
-  Gemeinschaftsschule, Gesamtschule, Grundschule, Gymnasium,
-  Hauptschule, Integrierte Gesamtschule, Integrierte Sekundarschule
-  (ISS), Mittelschule, Mittelstufenschule, Oberschule, Realschule,
-  Realschulen plus, Regelschule, Regionale Schule, Sekundarschule,
-  Stadtteilschule, Vorschule, Werkrealschule, Werkschule
-- [SIF Data Model](https://data.a4l.org/sif-specifications/) (UK, AU,
-  NZ, NA), School Type / Organisation Type innerhalb der [Schools
-  Interoperability Framework Implementation
-  Specification](https://data.a4l.org/)
+**Other or mixed value lists**
 
-**Sonstige oder eher gemischte Wertelisten**
+- [SESAM media library](https://sesam.lmz-bw.de/search): Grundschule, Sekundarstufe I, Sekundarstufe II, Elementarbereich, Sonderschulen, Berufliche Schulen, Außerschulische Jugendbildung, Pädagogische Aus- und Weiterbildung, Erwachsenenbildung
+- [bpb material search](https://www.bpb.de/lernen/materialsuche/): Außerschulische Bildung, Berufsschule, Erwachsenenbildung, Hochschule, Journalist/innen, Lernen, Multiplikatoren/innen, Primarstufe, Sekundarstufe I, Sekundarstufe II
+- [Wikiwijs](https://zoeken.wikiwijs.nl/search/), learning level (translated from Dutch): pre-school education, novices, specialised education, primary school, secondary school, higher vocational education, scientific education
+- [Bildungsmediathek NRW](https://nrw.edupool.de/?pid=fnodv5er6v9hfjr0cefjtiicm7), incl.: Berufsbildende Schule, Elementarbereich, Jugendbildung, Grundschule, Erwachsenenbildung, Sekundarstufe I, Sekundarstufe II, Sonderpädagogische Förderung, Lehrerfort- und -weiterbildung
 
-- [SESAM-Mediathek](https://sesam.lmz-bw.de/search): Grundschule,
-  Sekundarstufe I, Sekundarstufe II, Elementarbereich, Sonderschulen,
-  Berufliche Schulen, Außerschulische Jugendbildung, Pädagogische Aus-
-  und Weiterbildung, Erwachsenenbildung
-- [Materialsuche der bpb](https://www.bpb.de/lernen/materialsuche/):
-  Außerschulische Bildung, Berufsschule, Erwachsenenbildung, Hochschule,
-  Journalist/innen, Lernen, Multiplikatoren/innen, Primarstufe,
-  Sekundarstufe I, Sekundarstufe II
-- [Wikiwijs](https://zoeken.wikiwijs.nl/search/), Lernniveau
-  (niederländisch, übersetzt): Vorschulbildung, Neulinge, Spezialisierte
-  Ausbildung, Grundschule, Sekundarschulbildung, höhere
-  Berufsausbildung, Wissenschaftliche Ausbildung
-- [Bildungsmediathek
-  NRW](https://nrw.edupool.de/?pid=fnodv5er6v9hfjr0cefjtiicm7), u.a.:
-  Berufsbildende Schule, Elementarbereich, Jugendbildung, Grundschule,
-  Erwachsenenbildung, Sekundarstufe I, Sekundarstufe II,
-  Sonderpädagogische Förderung, Lehrerfort- und -weiterbildung
+#### 4.2.3.2 Typical age
 
-#### 4.2.3.2 Typisches Alter
+The metadata field "typical age" describes the age range for which an educational resource is most suitable. It is often specified as a range with two values, e.g. as a numerical interval \[6;10\] for an age range of 6 to 10 years. This information helps teachers to efficiently identify age-appropriate educational resources that meet the needs of the relevant target group. It also allows resources that may be too simple or too complex for specific age groups to filtered out (implicit level). In some cases, it is possible for the typical age to be proposed automatically based on the assignment of an educational level (cf. [Educational level](#bildungsstufe-bildungskontext)).
 
-Das Metadatenfeld "Typisches Alter" beschreibt die Altersspanne, für die
-eine Bildungsressource am besten geeignet ist. Es wird häufig als
-Bereich mit zwei Werten angegeben, z. B. als numerisches Intervall
-\[6;10\] für eine Altersspanne von 6 bis 10 Jahren. Die Angabe
-unterstützt Lehrende, altersgerechte Bildungsressourcen effizient zu
-finden, die den Bedürfnissen der Zielgruppe entsprechen. Es ermöglicht
-eine Filterung von Ressourcen, die für bestimmte Altersgruppen zu
-einfach oder zu komplex sein könnten (implizite Niveaustufe). Das
-typische Alter kann unter Umständen durch Zuweisung der Bildungsstufe
-automatisch empfohlen werden (vgl.
-[Bildungsstufe](#bildungsstufe-bildungskontext)).
+Related: FSK, PEGI, USK (recommended minimum age, age rating according to German youth protection law – JuSchG) (cf. [Usage context and conditions](#einsatzkontext-und--voraussetzungen))
 
-Verwandt: FSK, PEGI, USK (empfohlenes Mindestalter, Altersfreigabe gemäß
-JuSchG) (vgl. [Einsatzkontext und
--voraussetzungen](#einsatzkontext-und--voraussetzungen))
-
-**Attribute in Metadatenstandards**
+**Attributes in metadata standards**
 
 - LOM: 5.7:Educational.TypicalAgeRange
 - LRMI: [typicalAgeRange](https://schema.org/typicalAgeRange)
-- Learning Metadata:
-  [educationalLevel](https://schema.org/educationalLevel)
+- Learning Metadata Terms: [educationalLevel](https://schema.org/educationalLevel)
 
-#### 4.2.3.3 Abschlüsse
+#### 4.2.3.3 Degrees
 
-Das Metadatenfeld weist den Ressourcen Werte zu, die einem anvisierten,
-bereits erworbenen oder mit der Ressource in Zusammenhang stehenden
-Abschluss entsprechen.
+The metadata field assigns values to resources that correspond to a targeted or previously acquired degree or another qualification associated with the resource.
 
-**Praxisbeispiel Lehrkräftebildung: Gestufte und polyvalente
-Studiengänge**
+**Practical example of teacher training: tiered and polyvalent study programmes**
 
-Um gemischte Sammlungen von Lehr-/Lernmaterialien zu systematisieren,
-ist die Unterscheidung von fachwissenschaftlichen zu fachdidaktischen
-Ressourcen sinnvoll, damit relevante Ressourcen im Bereich der
-Lehrkräftebildung mit entsprechender Passung zum Abschluss gefunden
-werden können.
+To systematise mixed collections of teaching/learning materials, it is useful to distinguish between subject-specific and subject-didactic resources so that relevant resources in the field of teacher training can be found that are appropriate to the relevant degree.
 
-Für ein Studium mit erstem Abschlussziel „Bachelor of Education“ sind
-womöglich andere oder weitere Ressourcen relevant, verglichen mit dem
-Abschlussziel „Bachelor of Arts“. Das Attribut “Abschlüsse” ermöglicht
-somit die Differenzierung zwischen fachwissenschaftlichen und
-fachdidaktischen Ressourcen. Insbesondere im Hochschulkontext ist dies
-bislang unzureichend möglich.
+For a study programme with a first degree of "Bachelor of Education", different or additional resources may be relevant than for a "Bachelor of Arts" degree. The "degrees" attribute thus enables differentiation between subject-specific and subject-didactic resources – something which has so far only been possible to a limited extent, particularly in a higher education context.
 
-So ist in gängigen Wertelisten, wie der Hochschulfächersystematik,
-beispielsweise „Mathematik“ als Auswahl vorhanden, jedoch nicht
-„Mathematikdidaktik“ oder ein vergleichbarer Term. Gleichzeitig wäre
-jedoch eine Doppelung jedes Fachs zur Kennzeichnung der dazugehörigen
-Didaktik nicht sinnvoll. Durch eine Angabe des Abschlusses können
-Ressourcen für „Lehramtsstudiengänge“ daher gegenüber
-„fachwissenschaftlichen Studiengängen“ abgegrenzt werden. Je nach
-Spezifität der Werteliste wäre auch eine unmittelbare Unterscheidung
-zwischen verschiedenen Lehramtsstudiengängen denkbar, um beispielsweise
-Material für die Lehrkräftebildung mit Bezug zu Grundschulen von
-Material mit Bezug zu beruflichen Schulen abzugrenzen. Dabei gibt es
-verschiedene Herausforderungen bei der Erfassung von Abschlüssen in der
-Lehrkräftebildung:
+For example, "mathematics" is available as a selection in established value lists, such as the "Hochschulfächersystematik" (subject classification system for higher education), yet "mathematical didactics" or a comparable term is not. At the same time, however, it would not make sense to duplicate each subject to represent the corresponding didactics. Therefore, specifying a degree allows resources for "teacher training programmes" to be distinguished from "subject-specific courses". Depending on the specificity of the value list, a direct distinction between different teacher training programmes would also be conceivable, for example, to differentiate between material for teacher training in a primary school context and material relating to vocational schools. Describing degrees in the field of teacher training presents a range of challenges:
 
-1)  **Gestufte Studienstruktur**
+1) **Tiered degree structure**
 
-Die gestufte Struktur der Lehramtsstudiengänge (Bachelor, Master) war
-2022 in neun Bundesländern vorgeschrieben. In einem Bundesland gab es
-eine grundständige Struktur (Staatsexamen) und sechs Bundesländer
-realisierten eine Mischung (gestuft und grundständig) [@centrumfurhochschulentwicklungmllvzs2024].
+In 2022, the tiered structure of teacher training programmes (bachelor, master) was prescribed in nine federal states. An undergraduate structure (state examination) existed in one state, while six states implemented a mixture between tiered and undergraduate study [@centrumfurhochschulentwicklungmllvzs2024].
 
-2)  **Polyvalente Studiengänge (Zwei-Fach-Bachelor)**
+2) **Polyvalent degree programmes (dual-subject bachelor)**
 
-Die Lehramtsstudiengänge sind als Zwei-Fach-Bachelor zum Teil
-polyvalent. Aus der Erfassung des Abschlusses würde somit zunächst nicht
-unmittelbar hervorgehen, ob es sich um ein Lehramtsstudium handelt. Bei
-einer Befragung des Monitor Lehrerbildung im Jahr 2022 gaben 33 von 55
-Universitäten an, polyvalente Lehramtsstudiengänge zumindest für einige
-Lehramtstypen anzubieten [@centrumfurhochschulentwicklungmlpb2024].
+Teacher training courses are partially polyvalent as a two-subject bachelor's degree. The definition of the degree would therefore not immediately indicate whether a study programme constitutes a teacher training course. In a survey conducted by Monitor Lehrerbildung (teacher training monitor) in 2022, 33 out of 55 universities stated that they offer polyvalent teacher training courses for at least some teaching careers [@centrumfurhochschulentwicklungmlpb2024].
 
-3)  **Studiengänge für unterschiedliche Lehrämter**
+3) **Degree programmes for different teaching careers**
 
-Die Strukturierung des Schulwesens anhand von Schularten spiegelt sich
-auch in der Vielfalt der Studiengänge wider. So gibt es unter Umständen
-in den Bundesländern spezielle Studiengänge für das Lehramt,
-beispielsweise an Grundschulen (Lehramtstyp 1) den Abschluss „Bachelor
-G“. Sowohl die Existenz als auch die Bezeichnungen von Schularten und
-Studiengängen unterscheiden sich dabei jedoch zwischen den Bundesländern
-\[vgl. Anhang “Matrix der Lehramtstypen: Bundesländer - Schularten
-(Lehramtsstudiengänge)”\]. Neben den Unterschieden zwischen den
-Bundesländern wandelt sich zudem das Schulwesen, sodass Schularten
-wegfallen oder neue entstehen. In der Praxis wird den Ressourcen häufig
-dennoch eine Schulart als Metadatum zugewiesen. Dies hat
-unterschiedliche Gründe, sei es zu dokumentarischen Zwecken, um einen
-Wiedererkennungswert und Bezugspunkt für die Lehrenden zu schaffen, oder
-schlicht, da das Schulwesen aus Sicht der Bundesländer und somit
-einzelner Akteur\*innen des Aus- und Fortbildungssystems in Schularten
-strukturiert ist.
+The structuring of the school system based on school types is also reflected in the diversity of study programmes. For example, special teacher training programmes may exist in the federal states, such as the "Bachelor G" degree for primary schools (teaching career type 1). However, both the existence and the designations of school types and study programmes differ between the individual states [see appendix "Teaching career matrix: federal states / school types (teacher training programmes)"]. Along with the differences between the federal states, another factor is the ever-changing landscape of the school system, with school types being discontinued or new ones being created. In practice, however, a school type is often assigned to the resources as metadata. There are various reasons for this – be it for documentary purposes, to ensure recognition and provide a reference point for teachers, or simply because the school system is structured into school types from the perspective of the federal states and, consequently, individual stakeholders in the education and training system.
 
-Die KMK-Lehramtstypen lösen die obig benannten Herausforderungen auf, da
-es sich um eine bundesweit gültige Systematisierung der
-Lehrkräftebildung handelt, die zudem bereits seit den 90ern besteht und
-auch heute weiterhin als bundeslandübergreifendes Kategoriensystem gilt
-[@kmkaa2023].
-Durch Zuweisung des Lehramtstypen für eine Ressource kann
-eine Zuordnung zu Abschlüssen der Lehramtsausbildung sowie auch den
-Schularten bundesweit anschlussfähig hergestellt werden. Somit ergibt
-sich in Kombination mit anderen Metadatenfeldern jeweils die spezifische
-Bedeutung für einzelne Ressourcen.
+The KMK teaching career types address the aforementioned challenges by serving as a nationwide systematisation of teacher training – one that has existed since the 1990s and continues to ensure effective categorisation across all federal states to this day [@kmkaa2023]. Defining the teaching career types for a resource facilitates the nationwide assignment of both teacher training qualifications and individual school types. In combination with other metadata fields, this produces the specific meaning for individual resources.
 
-Tabelle: *KMK-Lehramtstypen*
+Table: *KMK teaching career types*
 
 <table>
 <colgroup>
@@ -2181,327 +1201,162 @@ Tabelle: *KMK-Lehramtstypen*
 <tbody>
 <tr class="odd">
 <td>DINI-AG-KIM: <a
-href="http://w3id.org/kim/kmk-vocabs/lehramtstypen/"><strong>KMK-Lehramtstypen</strong></a>
-(KMK, 2023)</td>
+href="http://w3id.org/kim/kmk-vocabs/lehramtstypen/"><strong>KMK teaching careers</strong></a> (KMK, 2023)</td>
 </tr>
 <tr class="even">
-<td>Lehramtstyp 1: Lehrämter der Grundschule bzw. Primarstufe</td>
+<td>Type 1: Teaching careers at the Grundschule or primary level</td>
 </tr>
 <tr class="odd">
-<td>Lehramtstyp 2: Übergreifende Lehrämter der Primarstufe und aller
-oder einzelner Schularten der Sekundarstufe I</td>
+<td>Type 2: General teaching careers at primary level and all or individual lower secondary level school types</td>
 </tr>
 <tr class="even">
-<td>Lehramtstyp 3: Lehrämter für alle oder einzelne Schularten der
-Sekundarstufe I</td>
+<td>Type 3: Teaching careers at all or individual lower secondary level school types</td>
 </tr>
 <tr class="odd">
-<td>Lehramtstyp 4: Lehrämter der Sekundarstufe II [allgemeinbildende
-Fächer] oder für das Gymnasium</td>
+<td>Type 4: Teaching careers for the general education subjects at upper secondary level or for the Gymnasium</td>
 </tr>
 <tr class="even">
-<td>Lehramtstyp 5: Lehrämter der Sekundarstufe II [berufliche Fächer]
-oder für die beruflichen Schulen</td>
+<td>Type 5: Teaching careers in vocational subjects at upper secondary level or at vocational schools</td>
 </tr>
 <tr class="odd">
-<td>Lehramtstyp 6: Sonderpädagogische Lehrämter</td>
+<td>Type 6: Teaching careers in special education</td>
 </tr>
 </tbody>
 </table>
-
 **  
-Attributvorschläge zur Erfassung von Abschlüssen**
+Attribute suggestions for describing degrees**
 
-- Aus dem [ComeIn-Projekt](https://comein.nrw): educationalCredential  
-  Ein neues Feld “educationalCredential”, angelehnt an den
-  schema.org-Typ
-  “[EducationalOccupationalCredential](https://schema.org/EducationalOccupationalCredential)”,
-  der jedoch keine Entsprechung als Eigenschaft des schema.org-Typs
-  “LearningResource” hat. Unter Umständen ist jedoch auch die Nutzung
-  des schema.org-Attributs
-  “[credentialCategory](https://schema.org/credentialCategory)” möglich.
-- [DFN-AAI](https://doku.tid.dfn.de/de:aai:about):
-  dfnEduPersonFinalDegree, dfnEduPersonBranchAndDegree  
-  Im Hochschulkontext wurde das Schema
-  “[dfnEduPerson](https://web.archive.org/web/20231129013938/https://doku.tid.dfn.de/de:attributes#e-learning_und_dfn-spezifische_erweiterungen)”
-  entwickelt [@deutschmanndtuovafbe2008]. Das Schema basiert auf den
-  Objektklassen organizationalPerson (RFC 4519), inetOrgPerson (RFC
-  2798), [SCHAC](https://wiki.refeds.org/display/STAN/SCHAC) (SCHema for
-  ACademia). Es erweitert das international verbreitete [eduPerson
-  Schema](https://web.archive.org/web/20231004160344/https://wiki.refeds.org/display/STAN/eduPerson)
-  der Research and Education FEDerations group
-  ([REFEDS](https://refeds.org/)) um E-Learning- und DFN-spezifische
-  Attribute und Wertelisten. Im Attribut
-  “[dfnEduPersonFinalDegree](https://web.archive.org/web/20231215062855/https://doku.tid.dfn.de/de:elearning_attributes#a12)”
-  wird der entsprechende numerische Wert aus der Liste des statistischen
-  Bundesamtes erfasst. Das Attribut
-  “[dfnEduPersonBranchAndDegree](https://web.archive.org/web/20231215062855/https://doku.tid.dfn.de/de:elearning_attributes#a15)”
-  enthält fachbezogene Abschlüsse.
+- From the [ComeIn project](https://comein.nrw): educationalCredential  
+A new field "educationalCredential", which is based on the schema.org type "[EducationalOccupationalCredential](https://schema.org/EducationalOccupationalCredential)" but has no equivalent as a property of the schema.org type "LearningResource". Use of the schema.org attribute "[credentialCategory](https://schema.org/credentialCategory)" is also possible under certain circumstances.
+- [DFN-AAI](https://doku.tid.dfn.de/de:aai:about): dfnEduPersonFinalDegree, dfnEduPersonBranchAndDegree  
+The schema "[dfnEduPerson](https://web.archive.org/web/20231129013938/https://doku.tid.dfn.de/de:attributes#e-learning_und_dfn-spezifische_erweiterungen)" was developed in the higher education context \[@deutschmanndtuovafbe2008\]. The schema is based on the object classes organizationalPerson (RFC 4519), inetOrgPerson (RFC 2798), [SCHAC](https://wiki.refeds.org/display/STAN/SCHAC) (SCHema for ACademia). It extends the internationally established [eduPerson schema](https://web.archive.org/web/20231004160344/https://wiki.refeds.org/display/STAN/eduPerson) of the Research and Education FEDerations group ([REFEDS](https://refeds.org/)) with the addition of e-learning-specific and DFN-specific attributes and value lists. The attribute "[dfnEduPersonFinalDegree](https://web.archive.org/web/20231215062855/https://doku.tid.dfn.de/de:elearning_attributes#a12)" contains the relevant numerical value from the list produced by the Federal Statistical Office. The attribute "[dfnEduPersonBranchAndDegree](https://web.archive.org/web/20231215062855/https://doku.tid.dfn.de/de:elearning_attributes#a15)" contains subject-specific degrees.
 
-**Mögliche Wertelisten**
+**Possible value lists**
 
-- **Schule**
-  - [XSchule](https://xschule.digital/def/xschule/0.3/code/urn-xbildung-de-destatis-codeliste-artdesschulabschlusses.xml)
-    mit ISCED-Mapping (vgl.
-    [Bildungsstufe](#bildungsstufe-bildungskontext))
-  - KIM: [Schulabschlüsse](https://w3id.org/kim/schulabschluesse/) mit
-    Mappings zu Wikidata und DNB
+- **School**
+  
+  - [XSchule](https://xschule.digital/def/xschule/0.3/code/urn-xbildung-de-destatis-codeliste-artdesschulabschlusses.xml) with ISCED mapping (cf. [Educational level](#bildungsstufe-bildungskontext))
+  - KIM: [Schulabschlüsse](https://w3id.org/kim/schulabschluesse/) (school leaving certificates) with mappings to Wikidata and DNB
 
-- **Hochschule**
-  - [XHochschule](https://xhochschule.de/def/xhochschule/0.92/spec/spezifikation_0.92.pdf)
-    mit ISCED-Mapping (vgl.
-    [Bildungsstufe](#bildungsstufe-bildungskontext)) **  
-    **(*alle Abschlüsse, zusätzlich Erststudium, Zweitstudium*)
-  - Destatis Schlüsseltabellen für Abschlüsse im
-    [Erhebungsportal](https://erhebungsportal.estatistik.de/Erhebungsportal/informationen/statistik-der-studenten-372)
-    ([Repo-Mirror](https://github.com/dini-ag-kim/destatis-schluesseltabellen))
-  - [Hochschulkompass](https://www.hochschulkompass.de/) (Abschlüsse):
-    Abschlussprüfung, Bachelor/Bakkalaureus, Diplom, Diplom (FH),
-    Fakultätsexamen, Kirchlicher Abschluss, Konzertexamen,
-    Lizentiatenprüfung, Magister, Master, Staatsexamen, Theologische
-    Prüfung
+- **Higher education**
+  
+  - [XHochschule](https://xhochschule.de/def/xhochschule/0.92/spec/spezifikation_0.92.pdf) with ISCED mapping (cf. [Educational level](#bildungsstufe-bildungskontext)) \*\*  
+\*\*(*All degrees, plus first degree, second degree*)
+  - Destatis key tables for degrees in the [survey portal](https://erhebungsportal.estatistik.de/Erhebungsportal/informationen/statistik-der-studenten-372) ([repo mirror](https://github.com/dini-ag-kim/destatis-schluesseltabellen))
+  - [Higher Education Compass](https://www.hochschulkompass.de/) (Degree): Baccalaureate/Bachelor, Church degree, Department examination, Diplom, Diplom (university of applied sciences), Extended qualification in music, Final examination, Magister, Magister (Masters degree course), Master, State Examination, Theological Examination
 
-- **Lehrkräfteaus-/-fortbildung: Lehramtsbezogene Abschlüsse,  
-  ***bundesweite Systematisierung der Lehramtsabschlüsse über
-  KMK-Lehramtstypen*
-  - KIM: [Lehramtstypen](http://w3id.org/kim/kmk-vocabs/lehramtstypen/)
+- \*\*Teacher training: teaching degrees  
+\*\**Nationwide systematisation of teaching degrees based on KMK teaching career types*
+  
+  - KIM: [teaching career types](http://w3id.org/kim/kmk-vocabs/lehramtstypen/)
 
-- **Ausbildungsberufe**
-  - Verzeichnis der anerkannten Ausbildungsberufe des Bundesinstitut für
-    Berufsbildung (BIBB)
-    ([Publikationen](https://www.bibb.de/dienst/publikationen/de/suche?publication_search_result_voe%5Bseries%5D=verzeichnis%20der%20anerkannten%20ausbildungsberufe&publication_search_result_voe%5BentriesPerPage%5D=10&publication_search_result_voe%5Bsorting%5D=newest_desc))
-
+- **Training occupations**
+  
+  - Directory of recognised training occupations published by the Federal Institute for Vocational Education and Training (BIBB) ([publications](https://www.bibb.de/dienst/publikationen/de/suche?publication_search_result_voe%5Bseries%5D=verzeichnis%20der%20anerkannten%20ausbildungsberufe&publication_search_result_voe%5BentriesPerPage%5D=10&publication_search_result_voe%5Bsorting%5D=newest_desc))
+  
   - [HubbS](https://hubbs.schule/search/mediathek) (Berufsfeld, Beruf)
-  - [Netzwerk
-    Q4.0](https://netzwerkq40.de/learning-nuggets-lernmedien-fuer-ausbilderinnen/)
-    (Thema/Trainings)
+  
+  - [Netzwerk Q4.0](https://netzwerkq40.de/learning-nuggets-lernmedien-fuer-ausbilderinnen/) (Thema/Trainings)
 
-- **Bildungsstufenübergreifend**
-  - WirLernenOnline: Abschluss
-    ([graduation),](http://w3id.org/openeduhub/vocabs/graduation/)
-    verwandt mit [Bildungsstufen](#bildungsstufe-bildungskontext)
-  - European Schoolnet Vocabulary: [Ed Level/Degree Earned
-    Values](http://europeanschoolnet-vbe.lexaurus.net/vbe/browse):  
-    bachelor's degree, doctoral degree, lower secondary level, master's
-    degree, post-secondary non-tertiary education, primary level,
-    short-cycle tertiary education, upper secondary level
+- **Various educational levels**
+  
+  - WirLernenOnline: [Graduation](http://w3id.org/openeduhub/vocabs/graduation/) related to [educational levels](#bildungsstufe-bildungskontext)
+  - European Schoolnet Vocabulary: [Ed LevelDegree Earned Values](http://europeanschoolnet-vbe.lexaurus.net/vbe/browse):  
+bachelor's degree, doctoral degree, lower secondary level, master's degree, post-secondary non-tertiary education, primary level, short-cycle tertiary education, upper secondary level
 
-#### 4.2.3.4 Sprache und Sprachniveau
+#### 4.2.3.4 Language and language level
 
-Seit jeher gibt es Migrationsbewegungen und auch die Globalisierung und
-Digitalisierung tragen dazu bei, dass die Welt näher zusammenrückt. Ein
-wesentliches Attribut ist somit die Kennzeichnung der Sprache(n) von
-Bildungsressourcen. Dabei geht es um mehr als die Auszeichnung, in
-welcher Sprache die Inhalte der Ressource verfügbar sind. Die Vielfalt
-der Sprachen und möglichen Sprachbarrieren beim Erlernen von
-Erstsprachen, Zweitsprachen oder Fremdsprachen sind bei der Auswahl von
-Bildungsressourcen zu berücksichtigen.
+Migration movements are part and parcel of human history, while globalisation and digitalisation are also causing the world to move ever closer together. Against this background, the labelling of the language(s) of educational resources has become a very important attribute. However, this involves more than merely indicating the language in which the contents of the resource are available. Instead, the diversity of languages and potential language barriers when learning first, second or foreign languages must be taken into account when selecting educational resources.
 
-Neben der grundlegenden Fähigkeit eine Sprache zu verstehen, ist dabei
-auch das Niveau entscheidend, beispielsweise hinsichtlich verschiedener
-Kompetenzbereiche, wie dem Hören, Lesen, Schreiben, der sprachlichen
-Interaktion und Produktion.
+In addition to the basic understanding of a language, the level is equally crucial, for example, with regard to various competence areas such as listening, reading, writing, linguistic interaction and production.
 
-Das Attribut "Sprachniveau" beschreibt das formalisierte Niveau eines
-Objektes hinsichtlich einer bestimmten Sprache. Auf europäischer Ebene
-formalisiert der [Gemeinsame Europäische
-Referenzrahmen](https://www.europaeischer-referenzrahmen.de/)
-([GER](https://www.daad.de/de/studieren-und-forschen-in-deutschland/studium-planen/gers/))
-sechs Sprachniveaustufen. Dabei liegen z. B. für die Sprachen Englisch,
-Französisch, Spanisch und Deutsch anerkannte Zertifikate vor, die das
-Erreichen eines Sprachniveaus bestätigen.
+The attribute "language level" describes the formalised level of an object with regard to a specific language. At European level, the [Common European Framework of Reference for Languages](https://www.europaeischer-referenzrahmen.de/) ([CEFR](https://www.daad.de/de/studieren-und-forschen-in-deutschland/studium-planen/gers/)) has formulated six language levels. For instance, recognised certificates exist for the languages English, French, Spanish and German to confirm that a specific language level has been achieved.
 
-**Weitere Hinweise zur Verwendung**
+**Further notes on usage**
 
-Das Sprachniveau ist für die Passung von Lernmaterialien an die
-sprachlichen Fähigkeiten der Lernenden relevant, auch außerhalb des
-Fremdsprachenunterrichts, beispielsweise wenn einem inklusiven
-pädagogischen Ansatz gefolgt wird und die Lerngruppen sprachlich
-heterogen sind. Es ermöglicht die Suche von Lerninhalten entsprechend
-den sprachlichen Kompetenzen der Lernenden. Die Verwendung von
-mehrsprachigen Ressourcen kann zur Differenzierung genutzt werden. Im
-Schulgesetz oder in Schulordnungen kann eine individuelle Förderung
-durch Lehrkräfte und Schulen vorgeschrieben sein. Lehrkräfte können
-mithilfe dieses Attributs passende Materialien auswählen, die zum
-sprachlichen Niveau des Lernenden passen und eine stufenweise
-Verbesserung der Sprachfähigkeiten fördern. Zudem ermöglicht die
-Verwendung internationaler Standards eine vergleichbare Bewertung der
-Sprachkompetenzen, wie durch den Gemeinsamen Europäischen Referenzrahmen
-für Sprachen.
+The language level is relevant for the adaptation of learning materials to the linguistic ability of learners. This also applies outside foreign language lessons, for example, when pursuing an inclusive educational approach involving learning groups that are linguistically heterogeneous. The language level allows learning content to be found based on the language skills of the learners. Multilingual resources can be used as a means of differentiation. School laws or regulations may stipulate individual support by teachers and schools. Teachers can use this attribute to select suitable materials that match the language level of the learner and thus facilitate a gradual improvement in language skills. In addition, the use of international standards enables a comparable assessment of language competencies – for example, the Common European Framework of Reference for Languages.
 
-**Mögliche Wertelisten für Sprachniveaustufen**
+**Possible value lists for language levels**
 
-- [Sprachniveaustufen](http://w3id.org/openeduhub/vocabs/languageLevel/),
-  veröffentlicht durch WLO, basierend auf dem Gemeinsamen Europäischen
-  Referenzrahmen für Sprachen [@daadsufdgerfs2024] [@glaboniatpdgerlkkmnaabbcc2010] [@trimgerfsllbnaabbcc2010] / Common European Framework of Reference for Languages ([CEFR](https://www.coe.int/en/web/common-european-framework-reference-languages)), herausgegeben vom Europarat
-- [ACTFL-Leitlinien zur Sprachbeherrschung](https://www.actfl.org/educator-resources/actfl-proficiency-guidelines)
-  ([Tests](https://www.actfl.org/assessments): AAPPL, OPI, WPT, TEP,
-  ALIRA)
+- [Language levels](http://w3id.org/openeduhub/vocabs/languageLevel/), published by WLO and based on the Common European Framework of Reference for Languages ([CEFR](https://www.coe.int/en/web/common-european-framework-reference-languages)) \[@daadsufdgerfs2024\] \[@glaboniatpdgerlkkmnaabbcc2010\] \[@trimgerfsllbnaabbcc2010\], which was developed by the Council of Europe.
+- [ACTFL Proficiency Guidelines](https://www.actfl.org/educator-resources/actfl-proficiency-guidelines) ([assessments](https://www.actfl.org/assessments): AAPPL, OPI, WPT, TEP, ALIRA)
 
-**Mögliche Wertelisten für Sprachen**
+**Possible value lists for languages**
 
-- [Sprachthesaurus gemäß ISO
-  639-1](https://voc.uni-ak.ac.at/skosmos/languages/de/) (Skosmos)
-- [MARC](http://id.loc.gov/vocabulary/languages), [ISO
-  639-1](http://id.loc.gov/vocabulary/iso639-1), [ISO
-  639-2](http://id.loc.gov/vocabulary/iso639-2),
-  [ISO-6395](http://id.loc.gov/vocabulary/iso639-5) (MARC/LC)
+- [Language thesaurus according to ISO 639-1](https://voc.uni-ak.ac.at/skosmos/languages/de/) (Skosmos)
+- [MARC](http://id.loc.gov/vocabulary/languages), [ISO 639-1](http://id.loc.gov/vocabulary/iso639-1), [ISO 639-2](http://id.loc.gov/vocabulary/iso639-2), [ISO-6395](http://id.loc.gov/vocabulary/iso639-5) (MARC/LC)
 
-**Attribute in Metadatenstandards zur Kennzeichnung der Sprache,**
+**Attributes in metadata standards for describing languages**
 
-*für ein Attribut zur Kennzeichnung des Sprachniveaus, siehe: [Lernvoraussetzungen](#lernvoraussetzungen-und-vorwissen)*
+*For an attribute used to describe the language level, see: [Learning prerequisites](#lernvoraussetzungen-und-vorwissen)*
 
 - LRMI: [inLanguage](https://schema.org/inLanguage)
 - LOM: 1.3 Language
-- Learning Metadata:
-  [dct:language](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/language)
+- Learning Metadata Terms: [dct:language](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/language)
 
-Weiterführende Themen in diesem Kontext:  
-[Deutsches Sprachdiplom](https://web.archive.org/web/20240301183117/https://www.kmk.org/themen/deutsches-sprachdiplom-dsd.html)
-(KMK), Leichte Sprache, individuelle Förderung, Binnendifferenzierung,
-Mehrsprachigkeit, Deutsch als Zweitsprache, Deutsch als Fremdsprache,
-Bildungsgerechtigkeit: Grundgesetz Art. 3 (3) “Niemand darf wegen
-\[...\] seiner Sprache \[...\] benachteiligt oder bevorzugt werden.”
-(BRD, 2022, S. 2).
+Other topics in this context:  
+[German Language Diploma](https://web.archive.org/web/20240301183117/https://www.kmk.org/themen/deutsches-sprachdiplom-dsd.html) (KMK), easy (German) language, individual support, internal differentiation, multilingualism, German as a second language, German as a foreign language, educational equality: Basic Law for the Federal Republic of Germany Art. 3 (3) "No person shall be favoured or disfavoured because of \[...\] language \[...\]." (BRD, 2022, p. 2).
 
-### 4.2.4 Zielgruppen
+### 4.2.4 Target groups
 
-Dieses Attribut ermöglicht die Angabe von Personengruppen oder Rollen,
-für die das Objekt erstellt wurde. Es ist, je nach Ausprägung der
-Wertebereiche, inhaltlich verwandt mit dem Attribut
-[Niveaustufe](#niveaustufe), da Zielgruppen einen Indikator für die
-Didaktisierung der Ressource darstellen können, insbesondere, wenn die
-Werte des Feldes zum Beispiel ein typisches Alter oder eine
-Bildungsstufe implizieren.
+This attribute can be used to specify groups of people or roles for which the object was created. Depending on the specific value ranges, it is closely related to the [level](#niveaustufe) attribute, since target groups can serve as an indicator of the didactisation of the resource, particularly if the values of the field imply a typical age or level of education, for example.
 
-Das Attribut ermöglicht Lehrenden die Auswahl geeigneter Ressourcen im
-Hinblick auf die Zielgruppe und Bedürfnisse der Lernenden. Auch für
-Lernende ist das Attribut hilfreich, um die Relevanz von Ressourcen für
-sich selbst einschätzen zu können. Das Attribut wird von den Befragten
-bei Tischler et al. als nützlich und nutzbar gewertet [@tischlernunmbsubob2022, S. 259].
-Auch Sutton erachtet Attribute, die explizit oder
-implizit Zielgruppen charakterisieren, für welche eine Ressource
-intendiert oder nützlich ist, als fundamental für Bildungsressourcen
-[@suttonmes2004, S. 145].
+The attribute allows teachers to select suitable resources based on the individual target group and needs of the learners. The attribute also provides a helpful way for learners to establish the relevance of resources for themselves. The attribute is rated as both useful and usable by the respondents to the survey conducted by Tischler et al. [@tischlernunmbsubob2022, p. 259]. In addition, Sutton considers attributes that explicitly or implicitly characterise target groups for which a resource is intended or useful to be of fundamental importance for educational resources [@suttonmes2004, p. 145].
 
-**Vergleich der Felddefinitionen in Metadatenstandards**
+**Comparison of the field definitions in metadata standards**
 
-1.  schema.org: “An intended audience, i.e. a group for whom something
-    was created.” [@schema.orgav2024]
-2.  LRMI: “A concept scheme that defines the primary or intended roles
-    of the audience (beneficiary) of the resource being described” [@lrmitaskgroupdcmilitv2017]
-3.  DCMI: “A class of agents for whom the resource is intended or
-    useful.” [@dcmidmta2023]
-4.  LOM: “Principal user(s) for which this learning object was designed,
-    most dominant first.” [@ieee111islom2020]
-5.  LOM-CH: „Bezeichnung der Nutzenden, für welche die Ressource
-    entworfen wurde“ [@educaal2020, S. 14]
+1. schema.org: "An intended audience, i.e. a group for whom something was created." \[@schema.orgav2024]
+2. LRMI: "A concept scheme that defines the primary or intended roles of the audience (beneficiary) of the resource being described." \[@lrmitaskgroupdcmilitv2017]
+3. DCMI: "A class of agents for whom the resource is intended or useful." \[@dcmidmta2023]
+4. LOM: "Principal user(s) for which this learning object was designed, most dominant first." \[@ieee111islom2020]
+5. LOM-CH: "Designation of the users for which the resource was designed." \[@educaal2020, p. 14]
 
-**Exemplarische Verwendungsszenarien des Feldes**
+**Example usage scenarios of the field**
 
-*Kennzeichnung der didaktischen Ausrichtung*
+*Identification of the didactic orientation*
 
-- Angabe, die eine didaktische Ausrichtung, Aufbereitung oder Eignung
-  der Ressource für bestimmte Personengruppen (als Lernende)
-  kennzeichnet.
+- Specification indicating a didactic orientation, preparation or suitability of the resource for certain groups of people (as learners).
 
-*Realisierung einer rollenbasierten Suche*
+*Implementation of a role-based search function*
 
-- Eine lehrende Person möchte Material für ihre Zielgruppe (z. B. eines
-  Seminars/Kurses) finden und wählt diese als Zielgruppe aus. Die Suche
-  erfolgt in der Rolle der Zielgruppe.
-- Eine Person möchte Material für die eigene Aus-/Fortbildung finden.
-  Die Suche erfolgt in der eigenen Rolle.
-- Eine lehrende Person möchte Unterrichtsideen (z. B. Planungen,
-  Konzepte) für ihre eigene Lehre finden. Die Suche erfolgt ggf. in der
-  Rolle der anvisierten Zielgruppe, je nachdem, welche Beschreibungs-
-  und Suchstrategien verwendet werden.
+- A teacher wants to find materials for their target group (e.g. a seminar/course) and selects this as the target group. The search is performed in the role of the target group.
+- A person wants to find materials for their own training/education. The search is performed in their own role.
+- A teacher wants to find teaching ideas (e.g. plans, concepts) for his or her own lessons. The search may be carried out in the role of the relevant target group, depending on which description and search strategies are employed.
 
-**Attribute in Metadatenstandards**
+**Attributes in metadata standards**
 
-- LRMI:
-  [educationalRole](http://purl.org/dcx/lrmi-terms/educationalRole)
-  (Typ:
-  [educationalAudience](http://purl.org/dcx/lrmi-terms/EducationalAudience))
-- schema.org: [audience](https://schema.org/audience),
-  [educationalRole](https://schema.org/educationalRole)
+- LRMI: [educationalRole](http://purl.org/dcx/lrmi-terms/educationalRole) (type: [educationalAudience](http://purl.org/dcx/lrmi-terms/EducationalAudience))
+- schema.org: [audience](https://schema.org/audience), [educationalRole](https://schema.org/educationalRole)
 - AMB: [audience](https://dini-ag-kim.github.io/amb/20231019/#audience)
 - LOM: 5.5 intendedEndUserRole
-- Learning Metadata:
-  [dct:audience](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/audience)
-  (DCMI Metadata Terms)
+- Learning Metadata Terms: [dct:audience](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/audience) (DCMI Metadata Terms)
 
-**Mögliche Wertelisten (Zielgruppen, Personengruppen, Rollen)**
+**Possible value lists (target groups, groups of people, roles)**
 
-**Eher generische Zielgruppen und Rollen**
+**Generic target groups and roles**
 
-- LRMI,
-  [educationalAudienceRole](https://www.dublincore.org/specifications/lrmi/concept_schemes/educationalAudienceRole/):
-  Administrator, General Public, Mentor, Parent, Peer Tutor,
-  Professional, Student, Teacher
+- LRMI, [educationalAudienceRole](https://www.dublincore.org/specifications/lrmi/concept_schemes/educationalAudienceRole/): Administrator, General Public, Mentor, Parent, Peer Tutor, Professional, Student, Teacher
 - LOM, intendedEndUserRole: teacher, author, learner, manager
-- Open Edu Hub / WirLernenOnline
-  ([intendedEndUserRole](http://w3id.org/openeduhub/vocabs/intendedEndUserRole/)):
-  Autor/in, Berater/in, Lerner/in, Verwaltung, Eltern, Lehrer/in, andere
-- [EUN Target
-  Groups](http://europeanschoolnet-vbe.lexaurus.net/vbe/browse),
-  European Schoolnet Vocabulary: counsellors, educational authorities,
-  general public, industry, learners, NGOs, other, parents, policy
-  makers, researchers, teachers, youth, youth panel
-- Library of Congress ([intended
-  Audience](http://id.loc.gov/vocabulary/maudience)), LC: Adolescent,
-  Adult, General, Juvenile, Pre-adolescent, Preschool, Primary,
-  Specialized
-- [Schulflix](https://www.schulflix.com/kurskatalog/), Rollen:
-  Lehrkraft, Berufseinsteiger:in, schulische Führungskraft,
-  Fortbildungs- oder Medienbeauftragte, pädagogische Fachkraft
+- Open Edu Hub / WirLernenOnline ([intendedEndUserRole](http://w3id.org/openeduhub/vocabs/intendedEndUserRole/)): author, counsellor, learner, manager, parent, teacher, other
+- [EUN Target Groups](http://europeanschoolnet-vbe.lexaurus.net/vbe/browse), European Schoolnet Vocabulary: counsellors, educational authorities, general public, industry, learners, NGOs, other, parents, policy makers, researchers, teachers, youth, youth panel
+- Library of Congress ([intended Audience](http://id.loc.gov/vocabulary/maudience)), LC: adolescent, adult, general, juvenile, pre-adolescent, preschool, primary, specialized
+- [Schulflix](https://www.schulflix.com/kurskatalog/), Rolle: Lehrkraft, Berufseinsteiger:in, schulische Führungskraft, Fortbildungs- oder Medienbeauftragte, pädagogische Fachkraft
 
-**Eher differenzierte Personengruppen**
+**Differentiated groups**
 
-- ComeIn
-  ([educationalAudienceRole](https://w3id.org/comein/vocabs/educationalAudienceRole/)):
-  Studieninteressent/-in, Student/-in, Schüler/-in, Lehrer/-in,
-  Hochschullehrer/-in, Seminarleiter/-in, Fortbildner/-in,
-  Lehramtsanwärter/-in, Studienreferendar/-in
-- [BIRD-spezifische
-  Zielgruppen](http://w3id.org/openeduhub/vocabs/intendedEndUserRole_BIRD/):
-  Schüler/in, Student/in, Studieninteressierte/r,
-  Promotionsinteressent/in, PASCH-Schüler/in, Eltern, Lehrer/in
-- Twillo (Zielgruppen): Studieninteressierte, Studierende in der
-  Studieneingangsphase, fortgeschrittene Studierende im Bachelor,
-  Studierende im Master, Promovierende, Lehrende, Andere Zielgruppe
+- ComeIn ([educationalAudienceRole](https://w3id.org/comein/vocabs/educationalAudienceRole/)): Studieninteressent/-in, Student/-in, Schüler/-in, Lehrer/-in, Hochschullehrer/-in, Seminarleiter/-in, Fortbildner/-in, Lehramtsanwärter/-in, Studienreferendar/-in
+- [BIRD-specific target groups](http://w3id.org/openeduhub/vocabs/intendedEndUserRole_BIRD/): pupil, student, prospective student, prospective doctoral, PASCH, parent, teacher
+- Twillo (Zielgruppen): Studieninteressierte, Studierende in der Studieneingangsphase, fortgeschrittene Studierende im Bachelor, Studierende im Master, Promovierende, Lehrende, Andere Zielgruppe
 
-**Diskussion: Generische Rollen vs. Didaktisierung für bestimmte
-Personengruppen**
+**Discussion: Generic roles vs. didactisation for specific groups of people**
 
-Die meisten Vokabulare orientieren sich hinsichtlich des
-Wertebereiches an Konventionen mit eher generischen Rollen wie
-„Lernende“ und “Lehrende“. Während beispielsweise das verbreitete LOM-
-und LRMI-Vokabular mit diesen Rollen operiert, unterscheiden sich die
-Ansätze von Twillo, BIRD und ComeIn bezüglich der Angabe der Zielgruppen
-dahingehend, dass die Werte dieser kontrollierten Vokabulare jeweils
-eine konkrete Gruppe von Personen darstellen, für welche die Ressource
-(didaktisch) konzipiert wurde (siehe Wertelisten). Somit beschreibt die
-dortige Angabe der Zielgruppe die (didaktische) Ausrichtung und Eignung
-der Ressource für bestimmte Personengruppen als Lernende bzw.
-Endnutzer\*innen.
+In terms of value ranges, most vocabularies are based on conventions involving rather generic roles such as "learners" and "teachers". While the widely established LOM and LRMI vocabularies, for example, operate with these roles, the approaches employed by Twillo, BIRD and ComeIn differ with regard to the specification of target groups in that the values of these controlled vocabularies each represent a specific group of people for which the resource was (didactically) designed (see value lists). In this case, therefore, the specification of the target group describes the (didactic) orientation and suitability of the resource for certain groups of people as learners or end users.
 
-Die generischen Rollen „Lernender“ und „Lehrender“ können unzureichend
-für die Kennzeichnung der Zielgruppe von Ressourcen geeignet sein, da
-Personengruppen die Rolle der „Lernenden“ oder „Lehrenden“ flexibel
-einnehmen können (z. B. in Fort- und Weiterbildungskontexten) oder bei
-bestimmten Ressourcentypen (z. B. didaktische Konzepte). Neben der eher
-klassischen Rollenverteilung (= Lehrer\*innen lehren, Schüler\*innen
-lernen), finden sich zudem auch Beispiele für alternierende Rollen (vgl.
-Tabelle “Alternierende Rollen”).
+The generic roles of "learner" and "teacher" may be inadequate for describing the target group of resources since groups of people can flexibly adopt the role of "learners" or "teachers" – e.g. in continuing education and training contexts or for specific types of resources (e.g. didactic concepts). Along with the more traditional distribution of roles (i.e. teachers teach, students learn), there are also examples of alternating roles (see table "Alternating roles").
 
-Auch die CanCore-Empfehlungen stellten bereits verschiedene
-Nutzungsszenarien heraus, bei welchen die Werteliste aus LOM mit
-weiteren Rollen erweitert werden sollte. Zur Verbesserung der
-Interoperabilität wird dabei zumindest die additive Zuweisung der
-generischen Rollen aus dem LOM-Vokabular [@fishercgvec2003, S. 12] oder auch LRMI-Vokabular empfohlen.
+The CanCore recommendations have also highlighted various usage scenarios in which the value list from LOM should be supplemented with additional roles. To improve interoperability, the additional assignment of the generic roles from the LOM vocabulary [@fishercgvec2003, p. 12] or LRMI vocabulary is recommended as a minimum.
 
-Tabelle: *Alternierende Rollen in Lehr-/Lernkontexten*
+Table: *Alternating roles in teaching/learning contexts*
 
 <table>
 <colgroup>
@@ -2511,717 +1366,325 @@ Tabelle: *Alternierende Rollen in Lehr-/Lernkontexten*
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Zielgruppe</strong></td>
-<td><strong>Rolle</strong></td>
-<td><strong>Kontexte (Beispiele)</strong></td>
+<td><strong>Target group</strong></td>
+<td><strong>Role</strong></td>
+<td><strong>Contexts (examples)</strong></td>
 </tr>
 <tr class="even">
-<td>Lehrer*in, Dozent*in, Fortbildner*in, Eltern, o.ä.</td>
-<td>Lernende</td>
-<td>Fort- und Weiterbildung</td>
+<td>Teacher, lecturer, educator, trainer, parent, or similar</td>
+<td>Learners</td>
+<td>Continuing education and training</td>
 </tr>
 <tr class="odd">
-<td>Schüler*in, Student*in, o.ä.</td>
-<td>Lehrende</td>
-<td>Peer-Tutoring, Unterrichtsmethode „Lernen durch Lehren“</td>
+<td>Pupil, student, or similar</td>
+<td>Teachers</td>
+<td>Peer tutoring, &quot;learning by teaching&quot; method</td>
 </tr>
 </tbody>
 </table>
+**Resource types with dual perspective for describing metadata**
 
-**Ressourcentypen mit dualer Perspektive zur Beschreibung von
-Metadaten**
+In the following, some example resource types are discussed for which metadata can be assigned from two perspectives – for example, with a focus on (1) the content of the resource or (2) the reuse of the resource.
 
-Es werden im Folgenden exemplarische Ressourcentypen diskutiert, bei
-denen die Zuweisung von Metadaten aus zwei Perspektiven erfolgen kann,
-beispielsweise mit Fokus auf (1) den Inhalt der Ressource oder (2) die
-Nachnutzung der Ressource.
+*Resource type: didactic concepts, e.g. lesson plans*
 
-*Ressourcentyp: Didaktische Konzepte, z. B. Unterrichtsentwürfe,
-Unterrichtsplanungen*
+With this resource type, metadata can be described from several perspectives. On the one hand, the didactic concept is aimed at teachers or multipliers who are to implement it in their teaching, meaning that the educational level "further training" and target group "teachers", for example, could be assigned as metadata. In this case, the didactic concept would be viewed as a learning object of the further training. On the other hand, it is important for teachers and multipliers that metadata is provided regarding the target group of their teaching, thereby focusing the didactic concept in terms of its content. In this case, the educational level "lower secondary level" and target group "pupils", who take on the role of learners in the didactic concept, could be assigned as metadata. This discrepancy is also reflected in the field definitions of the metadata standards described above.
 
-Bei diesem Ressourcentyp gibt es mehrere Perspektiven, aus welchen
-Metadaten beschrieben werden können. Einerseits richtet sich das
-didaktische Konzept an Lehrende oder Multiplikator\*innen, die dieses in
-ihrer Lehre implementieren sollen, womit als Metadaten zum Beispiel als
-Bildungsstufe “Fortbildung” und Zielgruppe “Lehrkräfte” zugewiesen
-werden könnten. In diesem Fall würde das didaktische Konzept somit als
-Lerngegenstand der Fortbildung betrachtet. Andererseits ist es für
-Lehrende und Multiplikator\*innen wiederum wichtig, dass Metadaten zum
-Klientel der Lehre angegeben werden, die das didaktische Konzept
-inhaltlich fokussiert, also beispielsweise die Bildungsstufe
-“Sekundarstufe I” und Zielgruppe “Schüler\*innen”, die im didaktischen
-Konzept die Rolle der Lernenden einnehmen. Diese Diskrepanz drückt sich
-auch in den zuvor skizzierten Felddefinitionen der Metadatenstandards
-aus.
+*Resource type: teaching videos*
 
-*Ressourcentyp: Unterrichtsvideos*
+A similar dual perspective would emerge when describing metadata for teaching videos since, on the one hand, the video would be described as a learning object for training and further education but, on the other hand, the content of the video would also be represented in metadata.
 
-Eine ähnliche duale Perspektive ergäbe sich bei der Erfassung von
-Metadaten zu Unterrichtsvideos, da hier einerseits das Video als
-Lerngegenstand für die Aus- und Fortbildung beschrieben und andererseits
-jedoch auch der Inhalt des Videos in Metadaten abgebildet würde.
+Example: The teaching video library:
 
-Beispiel: Die Unterrichtsvideographie …
+- Is used in lessons for the third year of a primary school (content)
+- Serves as training material for university (reuse)
 
-- … zeigt Sachunterricht einer dritten Klasse an einer Grundschule
-  (Inhalt)
-- … ist ein Fortbildungsgegenstand für die Hochschule (Nachnutzung)
+*Relationships between description strategies and search strategies*
 
-*Zusammenhänge zwischen Beschreibungsstrategien und Suchstrategien*
+Is it even useful for school pupils, for example, to receive a didactic concept intended for teachers as a search result when they perform a search for educational resources in their role? Both within and between repositories, there is often no consistent description logic for metadata, for example, an exact specification to ensure a uniform perspectivation of the description, such as:
 
-Wäre es überhaupt sinnvoll, dass z. B. Schüler\*innen ein didaktisches
-Konzept für Lehrkräfte als Suchtreffer angezeigt würde, wenn sie in
-ihrer Rolle nach Bildungsressourcen suchen? In und zwischen Repositorien
-gibt es dahingehend häufig keine konsistente Beschreibungslogik für
-Metadaten, beispielsweise eine konkrete Vorgabe einer einheitlichen
-Perspektivierung der Beschreibung, wie:
+- Who (recipients of the learning process or multipliers) is to learn or impart what (learning objectives), when (educational level of the recipients) and by what means (resource type)?
 
-- Wer (Adressaten des Lernprozesses oder Multiplikator\*innen) soll wann
-  (Bildungsstufe der Adressaten), was (Lernziele), womit (Ressourcentyp)
-  lernen oder vermitteln?
+This can lead to inconsistencies in the assignment of metadata in different fields, for example, between values for the target group and educational level. For instance, the role of the multipliers (e.g. teachers) could be specified in a field of the target group but, for the educational level, the perspective of the metadata assignment could switch to the end users (learners). In many cases, multiple assignments are simply made.
 
-Hier kann es somit zu Inkonsistenzen bei der Zuweisung von Metadaten in
-verschiedenen Feldern kommen, beispielsweise zwischen Werten für die
-Zielgruppe und Bildungsstufe. So könnte in einem Feld der Zielgruppe
-bspw. einerseits die Rolle der Multiplikator\*innen angegeben (z. B.
-Lehrende), bei der Bildungsstufe jedoch die Perspektive der Zuweisung
-von Metadaten auf die Endnutzer\*innen (Lernende) wechseln. Häufig
-werden auch einfach mehrfache Zuweisungen vorgenommen.
+The perspectivation of the description therefore has a direct impact on the concept as well as the conveyed understanding of possible search strategies for resources in the various portals.
 
-Die Perspektivierung der Beschreibung hat daher Auswirkungen auf das
-Konzept und das zu vermittelnde Verständnis möglicher Suchstrategien von
-Ressourcen in den Portalen.
+**Didactisation of resources**
 
-**Didaktisierung von Ressourcen**
+It can be assumed that resources for specific target groups differ conceptually in terms of their didactisation, e.g. for pupils, students or teachers. For this reason, it seems expedient to differentiate between the values for target groups and the generic role of "learners", as this will enable more accurate didactisation of resources, particularly for portals that list resources spanning multiple educational sectors.
 
-Es ist anzunehmen, dass sich Ressourcen für bestimmte Zielgruppen
-voneinander konzeptuell in Hinblick auf die Didaktisierung
-unterscheiden, z. B. für Schüler\*innen, Student\*innen oder
-Lehrer\*innen. Aus diesem Grund scheint eine Differenzierung der Werte
-für Zielgruppen gegenüber der generischen Rolle “Lernende” zur
-Präzisierung der didaktischen Aufbereitung von Ressourcen sinnvoll,
-insbesondere für Portale, die bildungsbereichsübergreifende Ressourcen
-listen.
+Since, with this assumption, the allocation of target groups implicitly attributes a variety of didactic properties to the resources, a combination with other didactic fields (e.g. educational level, level, semantic density from LOM, age, prerequisites, etc.) would be conceivable as an alternative to the differentiation of target groups.
 
-Da mit dieser Annahme die Zuweisung von Zielgruppen implizit den
-Ressourcen zugleich verschiedenste didaktische Eigenschaften zuschreibt,
-wäre eine alternative Realisierung über eine Kombination mit
-anderweitigen didaktischen Feldern (bspw. Bildungsstufe, Niveaustufe,
-semantische Dichte aus LOM, Alter, Voraussetzungen o.ä.) grundsätzlich
-als Alternative zur Differenzierung der Zielgruppen denkbar.
+In some cases, however, this would be of limited practical use due to the large amount of additional metadata required, the heterogeneity of the resources and the reduced likelihood of being able to fully aggregate this additional metadata – that is, if the hurdle represented by the requirements for the description of resources is to remain as low as possible.
 
-In manchen Fällen wäre dies jedoch nur bedingt praxistauglich, aufgrund
-der Vielzahl der zusätzlich erforderlichen Metadaten, der Heterogenität
-der Ressourcen und der geringeren Wahrscheinlichkeit diese additiven
-Metadaten ebenfalls in vollem Umfang aggregieren zu können, sofern die
-Hürde der Anforderungen an die Deskription von Ressourcen weiterhin
-möglichst niedrigschwellig angesetzt werden soll.
+Sutton also highlights various properties of target groups that can be described in separate attributes, including: level of achievement (in the sense of a class/year or educational level), aptitude (in the sense of the performance or proficiency of learners), cultural or linguistic affiliation or abilities (e.g. multilingualism, second languages), physical or emotional needs and limitations (e.g. eyesight) or even basic demographic characteristics (gender, age, professional/technical status) [@suttonmes2004, p. 146].
 
-Auch Sutton stellt verschiedene Eigenschaften von Zielgruppen heraus,
-die sich unter Umständen in separaten Attributen erfassen lassen,
-darunter beispielsweise: Leistungsniveau (im Sinne einer Klassenstufe
-oder Bildungsstufe), Eignung (im Sinne der Leistung oder Begabung von
-Lernenden), kulturelle oder sprachliche Zugehörigkeit oder Fähigkeiten
-(z. B. Mehrsprachigkeit, Zweitsprachen), physische oder emotionale
-Bedürfnisse und Einschränkungen (z. B. Sehvermögen) oder auch
-grundlegende demographische Eigenschaften (Geschlecht, Alter,
-beruflicher/fachlicher Status) [@suttonmes2004, S. 146].
+### 4.2.5 Didactic contextualisation (settings and scenarios)
 
-### 4.2.5 Didaktische Kontextualisierung (Settings und Szenarien)
+Although complex models of didactic concepts for linking content and methods have been developed in the past [@pawlowskimdk2002, p. 373], the broad acceptance or application of these models initially seems unlikely, given that resources and their relationships with one another and, above all, the means of access and usage can be extremely diverse. Nevertheless, there remains a need to define contextual information and example usage instructions, for instance, regarding the didactic conditions for using a resource or for possible didactic usage scenarios. Didactic scenarios are structured descriptions and representations for the organisation of teaching and learning processes – including recommendations for planning the instruction, phasing, procedures, methods, learning resources and teaching activities, or even teaching steps that can be used to convey learning content and achieve learning objectives – and thus serve as orientation for teachers when implementing teaching/learning concepts.
 
-Wenngleich in der Vergangenheit komplexe Modelle didaktischer Konzepte
-zur Verbindung von Inhalten und Methoden entwickelt wurden [@pawlowskimdk2002, S. 373], scheint es zunächst unwahrscheinlich, dass solche eine breite Akzeptanz oder Anwendung finden, da Ressourcen und deren
-Beziehungen untereinander und vor allem die methodischen Zugänge und
-Nutzungsmöglichkeiten äußerst vielseitig sein können. Dennoch bleibt
-zumindest das Bedürfnis zur Erfassung kontextueller Hinweise und
-exemplarischen Nutzungshinweisen existent, zum Beispiel zu didaktischen
-Rahmenbedingungen für den Einsatz einer Ressource oder möglichen
-didaktischen Nutzungsszenarien. Didaktische Szenarien sind strukturierte
-Beschreibungen und Darstellungen zur Organisation von Lehr- und
-Lernprozessen, darunter Empfehlungen zur Planung der Instruktion,
-Phasierung, Handlungsabläufe, Methoden, Lernmittel und
-Unterrichtsaktivitäten, oder auch Unterrichtsschritte, die zur
-Vermittlung von Lerninhalten und zum Erreichen von Lernzielen verwendet
-werden können und bieten damit eine Orientierungshilfe für Lehrende zur
-Umsetzung von Lehr-/Lernkonzepten.
+Didactic scenarios are classified using a range of characteristics (degree of virtualisation, time, social arrangement, form of interaction, media, space, form of action, type of knowledge, content, organisation, roles, phases, teaching/learning objectives) [@heyerdsudvl2006, p. 4-6].
 
-Didaktischen Szenarien werden dabei mit verschiedensten Merkmalen
-klassifiziert (Virtualisierungsgrad, Zeit, Sozialform, Interaktionsform,
-Medien, Raum, Aktionsform, Art des Wissens, Inhalt, Organisation,
-Rollen, Phasen, Lehr-/Lernziele) [@heyerdsudvl2006, S. 4-6].
+The scenarios are partially ascribed a prescriptive character [@baumgartnerevdt2006, p. 239] which, in this compendium, is understood as exemplary and descriptive, particularly since it is the task of teachers to adapt didactic scenarios for their specific usage context.
 
-Den Szenarien wird dabei definitorisch teilweise ein präskriptiver
-Charakter zugeschrieben [@baumgartnerevdt2006, S. 239], der in diesem
-Kompendium eher als exemplarisch und deskriptiv verstanden wird,
-insbesondere da die Aufgabe von Lehrenden darin besteht, didaktische
-Szenarien für ihren Nutzungskontext zu adaptieren.
+Numerous approaches exist for describing didactic contextualisation. In most cases, the aim of the description is to represent criteria that allow teachers to determine the practical usability of resources in their context or to demonstrate a usage example as a didactic scenario. The usability also depends on technical and legal factors (see "[Technical requirements](#section-3)" and "[Usage context and requirements](#einsatzkontext-und--voraussetzungen)"). In the following, a number of attributes are introduced that can be subsumed under the category of didactic contextualisation.
 
-Es gibt zahlreiche Ansätze zur Beschreibung der didaktischen
-Kontextualisierung. Ziel der Erfassung ist es meist, Kriterien
-abzubilden, die es Lehrenden ermöglichen, die praktische Verwendbarkeit
-von Ressourcen in ihrem Kontext zu prüfen oder eine exemplarische
-Verwendung als didaktisches Szenario aufzuzeigen. Die Verwendbarkeit
-hängt dabei auch von technischen und rechtlichen Faktoren ab (vgl.
-“[Technische Voraussetzungen](#section-3)” sowie “[Einsatzkontext und
--voraussetzungen](#einsatzkontext-und--voraussetzungen)”). Im Folgenden
-werden einige Attribute vorgestellt, die unter die Kategorie der
-didaktischen Kontextualisierung subsumiert werden können.
+*Didactic function of the material*
 
-*Didaktische Funktion des Materials*
+The [twillo](https://www.twillo.de/oer/web/) portal uses the LOM metadata attribute "context" in the sense of a "didactic function" of the material that describes the intended purpose of an object in a teaching/learning activity (imparting, improving, practising, etc.). The twillo value list is related to vocabularies for describing [lesson phases](#lernphasen-unterrichtsphasen-unterrichtsschritte), [learning/teaching activities](#lehr-lernaktivitäten-unterrichtsaktivitäten) or [levels](#niveaustufe) (see also table "Comparison of different level models").
 
-Das Portal [twillo](https://www.twillo.de/oer/web/) verwendet das
-LOM-Metadatum “context” im Sinne einer “didaktischen Funktion” des
-Materials, um den intendierten Verwendungszweck eines Objektes in einer
-Lehr-/Lernaktivität zu beschreiben (Vermittlung, Vertiefung, Einübung,
-etc.). Die Werteliste von twillo ist dabei mit Vokabularen zur Erfassung
-von
-[Unterrichtsphasen](#lernphasen-unterrichtsphasen-unterrichtsschritte),
-[Lern-/Unterrichtsaktivitäten](#lehr-lernaktivitäten-unterrichtsaktivitäten)
-oder [Niveaustufen](#niveaustufe) verwandt (siehe auch Tabelle
-“Vergleich verschiedener Niveaustufenmodelle”).
+It is important to note that this use of the metadata field differs from the definition in the LOM standard (see [educational level](#bildungsstufe-bildungskontext)), which can lead to conflicts in interoperability during metadata exchange. In practice, such a redefinition of standardised fields can also be observed in other services. A possible reason for this is that the data models employed may only provide a limited set of metadata fields from a single standard (e.g. LOM) and, in order to circumvent this limitation, attempts are made to map specific usage scenarios in the existing fields, even if this requires the semantics of individual fields to be redefined.
 
-Hierbei ist herauszustellen, dass sich diese Art der Verwendung des
-Metadatenfeldes jedoch von der Definition im LOM-Standard unterscheidet
-(vgl. [Bildungsstufe](#bildungsstufe-bildungskontext)), was zu
-Konflikten bei der Interoperabilität im Metadatenaustausch führen kann.
-Eine solche Redefinition von standardisierten Feldern ist in der Praxis
-auch bei anderen Diensten zu beobachten. Eine mögliche Ursache besteht
-darin, dass die verwendeten Datenmodelle unter Umständen nur ein
-limitiertes Set von Metadatenfeldern eines einzelnen Standards (z. B.
-LOM) bereitstellen, sodass zur Umgehung dieser Limitation versucht wird,
-spezifische Nutzungsszenarien in den vorhandenen Feldern abzubilden,
-auch wenn dazu eine Redefinition der Semantik einzelner Felder
-erforderlich ist.
+*Didactic notes, usage instructions and manuals*
 
-*Didaktische Hinweise, Gebrauchsanweisungen und Anleitungen*
+Tischler et al. (2022) discuss the attribute "instructions for using OER" in a higher education context, though it is deemed to be of limited use and usability since the potential applications can vary greatly. In addition, the time required for this type of information is rated as disproportionately high [@tischlernunmbsubob2022, p. 258-261].[\^17] However, didactic instructions or notes often arise incidentally during regular use, for example, when preparing teaching activities. Funded projects also provide a better opportunity to make such instructions available.
 
-Bei Tischler et al. (2022) wird das Attribut “Anleitung zum Gebrauch von
-OER” im Hochschulkontext diskutiert, jedoch als weniger nützlich und
-nutzbar bewertet, da sich Einsatzmöglichkeiten und Verwendungen stark
-unterscheiden können. Außerdem sei der Zeitaufwand für diese Art von
-Angabe unverhältnismäßig hoch [@tischlernunmbsubob2022, S. 258-261].[^17]
-Oftmals entstehen didaktische Hinweise jedoch beiläufig beim regulären
-Gebrauch, zum Beispiel zur Vorbereitung der Lehrtätigkeit. Auch in
-geförderten Projekten besteht eher die Möglichkeit, solche Hinweise
-bereitzustellen.
-
-Didaktische und methodische Hinweise zur Implementierung von Ressourcen
-in Lehr-/Lernkontexten werden mangels fehlender Erfassbarkeit als
-Metadatum teilweise auch außerhalb eines Metadatenmodells festgehalten
-[@arnoldhelulmdm2018, S. 428], beispielsweise als additive, beigefügte
-Ressourcen, wie auch im Beispiel des “Nutzungskonzepts” im Projekt
-ComeIn [@agimedibinfauf2023].
-Didaktische Hinweise werden dabei
-grundsätzlich als relevante Informationen für Lehrende, Lernende und
-Entwickelnde erachtet [@arnoldpmieapuefbvf2003, S. 381].
+Due to difficulties presented by their description as metadata, didactic notes and methodological instructions for the implementation of resources in teaching/learning contexts are sometimes defined outside the context of a metadata model [@arnoldhelulmdm2018, p. 428], e.g. in the form of additional or supplementary resources, as in the example of the "usage concept" in the ComeIn project [@agimedibinfauf2023]. Didactic notes are generally considered to be relevant information for teachers, learners and developers [@arnoldpmieapuefbvf2003, p. 381].
 
 <img src="./images/4_comein_paket.svg"/>
+*Practical example: usage concept and packaging (ComeIn) \[@arndtdkpfpcql2023]*
 
-*Praxisbeispiel: Nutzungskonzept und Paketisierungen (ComeIn) [@arndtdkpfpcql2023]*
+The usage concept in the ComeIn project addresses multipliers in the training and continuing education system. Responsible persons are to be able to assess resources as well as recommend and provide information on their implementation.
 
-Das Nutzungskonzept im Projekt ComeIn adressiert Multiplikator\*innen im
-Aus- und Fortbildungssystem. Verantwortliche sollen in die Lage versetzt
-werden, Ressourcen einzuschätzen, zur Implementierung zu empfehlen und
-Auskunft zur Umsetzung geben.
+The concept is intended to provide teachers (e.g. lecturers of competence teams, specialist seminar leaders or university professors) with helpful didactic and methodological notes on the conception and implementation of training courses, lectures or seminars using the corresponding resources.
 
-Das Konzept soll Lehrenden (z. B. den Dozierenden der Kompetenzteams,
-Fachseminarleiter\*innen oder Hochschullehrer\*innen) hilfreiche
-didaktische und methodische Hinweise für die Konzeption und Durchführung
-von Fortbildungs- oder Lehrveranstaltungen mittels der dazugehörigen
-Ressourcen bieten.
+Such a concept does not restrict the flexibility of teachers, as it provides examples for potential reuse and can also show alternative usage scenarios, for example, for the different learning prerequisites of the participants. In particular, specific rights can be granted (e.g. based on licensing as an OER) to enable flexible adaptation for dedicated reuse.
 
-Dabei schränkt ein solches Konzept nicht die Flexibilität der Lehrenden
-ein, da es die exemplarische Nachnutzung aufzeigt und zudem alternative
-Einsatzszenarien aufzeigen kann, beispielsweise für die
-unterschiedlichen Lernvoraussetzungen der Teilnehmer\*innen.
-Insbesondere durch die Einräumung von Rechten (z. B. aufgrund einer
-Lizenzierung als OER) kann eine flexible Anpassung für die spezifische
-Nachnutzung erfolgen.
+The respective packages are described in ComeIn using a metadata schema. This also makes it clear that non-standardised educational metadata, such as the usage context and conditions of use, is added to the packages as a separate resource ("didactic concept", "usage concept") or that such metadata attributes are linked via relations.
 
-Die jeweiligen Pakete werden in ComeIn mit einem Metadatenschema
-beschrieben. Somit wird zugleich deutlich, dass nicht-standardisierte
-didaktische Metadaten, wie beispielsweise der Einsatzkontext und die
-Voraussetzungen für den Einsatz, als eigenständige Ressource
-(“Didaktisches Konzept”, “Nutzungskonzept”) den Paketen beigefügt oder
-mit diesen über Relationen in Beziehung gesetzt werden.
+![Figure: *Example packaging of resources in the ComeIn project*](./images/4_paketisierung.svg)
 
-![Grafik: *Exemplarische Paketisierungen von Ressourcen im ComeIn-Projekt*](./images/4_paketisierung.svg)
-
-
-Die Educational CAD Model Library nutzt einen vergleichbaren Ansatz,
-indem ein Lehrmittelpaket zu den Ressourcen hinzugefügt wird, welches
-bspw. Entwürfe für Unterrichtsplanungen, Hintergrundwissen,
-Beispielaufgaben oder auch Lehrbücher beinhalten kann [@bullmseo2023, S. 514] sowie ein optionales Paket mit Lehrvideos. Dieser Ansatz ähnelt der Aufteilung von Bildungsressourcen in Informationsobjekte und
-didaktischen Objekte [@baumgartnerevdt2006], die hier über Relationen
-miteinander verknüpft werden.
+The Educational CAD Model Library employs a similar approach by adding a package of instructional resources, which can include such things as drafts lesson plans, background knowledge, sample tasks or even textbooks [@bullmseo2023, p. 514] along with an optional package of instructional videos. This approach is similar to the division of educational resources into information objects and didactic objects [@baumgartnerevdt2006], which in this case are linked via relations.
 
 *PatternPool*
 
-Das Projekt [PatternPool](https://www.patternpool.de/) [@vandenberkp2023] widmet sich explizit diesem Thema und ordnet anhand von
-Wirkungsbereichen (bspw. Aufmerksamkeit, Blended Learning, kritisches
-Denken) didaktische Entwurfsmuster zu. Diese Pattern sind ausführliche
-Beschreibungen, um eine bestimmte didaktische Methode durchzuführen.
-Dabei sind die Patterns oft nicht an eine bestimmte Ressource gekoppelt,
-sondern behandeln übergreifende Kompetenzen oder lassen sich auf
-verschiedene Themen oder Ressourcen anwenden. Die Patterns sind daher
-eher als eigener Objekttyp zu verstehen. Je nach Use Case kann jedoch
-eine Verknüpfung von Ressourcen mit einem Pattern sinnvoll sein.
+The [PatternPool](https://www.patternpool.de/) project \[@vandenberkp2023\] is dedicated to this exact topic and assigns didactic design patterns based on actions with a specific effect (e.g. attention, blended learning, critical thinking). These patterns constitute detailed descriptions for implementing a specific didactic method. In many cases, the patterns are not linked to a specific resource, but instead concern overarching competencies or can be applied to different topics or resources. The patterns should therefore be considered as a separate object type. Depending on the use case, however, it can also be useful to link resources to a pattern.
 
-**Attribute in Metadatenstandards**
+**Attributes in metadata standards**
 
 - LOM: 8 Annotation
-- schema.org: [educationalUse](https://schema.org/educationalUse) als
-  Verwendungszweck in einem Bildungskontext (z. B. kontrollierte
-  Vokabulare wie “Aufgabe”, “Gruppenarbeit” oder Freitext)
+- schema.org: [educationalUse](https://schema.org/educationalUse) as the purpose of work conducted in an educational context (e.g. controlled vocabularies such as "assignment", "group work" or free text)
 
-**Mögliche Wertelisten**
+**Possible value lists**
 
-- Twillo: Vermittlung von Lehrinhalten, Erarbeitung / Vertiefung von
-  Lehrinhalten, Einübung spezifischer Inhalte, Herstellung eigener
-  Inhalte / Artefakte, Reflexion der (Lern-)Prozesse (vgl. auch
-  [Unterrichtsphasen](#lernphasen-unterrichtsphasen-unterrichtsschritte),
-  sowie [Niveaustufe](#niveaustufe))
-- [OERCommons](https://oercommons.org/browse): Curriculum/Instruction,
-  Informal Education, Professional Development, Assessment, Other
-- Exemplarische Verwendung eines Materials in einem Bildungskontext:
-  Material zum …
-  - … Lernen: Vermittlung von Wissen und Fähigkeiten,
-  - … Üben: Anwenden von Wissen und Fähigkeiten,
-  - … Prüfen: Beurteilen von Wissen und Fähigkeiten,
-  - … Motivieren: Anregen zum Lernen,
-  - … Zusammenarbeiten: Interagieren mit anderen Lernenden
+- Twillo: Vermittlung von Lehrinhalten, Erarbeitung/Vertiefung von Lehrinhalten, Einübung spezifischer Inhalte, Herstellung eigener Inhalte/Artefakte, Reflexion der (Lern-)Prozesse (see also [lesson phases](#lernphasen-unterrichtsphasen-unterrichtsschritte) and [level](#niveaustufe))
+- [OERCommons](https://oercommons.org/browse): Curriculum/Instruction, Informal Education, Professional Development, Assessment, Other
+- Example usage of a material in an educational context: Material for:
+  - Learning: imparting knowledge and skills
+  - Practising: applying knowledge and skills
+  - Testing: assessing knowledge and skills
+  - Motivating: inspiring to learn
+  - Collaborating: interacting with other learners
 
-### 4.2.6 Praxiserfahrungen
+### 4.2.6 Practical experience
 
-Praxiserfahrungen liefern relevante Informationen über die praktische
-Evaluation von Ressourcen in verschiedenen Nutzungsszenarien. Sie sind
-daher sowohl für Ressourcenersteller\*innen als auch für die Nachnutzung
-relevant, beispielsweise um die Materialien zu verbessern und anzupassen
-oder die Eignung für bestimmte Kontexte zu prüfen. Sofern keine
-standardisierten, qualitativen Instrumente zur Evaluation genutzt werden
-(vgl. [Qualitätsattribute](#qualitätsattribute)), handelt es sich um
-subjektive Erfahrungsberichte, die häufig als offene Leitfragen und
-dazugehörige Freitextantworten erfasst werden. Sofern nicht vor oder
-während des Veröffentlichungsprozesses eine Evaluation stattgefunden
-hat, wird das Metadatum unter Umständen erst nachgelagert erfasst,
-beispielsweise durch nachnutzende Personen. Solche Erfahrungsberichte
-werden beispielsweise von den Projekten [Twillo](https://www.twillo.de/)
-und [ComeIn](https://comein.nrw/) verwendet, um die Nachnutzung von
-Materialien zu erleichtern. Bei Twillo werden darunter verschiedene
-Attribute in einem Freitextfeld subsumiert, wie
-[Vorwissen](#lernvoraussetzungen-und-vorwissen), [Lernziel](#lernziele),
-verwendeter oder potenzieller Lehr-/Lernkontext. Twillo verwendet dabei
-folgende Leitfragen [@twillotffm2024]:
+Practical experience provides relevant information concerning the practical evaluation of resources in different usage scenarios. Such experience is therefore relevant both for resource creators and for subsequent reuse, for example, to improve and adapt the materials or to establish their suitability for specific contexts. If no standardised, qualitative instruments are used for evaluation purposes (see [Quality attributes](#qualitätsattribute)), this practical experience takes the form of subjective experience reports, which are frequently defined as open key questions and corresponding free-text answers. If no evaluation took place before or during the publication process, the metadata may only be described at a later stage, for example, by subsequent users. Such experience reports are used, for example, by the [Twillo](https://www.twillo.de/) and [ComeIn](https://comein.nrw/) projects to facilitate the reuse of materials. In the case of Twillo, various attributes are included in a free-text field, such as [prior knowledge](#lernvoraussetzungen-und-vorwissen), [learning objective](#lernziele) and previous or potential teaching/learning context. Twillo uses the following key questions \[@twillotffm2024\]:
 
-1.  Setzt die Bildungsressource Vorwissen bei Lernenden voraus?
-2.  Was ist das Lernziel?
-3.  In welchem Lehr- bzw. Lernkontext haben Sie das Material bereits
-    verwendet?
-4.  In welchem Lehr- bzw. Lernkontext könnte das Material noch verwendet
-    werden?
+1. Does the educational resource require prior knowledge on the part of learners?
+2. What is the learning objective?
+3. In what teaching or learning context have you already used the material?
+4. In what other teaching or learning context could the material be used?
 
-Das Projekt ComeIn verwendet für die Erfassung der Praxiserfahrungen
-folgende Leitfragen im Kernschema für die Beschreibung ComeIn-relevanter
-Ressourcen [@agimedibikfbcirhzh2023]:
+To describe practical experience, the ComeIn project uses the following key questions in the core schema for defining ComeIn-relevant resources [@agimedibikfbcirhzh2023]:
 
-- Welche Praxiserfahrungen liegen vor? Gibt es Grenzen des Einsatzes?
-- Worauf sollte bei der Nutzung der Ressource geachtet werden?
-- Welche Evaluationsergebnisse zur Ressource liegen in der Praxis vor?
+- What practical experiences exist? Are there any limits to the use of the resource?
+- What should be taken into account when using the resource?
+- What evaluation results exist for the resource in practice?
 
-**Freitext vs. kontrollierte Vokabulare**
+**Free text vs. controlled vocabularies**
 
-Für Lehrende sind solche Freitextformen sicherlich geeignet, um einen
-entsprechenden Erfahrungsbericht zu erfassen. Da die maschinenlesbaren
-Abbildungen zur Angabe des Vorwissens und der Lernziele häufig fehlen,
-ist es mitunter auch gar nicht anders möglich, entsprechende Angaben zu
-machen. So ist eine entsprechende Freitextangabe sicherlich hilfreicher,
-als auf eine Auszeichnung in den Metadaten zu verzichten. Hinsichtlich
-der Interoperabilität und Maschinenlesbarkeit ist ein solches Feld
-jedoch unter Umständen schwierig auszuwerten. Ein mögliches
-Forschungsvorhaben könnte den Sucherfolg in Abhängigkeit der Form der
-Angabe (dedizierte Attribute vs. Freitext) bei Nutzenden von Portalen
-unter Berücksichtigung verschiedener UI-/UX-Konzepte untersuchen.
+Such free text forms certainly provide teachers with a suitable means of defining a corresponding experience report. Due to the frequent lack of machine-readable representations for specifying prior knowledge and learning objectives, it is sometimes impossible to provide the relevant information in any other way. Therefore, a suitable free text is certainly more helpful than a complete absence of markup in the metadata. However, such a field may be difficult to evaluate with regard to interoperability and machine readability. A potential research project could investigate the success of searches in portals depending on the type of entry (dedicated attributes vs. free text), taking into account different UI/UX concepts.
 
-Die Praxiserfahrungen können darüber hinaus als Qualitätsindikator
-dienen, beispielsweise durch Einordnung der Ressourcen mittels Reviews
-durch Fachexpert\*innen (Peer-Reviews, User-Reviews) [@steinermuogb2018] oder der Erfassung von Evaluationsergebnissen [@agimedibikfbcirhzh2023]
+Practical experience can also serve as a quality indicator, for example, by classifying resources based on reviews by experts (peer reviews, user reviews) [@steinermuogb2018] or by describing evaluation results [@agimedibikfbcirhzh2023].
 
-**Attribute in Metadatenstandards**
+**Attributes in metadata standards**
 
-- schema.org (Typ: [Review](https://schema.org/Review))
-  - reviewAspect (z. B. Bewertungskriterium, ggf. standardisierte
-    Schlagwörter)
-  - reviewBody (z. B. Freitextangaben als Bewertung)
-  - reviewRating (z. B. eine standardisierte Bewertung, z. B. 0-5
-    Sterne)
+- schema.org (type: [Review](https://schema.org/Review))
+  - reviewAspect (e.g. review criterion, standardised keywords where applicable)
+  - reviewBody (e.g. free text as a review)
+  - reviewRating (e.g. a standardised rating, e.g. 0-5 stars)
 
-### 4.2.7 Ressourcentyp, Medientyp
+### 4.2.7 Resource type, media type
 
-Bildungsressourcen sind auf zahlreiche Orte verteilt und liegen in
-vielfältigsten Ausführungen vor. Taxonomien zu Ressourcentypen [@menzellheor2020] versuchen diese Vielfalt abzubilden und pädagogische Inhalte,
-Formate sowie Medien des Materials als Ressourcentypen zu
-klassifizieren, beispielsweise ob es sich um einen Test, einen Graphen
-oder eine Vorlesung handelt. Der Ressourcentyp wird in einer Umfrage von
-81% der Befragten (n = 54 Antworten) mindestens als “etwas hilfreich”
-bei der Suche nach Ressourcen empfunden [@jointly.infosuinuo2021]. In einer
-Befragung im Kontext der LRMI gaben 60% den Ressourcentyp als eines der
-nützlichsten Kriterien für die Suche an [@wintergrouplsrj2umoo2014].
+Educational resources are spread across numerous locations and exist in a wide range of forms. Taxonomies for resource types [@menzellheor2020] attempt to reflect this diversity and classify educational content, formats and media of the material as resource types, for example, whether a resource is a test, a graph or a lecture. In a survey [@jointly.infosuinuo2021], 81% of respondents (n = 54 responses) found the resource type to be at least "slightly helpful" when searching for resources. In a survey conducted as part of the LRMI project, 60% described the resource type as one of the most useful search criteria [@wintergrouplsrj2umoo2014].
 
-**Wertelisten**
+**Value lists**
 
 **LOM(-DE, -CH, HS-OER-LOM)**
 
-Die im deutschsprachigen Raum verwendeten Wertelisten basieren
-größtenteils auf der Werteliste, die im LOM-Standard mit 15 Items 2002
-veröffentlicht wurde.
+The value lists used in German-speaking countries are largely based on the value list published in the LOM standard with 15 items in 2002.
 
-Im deutschsprachigen Raum wurde diese mit dem Applikationsprofil LOM-DE
-übersetzt und auf 37 Einträge erweitert [@fwuslpgmev22010, S. 23f]. Diese
-Erweiterungen stammen aus dem [Learning Resource Exchange](http://www.eun.org/resources/learning-resource-exchange)-Vokabular
-[@europeanschoolnetlrees2017], welches in der Datenbank “[Vocabulary Bank
-for Education](http://europeanschoolnet-vbe.lexaurus.net/vbe/browse)”
-[@knowledgeintegrationvbees2024] abgerufen werden kann.
+In German-speaking countries, this was translated with the LOM-DE application profile and extended to 37 entries \[@fwuslpgmev22010, p. 23f\]. These extensions originate from the [Learning Resource Exchange](http://www.eun.org/resources/learning-resource-exchange) vocabulary \[@europeanschoolnetlrees2017\], which can be accessed via the "[Vocabulary Bank for Education](http://europeanschoolnet-vbe.lexaurus.net/vbe/browse)" database \[@knowledgeintegrationvbees2024\].
 
-Die CanCore-Empfehlungen zur Implementation von LOM sehen sowohl Typen
-und Formate von Inhalten als auch deren didaktische Verwendung vor.
-Dabei wird kritisch betrachtet, dass das originäre Vokabular von LOM
-wesentliche Inhaltstypen und didaktische Verwendungen von Ressourcen
-unberücksichtigt lässt [@fishercgvec2003, S. 5].
+The CanCore recommendations for the implementation of LOM provide for both types and formats of content and their use in an educational context. A particular criticism in this case is that the original vocabulary of LOM excludes many important content types and didactic applications of content [@fishercgvec2003, p. 5].
 
-Während sich das ursprünglich in LOM entwickelte Vokabular noch
-hauptsächlich auf didaktische Aspekte hinsichtlich des Ressourcentyps
-konzentrierte, wurden mit LOM-DE auch Werte wie “Bild”, “Daten”, “Video”
-oder “Text” eingeführt. Diese Aspekte beschreiben eher Formate oder
-technische Aspekte des Materials, die sich auch durch den Dateityp
-(MIME-Type) identifizieren lassen. Die LOM-DE Werteliste hat im
-DACH-Raum weite Verbreitung gefunden und wird auch mit wenigen
-Anpassungen im Hochschulkontext verwendet, wenngleich LOM-DE
-ursprünglich für den Schulbereich konzipiert worden ist.
+While the vocabulary that was originally developed in LOM focused primarily on didactic aspects with regard to the resource type, LOM-DE also introduced values such as "image", "data", "video" or "text". These aspects usually describe formats or technical aspects of the material, which can also be identified based on the file type (MIME type). The LOM-DE value list has found widespread use in the DACH region and, with some adjustments, is also used in a higher education context, even though LOM-DE was originally intended for schools.
 
-LOM-CH grenzt als [LOM-Applikationsprofil in der Version
-2.1](https://web.archive.org/web/20221025111407/https://www.educa.ch/sites/default/files/2020-11/applikationsprofil-lom-ch-v2.1-de.pdf)
-bei den Ressourcentypen zwei Unterkategorien voneinander ab:
+As a [LOM application profile with version 2.1](https://web.archive.org/web/20221025111407/https://www.educa.ch/sites/default/files/2020-11/applikationsprofil-lom-ch-v2.1-de.pdf), LOM-CH distinguishes between two subcategories of resource types:
 
-1)  Dokumentarischer Typ
+1) Documentary type
 
-> Mit dem dokumentarischen Ressourcentyp steht das Format und Medium
-> eher im Fokus, beispielsweise mit Werten wie “Bild/Grafik”, “Video”
-> oder “Textdokument”.
+> The documentary resource type focuses primarily on the format and medium, for example, with values such as "image/graphic", "video" or "text document".
 
-2)  Pädagogischer Typ
+2) Pedagogic type
 
-> Der pädagogische Ressourcentyp fokussiert eher die didaktische Methode
-> oder Funktion der Ressource innerhalb des Lehr-/Lernkontextes,
-> beispielsweise mit Werten wie “Experiment”, “Übung” oder
-> “Rollenspiel”.
+> The pedagogic resource type focuses more on the didactic method or function of the resource within the teaching/learning context, for example, with values such as "experiment", "exercise" or "role play".
 
 **LRMI**
 
-LRMI hat das Attribut 2022 nach langwieriger Ausarbeitung mit einem
-neuen Vokabular versehen. Ein Grund für die lange Dauer der Ausarbeitung
-ist die Schwierigkeit, sich auf eine entsprechende Werteliste und
-Definitionen zu einigen, da prinzipiell alles eine “Lernressource” sein
-könne. Vor diesem Hintergrund ließe sich beispielsweise auch ein
-herkömmliches “Rezept” in didaktischen Kontexten als eine Lernressource
-behandeln, beispielsweise als Textsorte im Deutschunterricht. Sollte nun
-“Rezept” auch ein Lernressourcentyp sein? Letztlich wurde eine
-Definition festgelegt, die explizit einen didaktischen Kontext für eine
-Lernressource voraussetzt. Es wurde dahingehend eine sehr reduzierte
-Werteliste empfohlen, jedoch mit der ausdrücklichen Empfehlung,
-spezifische, eigene Wertelisten zu entwickeln. Parallel wurde in dieser
-Zeit bei schema.org ein Typ “[Learning Resource](https://schema.org/LearningResource)” eingeführt, um Objekte
-entsprechend typisieren zu können. Phil Barker, der Leiter der
-LRMI-Gruppe, hat die Entwicklungen zu dem Lernressourcentyp in einem
-[Blog-Post](https://web.archive.org/web/20231205192236/https://blogs.pjjk.net/phil/learning-resource-types-in-lrmi/)
-veröffentlicht.
+After a lengthy development process, LRMI released a new vocabulary for this attribute in 2022. One reason for this long development is the difficulty encountered in agreeing on a corresponding value list and definitions since, in principle, anything can be a "learning resource". Against this background, a conventional "recipe", for instance, could also be treated as a learning resource in educational contexts, for example, as a text type in language lessons. Does that mean that "recipe" should now also be a learning resource type? Ultimately, a definition was established that explicitly stipulates a didactic context for a learning resource. Essentially, a very small vocabulary was recommended, but with the express recommendation for parties to develop their own specific value lists. At the same time, a "[LearningResource](https://schema.org/LearningResource)" type was introduced by schema.org to allow objects to be typed accordingly. Phil Barker, the head of the LRMI group, described the development process for the learning resource type in a [blog post](https://web.archive.org/web/20231205192236/https://blogs.pjjk.net/phil/learning-resource-types-in-lrmi/).
 
-**Relevanz und Zuweisung von Ressourcentypen zu Ressourcen**
+**Relevance and assignment of resource types to resources**
 
-Das Attribut wird in der Studie von Tischler et al. (2022) von den
-Befragten als wichtigstes Kriterium hinsichtlich der untersuchten
-Metadatenfelder identifiziert [@tischlernunmbsubob2022, S. 258]. Die
-Zuordnung von Ressourcentypen unterliegt bei demselben Material dabei
-jedoch deutlichen Schwankungen, wie Tischler et al. (2022) zeigen
-[@tischlernunmbsubob2022, S. 258f.].
+In the study conducted by Tischler et al. (2022), the attribute was identified by the respondents as the most important criterion in terms of the metadata fields examined [@tischlernunmbsubob2022, p. 258]. However, the assignment of resource types is subject to significant fluctuations for the same material, as highlighted by Tischler et al. (2022) in their study [@tischlernunmbsubob2022, p. 258f.].
 
-Die Wertelisten werden oft in Gänze innerhalb von Benutzungsoberflächen
-angezeigt, was bei Erfasser\*innen von Metadaten zu Verwirrungen führen
-kann, da viele Auswahlmöglichkeiten zutreffend sind. Beispiel: Eine
-Person erfasst aus didaktischer Sicht einen “Test” als Ressource, jedoch
-ist dieser zugleich auch ein “Text” im Hinblick auf das Format, welcher
-sich wiederum auf einer “Webseite” befindet. Müssen nun alle drei Typen
-ausgewählt werden? Andere moderne Ressourcentypen, wie Virtual- und
-Augmented-Reality stehen hingegen oft gar nicht zur Verfügung.
+The value lists often appear on user interfaces in their entirety, which can cause confusion among those describing the metadata since multiple selection options apply. For example, a person defines a "test" as a resource from an educational perspective, but this also constitutes a "text" with regard to the format, which in turn is displayed on a "web page". Do all three types have to be selected in this case? Other modern resource types, such as virtual and augmented reality, do not even exist in many cases.
 
-**Beispiele aus der Praxis**
+**Practical examples**
 
 *WirLernenOnline  
-*Bei WirLernenOnline hat die Überarbeitung des Vokabulars mit Lehrenden
-aus der Praxis zu einer Liste mit ca. [100
-Ressourcentypen](http://w3id.org/openeduhub/vocabs/new_lrt/) geführt.
-Dies kann zu einer präziseren Beschreibung des Objektes führen,
-erfordert aber ein gewisses Onboarding bei denjenigen, die die Metadaten
-bereitstellen sollen.
+\*WirLernenOnline revised its vocabulary in conjunction with teachers with the relevant practical experience, which resulted in a list of around [100 resource types](http://w3id.org/openeduhub/vocabs/new_lrt/). This can result in a more precise description of the object, but does require some onboarding for those who are to provide the metadata.
 
 *SODIX*
 
-Das Projekt [SODIX](https://www.sodix.de/) arbeitet an einer
-Überarbeitung des Vokabulars. Der vorläufige Entwurf findet sich in der
-[Übersicht der SODIX-Vokabulare](https://vocabs.sodix.de/index.de.html),
-die mit [SkoHub](https://skohub.io/) publiziert wurde.
+The [SODIX](https://www.sodix.de/) project is working on a revision of its vocabulary. The preliminary draft can be found in the [overview of SODIX vocabularies](https://vocabs.sodix.de/index.de.html), which was published with [SkoHub](https://skohub.io/).
 
-**Verwendungszwecke von Ressourcentypen**
+**Purpose of resource types**
 
-Art und Anzahl von Ressourcentypen werden immer wieder kontrovers
-diskutiert. Es gibt Bestrebungen, die Ressourcentypen zu harmonisieren
-(siehe [dini-ag-kim:hcrt:1](https://github.com/dini-ag-kim/hcrt/issues/1)).
-Das Verständnis der Art und Anzahl von Typen unterscheidet sich je nach Wertebereich. So werden Ressourcentypen insbesondere zu folgenden Zwecken genutzt:
+The kinds and number of resource types that exist are frequent – and sometimes controversial – topics of conversation. Efforts are being made to harmonise the resource types (see [dini-ag-kim:hcrt:1](https://github.com/dini-ag-kim/hcrt/issues/1)). The specific understanding of the kinds and number of types differs depending on the value range. Resource types are used for the following purposes in particular:
 
-1)  Beschreibung des Inhalts und der Funktion der Ressource im Einsatz
-    - Welche Funktion hat der Inhalt? (z. B. auch didaktisch oder
-      methodisch)  
-      Was ist die Art, Beschaffenheit oder das Wesen des Inhalts?
-2)  Beschreibung der Form, eher mit einem Fokus auf das Medium
-    - In welcher, eher technischen, Formatkategorie liegt die Ressource
-      vor?
-    - Beispiel: Mimetypes (Multipurpose Internet Mail Extensions).
-      Mimetypes sind technische Bezeichner für Dateiformate. Sie geben
-      an, wie Daten interpretiert werden können. Beispiele für
-      Mimetypes:
-      - text/html: HTML-Dokument
-      - image/png: PNG-Bild
-      - video/mp4: MP4-Video
-      - audio/mp3: MP3-Audiodatei
-      - application/pdf: PDF-Dokument
+1) Description of the content and function of the resource in use
+   - What is the function of the content? (e.g. didactic or methodological)  
+What is the type, nature or essence of the content?
+2) Description of the form, with a primary focus on the medium
+   - In what (usually technical) format category does the resource exist?
+   - Example: MIME types (Multipurpose Internet Mail Extensions). MIME types are technical identifiers for file formats. They specify how data can be interpreted. Examples of MIME types:
+     - text/html: HTML document
+     - image/png: PNG image
+     - video/mp4: MP4 video
+     - audio/mp3: MP3 audio file
+     - application/pdf: PDF document
 
-In der Vergangenheit gab es bereits Zusammenstellungen für mögliches
-Vokabular und Erweiterungen, beispielsweise anhand einer [Befragung im
-Rahmen der CanCore
-Empfehlungen](https://web.archive.org/web/20230125222802/http://cancore.athabascau.ca/guidelines/CanCore_Guidelines_Appendix_A_2.0.pdf)
-oder [Erhebung der Wirtschaftsuniversität
-Wien](https://web.archive.org/web/20180920112615/https://nm.wu-wien.ac.at/e-learning/lr-types.htm).
-Auch die LRMI hat 2022 eine [Überarbeitung des
-LRT-Vokabulars](https://github.com/dcmi/lrmi/tree/b1b223693d4c5122e9fd015c21b52349a7c58427/lrmi_vocabs/learningResourceType)
-publiziert.
+There have already been past compilations of possible vocabularies and extensions, for example, based on a [survey forming part of the CanCore recommendations](https://web.archive.org/web/20230125222802/http://cancore.athabascau.ca/guidelines/CanCore_Guidelines_Appendix_A_2.0.pdf) or a [survey released by the Vienna University of Economics and Business](https://web.archive.org/web/20180920112615/https://nm.wu-wien.ac.at/e-learning/lr-types.htm). LRMI also published a [revision of its LRT vocabulary](https://github.com/dcmi/lrmi/tree/b1b223693d4c5122e9fd015c21b52349a7c58427/lrmi_vocabs/learningResourceType) in 2022.
 
-Frühe Vokabulare orientierten sich an didaktischen
-Konstruktionsprinzipien, an dem interaktionsorientierten Grad der
-Kontrolle des Lernprozesses durch Lernende [@schulmeisterghltdd2007, S. 62-64].
-Darunter wird zum Teil die Bestimmung des Lerninhalts oder der Lernstrategie verstanden. Dies ist verwandt mit selbstregulierten Lernprozessen, die beispielsweise über den
-[Interaktivitätstyp](#lehr-lernform-interaktivitätstyp) definiert werden
-können.
+Early vocabularies were based on didactic construction principles and on the interaction-oriented degree of control over the learning process on the part of learners \[@schulmeisterghltdd2007, pp. 62-64\]. This is partly understood as the determination of the learning content or of the learning strategy. This is related to self-regulated learning processes, which can be defined, for example, based on the [interactivity type](#lehr-lernform-interaktivitätstyp).
 
-Im Kontext der DINI-AG KIM wird ebenfalls an Revisionen und
-Harmonisierungen gängiger Vokabulare gearbeitet, bspw. im Zusammenhang
-mit den Hochschulcampusressourcentypen
-([HCRT](https://github.com/dini-ag-kim/hcrt/issues/1)). So hat die
-[AGMuD](http://agmud.de/) mit einigen weiteren Akteuren die
-verschiedenen Vokabulare (LOM-DE, SODIX, LOM-CH, OEH,
-EAF) und redaktionelle Wünsche zusammengetragen. Aus den Arbeiten
-ist eine vorläufige
-[Community-Mindmap](https://www.mindmeister.com/app/map/2885585512)
-([Archiv](https://github.com/dini-ag-kim/hcrt/issues/1)) entstanden.
+In the context of the DINI-AG KIM, work is also underway to revise and harmonise common vocabularies, for example, in connection with the Higher Education Resource Types ([HCRT](https://github.com/dini-ag-kim/hcrt/issues/1)). By way of example, the [AGMuD](http://agmud.de/) and other stakeholders have compiled the various vocabularies (LOM-DE, SODIX, LOM-CH, OEH, EAF) and editorial requests. This work has resulted in a preliminary [community mind map](https://www.mindmeister.com/app/map/2885585512) ([archive](https://github.com/dini-ag-kim/hcrt/issues/1)).
 
-**Attribute in Metadatenstandards**
+**Attributes in metadata standards**
 
 - LRMI: [learningResourceType](https://schema.org/learningResourceType)
 - AMB: [type](https://dini-ag-kim.github.io/amb/20231019/#type)
-- DublinCore Metadata Terms: [Type](http://purl.org/dc/terms/type)
+- DublinCore Metadata Terms: [type](http://purl.org/dc/terms/type)
 - LOM: 5.2:Educational.LearningResourceType
-- Learning Metadata:
-  [lrmi:learningResouceType](http://purl.org/dcx/lrmi-terms/learningResourceType)
+- Learning Metadata Terms: [lrmi:learningResouceType](http://purl.org/dcx/lrmi-terms/learningResourceType)
 
-**Mögliche Wertebereiche:**
+**Possible value ranges:**
 
-- LOM: exercise, simulation, questionnaire, diagram, figure, graph,
-  index, slide, table, narrative text, exam, experiment, problem,
-  statement, self assessment, lecture
-- LOM-DE: application, assessment, broadcast, case study, course,
-  demonstration, drill and practice, educational game, enquiry-oriented
-  activity, experiment, exploration, glossary, guide, learning asset
-  (kein token) \[audio, data, image, model, text, video\], lesson plan,
-  open activity, presentation, project, reference, role play,
-  simulation, tool, web resource (kein token) \[weblog, web page, wiki,
-  other web resource\], other
-  ([Archiv](https://web.archive.org/web/20220120213540/https://sodis.de/lom-de/LOM-DE_v0.9_1.pdf))
-- HS-OER-LOM, AMB: [Hochschulcampus Ressourcentypen
-  (HCRT)](https://w3id.org/kim/hcrt/scheme), KIM
-- LOM-EAF: [Medienarten,
-  Medienklassifikationen](http://agmud.de/eaf-erweitertes-austauschformat/)
-- WirLernenOnline/Open Edu Hub:
-  - “[Neuer”
-    Lernressourcentyp](http://w3id.org/openeduhub/vocabs/new_lrt/)
-  - [“Alter”
-    Lernressourcentyp](http://w3id.org/openeduhub/vocabs/learningResourceType/)
+- LOM: exercise, simulation, questionnaire, diagram, figure, graph, index, slide, table, narrative text, exam, experiment, problem, statement, self assessment, lecture
 
-- SODIX: [Typ der Lernressource](https://vocabs.sodix.de/index.de.html)
-- DCMI:
-  [Type](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#DCMIType)
-- LRMI:
-  [learningResourceType](http://purl.org/dcx/lrmi-vocabs/learningResourceType/);
-  [Repo](https://github.com/dcmi/lrmi/tree/b1b223693d4c5122e9fd015c21b52349a7c58427/lrmi_vocabs/learningResourceType)
-- Datacite:
-  [resourceTypeGeneral](https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf)
+- LOM-DE: application, assessment, broadcast, case study, course, demonstration, drill and practice, educational game, enquiry-oriented activity, experiment, exploration, glossary, guide, learning asset (not a token) \[audio, data, image, model, text, video\], lesson plan, open activity, presentation, project, reference, role play, simulation, tool, web resource (not a token) \[weblog, web page, wiki, other web resource], other ([archive](https://web.archive.org/web/20220120213540/https://sodis.de/lom-de/LOM-DE_v0.9_1.pdf))
+
+- HS-OER-LOM, AMB: [Higher Education Resource Types (HCRT)](https://w3id.org/kim/hcrt/scheme), KIM
+
+- LOM-EAF: [Medienarten, Medienklassifikationen](http://agmud.de/eaf-erweitertes-austauschformat/)
+
+- WirLernenOnline / Open Edu Hub:
+  
+  - ["new" learning resource type](http://w3id.org/openeduhub/vocabs/new_lrt/)
+  - ["old" learning resource type](http://w3id.org/openeduhub/vocabs/learningResourceType/)
+
+- SODIX: [Learning Resource Type](https://vocabs.sodix.de/index.de.html)
+
+- DCMI: [type](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#DCMIType)
+
+- LRMI: [learningResourceType](http://purl.org/dcx/lrmi-vocabs/learningResourceType/); [repo](https://github.com/dcmi/lrmi/tree/b1b223693d4c5122e9fd015c21b52349a7c58427/lrmi_vocabs/learningResourceType)
+
+- Datacite: [resourceTypeGeneral](https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf)
+
 - Common Education Data Standard
+  
   - [Digital Media Type](https://ceds.ed.gov/element/001397)
   - [Physical Media Type](https://ceds.ed.gov/element/001401)
   - [Educational Use](https://ceds.ed.gov/element/001002)
-- Meta-Videoportal unterrichtsvideos.net:
-  [Materialtypen](https://w3id.org/unterrichtsvideos.net/vocabs/materialTypes/),
-  [Videotypen](https://w3id.org/unterrichtsvideos.net/vocabs/videoTypes/)
-  ([Repo](https://github.com/unterrichtsvideos/vocabs))
-- ORCA.nrw: [Medientypen](https://w3id.org/orca.nrw/medientypen/)
-- OERTX:
-  [Materialtypen](https://web.archive.org/web/20231211175418/https://oertx-help.highered.texas.gov/support/solutions/articles/42000077612-material-types)
-- [MERLOT](https://www.merlot.org/merlot/materials.htm)
-  ([Auszug](https://web.archive.org/web/20221203081203/https://info.merlot.org/merlothelp/MERLOT_Collection.htm)):
-  Animation, Assessment Tool, Assignment, Case Study, Collection,
-  Development Tool, Drill and Practice, ePortfolio, H5P Interactive,
-  Hybrid or Blended Course, Immersive Technologies / AR-VR, Learning
-  Object Repository, Online Course, Online Course Module, Open, Open,
-  Presentation, Quiz/Test, Reference Material, Simulation, Social
-  Networking Tool, Syllabus, Tutorial, Workshop and Training Material
+
+- Meta-video-portal unterrichtsvideos.net: [Materialtypen](https://w3id.org/unterrichtsvideos.net/vocabs/materialTypes/), [Videotypen](https://w3id.org/unterrichtsvideos.net/vocabs/videoTypes/) ([repo](https://github.com/unterrichtsvideos/vocabs))
+
+- ORCA.nrw: [Resource Types](https://w3id.org/orca.nrw/medientypen/)
+
+- OERTX: [Material Types](https://web.archive.org/web/20231211175418/https://oertx-help.highered.texas.gov/support/solutions/articles/42000077612-material-types)
+
+- [MERLOT](https://www.merlot.org/merlot/materials.htm) ([excerpt](https://web.archive.org/web/20221203081203/https://info.merlot.org/merlothelp/MERLOT_Collection.htm)): Animation, Assessment Tool, Assignment, Case Study, Collection, Development Tool, Drill and Practice, ePortfolio, H5P Interactive, Hybrid or Blended Course, Immersive Technologies / AR-VR, Learning Object Repository, Online Course, Online Course Module, Open, Presentation, Quiz/Test, Reference Material, Simulation, Social Networking Tool, Syllabus, Tutorial, Workshop and Training Material
+
 - euroCRIS (Current Research Information Systems):
-  - [OutputTypes](https://w3id.org/cerif/vocab/OutputTypes),
-    [ActivityTypes](https://w3id.org/cerif/vocab/ActivityTypes),
-    [ActivitySubtypes](https://w3id.org/cerif/vocab/ActivitySubtypes)
+  
+  - [OutputTypes](https://w3id.org/cerif/vocab/OutputTypes), [ActivityTypes](https://w3id.org/cerif/vocab/ActivityTypes), [ActivitySubtypes](https://w3id.org/cerif/vocab/ActivitySubtypes)
+
 - SKOSMOS
-  - Portfolio [Taxonomie](https://voc.uni-ak.ac.at/skosmos/potax/de/)
-    und [Vokabular](https://voc.uni-ak.ac.at/skosmos/povoc/de/)
-  - [Publikationstypen](https://voc.uni-ak.ac.at/skosmos/publikationstypen/de/)
-  - [Angewandte
-    Schlagwörter](https://voc.uni-ak.ac.at/skosmos/basekw/de/)
+  
+  - Portfolio [Taxonomy](https://voc.uni-ak.ac.at/skosmos/potax/de/) and [Vocabulary](https://voc.uni-ak.ac.at/skosmos/povoc/de/)
+  - [Publication types](https://voc.uni-ak.ac.at/skosmos/publikationstypen/de/)
+  - [Keywords](https://voc.uni-ak.ac.at/skosmos/basekw/de/)
+
 - LC/MARC
-  - [encoding Format](http://id.loc.gov/vocabulary/mencformat)
-  - [file type](http://id.loc.gov/vocabulary/mfiletype)
-  - [media types](http://id.loc.gov/vocabulary/mediaTypes)
-- Sonstige
+  
+  - [Encoding Format](http://id.loc.gov/vocabulary/mencformat)
+  - [File Type](http://id.loc.gov/vocabulary/mfiletype)
+  - [Media Types](http://id.loc.gov/vocabulary/mediaTypes)
+
+- Miscellaneous
+  
   - [contentTypes](http://id.loc.gov/vocabulary/contentTypes) (LC/MARC)
-  - [Work
-    type](https://web.archive.org/web/20231219115237/https://info.orcid.org/ufaqs/what-work-types-does-orcid-support/)
-    (ORCID)
-  - [content type](https://www.re3data.org/browse/by-content-type/)
-    (Re3data)
-  - [media
-    types](https://www.iana.org/assignments/media-types/media-types.xhtml)
-    (IANA)
-  - [Item
-    types](https://www.zotero.org/support/kb/item_types_and_fields)
-    (Zotero)
+  - [Work type](https://web.archive.org/web/20231219115237/https://info.orcid.org/ufaqs/what-work-types-does-orcid-support/) (ORCID)
+  - [content type](https://www.re3data.org/browse/by-content-type/) (Re3data)
+  - [media types](https://www.iana.org/assignments/media-types/media-types.xhtml) (IANA)
+  - [Item types](https://www.zotero.org/support/kb/item_types_and_fields) (Zotero)
   - ICOPER Learning Resource Types (European Schoolnet Vocabulary)
   - LRE Learning Resource Types (European Schoolnet Vocabulary)
   - NSDL Resource Type Values (European Schoolnet Vocabulary)
 
-### 4.2.8 Zugänglichkeit und Barrierearmut
+### 4.2.8 Accessibility
 
-Dieses Attribut beschreibt Ressourcen hinsichtlich
-Zugänglichkeitskriterien oder unterstützenden Zugänglichkeitsfunktionen,
-die eine Inklusion von Lernenden mit unterschiedlichen Bedürfnissen
-gewährleisten können und Lehrende bei der Suche nach geeigneten
-Ressourcen unterstützen.
+This attribute describes resources with regard to accessibility criteria or supporting accessibility features that can ensure inclusion of learners with varying needs and assist teachers in identifying suitable resources.
 
-**Potenziale von Metadaten zur Barrierearmut**
+**Accessibility potential of metadata**
 
-Metadaten unterstützen das Ziel der Barrierefreiheit, indem sie
-beispielsweise anderweitige Zugänge zu Inhalten multimedialer Ressourcen
-bieten [@steinermuogb2018]. Zudem kann die Kompatibilität mit assistiven
-Technologien (z. B. Screenreadern, Braillezeile, Tastatur-Navigation,
-Spracherkennung) ausgewiesen oder es können entsprechende
-Formatalternativen bereitgestellt werden, darunter:
+Metadata supports the objective of accessibility, for example, by providing alternative means of accessing the content of multimedia resources [@steinermuogb2018]. In addition, compatibility with assistive technologies (e.g. screen readers, Braille display, keyboard navigation, speech recognition) can be specified or suitable format alternatives be provided, including:
 
-- Audiodeskription für audiovisuelle Inhalte
-- Alternativtext für Bilder
-- Kontrast- oder Größenverändernde Funktionen
-- Bereitstellung verschiedener Zugriffsmodi (Textuell, Visuell, Auditiv)
+- Audio description for audiovisual content
+- Alternative text for images
+- Contrast- or size-changing functions
+- Provision of different access modes (textual, visual, auditory)
 
-**Barrierefreiheit in Metadatenstandards**
+**Accessibility in metadata standards**
 
-Das Attribut wurde in LOM-CH als Kategorie 11 "Barrierefreiheit"
-integriert [@educaal2020, S. 6] und bietet ein umfassendes Set
-unterschiedlicher Attribute inklusive definierter Wertelisten an [@educaal2020, S. 27-31].
-Viele der aufgeführten Attribute sind mit einem obligatorischen Verpflichtungsgrad gekennzeichnet.
+The attribute was integrated into LOM-CH as category 11 "Accessibility" [@educaal2020, p. 6] and provides a comprehensive set of attributes including defined value lists [@educaal2020, p. 27-31]. Many of the listed attributes are marked as mandatory requirements.
 
-**Verordnungen und Richtlinien**
+**Laws and regulations**
 
-Auf EU-Ebene wurde mit der [EU-Richtlinie
-2016/2102](https://web.archive.org/web/20231128120706/https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:32016L2102)
-der barrierefreie Zugang zu Webseiten öffentlicher Einrichtungen
-geregelt. In Deutschland wird dies durch die
-“Barrierefreie-Informationstechnik-Verordnung” ([BITV
-2.0](https://www.gesetze-im-internet.de/bitv_2_0/index.html)) geregelt.
-Dort werden ebenfalls die anzuwendenden Standards genannt. Soweit
-bekannt, beziehen sich diese Verordnungen jedoch nicht auf Materialien,
-die durch öffentliche Gelder finanziert wurden (vgl. [§2 BITV
-2.0](https://www.gesetze-im-internet.de/bitv_2_0/__2.html)). Sofern
-diese Materialien jedoch in Form von Webanwendungen vorliegen, sollten
-sie der Verordnung genügen. Bei Tests und Prüfungen bietet der Standard
-[Accessible Portable Item Protocol
-(APIP)](http://www.imsglobal.org/apip/index.html) Möglichkeiten,
-Informationen zur Barrierefreiheit in den Testobjekten zu transportieren [@1edtechapipa2023].
+At EU level, the [EU Directive 2016/2102](https://web.archive.org/web/20231128120706/https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:32016L2102) regulates the accessibility of websites and mobile applications of public sector bodies. In Germany, this is governed by the "Barrier-Free Information Technology Ordinance" ([BITV 2.0](https://www.gesetze-im-internet.de/bitv_2_0/index.html)), which also specifies the relevant standards to be applied. As far as is known, materials financed with public funds (see [Section 2 BITV 2.0](https://www.gesetze-im-internet.de/bitv_2_0/__2.html)) are not covered by these regulations. However, if these materials exist in the form of web applications, they should meet the requirements of the regulation. For tests and assessments, the [Accessible Portable Item Protocol (APIP)](http://www.imsglobal.org/apip/index.html) standard provides options for including information on accessibility in the test objects \[@1edtechapipa2023\].
 
-**Herausforderungen bei der Bezeichnung und Zuweisung von Werten**
+**Challenges in naming and assigning values**
 
-Neben den öffentlichen Verordnungen und in Standards etablierten
-Vokabularen kann jedoch noch ein weiterer Punkt unter dem Aspekt
-Zugänglichkeit betrachtet werden: Die Bezeichnung der Attribute sowie
-der verwendeten Vokabulare.
+In addition to the public regulations and vocabularies established in standards, it is important to consider another point when examining the subject of accessibility, that is, the naming of the attributes and the vocabularies employed.
 
-Bei der Bezeichnung sollte darauf geachtet werden, dass Nutzende die
-Begriffe und Werte verstehen können und sie nicht nur aus einer
-Perspektive von Expert\*innen beschrieben wurden. Vokabular-Technologien
-wie SKOS ermöglichen dazu beispielsweise, sogenannte
-“Alternativbezeichnungen” (alternative Labels) oder “versteckte
-Bezeichnungen” (hidden Labels) anzugeben. Damit können Synonyme oder
-auch häufige Schreibfehler hinterlegt werden. Aber auch die
-Präferenzbezeichnung sollte dem Begriff entsprechen, den Nutzende
-tatsächlich verstehen.
+When naming, it must be ensured that users can understand the terms and values and that they are not described solely from an expert perspective. To this end, vocabulary technologies such as SKOS enable the specification of "alternative labels" or "hidden labels", for example. This allows synonyms or common misspellings to be defined. However, the preferred name should also correspond to the term that users can actually understand.
 
-Tavakoli et al. verdeutlichen, dass die Zuordnung der Attribute nicht
-trivial ist. Von denjenigen Ressourcen, die im analysierten Datensatz
-keine Qualitätskontrolle aufweisen, besitzen nur äußerst wenige
-entsprechende Attribute. Aber auch bei den Ressourcen mit entsprechender
-Kontrolle besitzen viele keine entsprechende Attribuierung [@tavakolimaoer2021, S. 628].
+Tavakoli et al. highlight the fact that the assignment of attributes is far from trivial. Of those resources in the analysed data set that have not undergone quality control, only very few feature corresponding attributes. Yet even among the resources that are subject to appropriate control, many lack the corresponding attribution [@tavakolimaoer2021, p. 628].
 
-Die Beurteilung von Barrierefreiheit ist für die Entwickler\*innen oder
-Erfasser\*innen von Ressourcen ein aufwändiges Unterfangen, nicht
-zuletzt aufgrund der Heterogenität von Ressourcen und einer Vielzahl von
-Kriterien, die geprüft werden können. Das dreistufige
-Konformitätsranking gemäß [WCAG 2.2](https://www.w3.org/TR/WCAG22/) (A,
-AA, AAA) kann als Orientierung für eine Einschätzung dienen, wenngleich
-sich dieses eher für webbasierte Ressourcen eignet. Die nachfolgende
-Version [WCAG 3.0](https://www.w3.org/TR/wcag-3.0/) (Bronze, Silber,
-Gold) ist nicht abwärtskompatibel und enthält als alternatives
-Konformitätsmodell verschiedene Tests und Bewertungsmechanismen, die
-über webbasierte Ressourcen hinausgehen, sodass der Anwendungsbereich
-der Leitlinien zur Zugänglichkeit breiter ist. Während WCAG 2.2 eher
-binäre Bewertungen für Kriterien aufweist (erfüllt/nicht erfüllt), wird
-in der derzeitigen Entwurfsversion von WCAG 3.0 eine fünfstufige Skala
-zur Bewertung einzelner Kriterien verwendet.
+Assessing accessibility is a complex undertaking for those who develop or describe resources, not least due to the heterogeneity of resources and the vast number of criteria that can be checked. The three-level conformance ranking according to [WCAG 2.2](https://www.w3.org/TR/WCAG22/) (A, AA, AAA) can serve as orientation for this assessment, although it is more suitable for web-based resources. The subsequent version [WCAG 3.0](https://www.w3.org/TR/wcag-3.0/) (bronze, silver, gold) is not backward compatible and, as an alternative conformance model, contains various tests and evaluation mechanisms that are not limited to web-based resources, thereby broadening the scope of the accessibility guidelines. While the criteria ratings used in WCAG 2.2 are somewhat binary in nature (met / not met), the current draft version of WCAG 3.0 employs a five-level scale to evaluate individual criteria.
 
-**Verwendungsbeispiele aus der Praxis**
+**Practical usage examples**
 
 *SkillsCommons*
 
-[Skillscommons.org](https://www.skillscommons.org/) stellt die eigenen
-[Empfehlungen, um Inhalte auf Barrierearmut hin zu
-überprüfen](https://support.skillscommons.org/home/contribute-manage/prepare-materials/ada-requirements/),
-frei zur Verfügung (SkillsCommons, 2023). Darunter finden sich
-Checklisten und Handbücher, die bei einer Evaluierung unterstützen.
-Außerdem finden sich dort auch weitere Handreichungen, die beschreiben,
-wie Word, PowerPoint oder PDF-Dokumente barrierearm gestaltet werden
-können ([beispielhafte
-Beschreibung](https://web.archive.org/web/20231218123749/https://www.skillscommons.org/handle/taaccct/7115)).
-Skillscommons hat sich verpflichtet, alle geförderten Materialien auf
-Level AA der [Web Content Accessibility Guidelines
-2.0](https://www.w3.org/TR/WCAG20/) zur Verfügung zu stellen
+[Skillscommons.org](https://www.skillscommons.org/) makes its own [guidelines for checking the accessibility of content](https://support.skillscommons.org/home/contribute-manage/prepare-materials/ada-requirements/) freely available (SkillsCommons, 2023). These include checklists and manuals to support with the necessary evaluation. In addition, guides are available that describe how Word, PowerPoint or PDF documents can be made accessible ([example description](https://web.archive.org/web/20231218123749/https://www.skillscommons.org/handle/taaccct/7115)). SkillsCommons is committed to making all funded materials available according to level AA of the [Web Content Accessibility Guidelines 2.0](https://www.w3.org/TR/WCAG20/).
 
 *PhET Interactive Simulations*
 
-Im [Portal PhET](https://phet.colorado.edu/en/simulations/filter?type=html) werden
-assistive Funktionen von interaktiven Simulationen als Metadatum mit
-Ikonographie hinterlegt.
+In the [PhET portal](https://phet.colorado.edu/en/simulations/filter?type=html), inclusive features of interactive simulations are provided as metadata with corresponding iconography.
 
-Tabelle: *Assistive Funktionen im Portal PhET* [@phetidf2024]
+Table: *Inclusive features in the PhET portal* \[@phetidf2024]
 
 <table>
 <colgroup>
@@ -3230,269 +1693,175 @@ Tabelle: *Assistive Funktionen im Portal PhET* [@phetidf2024]
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Feld</strong></td>
-<td><strong>Beschreibung</strong></td>
+<td><strong>Field</strong></td>
+<td><strong>Description</strong></td>
 </tr>
 <tr class="even">
 <td>Alternative Input</td>
-<td>Alternative Input enables learners to use many different input
-methods like keyboards, switches, and joysticks.</td>
+<td>Alternative Input enables learners to use many different input methods like keyboards, switches, and joysticks.</td>
 </tr>
 <tr class="odd">
 <td>Camera Input</td>
-<td>Use your camera to recognize hand movements or colored objects
-placed within camera view to interact with the simulation objects and
-make changes.</td>
+<td>Use your camera to recognise hand movements or coloured objects placed within camera view to interact with the simulation objects and make changes.</td>
 </tr>
 <tr class="even">
 <td>Interactive Description</td>
-<td>Accessed using screen reader software, Interactive Description
-provides an interactive described experience that dynamically updates
-and responds to learners actions.</td>
+<td>Accessed using screen reader software, Interactive Description provides an interactive described experience that dynamically updates and responds to learners&apos; actions.</td>
 </tr>
 <tr class="odd">
 <td>Interactive Description on Mobile Devices</td>
-<td>Accessed using mobile VoiceOver on iPhones and iPads, this feature
-provides an interactive described experience that dynamically updates
-and responds to a learner's swipes and taps.</td>
+<td>Accessed using mobile VoiceOver on iPhones and iPads, this feature provides an interactive described experience that dynamically updates and responds to a learner&apos;s swipes and taps.</td>
 </tr>
 <tr class="even">
 <td>Sound and Sonification</td>
-<td>Sound and Sonifications are non-speech sounds that create an
-immersive and meaningful soundscape for learners. All sounds are
-optional.</td>
+<td>Sound and Sonifications are non-speech sounds that create an immersive and meaningful soundscape for learners. All sounds are optional.</td>
 </tr>
 <tr class="odd">
 <td>Voicing</td>
-<td>Enable Voicing in the Audio tab of the Preferences menu and choose
-the information you want to hear spoken aloud as you navigate and
-interact.</td>
+<td>Enable Voicing in the Audio tab of the Preferences menu and choose the information you want to hear spoken aloud as you navigate and interact.</td>
 </tr>
 <tr class="even">
 <td>Pan and Zoom</td>
-<td>Pan and Zoom allows anyone to zoom in for a closer look. On touch
-devices, pinch-to-zoom or drag to pan. Using a keyboard, zoom in and out
-with standard keyboard shortcuts and use arrow keys to pan. The sim auto
-pans to the focused object.</td>
+<td>Pan and Zoom allows anyone to zoom in for a closer look. On touch devices, pinch-to-zoom or drag to pan. Using a keyboard, zoom in and out with standard keyboard shortcuts and use arrow keys to pan. The simulation automatically pans to the focused object.</td>
 </tr>
 <tr class="odd">
 <td>Interactive Highlights</td>
-<td>Bright pink Interactive Highlights, like the ones for Alternative
-Input, can be enabled for mouse and touch in the Visual tab of
-Preferences menu.</td>
+<td>Bright pink Interactive Highlights, like the ones for Alternative Input, can be enabled for mouse and touch in the Visual tab of the Preferences menu.</td>
 </tr>
 </tbody>
 </table>
-
 *WirLernenOnline*
 
-Um Redaktionen bei der Zuweisung von Accessibility Attributen zu
-unterstützen, hat WirLernenOnline ein Set von Micro-Services entwickelt,
-die entsprechende Attribute mittels automatisierter Prüfung ermitteln
-[@meissnerme2022].
-Grundlage bildet das Open Source Werkzeug [Lighthouse](https://github.com/GoogleChrome/lighthouse) zur Verbesserung der Qualität von Webseiten.
+To support editorial teams in the assignment of accessibility attributes, WirLernenOnline has developed a set of micro-services that determine corresponding attributes using automated checks \[@meissnerme2022\]. These are based on the open-source tool [Lighthouse](https://github.com/GoogleChrome/lighthouse), which aims to improve the quality of websites.
 
-*IQOER (Instrument zur Erfassung der Qualität von OER) [@mueskensizqoie12022]*
+*IQOER (Instrument for Quality Assurance of OER) \[@mueskensizqoie12022]*
 
-Im IQOER werden verschiedene Items verwendet, um die Barrierefreiheit
-von Ressourcen zu beurteilen. Die Items sind an die WCAG angelehnt:
+IQOER uses different items to assess the accessibility of resources. The items are based on the WCAG:
 
-- Die Textinhalte können in der Größe verändert werden, um die
-  Lesbarkeit zu erhöhen.
-- Für Inhalte (z. B. Bilder) stehen Format-Alternativen zur Verfügung.
-- Alle Funktionalitäten sind per Tastatur oder alternative (sic)
-  Bedienmöglichkeiten erreichbar.
-- Nutzer haben stets ausreichend Zeit, um alle Inhalte zu lesen bzw. zu
-  bearbeiten.
-- Die Inhalte können im Design angepasst werden, ohne dass die Struktur
-  oder Informationen verloren gehen.
+- The text content can be resized to aid readability.
+- Format alternatives are available for content (e.g. images).
+- All functions can be accessed via a keyboard or alternative control options.
+- Users always have sufficient time to read or edit all content.
+- The design of the content can be changed without losing the corresponding structure or information.
 
 *eduCheck (FWU)*
 
-Im eduCheck Projekt (FWU) werden Prüfkriterien digitaler Angebote
-hinsichtlich der Barrierefreiheit und Usability erstellt. Die Kriterien
-orientieren sich an dem [BIK BITV-Test](https://web.archive.org/web/20231201152445/https://www.bitvtest.de/bitv_test.html).
-Die vorläufige Checkliste beinhaltet im Bereich Barrierefreiheit &
-Usability [@fwuekgjp2024]:
+In the eduCheck project (FWU), test criteria are created to check digital media with regard to accessibility and usability. The criteria are based on the [BIK BITV-Test](https://web.archive.org/web/20231201152445/https://www.bitvtest.de/bitv_test.html). The preliminary checklist includes the following under Accessibility \& Usability \[@fwuekgjp2024\]:
 
-- Allgemein
-  - Erklärung zur Barrierefreiheit vorhanden
-  - Aktivierung von Barrierefreiheitsfunktionen möglich
-  - Barrierefreiheitsinformationen bleiben bei Konvertierung erhalten
-  - Benutzerdefinierte Einstellungen möglich
-- auditiv
-  - Wiedergabe von Untertiteln
-  - Synchrone Untertitel
-  - Audiodeskription oder Volltext-Alternative für Videos
-  - Auflösung bei Videotelefonie
-- visuell
-  - HTML-Strukturelemente vorhanden
-  - Alternativtexte vorhanden
-  - Bereiche überspringbar
-  - Audiodeskription oder Volltext-Alternative für Videos
-- motorisch
-  - Bewegte Inhalte abschaltbar
-  - Konsistente Navigation
-  - HTML-Strukturelemente vorhanden
-  - Bereiche überspringbar
-- kognitiv
-  - Bewegte Inhalte abschaltbar
-  - Konsistente Navigation
-  - Fehlererkennung
-  - Fehlervermeidung wird unterstützt
+- General
+  - Accessibility declaration exists
+  - Activation of accessibility features possible
+  - Accessibility information is retained in case of conversion
+  - User-defined settings possible
+- Auditory
+  - Playback of subtitles
+  - Synchronised subtitles
+  - Audio description or full-text alternative for videos
+  - Resolution for video calls
+- Visual
+  - HTML structural elements present
+  - Alternative texts available
+  - Areas can be skipped
+  - Audio description or full-text alternative for videos
+- Motor
+  - Moving content can be switched off
+  - Consistent navigation
+  - HTML structural elements present
+  - Areas can be skipped
+- Cognitive
+  - Moving content can be switched off
+  - Consistent navigation
+  - Error detection
+  - Error prevention is supported
 
 *ComeIn*
 
-Der Ansatz in ComeIn verwendet kein aggregiertes Ranking, sondern nutzt
-ebenfalls Items für die Ressourcen. Diese orientieren sich den WCAG und
-können unmittelbar in den Metadaten mittels *accessibilityFeature* oder
-*accessibilityControl* ausgewiesen werden. Auszug aus dem
-Projekt-Beschreibungsstandard [@agimedibikfbcirhzh2023]:
+The ComeIn approach does not employ an aggregated ranking, but also uses items for the resources. These are based on the WCAG and can be identified directly in the metadata using *accessibilityFeature* or *accessibilityControl*. Extract from the project description standard [@agimedibikfbcirhzh2023]:
 
-> *Durch welche Maßnahmen ist es sichergestellt, dass Menschen mit
-> Beeinträchtigungen die Ressource so weit wie möglich nutzen können?*
+> *What measures are taken to ensure that people with disabilities can use the resource to as great an extent as possible?*
 
-- Es gibt keine oder kaum störende Hintergrundgeräusche (auditive
-  Sprache).
-- Textinhalte können in der Größe verändert werden (zur Erhöhung der
-  Lesbarkeit).
-- Es stehen Formatalternativen für Inhalte (z. B. Bilder) zur Verfügung.
-- Inhalte können ohne Struktur-/Informationsverlust im Design (z. B.
-  Farben) angepasst werden.
-- Es stehen Untertitel zur Verfügung (audiovisuelle Inhalte).
-- Es steht ein Transkript zur Verfügung (auditive Inhalte).
-- Alle Funktionalitäten sind per Tastatur bedienbar
+- There is minimal or no disturbing background noise (auditory speech).
+- Text content can be resized (to aid readability).
+- Format alternatives are available for content (e.g. images).
+- The design of content can be changed without loss of structure/information (e.g. colours).
+- Subtitles are available (audiovisual content).
+- A transcript is available (auditory content).
+- All functions can be operated via a keyboard
 
-> *Welcher Zugriffsmodus*[^18] *ist hinreichende Voraussetzung, um mit
-> der Ressource arbeiten zu können?*
+> *Which access mode*[\^18] *is sufficient to be able to work with the resource?*
 
-- Auditive Wahrnehmung
-- Taktile Wahrnehmung
-- Visuelle Wahrnehmung
+- Auditory perception
+- Tactile perception
+- Visual perception
 
-Metadaten dieser Kategorie könnten, in Abhängigkeit der verwendeten
-Werteliste, zudem zur Erfassung möglicher Förderbedarfe bei heterogenen,
-inklusiven Lerngruppen verwendet werden, beispielsweise zur
-Kennzeichnung der Unterstützung sonderpädagogischer Förderbedarfe nach
-Ausbildungsordnungen (bspw. [AO-SF NRW](https://web.archive.org/web/20231129085537/https://www.schulministerium.nrw/ausbildungsordnung-sonderpaedagogische-foerderung-ao-sf))
-oder dem Schulgesetz (bspw. [§ 19 SchulG NRW](https://web.archive.org/web/20240229140243/https://recht.nrw.de/lmi/owa/br_bes_detail?sg=0&menu=0&bes_id=7345&anw_nr=2&aufgehoben=N&det_id=633579)),
-etwa die Förderschwerpunkte:
+Depending on the value list employed, metadata of this category could also be used to define any special educational needs that exist in heterogeneous, inclusive learning groups – for example, to identify support for special educational needs according to specific training regulations (e.g. [AO-SF NRW](https://web.archive.org/web/20231129085537/https://www.schulministerium.nrw/ausbildungsordnung-sonderpaedagogische-foerderung-ao-sf)) or school laws (e.g. [Section 19 SchulG NRW](https://web.archive.org/web/20240229140243/https://recht.nrw.de/lmi/owa/br_bes_detail?sg=0&menu=0&bes_id=7345&anw_nr=2&aufgehoben=N&det_id=633579)). This could include the following educational focal points:
 
-- Lernen,
-- Sprache,
-- Emotionale und soziale Entwicklung,
-- Hören und Kommunikation,
-- Sehen,
-- Geistige Entwicklung,
-- Körperliche und motorische Entwicklung
+- Learning
+- Speech
+- Emotional and social development
+- Hearing and communication
+- Seeing
+- Intellectual development
+- Physical and motor development
 
-**Erfassung und Bereitstellung von Attributen zur Zugänglichkeit**
+**Describing and providing accessibility attributes**
 
-Die Ansätze unterscheiden sich insbesondere in der Prämisse, von wem und
-wie Ressourcen beurteilt werden und zu welchem Zweck. Es ist bei einer
-Beurteilung durch Menschen sicherlich empfehlenswert, verlässliche und
-verständliche Items zu verwenden, jedoch sollte die Abbildung dieser
-Items in Metadaten bereits mitgedacht werden, um die Beurteilung auch
-für Maschinen zugänglich zu machen.
+The approaches differ particularly with regard to the premise of how and by whom resources are assessed and for what purpose. When resources are assessed by humans, it is certainly advisable to use reliable and comprehensible items, but the mapping of these items in metadata should also be considered so that the assessment is accessible to machines.
 
-Die didaktische Nutzung von Metadatenattributen zur Zugänglichkeit und
-Barrierearmut ist für Lehrende relevant, die Besonderheiten ihrer
-Zielgruppe berücksichtigen müssen sowie für Lernende, die bestimmte
-Anforderungen an Ressourcen hinsichtlich der Zugänglichkeit und
-Barrierearmut erwarten, um diese im erdachten Sinne nutzen zu können.
+The didactic use of metadata attributes for accessibility is relevant for teachers who need to consider the specific characteristics of their target group, as well as for learners who expect resources to meet certain accessibility requirements in order to use them for their intended purpose.
 
-Weiterführende Themen in diesem Kontext:
+Other topics in this context:
 
-Inklusion, Bildungsteilhabe, Bildungschancen, Bildungsgerechtigkeit,
-insbesondere in Bezug auf Grundgesetz Art. 3 (3) “Niemand darf wegen
-seiner Behinderung benachteiligt werden.”
+Inclusion, educational participation, educational opportunities, educational equality, particularly with regard to Art. 3 (3) of the Basic Law for the Federal Republic of Germany: "No person shall be disfavoured because of disability."
 
-**Attribute in Metadatenstandards**
+**Attributes in metadata standards**
 
-- LOM-CH: 11 Barrierefreiheit
-- schema.org bietet außerdem verschiedene Attribute an, um Barrierearmut
-  zu kennzeichnen:
+- LOM-CH: 11 Accessibility
+- schema.org also offers a range of attributes for indicating accessibility:
   - [accessibilityAPI](https://schema.org/accessibilityAPI)
   - [accessibilityControl](https://schema.org/accessibilityControl)
   - [accessibilityFeature](https://schema.org/accessibilityFeature)
   - [accessibilityHazard](https://schema.org/accessibilityHazard)
   - [accessibilitySummary](https://schema.org/accessibilitySummary)
-- [MERLOT](https://www.merlot.org/merlot/materials.htm): binäres
-  Attribut (hat Zugänglichkeitsinformationen) \[hasAccessibilityForm\]
+- [MERLOT](https://www.merlot.org/merlot/materials.htm): binary attribute (has accessibility information) \[hasAccessibilityForm\]
 - [Common Education Data Standard](https://ceds.ed.gov/elements.aspx):
   - Learning Resource Access API Type
   - Learning Resource Access Hazard Type
   - Learning Resource Access Mode Type
   - Learning Resource Media Feature Type
-- Weitere Referenzen
-  - [AccessForAll](https://www.imsglobal.org/activity/accessibility)
-    (1EdTech)
+- Other references
+  - [AccessForAll](https://www.imsglobal.org/activity/accessibility) (1EdTech)
   - Inclusive Design Research Centre (Handbook, Design Guide)
   - [Inclusive Design Institute](https://inclusivedesign.ca/)
 
-**Mögliche Wertelisten**
+**Possible value lists**
 
-- [Barrierefreie-Informationstechnik-Verordnung 2.0
-  (BITV)](https://web.archive.org/web/20240303113437/https://www.barrierefreiheit-dienstekonsolidierung.bund.de/Webs/PB/DE/gesetze-und-richtlinien/bitv2-0/bitv2-0-node.html)
-  (BRD, 2011)
+- [Barrier-Free Information Technology Ordinance 2.0 (BITV)](https://web.archive.org/web/20240303113437/https://www.barrierefreiheit-dienstekonsolidierung.bund.de/Webs/PB/DE/gesetze-und-richtlinien/bitv2-0/bitv2-0-node.html) (BRD, 2011)
 - Web Content Accessibility Guidelines
-  - [WCAG 2.1](https://www.w3.org/TR/WCAG21/) [@kirkpatrickwcagw2023]
-  - [WCAG 3.0](https://www.w3.org/TR/wcag-3.0/) (Entwurf)
+  - [WCAG 2.1](https://www.w3.org/TR/WCAG21/) \[@kirkpatrickwcagw2023\]
+  - [WCAG 3.0](https://www.w3.org/TR/wcag-3.0/) (draft)
 - European Schoolnet Vocabulary (SEN Access Mode Values)
-- [Open Edu Hub
-  (Barrierefreiheit)](http://w3id.org/openeduhub/vocabs/accessibilitySummary/)
-  (im Metadatenfeld *accessibilitySummary)*
+- [Open Edu Hub (Accessibility)](http://w3id.org/openeduhub/vocabs/accessibilitySummary/) (in the metadata field *accessibilitySummary)*
 - Schema.org Accessibility Properties for Discoverability Vocabulary
-- [Common Education Data Standards](https://ceds.ed.gov/) (CEDS),
-  Zugänglichkeitsformat ([Accessible Format
-  Type](https://ceds.ed.gov/elements.aspx)) (v12, veröffentlicht
-  02/2024)
-- [PBSLearningMedia](https://www.pbslearningmedia.org/search/)
-  (Anpassungsarten: Audiodeskription, Untertitel, Auditive Beschreibung,
-  Flexibilität der Steuerung: Vollständige Tastatursteuerung,
-  vollständige Maussteuerung)
-- AccessibleOCW Ontology [@eliasoraos2018]
+- [Common Education Data Standards](https://ceds.ed.gov/) (CEDS), [Accessible Format Type](https://ceds.ed.gov/elements.aspx) (v12, published 02/2024)
+- [PBSLearningMedia](https://www.pbslearningmedia.org/search/) (Adaptation Types: Audio Description, Descriptive Video, Caption, Transcript; Control Flexibility: Full Keyboard Control, Full Mouse Control)
+- AccessibleOCW Ontology \[@eliasoraos2018]
 
-### 4.2.9 Lehr-/Lernform (Interaktivitätstyp)
+### 4.2.9 Teaching/learning form (interactivity type)
 
-In gängigen Standards wird dieses Attribut auch mit “Interaktivität”
-oder “Interaktivitätstyp” (interactivityType) bezeichnet und beinhaltet
-häufig die Werte *aktiv*, *passiv* oder *gemischt*. Das Feld bezieht
-sich damit in der Regel auf die Lehr-/Lernform, die beim Einsatz der
-Ressource im Wesentlichen vorherrscht. Zwischen den Polen des
-fremdbestimmten und selbstbestimmten Lernens kann so beispielsweise
-zwischen eher selbstgesteuerten oder auch eher fremdgesteuerten Lehr-
-und Lernformen differenziert werden. Im Zuge einer Handlungsorientierung
-und konstruktivistischen sowie konnektivistischen Lerntheorien gewinnt
-das Attribut an Bedeutung.
+In common standards, this attribute is also referred to as "interactivity" or "interactivity type" (interactivityType) and often has the values *active*, *passive* or *mixed*. Therefore, the field usually refers to the teaching/learning form that is predominantly employed when using the resource. Between the opposing poles of externally determined and self-determined learning, for example, a distinction can thus be made between more self-directed and more externally guided teaching and learning forms. The attribute is gaining in significance in the context of action orientation as well as constructivist and connectivist learning theories.
 
-**Vergleich der Feldkonzepte: Verwendung, Interpretation und
-Nützlichkeit**
+**Comparison of field concepts: usage, interpretation and usefulness**
 
-Von den Befragten bei Tischler et al. (2022) erhält dieses Attribut im
-Vergleich eher verhaltenere Bewertungen hinsichtlich Nützlichkeit und
-Nutzbarkeit. Dies liege vor allem an dem Wertebereich, der entweder als
-unklar oder als unzureichend bezeichnet wird [@tischlernunmbsubob2022, S. 261].
+The respondents to the survey conducted by Tischler et al. (2022) were somewhat cautious in rating this attribute in terms of its usefulness and usability. This appears to be mainly due to the value range, which is described as either unclear or inadequate [@tischlernunmbsubob2022, p. 261].
 
-Diese Einschätzung deckt sich mit Beobachtungen aus der Praxis, bei
-denen sich zeigt, dass zwischen Metadatenstandards, die den gleichen
-Wertebereich verwenden, auch unterschiedliche Interpretationen
-vorliegen, wie folgende Definitionen und die Gegenüberstellungen in der
-Tabelle widerspiegeln:
+This assessment is consistent with observations made in practice, which show that very different interpretations exist between metadata standards that use the same range of values, as reflected in the definitions below and the comparisons provided in the following table:
 
-1)  DublinCore LRMI: “The predominant mode of learning supported by the
-    learning resource. Acceptable values are 'active', 'expositive', or
-    'mixed'.” [@schema.orgiv2024]
-2)  LOM: “Predominant mode of learning supported by this learning
-    object” [@ieee111islom2020, S. 31].
-3)  AMB: “Kennzeichnet die vorherrschende
-    Lehr-/Lernform der Bildungsressource und gibt an, ob
-    Lehr-/Lernprozesse mit dieser Ressource eher fremdgesteuert
-    (expositive), selbstgesteuert (active) oder in einer Mischform
-    (mixed) im Hinblick auf die primären Lernziele der Bildungsressource
-    stattfinden.” [@pohlamfba2023]
+1) DublinCore LRMI: "The predominant mode of learning supported by the learning resource. Acceptable values are 'active', 'expositive', or 'mixed'." \[@schema.orgiv2024]
+2) LOM: "Predominant mode of learning supported by this learning object" [@ieee111islom2020, p. 31].
+3) AMB: "Identifies the predominant teaching/learning form of the educational resource and indicates whether teaching/learning processes with this resource are more likely to be guided (expositive), self-directed (active) or use a combination of forms (mixed) with regard to the primary learning objectives of the educational resource." \[@pohlamfba2023]
 
-Tabelle: *Vergleich der Felddefinitionen für die Lehr-/Lernform*
+Table: *Comparison of field definitions for the teaching/learning form*
 
 <table>
 <colgroup>
@@ -3503,154 +1872,71 @@ Tabelle: *Vergleich der Felddefinitionen für die Lehr-/Lernform*
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Wert / Standard</strong></td>
-<td><strong>active</strong></td>
-<td><strong>expositive</strong></td>
-<td><strong>mixed</strong></td>
+<td><strong>Value/Standard</strong></td>
+<td><strong>Active</strong></td>
+<td><strong>Expositive</strong></td>
+<td><strong>Mixed</strong></td>
 </tr>
 <tr class="even">
-<td><strong>LOM:interactivityType<br />
-</strong>(IEEE, 2020a, S. 31)</td>
-<td><p><strong>Lernen durch Handeln</strong></p>
-<p>im weiteren Sinn auch</p>
-<p><strong>eher aktiv produzierende /</strong></p>
-<p><strong>entscheidende Tätigkeiten</strong></p>
-<p>(z. B. etwas Verfassen in einer Übung/Aufgabe, Simulation,
-Fragebogen, …)</p></td>
-<td><p><strong>eher rezeptive Tätigkeiten</strong></p>
-<p>(bspw. das Lesen, Hören oder Anschauen von Text/Audio/Video)</p></td>
-<td>Kombination der aktiven und expositiven Interaktionstypen</td>
+<td><strong>LOM:interactivityType<br /> </strong>(IEEE, 2020a, p. 31)</td>
+<td><p><strong>Learning by doing</strong></p>
+<p>In a broader sense, this also includes</p>
+<p><strong>predominantly productive or</strong></p>
+<p><strong>decisive activities</strong></p>
+<p>(e.g. writing something in an exercise/task, simulation, questionnaire, etc.)</p></td>
+<td><p><strong>Predominantly receptive activities</strong></p>
+<p>(e.g. reading text, listening to audio, watching video)</p></td>
+<td>Combination of active and expositive interactivity types</td>
 </tr>
 <tr class="odd">
-<td><p><strong>DCMI/LRMI:<br />
-interactivityType</strong></p>
+<td><p><strong>DCMI/LRMI:<br /> interactivityType</strong></p>
 <p>(LRMI Task Group (DCMI), 2017)</p></td>
-<td>Learning that engages and challenges the learner's thinking using
-real-life and/or imaginary situations taking advantage of the
-opportunities for learning presented by investigating, exploring,
-events, and life experiences.</td>
-<td><strong>Use of a subject-matter expert</strong> to explain a concept
-or give clear and concise information in a purposeful way to the passive
-learner.</td>
-<td>Instructional interactions comprised of a mix of active learning and
-expositive approaches.</td>
+<td>Learning that engages and challenges the learner&apos;s thinking using real-life and/or imaginary situations taking advantage of the opportunities for learning presented by investigating, exploring, events, and life experiences.</td>
+<td><strong>Use of a subject-matter expert</strong> to explain a concept or give clear and concise information in a purposeful way to the passive learner.</td>
+<td>Instructional interactions comprised of a mix of active learning and expositive approaches.</td>
 </tr>
 <tr class="even">
-<td><strong>ComeIn:<br />
-interactivityType</strong> „Lehr-/Lernform“ (AG Imedibi, 2023a,
-2023b)</td>
-<td><p><strong>aktiv (eher selbstgesteuert)</strong></p>
-<p>Im weiteren Sinne entspricht dies der LRMI-Spezifikation, im näheren
-Sinne wird hiermit <strong>eher selbstgesteuertes Lernen</strong>
-ausgewiesen.</p></td>
-<td><p><strong>erklärend (eher fremdgesteuert)</strong></p>
-<p>Notwendigkeit eines Lehrenden zur Erklärung eines Konzepts oder zur
-zielgerichteten Vermitt-lung von Informationen an den
-Lernenden.</p></td>
-<td><p><strong>gemischt</strong></p>
-<p>Interaktionen, die aus einer Mischung aus aktiven und erklärenden
-Ansätzen bestehen</p></td>
+<td><strong>ComeIn:<br /> interactivityType</strong> &quot;teaching/learning form&quot; (AG Imedibi, 2023a, 2023b)</td>
+<td><p><strong>Active (predominantly self-directed)</strong></p>
+<p>In a broader sense, this equates to the LRMI specification. In a narrower sense, this refers to <strong>more self-directed learning</strong>.</p></td>
+<td><p><strong>Expositive (predominantly guided)</strong></p>
+<p>Indicates the need for a teacher to explain a concept or to convey information to the learner in a targeted manner.</p></td>
+<td><p><strong>Mixed</strong></p>
+<p>Interactions that involve a mixture of active and expositive approaches</p></td>
 </tr>
 <tr class="odd">
-<td><strong>ZOERR BW</strong> (Universität Tübingen, 2024)</td>
-<td><strong>Aktiv (eher selbstgesteuert)</strong>, wenn die Inhalte die
-Lernenden direkt unterstützen, produktive Handlungen zu ergreifen. Ein
-aktives Lernobjekt fordert den Lernenden zu einer semantisch sinnvollen
-Eingabe oder zu einer anderen Art von produktiver Handlung oder
-Entscheidung auf [...]</td>
-<td><strong>Erklärend (eher fremdgesteuert)</strong>,<br />
-wenn die Aufgabe des Lernenden hauptsächlich darin besteht, die
-vorliegenden Materialien oder Inhalte aufzunehmen. [...]</td>
-<td><strong>Gemischt</strong>,<br />
-wenn beide Interaktivitäts-<br />
-typen sich in einem Objekt vereinen.</td>
+<td><strong>ZOERR BW</strong> (T&uuml;bingen University, 2024)</td>
+<td><strong>Active learning (e.g. learning by doing)</strong> is supported by content that directly induces productive action by the learner. An active learning object prompts the learner for semantically meaningful input or for some other kind of productive action or decision [...]</td>
+<td><strong>Expositive learning (e.g. passive learning)</strong> occurs when the learner&apos;s job mainly consists of absorbing the content exposed to him [...]</td>
+<td><strong>Mixed</strong><br /> learning blends the active and expositive interactivity type in one object.</td>
 </tr>
 </tbody>
 </table>
+**Comparison and implications of the different field concepts**
 
-**Vergleich und Implikationen der verschiedenen Feldkonzepte**
+Due to the use of different standards, field definitions and interpretations, the semantics of the values are not clearly defined, which leads to complications during reuse. The CanCore recommendations for implementing LOM actually advise against the use of this field in distributed environments [@fishercgvec2003].
 
-Durch die Verwendung unterschiedlicher Standards, Felddefinitionen und
-Inter-pretationen, ist die Semantik der Werte nicht eindeutig definiert,
-was zu Hürden in der Nachnutzung führt. Auch die CanCore Empfehlungen
-zur Implementierung von LOM betrachten die Verwendung dieses Feldes in
-verteilten Systemen kritisch [@fishercgvec2003].
+An early conceptualisation of this field can be found in the ARIADNE project, in which three different types of educational resources were distinguished [@epflaemr1999] [@forteappkpctcode1997]:
 
-Eine frühe Konzeptualisierung dieses Feldes findet sich im ARIADNE
-Projekt, bei welchem eine Unterscheidung in drei verschiedene Typen von
-Bildungsressourcen erfolgte [@epflaemr1999] [@forteappkpctcode1997]:
+- *Expositive*: predominantly receptive interaction with the resource (reading, watching, listening, poss. additional navigation), examples: texts or videos.
+- *Active*: independent activities, such as completing a multiple-choice task, simulation, evaluation, etc.
+- *Interactive*: includes resources that require interaction between people (learners and/or teachers), which can be synchronous or asynchronous, face-to-face or remote.
 
-- *expositive*, eher rezeptive Interaktion mit der Ressource (Lesen,
-  Betrachten, Zuhören, ggf. zusätzlich Navigation), Beispiele: Texte
-  oder Videos.
-- *active*, selbstständige Tätigkeiten, wie beispielsweise die
-  Absolvierung von Multiple-Choice-Aufgaben, einer Simulation, einer
-  Evaluation usw.
-- *interactive*, darunter Ressourcen, die eine Interaktion zwischen
-  Menschen (Lernenden und/oder Lehrenden) erfordern, synchron oder
-  asynchron, sowohl in Präsenz oder auch in Distanz.
+In the LOM standard, the field is primarily used to characterise the interaction between end users when using the resource. In particular, this relates to the activities of the learners while working with the resource. In the LRMI specifications, on the other hand, the emphasis is more on the individual learning experience and less on the specific activity of the learners. Compared to the field specification from ComeIn, which is essentially based on the LRMI specification, semantic differences exist between the respective definitions. In particular, the concepts used in the specifications – such as "self-directed learning", "activities of learners" or individual "learning experiences" (e.g. embodiment) – are not directly related or even identical, although there are some links between the concepts.
 
-Im LOM-Standard dient das Feld eher zur Charakterisierung der
-Interaktionen während der Verwendung der Ressource durch
-Endnutzer\*innen, die sich insbesondere auf die Tätigkeiten der
-Lernenden während der Arbeit mit der Ressource beziehen. In den
-LRMI-Spezifikationen wird hingegen die individuelle Lernerfahrung
-stärker und die konkrete Tätigkeit der Lernenden weniger stark betont.
-Verglichen mit der Feldspezifikation aus ComeIn, die sich im
-Wesentlichen an der LRMI-Spezifikation orientiert, gibt es semantische
-Unterschiede zwischen den jeweiligen Definitionen. Insbesondere sind die
-in den Spezifikationen verwendeten Konzepte wie „selbstgesteuertes
-Lernen“, „Tätigkeiten/Aktivitäten der Lernenden“ oder individuellen
-„Lernerfahrungen“ (z. B. Embodiment) nicht unmittelbar verwandt oder gar
-identisch, wenngleich Bezüge zwischen den Konzepten existieren.
+In terms of the specific content, the controversy surrounding the LOM definition concerns the extent to which receptive activities (expositive) do not also include a cognitively active processing activity (active). Overall therefore, the LRMI and ComeIn definitions appear to be more plausible. An evaluation of specific value assignments to defined resources is advisable at a later stage, particularly if "self-learning modules" are also to be described using the value "*active*", as is the case in ComeIn.
 
-Inhaltlich umfasst die Kontroverse der LOM-Definition dabei, inwiefern
-rezeptive Tätigkeiten (expositive) nicht ebenfalls eine kognitiv aktive
-Verarbeitungstätigkeit beinhalten (active). Insgesamt scheint daher die
-LRMI-Definition und die daran angelehnte Definition von ComeIn unter
-Umständen plausibler. Eine Evaluation konkreter Wertzuweisungen zu
-erfassten Ressourcen ist zu einem späteren Zeitpunkt empfehlenswert,
-insbesondere falls anhand des Wertes „*active*“ auch „Selbstlernmodule“
-erfasst werden sollen, wie dies in ComeIn erfolgt.
+**Purposes and intentions**
 
-**Verwendungszwecke und -intentionen**
+This attribute is used, for example, to identify and distinguish between materials that require a teacher, e.g. material that has to be taught (and would be unsuitable for achieving the learning objectives without corresponding explanations from a teacher) and material that can be used for independent training and further education (self-study courses, modules, etc.). The field can also be used to filter for material that can be used independently or that predominantly supports self-directed learning. It is questionable, however, whether the corresponding value ranges are interpreted correctly by users.
 
-Eingesetzt wird dieses Attribut beispielsweise bei der Kennzeichnung und
-Differenzierung zwischen Materialien, die einer Lehrkraft bedürfen, z.
-B. Material, das vermittelt werden muss (und bspw. ohne Erläuterungen
-einer Lehrperson ungeeignet wäre zum Erreichen der Lernziele) und
-Material, das zur eigenständigen Aus- und Fortbildung verwendet werden
-kann (Selbstlernkurse, Selbstlernmodule etc.). Auch beim Filtern nach
-Material, das eigenständig verwendet werden kann oder eher
-selbstgesteuertes Lernen ermöglicht, kann das Feld genutzt werden.
-Fraglich ist jedoch, ob die Wertebereiche auch von den Nutzenden
-entsprechend korrekt interpretiert werden.
+**Alternative implementations**
 
-**Alternative Realisierungen**
+A suitable alternative would be a "Self-study material" field or similarly meaningful resource types that cover a similar use case and may be clearer and easier to understand. This also forms part of the CanCore recommendations \[@fishercgvec2003, p. 3\]. When adding a corresponding value to the [resource types](#ressourcentyp-medientyp) field, it should be taken into account that most filters work with "OR" logic (see excursus "[Logical links within and between filters](#vokabulare-zur-filterung-von-suchergebnissen)"), meaning that the desired search results may not be obtained if different values of the field are combined when filtering.
 
-Als Alternative bietet sich beispielsweise ein Feld “Selbstlernmaterial”
-oder entsprechend aussagekräftige Ressourcentypen an, die einen
-ähnlichen Use Case abdecken und unter Umständen eindeutiger und
-verständlicher sind. Dies ist ebenfalls Bestandteil der
-CanCore-Empfehlungen [@fishercgvec2003, S. 3].
-Bei einer Ergänzung eines entsprechenden Wertes im Feld der
-[Ressourcentypen](#ressourcentyp-medientyp) sollte berücksichtigt
-werden, dass die meisten Filter mit der “ODER”-Logik arbeiten (vgl.
-Exkurs “[Logische Verknüpfungen innerhalb und zwischen
-Filtern](#vokabulare-zur-filterung-von-suchergebnissen)”) und damit
-eventuell nicht die gewünschten Treffer erzielt werden, wenn
-verschiedene Werte des Feldes zur Filterung kombiniert werden.
+For the related attribute "interactivity level", LOM uses a five-level scale to assess the degree of interactivity. However, this assessment is considered rather subjective, as it is unclear whether the persons describing the attribute understand it as referring to, for example, the frequency, intensity or quality of interaction or whether they are more likely to use it to indicate the media character of resources [@schulmeistertmciccmd2002] [@schulmeistertmciccmd2003]. In this context, CanCore's recommendations consider the relationship between levels of interactivity and resource types.
 
-Für das verwandte Attribut “Interaktivitätsgrad” verwendet LOM eine
-fünfstufige Skala zur Einschätzung des Interaktivitätsniveaus. Die
-Einschätzung wird jedoch als subjektiv erachtet, da unklar ist, ob
-Erfassende darunter beispielsweise die Häufigkeit, Intensität oder
-Qualität der Interaktion verstehen oder darüber eher den medialen
-Charakter von Ressourcen kennzeichnen [@schulmeistertmciccmd2002] [@schulmeistertmciccmd2003].
-Die Empfehlungen von CanCore betrachten dabei den Zusammenhang von Interaktivitätsniveaus mit Ressourcentypen.
-
-Tabelle: *CanCore: Zusammenhang zwischen exemplarischer Ressourcentypen,
-Interaktivitätstyp gemäß LOM und Interaktivitätsniveau* [@fishercgvec2003, S. 10]
+Table: *CanCore: Relationship between example resource types, interactivity type acc. to LOM and interactivity level* \[@fishercgvec2003, p. 10]
 
 <table>
 <colgroup>
@@ -3663,481 +1949,268 @@ Interaktivitätstyp gemäß LOM und Interaktivitätsniveau* [@fishercgvec2003, S
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Interaktivitäts-niveau / -typ</td>
-<td>Sehr niedrig</td>
-<td>Niedrig</td>
-<td>Mittel</td>
-<td>Hoch</td>
-<td>Sehr hoch</td>
+<td>Interactivity level/type</td>
+<td>Very low</td>
+<td>Low</td>
+<td>Medium</td>
+<td>High</td>
+<td>Very high</td>
 </tr>
 <tr class="even">
 <td>Active</td>
-<td>Testfragen zum Ausdrucken formatiert</td>
-<td>Links mit Anweisungen für ihre Nutzung</td>
-<td>Online-Multiple-Choice-Übung mit Feedback</td>
-<td>Simulation mit Vor- und Nach-<br />
-bereitungs-<br />
-tests</td>
-<td>Immersive 3-D-Simulation mit vorgegebener Schritten</td>
+<td>Test questions formatted for printing</td>
+<td>Links provided with instructions for their exploration</td>
+<td>Online multiple-choice exercise providing feedback</td>
+<td>Dissection simulation with pre- and post-tests</td>
+<td>3-D immersive simulation for completing prescribed series of steps</td>
 </tr>
 <tr class="odd">
 <td>Expositive</td>
-<td>Aufsatz für den Druck formatiert</td>
-<td>Videoclip mit Steuerelementen zum Abspielen, Anhalten und
-Wiedergeben</td>
-<td>Hypertext,<br />
-bei dem die Nutzenden<br />
-die Aktivität eigens beenden</td>
-<td>Simulation ohne Bewertungs-<br />
-komponenten</td>
-<td>Immersive 3-D-Umgebung zur Erkundung entlegener Orte</td>
+<td>Essay formatted for printing</td>
+<td>Video clip with play, pause and replay controls</td>
+<td>Hypertext in which readers choose ending</td>
+<td>Dissection simulation without evaluation components</td>
+<td>3-D immersive environment for exploring remote location</td>
 </tr>
 </tbody>
 </table>
+**Attributes in metadata standards**
 
-**Attribute in Metadatenstandards**
-
-- LRMI/schema.org:
-  [interactivityType](https://schema.org/interactivityType,)
-- AMB:
-  [interactvitityType](https://dini-ag-kim.github.io/amb/20231019/#interactivitytype)
+- LRMI/schema.org: [interactivityType](https://schema.org/interactivityType,)
+- AMB: [interactvitityType](https://dini-ag-kim.github.io/amb/20231019/#interactivitytype)
 - LOM: 5.1:interactivityType
-- Learning Metadata: derzeit nicht vorhanden
+- Learning Metadata Terms: not currently available
 
-**Mögliche Wertebereiche:**
+**Possible value ranges:**
 
-- Differenzierung zwischen selbst- und fremdgesteuertem Lernen, wie
-  bspw. im AMB, LRMI, LOM, ComeIn:
-  - active, expositive, mixed (s.o.)
-- [Lernmodus](http://w3id.org/openeduhub/vocabs/learningMode/) (Open Edu
-  Hub / WirLernenOnline): selbstbestimmt (self paced), betreut (guided),
-  gemischt (mixed)
-- Taxonomien von Interaktivität, bspw. eine sechsstufige Differenzierung
-  des Interaktivitätsniveaus nach Schulmeister, 2002:
-  - Stufe I: Objekte betrachten und rezipieren
-  - Stufe II: Multiple Darstellungen betrachten und rezipieren
-  - Stufe III: Die Repräsentationsform variiert
-  - Stufe IV: Den Inhalt der Komponente modifizieren
-  - Stufe V: Das Objekt bzw den Inhalt der Repräsentation konstruieren
-  - Stufe VI: Den Gegenstand bzw Inhalt der Repräsentation konstruieren
-    und durch manipulierende Handlungen intelligente Rückmeldung vom
-    System erhalten
+- Differentiation between self-directed and guided learning, such as in AMB, LRMI, LOM, ComeIn:
+  - active, expositive, mixed (see above)
+- [Learning mode](http://w3id.org/openeduhub/vocabs/learningMode/) (Open Edu Hub / WirLernenOnline): self paced, guided, mixed
+- Taxonomies of interactivity, e.g. differentiation of six levels of interactivity according to Schulmeister, 2002:
+  - Level I: Viewing and receiving objects
+  - Level II: Watching and receiving multiple representations
+  - Level III: Varying the form of representation
+  - Level IV: Manipulating the component content
+  - Level V: Constructing the object or contents of the representation
+  - Level VI: Constructing the object or contents of the representation and receiving intelligent feedback from the system through manipulative action
 - Common Education Data Standards (Learning Resource Interaction Mode)
-  - Asynchron: Lehren und Lernen, das nicht darauf ausgerichtet ist,
-    dass die Teilnehmenden zur gleichen Zeit oder im gleichen Raum
-    interagieren.
-  - Synchron: Lehren und Lernen, bei dem die Teilnehmer zur gleichen
-    Zeit und im gleichen Raum interagieren.
-- [Medieneigenschaften](https://web.archive.org/web/20230929165323/https://www.e-teaching.org/community/digital-learning-map/faq#characteristics)
-  (Praxisbeispiele, e-teaching.org): Interaktivität, Adaptivität,
-  Synchronizität, Selbststeuerung
-- Lehraktionsform (Rolle der Lehrenden): Instruktoren, Tutoren, Mentoren
-  oder Coach [@eulersmnmdg2002]
-- [Organisationsform](https://digitaledu.ro/activitati-de-invatare-digitala/)
-  (Digitaledu, rumänisch): In Zusammenarbeit, Einzelperson
-- Weitere mögliche und erwartbare Wertebereiche, aufgrund
-  unterschiedlicher Ansätze zur Definition und Erfassung von
-  Lehr-/Lernformen und Lehr-/Lernprinzipien:
-  - Lernformen, wie situatives/situiertes Lernen (bspw. fallbasiertes
-    oder problemorientiertes Lernen), forschendes Lernen
-    (entdeckend/explorativ, experimentell)
-  - Lernansätze, wie behavioristisches, konstruktivistisches,
-    konnektivistisches, kognitivistisches Lernen
-  - Arten des Lernens, wie formales Lernen, informelles Lernen
-  - Formen der Zusammenarbeit, wie Sozialformen, kooperatives Lernen,
-    kollaboratives Lernen, offenes Lernen (vgl. selbstreguliertes
-    Lernen)
-  - Studienform ([Hochschulkompass](https://www.hochschulkompass.de/)):
-    Ausbildungsintegrierend, Berufsbegleitend, Berufsintegrierend,
-    Duales Studium, Fernstudium, Internationaler Studiengang,
-    Praxisintegrierend, Teilzeitstudium, Vollzeitstudium
+  - Asynchronous: Teaching and learning which is not organised around participants interacting at the same time and in the same space.
+  - Synchronous: Teaching and learning organised around participants interacting at the same time and in the same space.
+- [Media properties](https://web.archive.org/web/20230929165323/https://www.e-teaching.org/community/digital-learning-map/faq#characteristics) (practical examples, e-teaching.org): interactivity, adaptivity, synchronicity, self-guidance
+- Teaching type (role of teachers): instructor, tutor, mentor or coach \[@eulersmnmdg2002]
+- [Form of organisation](https://digitaledu.ro/activitati-de-invatare-digitala/) (Digitaledu, Romanian): In collaboration, individual
+- Other possible and expectable value ranges attributable to different approaches to defining and describing teaching/learning forms and teaching/learning principles:
+  - Learning forms such as situational/situated learning (e.g. case-based or problem-oriented learning), research-based learning (exploratory, experimental)
+  - Learning approaches such as behaviourism, constructivism, connectivism, cognitivism
+  - Types of learning, such as formal learning, informal learning
+  - Forms of cooperation, such as social forms, cooperative learning, collaborative learning, open learning (cf. self-regulated learning)
+  - Study mode ([Higher Education Compass](https://www.hochschulkompass.de/)): with integrated professional training, part time degree programmes for professionals, with integrated professional experience, dual system, distance studies, international course, including practical semester, part time, full time
 
-### 4.2.10 Lehrformat, Veranstaltungsformat, Lehrmodus
+### 4.2.10 Teaching format, event format, teaching mode
 
 *Twillo*
 
-Das Projekt [Twillo](https://www.twillo.de/oer/web/) nutzt das Attribut
-“Veranstaltungsformat”, um Ressourcen einem Format im
-hochschulpädagogischen Kontext zuzuweisen. Dies soll es Suchenden
-erleichtern, passendes Material für den jeweiligen Einsatzzweck zu
-finden.
+The [Twillo](https://www.twillo.de/oer/web/) project uses the attribute "event format" to assign resources to a format in the higher education context. This assists searchers in finding suitable material for their respective purpose.
 
 *HubbS (SODIX)*
 
-Der Hub für berufliche Schulen (Teil der SODIX-Infrastruktur) verwendet
-das Attribut “Lernformat” für eine besondere Kennzeichnung von
-Ressourcen. Die Werte des Feldes sind dabei verwandt mit den
-[Lernressourcentypen](#ressourcentyp-medientyp), die dort zusätzlich
-separat erfasst werden.
+The hub for vocational schools (part of the SODIX infrastructure) uses the attribute "learning format" as a special identification of resources. The values of the field are related to the [learning resource types](#ressourcentyp-medientyp), which are also described separately in this case.
 
-*Fortbildungsplattformen*
+*Further education platforms*
 
-Es gibt eine Reihe exemplarischer Plattformen für die Fortbildung,
-welche verschiedene Veranstaltungsformate als Wertebereich anbieten.
+A number of example platforms exist for further education, which offer different event formats as a value range.
 
-Die Wertebereiche sind mit den
-[Ressourcentypen](#ressourcentyp-medientyp) verwandt.
+The value ranges are related to the [resource types](#ressourcentyp-medientyp).
 
-**Mögliche Wertebereiche:**
+**Possible value ranges:**
 
-- [Twillo](https://web.archive.org/web/20240131102059/https://www.twillo.de/oer/web/faq/#accordion_accordion_nr-3_item_9):
-  Praktikum / Hospitation / Assistenz, Selbststudium, Seminar,
-  Studienprojekt, Übung, Vorkurs, Vorlesung, Workshop, Anderes Format
-- [Hubbs](https://hubbs.schule/search/mediathek): Curriculare Analyse,
-  Didaktische Planung, Handreichung, Lernsituation
-- [Lernformat](http://w3id.org/openeduhub/vocabs/learningFormat/) (Open
-  Edu Hub / WirLernenOnline): Präsenz, Online (Selbstlernkurs), Blended
-  Learning mit festen Präsenz-Gruppenterminen, Online mit festen
-  Online-Gruppenterminen, Massive Open Online Course (MOOC)
-- [Fobizz](https://plattform.fobizz.com/fortbildungen), Kurstyp:
-  Fortbildungen, Webinare, Impulse, Online-Fortbildung, Live-Webinar
-- [Schulflix](https://www.schulflix.com/kurskatalog/), Lernformat: Kurs,
-  Impuls, Webinar-Aufzeichnung
-- [Futureskills](https://futureskills-sh.de/kurse) (SH): Online-Kurs,
-  Webinar, Präsenzveranstaltung, Präsenzveranstaltungsreihe,
-  Selbstlernkurs, Kurspaket, Blended Learning
+- [Twillo](https://web.archive.org/web/20240131102059/https://www.twillo.de/oer/web/faq/#accordion_accordion_nr-3_item_9): Praktikum/Hospitation/Assistenz, Selbststudium, Seminar, Studienprojekt, Übung, Vorkurs, Vorlesung, Workshop, Anderes Format
+- [Hubbs](https://hubbs.schule/search/mediathek): Curriculare Analyse, Didaktische Planung, Handreichung, Lernsituation
+- [Learning format](http://w3id.org/openeduhub/vocabs/learningFormat/) (Open Edu Hub / WirLernenOnline): Presence, Online (self-paced course), Blended learning with fixed attendance dates, Online with fixed online dates, MOOC
+- [Fobizz](https://plattform.fobizz.com/fortbildungen), Course type: Fortbildungen, Webinare, Impulse, Online-Fortbildung, Live-Webinar
+- [Schulflix](https://www.schulflix.com/kurskatalog/), Lernformat: Kurs, Impuls, Webinar-Aufzeichnung
+- [Futureskills](https://futureskills-sh.de/kurse) (SH): Online-Kurs, Webinar, Präsenzveranstaltung, Präsenzveranstaltungsreihe, Selbstlernkurs, Kurspaket, Blended Learning
 - [Patternpool](https://www.patternpool.de/finden/):
-  - Lehrformat: Vorlesung, Seminar, Übung, Projekt, Praktikum, Prüfung,
-    Selbststudium, Vorkurs, Sonstiges
-  - Filter: “Digitale Medien” spielen…
+  - Lehrformat: Vorlesung, Seminar, Übung, Projekt, Praktikum, Prüfung, Selbststudium, Vorkurs, Sonstiges
+  - "Digitale Medien" filter:
     - Keine nennenswerte Rolle (bspw. primär Präsenzlehre).
     - Eine gewisse bzw. mäßige Rolle (bspw. hybrides Lehrformat).
     - Eine zentrale Rolle (bspw. reine Online-Lehre).
-- [LERNEN.cloud](https://lernen.cloud/courses), Kategorie: Fortbildung,
-  Impulse, Informationen, Journalismus, Nachrichten,
-  Reporting_Brandenburg, Seminar, Workshop, Zeitung
-- Aktivitätsformen: Selbstgesteuertes E-Learning (asynchrones Format),
-  Live E-Learning (synchrones Format, wie virtuelle Klassenräume,
-  Webcast, E-Lectures), Präsenzlehre [@alonsoimwbleblpa2005, S. 231f](Alonso et al., 2005, S. 231f)
-- [InfoWeb
-  Weiterbildung](https://www.iwwb.de/kurssuche/erweiterte_suche.html)
-  (IWWB): Seminare / Präsenzangebote, Fernunterricht / Fernstudium,
-  CBT/WBT/E-Learning
-- [Harvard Kurse](https://pll.harvard.edu/catalog)
-  (Veranstaltungsmodalität): In-Person, Blended, Online, Online Live
-- [FAU.tv](https://www.fau.tv/search.html) (Veranstaltungstyp):
-  Anleitung, Antritts- / Abschiedsvorlesung, Eröffnungen,
-  Festveranstaltung, Forum, Informationsveranstaltung, Kolloquium,
-  Kongress, Tagung, Seminar, Übung, universitäre Vorlesung,
-  Veranstaltung für die Öffentlichkeit, Wettbewerb, \[...\]
-- [TIB-AV](https://av.tib.eu/search) (Genre): Konferenz/Talk, Vorlesung,
-  Dokumentation/Report, Workshop/Interaktives, Forschungsdaten,
-  Experiment/Modell, Webinar/Tutorial, Interview \[...\]
+- [LERNEN.cloud](https://lernen.cloud/courses), Kategorie: Fortbildung, Impulse, Informationen, Journalismus, Nachrichten, Reporting_Brandenburg, Seminar, Workshop, Zeitung
+- Event-based activities: self-paced learning (asynchronous format), live e-learning (synchronous format, e.g. virtual classrooms, webcast, e-lectures), face-to-face classrooms [@alonsoimwbleblpa2005, p. 231f] (Alonso et al., 2005, p. 231f)
+- [InfoWeb Weiterbildung](https://www.iwwb.de/kurssuche/erweiterte_suche.html) (IWWB): Seminare / Präsenzangebote, Fernunterricht / Fernstudium, CBT/WBT/E-Learning
+- [Harvard Kurse](https://pll.harvard.edu/catalog) (Modality): In-Person, Blended, Online, Online Live
+- [FAU.tv](https://www.fau.tv/search.html) (Type): how to, inaugural/farewell lecture, ceremonial event, forum, image film, video on research, information session, colloquium, convention, podcast, publication, seminar, none of the above, tutorial, university lecture, public event, contest, all
+- [TIB-AV](https://av.tib.eu/search) (Genre): Conference/Talk, Lecture, Documentation/Report, Workshop/Interactive Format, Research Data, Experiment/Model Test, Webinar/Tutorial, Interview \[...\]
 - [Lehre-Navi](https://www.uni-hamburg.de/lehre-navi.html) (UHH):
-  - Lehrformat: Vorlesung, Seminar, Projekt, Tutorium, Übung,
-    Sprachkurs, Kolloquium, Exkursion, Praktikum, Selbststudium
+  - Lehrformat: Vorlesung, Seminar, Projekt, Tutorium, Übung, Sprachkurs, Kolloquium, Exkursion, Praktikum, Selbststudium
   - Modus: Präsenz, Hybrid, Online
-- [meinUnterricht](https://www.meinunterricht.de/): Exkursion,
-  Freiarbeit, Projektarbeit, Stationenlernen, Werkstattarbeit
-- Netzwerk Q4.0 (Lernform): Blended Learning, Event, Onlinekurs,
-  Vortrag, Workshop
-- [LehreNavi](https://www.uni-hamburg.de/lehre-navi.html) (Universität
-  Hamburg): Vorlesung, Seminar, Projekt, Tutorium, Übung, Sprachkurs,
-  Kolloquium, Exkursion, Praktikum, Selbststudium
+- [meinUnterricht](https://www.meinunterricht.de/): Exkursion, Freiarbeit, Projektarbeit, Stationenlernen, Werkstattarbeit
+- Netzwerk Q4.0 (Lernform): Blended Learning, Event, Onlinekurs, Vortrag, Workshop
+- [LehreNavi](https://www.uni-hamburg.de/lehre-navi.html) (University of Hamburg): Vorlesung, Seminar, Projekt, Tutorium, Übung, Sprachkurs, Kolloquium, Exkursion, Praktikum, Selbststudium
 - [eTeach](https://web.archive.org/web/20240306152459/https://www.eteach-thueringen.de/gpp/lehrkonzept-finden/):
   - Veranstaltungsformat: Vorlesung, Seminar, Übung, E-Learning
   - Veranstaltungsmodus: Präsenz, Virtuell, Hybrid, Synchron, Asychron
-  - Lehrveranstaltungsphase: Einstieg, Hauptteil, Abschluss,
-    Selbststudium, Prüfung
+  - Lehrveranstaltungsphase: Einstieg, Hauptteil, Abschluss, Selbststudium, Prüfung
 - e-teaching.org, Digital Learning Map
-  - [Lehr-/Lernszenarien](https://web.archive.org/web/20230925201407/https://www.e-teaching.org/lehrszenarien/):
-    Vorlesung, Seminar, Übung / Tutorium, Selbststudium, Praktikum,
-    Projektarbeit, Betreuung, Prüfung, Weiterbildung, Forschendes
-    Lernen, Blended Learning, Open Course, MOOC
-  - [Virtualisierungsgrad](https://web.archive.org/web/20230929165323/https://www.e-teaching.org/community/digital-learning-map/faq#virtualization):
-    Anreicherung (z. B. Präsenzveranstaltungen), Integration (z. B.
-    Flipped Classroom), Virtualisierung (z. B. E-Lectures)
-    - Zum Teil auch als Prozentanteile [@heyerdsudvl2006, S. 5]
+  - [Teaching/learning scenarios](https://web.archive.org/web/20230925201407/https://www.e-teaching.org/lehrszenarien/): lecture, seminar, exercise/tutorial, self-study, practical training, project work, support, examination, further education, research, blended learning, open course, MOOC
+  - [Degree of virtualisation](https://web.archive.org/web/20230929165323/https://www.e-teaching.org/community/digital-learning-map/faq#virtualization): enrichment (e.g. in-person teaching), integration (e.g. flipped classroom), virtualisation (e.g. e-lectures)
+    - Partly also as percentages \[@heyerdsudvl2006, p. 5]
 
-### 4.2.11 Qualitätsattribute
+### 4.2.11 Quality attributes
 
-Die Qualität von Bildungsmaterialien, besonders von OER, steht immer
-wieder im Fokus von Diskussionen [@bedenlieroerdtghe2022] [@bpbwwqos2017] [@commonwealthoflearningoergr22017, S. 2] [@muuss-meerholzosnfq1douw2019].
+The quality of educational materials, particularly OER, is a frequent focus of discussions [@bedenlieroerdtghe2022] [@bpbwwqos2017] [@commonwealthoflearningoergr22017, p. 2] [@muuss-meerholzosnfq1douw2019].
 
-Im Bildungsverlagswesen wird eine Qualitätskontrolle von Materialien
-durch geschulte Fachredaktionen übernommen. Die Qualität der
-veröffentlichten Materialien wird dabei nicht gesondert ausgezeichnet,
-sondern ergibt sich durch die Autorität der veröffentlichenden
-Institution. Bei freien Bildungsmaterialien wird hingegen häufig eine
-entsprechende Qualitätskontrolle eingefordert, mit entsprechend
-gewünschter Auszeichnung in den Metadaten. Die Autorität der
-erstellenden Personen scheint in manchen Kontroversen nicht zu
-genügen[^19], wenngleich es auch konträre Meinungen gibt, bei welchen ein
-hoher Anteil von Lehrenden durchaus die Vertrauenswürdigkeit von
-Individuen als Ansatz zur Einschätzung der Qualität verwendet [@bedenlieroerdtghe2022].
-Aufgrund der kollektiven Praxis bei der Erstellung von
-OER werden jedoch auch Modelle diskutiert, die
-[Praxiserfahrungen](#_wxqfar26ml31) von Lehrenden stärker involvieren
-[@bedenlieroerdtghe2022].
+In educational publishing, the quality control of materials is performed by specialist editorial teams. The quality of the published materials is not specifically indicated, but instead is determined by the authority of the publishing institution. In the case of free educational materials, however, suitable quality control is often required, and identified accordingly in the metadata. In some controversial situations, the authority of the creating persons does not appear to be sufficient[\^19], although contrasting opinions also exist in which a high proportion of teachers do use the trustworthiness of individuals as a means of assessing quality [@bedenlieroerdtghe2022]. Due to the collective practice of creating OER, however, models are also being discussed that place greater emphasis on the practical experience of teachers [@bedenlieroerdtghe2022].
 
-**Workflows und Prozesse zur Qualitätssicherung**
+**Workflows and processes for quality assurance**
 
-In der Praxis haben sich verschiedene Prozesse von Repositorien
-etabliert, um eine Qualitätssicherung bei Bildungsmaterialien zu
-gewährleisten.
+In practice, various processes of repositories have established themselves as effective means of ensuring the quality of educational materials.
 
 *ZUM*
 
-Die [Zentrale für Unterrichtsmedien im Internet e.V.
-(ZUM)](https://www.zum.de/) stellt als eine der ältesten Plattformen
-freie Unterrichtsmaterialien bereit und nutzt dafür ein Wiki und damit
-verbundene Bearbeitungsfunktionen für Revisionen als ein möglicher
-**crowd-basierter** Ansatz.
+The [Zentrale für Unterrichtsmedien im Internet eV (ZUM)](https://www.zum.de/) is one of the oldest platforms to provide free teaching materials, for which it uses a wiki and corresponding editing functions for revisions to be made with a possible **crowd-based** approach.
 
 *Twillo  
-*Andere Projekte, wie beispielsweise
-[Twillo](https://www.twillo.de/oer/web/), geben den Lehrenden eher
-allgemeine Hinweise zur Qualitätssicherung an die Hand [@wannemacherqfflulkuueiqfpt2021].
-Hierbei liegt das Vertrauen primär auf der
-Eigenverantwortung und Kompetenz der Nutzer\*innen bei der
-Bereitstellung und Qualitätsprüfung von Ressourcen. Um diese zu
-unterstützen, werden sieben Kriterien genannt [@twillotq2024], basierend
-auf den anderweitigen Qualitätsinstrumenten [@mayrbergerqovzeqfoabhoousfs2018] [@mueskensizqoie12022] [@zawacki-richterqoibizqoerosdmabhoousfs2017]:
+\*Other projects, such as [Twillo](https://www.twillo.de/oer/web/), provide teachers with more general notes on quality assurance \[@wannemacherqfflulkuueiqfpt2021\]. In this case, the trust lies primarily in the personal responsibility and competence of the relevant users when it comes to the provision and quality control of resources. To support these efforts, seven criteria are specified \[@twillotq2024\], based on the other quality instruments \[@mayrbergerqovzeqfoabhoousfs2018\] \[@mueskensizqoie12022\] \[@zawacki-richterqoibizqoerosdmabhoousfs2017\]:
 
-- Fachwissenschaftliche Fundierung
-- Wiederverwertbarkeit (teils bedingt durch die Lizenz)
-- Anwendung und Transfer
-- Hilfestellung und Support
-- Motivation und Didaktik
-- Struktur, Navigation und Orientierung
-- Design, Lesbarkeit und Barrierearmut
+- Scientific foundation
+- Reusability (partly dependent on licensing)
+- Application and transfer
+- Assistance and support
+- Motivation and didactics
+- Structure, navigation and orientation
+- Design, readability and accessibility
 
 *WirLernenOnline*
 
-Einen umfangreichen [redaktionellen Prüfprozess besitzt das Portal
-“WirLernenOnline”](https://web.archive.org/web/20231219092753/http://web.archive.org/screenshot/https://wirlernenonline.de/qualitaetssicherung/).
-Neben automatisierten Verfahren verwendet WLO darüber hinaus Skalen und
-Items zur redaktionellen Einschätzung der Qualität, Der Prozess wird in
-der folgenden Grafik schematisch dargestellt und in einem
-[Redaktionsstatut](https://web.archive.org/web/20231219093214/https://wirlernenonline.de/redaktionsstatut/)
-beschrieben, welches sich am [Statut der Informationsplattform
-iRights.info](https://web.archive.org/web/20231127094942/https://irights.info/was-ist-irights-info-redaktionsstatut)
-orientiert.
+The "WirLernenOnline" portal employs a comprehensive [editorial review process](https://web.archive.org/web/20231219092753/http://web.archive.org/screenshot/https://wirlernenonline.de/qualitaetssicherung/). In addition to automated procedures, WLO also uses scales and items to make an editorial quality assessment. The process is shown schematically in the following figure and described in an [editorial statute](https://web.archive.org/web/20231219093214/https://wirlernenonline.de/redaktionsstatut/), which in turn is based on the [statute of the information platform iRights.info](https://web.archive.org/web/20231127094942/https://irights.info/was-ist-irights-info-redaktionsstatut).
 
+<img src="./images/4_pruefprozess_wlo.svg" alt="Editorial review process in the WirLernenOnline portal." />
+Figure: *Editorial review process [@wloq2023].*
 
-<img src="./images/4_pruefprozess_wlo.svg" alt="Der redaktionelle Prüfprozess in dem Portal Wir Lernen Online." />
+Six-level scales used by WLO:
 
-Grafik: *Der redaktionelle Prüfprozess [@wloq2023].*
+- Accuracy: factually incorrect (0) to scientifically proven (5)
+- Up to date: outdated content (0) to latest knowledge (5)
+- Neutrality: manipulative (0) to neutral formulation / independent creator (5)
+- Language: inappropriate (0) to target-group-appropriate language (5)
+- Media suitability: unsuitable (0) to extremely suitable (5)
+- Didactics/methodology: inappropriate methodology (0) to modern, very good methodology (5)
+- Provider reputation: not specified or dubious (0) to reputable provider, correct contact details (5)
 
-Sechsstufige Skalen, die bei WLO verwendet werden:
+Other metadata:
 
-- Sachrichtigkeit: sachlich falsch (0) bis wissenschaftlich belegt (5)
-- Aktualität: veralteter Inhalt (0) bis neuester Wissensstand (5)
-- Neutralität: manipulativ (0) bis neutrale Formulierung/unabhängiger
-  Ersteller (5)
-- Sprachlich: unangemessen (0) bis zielgruppengerechte Sprache (5)
-- Medial passend: Medial unpassend (0) bis Medial hervorragend (5)
-- Didaktik/Methodik: Methodik unangemessen (0) bis moderne, sehr gute
-  Methodik (5)
-- Anbieter Renommee: keine Angabe oder unseriös (0) bis renommierter
-  Anbieter, korrekte Kontaktangaben (5)
-
-Weiteres Metadatum:
-
-- [Werbefreiheit](http://w3id.org/openeduhub/vocabs/containsAdvertisement/)
-  (Ja/Nein), insbesondere im Einklang mit Schulgesetzen
+- [Contains Advertisement](http://w3id.org/openeduhub/vocabs/containsAdvertisement/) (Yes/No), particularly in compliance with school laws
 
 *eduCheck digital (EDCD)*
 
-Das Projekt [eduCheck](https://educheck.schule/) der FWU entwickelt
-Prüfverfahren für digitale Medien, die im schulischen Unterricht
-eingesetzt werden. Dabei werden verschiedene Kriterien (Recht &
-Datenschutz, Barrierefreiheit & Usability, Technik & IT-Sicherheit)
-berücksichtigt. Geprüfte Medien werden mit einem Siegel ausgezeichnet.
-Eine erste Version des
-[Kriterienkatalogs](https://educheck.schule/der-kriterienkatalog-grundlage-jeder-pruefung/)
-kann öffentlich eingesehen werden [@fwuekgjp2024].
+The [eduCheck](https://educheck.schule/) project (FWU) develops testing procedures for digital media used in school lessons. These procedures include a number of different criteria (law \& data protection, accessibility \& usability, technology \& IT security). Successfully tested media are awarded a seal of approval. An initial version of the [criteria catalogue](https://educheck.schule/der-kriterienkatalog-grundlage-jeder-pruefung/) has been made accessible to the public \[@fwuekgjp2024\].
 
 *EduScanPro*
 
-Das Online-Tool [EduScanPro](https://weitergelernt.de/eduscanpro/) der
-Koordinierungsstelle Qualität (kos) adressiert Multiplikator\*innen in
-der Aus- und Fortbildung sowie Lehrkräfte in der Erwachsenenbildung und
-der beruflichen Weiterbildung. Es evaluiert digitale Lernangebote mit
-den folgenden elf Bausteine mit jeweils vier Items, auf einer
-10-stufigen Skala (“trifft gar nicht zu” bis “trifft voll zu”):
+The online tool [EduScanPro](https://weitergelernt.de/eduscanpro/) developed by the Coordinating Office for Quality (k.o.s.) is intended for multipliers in training and further education as well as teachers in adult education and continuing vocational training. It evaluates digital learning opportunities based on the following eleven modules (each with four individual items), using a 10-point scale ("not at all applicable" to "fully applicable"):
 
-- Didaktische Konzeption
-  1.  Zielgruppe und Lernbedarf
-  2.  Lernziele und Lerninhalte
-  3.  Lernprozesse und Lernformen
-  4.  Lernumgebung
-  5.  Lernmaterialien und digitale Medien
-  6.  Monitoring und Erfolgsmessung
-  7.  Anerkennung und Zertifizierung
+- Didactic conception
+  
+  1. Target group and learning needs
+  2. Learning objectives and learning content
+  3. Learning processes and learning forms
+  4. Learning environment
+  5. Learning materials and digital media
+  6. Monitoring and success measurement
+  7. Accreditation and certification
 
-- Rolle der Lehrenden und Lernenden
-  1.  Lernbegleitung
-  2.  Lernende
+- Role of teachers and learners
+  
+  1. Learning support
+  2. Learners
 
-- Information und Organisation
-  1.  Angebotsbeschreibung
-  2.  Ressourcen
+- Information and organisation
+  
+  1. Description of learning opportunity
+  2. Resources
 
-Dabei ist zu berücksichtigen, dass sich keine Angaben zur Qualität der
-Skalen finden lassen (interne Konsistenz, Inter-Rater-Reliabilität,
-Konstruktvalidität o.ä.). Siehe auch: Anlage “EduScanPro - Skalen und
-Items”.
+It is important to note that no information can be found regarding the quality of the scales (internal consistency, inter-rater reliability, construct validity, etc.). See also: appendix "EduScanPro – scales and items".
 
 *MERLOT*
 
-Das Portal MERLOT verwendet zwei aggregierte, fünfstufige Skalen (0-5
-Sterne) als Bewertungen, die auf dem Feedback von Nutzenden oder der
-Evaluation von Peers basieren. Darüber hinaus werden freitextbasierte
-Kommentare als Bewertungen ermöglicht, vergleichbar mit
-[Praxiserfahrungen](#praxiserfahrungen).
+The MERLOT portal uses two aggregated, five-level scales (0-5 stars) as ratings, which are based on feedback from users or evaluations by peers. In addition, free-text-based comments can be entered as ratings, which in this case is comparable to [practical experience](#praxiserfahrungen).
 
-Die Skalen sind dabei:
+The relevant scales are:
 
-- Content Quality/Qualität des Inhalts
-- Effectiveness/Effektivität:
-- Ease of Use/Nutzungsfreundlichkeit (Bedienfreundlichkeit)
+- Content Quality
+- Effectiveness
+- Ease of Use
 
 *Unterrichtsmaterial.ch*
 
-Neben MERLOT verwendet beispielsweise auch das Portal
-[Unterrichtsmaterial.ch](https://www.unterrichtsmaterial.ch/arbeitsblaetter)
-einen crowd-basierten Bewertungsansatz auf einer fünfstufigen Skala (0-5
-Sterne: genügend, befriedigend, gut, sehr gut, hervorragend).
+In addition to MERLOT, the portal [Unterrichtsmaterial.ch](https://www.unterrichtsmaterial.ch/arbeitsblaetter), for example, also employs a crowd-based review approach based on a five-level scale (0-5 stars: sufficient, satisfactory, good, very good, excellent).
 
 *Encore+*
 
-Auf EU-Ebene befasst sich das Projekt
-[encore+](https://encoreproject.eu/) in den Arbeitspaketen D5.2 und D5.3
-mit den Qualitätsdimensionen von freien Bildungsmaterialien und hat dazu
-zwei Positionspapiere veröffentlicht [@ehlersoerrrqcqrfo2021] [@ehlersoerrrqtpgwmbcqf2022].
-Während in dem ersten Papier konstatiert wird, dass
-Qualität ein relevantes Thema ist, werden in dem zweiten Papier fünf
-Problemfelder von OER-Repositorien identifiziert:
+At EU level, the [encore+](https://encoreproject.eu/) project addresses the quality dimensions of open educational resources in deliverables D5.2 and D5.3 and has published two position papers on this topic \[@ehlersoerrrqcqrfo2021\] \[@ehlersoerrrqtpgwmbcqf2022\]. While the first paper highlights that quality remains an important issue, the second paper identifies five specific problem areas of OER repositories:
 
-- **Verständnis von Qualität**: Oft sei nicht klar, worauf sich die
-  Qualität beziehe (den Inhalt, das Repositorium
-  Nutzer\*innenfreundlichkeit etc.)
-- **Community und Kommunikation**: Die Community habe sich noch nicht
-  auf ein einheitliches Qualitätsframework geeinigt
-- **Qualitätssicherungsprozess**: Es sei unklar, wie die Qualität von
-  OER überhaupt gesichert werden sollte, weil die Möglichkeiten für
-  Reviews beschränkt seien. Peer-Review Prozesse werden gefordert.
-- **Einbeziehung der Nutzer\*innen**: OER Repositorien müssten mehr auf
-  Wünsche der Nutzer\*innen achten.
-- **Auffindbarkeit und Sichtbarkeit**: Die Suche nach passendem Material
-  sei immer noch langwierig und mühsam.
+- **Understanding of quality**: It is often unclear what the term quality refers to (the content, the repository itself, user-friendliness, etc.).
+- **Community and communication**: The community has not yet agreed on a uniform quality framework.
+- **Quality assurance process**: It is unclear how the quality of OER should be assured as the possibilities for OER reviews are limited. There is a need for peer review procedures.
+- **User participation**: OER repositories should pay more attention to the needs of users.
+- **Findability and visibility**: Searching for suitable material is still a long and tedious process.
 
-Der Bericht "[Piloting the ENCORE+ Quality
-Framework](https://encoreproject.eu/2023/12/01/piloting-the-encorequality-framework/)”
-gibt eine Übersicht über sechs Repositorien und ihre
-Qualitätssicherungsprozesse. Von den sechs Repositorien stammen zwei aus
-Deutschland (WirLernenOnline, ORCA.nrw)[^20]. Interessanterweise
-ermöglichen nur zwei der sechs Repositorien “User ranking/rating” von
-OER (NDLA, Digital-edu), keines der untersuchten Repositorien sammelt
-User Feedback in seinem Repositorium [@griffithspeqfep2023, S. 8].
-Damit entbehren die untersuchten OER-Repositorien grundlegend einer
-sozialen Komponente, die in vielen anderen Themenbereichen fest dazu
-gehört (beispielsweise Online-Marktpläte, Filmbewertungsplattformen, o.
-Ä.).
+The report "[Piloting the ENCORE+ Quality Framework](https://encoreproject.eu/2023/12/01/piloting-the-encorequality-framework/)" provides an overview of six repositories and their quality assurance processes. Two of the six repositories are from Germany (WirLernenOnline, ORCA.nrw)\[\^20\]. Interestingly, only two of the repositories examined enable "user ranking/rating" of OER (NDLA, Digital-edu), and none of the repositories covered in the report collect user feedback \[@griffithspeqfep2023, p. 8\]. This means that the OER repositories in the report lack any kind of social component, something that is integral to many other areas (e.g. online marketplaces, film rating platforms, etc.).
 
-*Bildung für nachhaltige Entwicklung (BNE)*
+*Education for Sustainable Development (ESD)*
 
-Auf Grundlage des [UNESCO-Programms zur
-BNE](https://web.archive.org/web/20240223202346/https://www.unesco.de/bildung/bildung-fuer-nachhaltige-entwicklung/unesco-programm-bne-2030)
-wurden Leitlinien und Gütekriterien digitaler Materialien für Bildung
-für nachhaltige Entwicklung entwickelt, die anhand der Kategorien
-“Inhalt”, “Methodik” und “Gestaltung” Materialien bewerten
-([Archiv](https://web.archive.org/web/20240306162228/https://www.bne-portal.de/bne/shareddocs/downloads/files/beschluss-np-guetekriterien-bne-materialien.pdf?__blob=publicationFile&v=2)).
+Based on the [UNESCO programme on ESD](https://web.archive.org/web/20240223202346/https://www.unesco.de/bildung/bildung-fuer-nachhaltige-entwicklung/unesco-programm-bne-2030), guidelines and quality criteria have been developed for digital materials for education for sustainable development. These evaluate materials in terms of the categories "content", "methodology" and "design" ([archive](https://web.archive.org/web/20240306162228/https://www.bne-portal.de/bne/shareddocs/downloads/files/beschluss-np-guetekriterien-bne-materialien.pdf?__blob=publicationFile&v=2)).
 
-*Der IQOer – Ein Instrument zur Erfassung der Qualität von OER*
+*IQOER – Instrument for Quality Assurance of OER*
 
-Insgesamt wurden 16 Skalen als Qualitätsmodell für OER entwickelt
-[@mayrbergerqovzeqfoabhoousfs2018] [@zawacki-richterqoibizqoerosdmabhoousfs2017].
-Das [Instrument zur Erfassung der Qualität von
-OER](https://web.archive.org/web/20230610014020/https://open-educational-resources.de/der-iqoer-instrument-zur-erfassung-der-qualitaet-von-oer/)
-besteht aus sieben allgemein-anwendbaren Kernskalen (rot markiert) der
-pädagogisch-didaktischen (Inhalt, Didaktisches Design) und technischen
-Dimension (Usability), fünf spezifischen Skalen (in der gelben
-Markierung enthaltene Subskalen, ohne Kernskalen) und vier eher
-technisch-orientierten Skalen (Zugänglichkeit).
+A total of 16 scales have been developed as a quality model for OER \[@mayrbergerqovzeqfoabhoousfs2018\] \[@zawacki-richterqoibizqoerosdmabhoousfs2017\]. The [Instrument for Quality Assurance of OER](https://web.archive.org/web/20230610014020/https://open-educational-resources.de/der-iqoer-instrument-zur-erfassung-der-qualitaet-von-oer/) consists of seven generally applicable core scales (marked in red) for the didactic (content, didactical design) and technical dimensions (usability), five specific scales (subscales contained in the yellow marking, without core scales) and four technically oriented scales (accessibility).
 
-<img src="./images/4_instrumente_qualitaetssicherung.png" alt="Darstellung der Skalen des Instruments zur Qualitätssicherung von OER (IQ OER)" />
+<img src="./images/4_instrumente_qualitaetssicherung.png" alt="Representation of the scales of the Instrument for Quality Assurance of OEROER (IQ OER)" />
+Figure: *[Instrument for Quality Assurance of OER – IQOER](http://dx.doi.org/10.13140/RG.2.2.16987.03363/1) - V17 \[@mueskensizqoie12022\]; red: generally applicable core scales, yellow: validated scales (core scales incl. specific scales)*
 
-Grafik: *[Instrument zur Qualitätssicherung von OER - IQOer](http://dx.doi.org/10.13140/RG.2.2.16987.03363/1) - V17 [@mueskensizqoie12022]; rot: allgemein-anwendbare Kernskalen, gelb: validierte Skalen (Kernskalen inkl. spezifische Skalen)*
+**Licenses**
 
-**Lizenzen**
+Licenses indicate the rights granted by authors to the subsequent users of materials. In many services, the license therefore represents a relevant feature for the ranking and quality of resources. In addition, licenses have a relevant didactic function, because they serve as an indicator of whether teachers are permitted to adapt materials to their target groups, for example, or whether the material must remain unchanged. In a survey of people who primarily search for resources in a professional context (usually teachers in training and further education), around 83% of respondents stated that the license is a somewhat to very helpful criterion in this process (n = 52 responses) [@jointly.infosuinuo2021].
 
-Lizenzen kennzeichnen, welche Rechte die Urheber\*innen den
-Nachnutzenden einräumen. In vielen Diensten gilt die Lizenz daher als
-relevantes Merkmal für das Ranking und die Qualität von Ressourcen.
-Lizenzen besitzen darüber hinaus durchaus eine relevante didaktische
-Funktion, denn sie sind ein Indikator, ob Lehrende beispielsweise
-Materialien auf ihre Zielgruppen anpassen dürfen oder das Material nur
-unverändert eingesetzt werden darf. Bei einer Umfrage mit Personen, die
-überwiegend für den beruflichen Kontext Ressourcen suchen (in der Regel
-somit Lehrende in Aus- und Fortbildung), gaben etwa 83% an, dass die
-Lizenz ein etwas bis sehr hilfreiches Kriterium bei der Suche ist (n =
-52 Antworten) [@jointly.infosuinuo2021].
+*Example: educational resources*
 
-*Beispiel: Bildungsressourcen (Educational Resources)*
+Open educational resources (OER) represent a special subset of educational resources which, according to the UNESCO definition (UNESCO, 2019), are in the public domain or openly licensed. Such licensing grants corresponding rights for reuse, such as the possibility of processing or mixing content and a potential waiver of specific purpose limitations during reuse [@muuss-meerholzzdooerrndwadav2015].
 
-Open Educational Resources (OER) stellen eine besondere Teilmenge der
-Bildungsressourcen dar, die gemäß Definition der UNSECO gemeinfrei oder
-offen lizenziert sind (UNESCO, 2019). Eine solche Lizenzierung räumt
-entsprechende Rechte für die Nachnutzung ein, wie die Möglichkeit zur
-Verarbeitung oder Vermischung von Inhalten sowie ein möglicher Verzicht
-auf Zweckbindungen bei der Nachnutzung [@muuss-meerholzzdooerrndwadav2015].
+While OER are generally freely accessible, other educational resources may be subject to restrictions (e.g. registration or licensing requirements, legal restrictions based on Section 60a of the German Copyright Act (UrhG), data protection or personal rights) [@arndtdkpfpcql2023]. There may also be didactic reasons for restricting access to specific target groups, for example, for learning controls or test questions and corresponding answers, which should potentially only be made available to teachers.
 
-Während OER in der Regel frei zugänglich sind, gibt es bei anderweitigen
-Bildungsressourcen unter Umständen etwaige Restriktionen (z. B. Anmelde-
-oder Lizenzpflicht, rechtliche Beschränkungen aufgrund § 60a UrhG,
-Datenschutz oder Persönlichkeitsrechte) [@arndtdkpfpcql2023].
-Ebenso kann es didaktische Gründe geben, wenn die Zugänglichkeit auf bestimmte
-Zielgruppen eingeschränkt wird, beispielsweise für Lernkontrollen
-beziehungsweise Testfragen und dazugehörige Lösungen, die unter
-Umständen nur Lehrenden zugänglich gemacht werden sollen.
+Therefore, different perspectives must be weighed up if the license is to be used as a quality indicator. From a pragmatic perspective, teachers may be satisfied with resources that are accessible and reusable without the need for extensive additional rights.
 
-Für die Berücksichtigung der Lizenz als Qualitätsindikator müssen somit
-verschiedene Perspektiven abgewogen werden. Aus einer pragmatischen
-Perspektive genügt Lehrenden unter Umständen bereits die Gewährleistung
-der Zugänglichkeit und Nachnutzbarkeit von Ressourcen, ohne dass
-umfängliche weitere Rechte eingeräumt werden müssten.
-
-**Attribute für Lizenzen**
+**Attributes for licenses**
 
 - AMB: [license](https://dini-ag-kim.github.io/amb/20231019/#license)
 - DCMI: [license](http://purl.org/dc/terms/license)
 - schema.org: [license](https://schema.org/license)
 - LRMI: [useRightsURL](http://purl.org/dcx/lrmi-terms/useRightsUrl)
-- LOM: 6 - Urheberrechte
+- LOM: 6 – Rights
 
-**Wertelisten für Lizenzen**
+**Value lists for licenses**
 
-- [Liste der Lizenzen](https://www.dcat-ap.de/def/licenses/)
-  (DCAT-AP.de) (Repo)
-- [SPDX License List](https://spdx.org/licenses/)
-  ([Repo](https://github.com/spdx/license-list-data), u.a. RDFa, HTML,
-  JSON)
-- [Lizenzliste der OpenSource
-  Initiative](https://opensource.org/license)
-- [Skosmos Lizenzen](https://voc.uni-ak.ac.at/skosmos/licenses/de/index)
-- Das AMB Applikationsprofil verwendet reguläre Ausdrücke zur
-  Einschränkung und Validierung
-  ([JSON-Schema](https://dini-ag-kim.github.io/amb/20231019/schemas/license.json))
-  der erlaubten Lizenzangaben, darunter:
+- [List of licenses](https://www.dcat-ap.de/def/licenses/) (DCAT-AP.de) (repo)
+- [SPDX License List](https://spdx.org/licenses/) ([repo](https://github.com/spdx/license-list-data), incl. RDFa, HTML, JSON)
+- [License list of the OpenSource Initiative](https://opensource.org/license)
+- [Skosmos licenses](https://voc.uni-ak.ac.at/skosmos/licenses/de/index)
+- The AMB application profile uses regular expressions for the restriction and validation ([JSON schema](https://dini-ag-kim.github.io/amb/20231019/schemas/license.json)) of permitted license information, including:
   - Creative Commons License or Public Domain
   - GNU License
   - Apache License
   - MIT License
   - BSD License
 
-Lizenzübersichten und -assistenten:
+License overviews and assistants:
 
 - [Creative Commons](https://creativecommons.org/choose)
-- [EU
-  Lizenz-Assistent](https://data.europa.eu/de/training/licensing-assistant)
-- [Lizenzcenter des
-  ifrOSS](https://ifross.github.io/ifrOSS/Lizenzcenter)
-- [Vergleichsübersicht von
-  Lizenzen](https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses)
+- [EU licensing assistant](https://data.europa.eu/de/training/licensing-assistant)
+- [License centre of the ifrOSS](https://ifross.github.io/ifrOSS/Lizenzcenter)
+- [Comparison of free and open-source software licenses](https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses)
 
-Tabelle: *Empfehlungen für Lizenzen nach Ressourcentyp*
+Table: *License recommendations by resource type*
 
 <table>
 <colgroup>
@@ -4146,199 +2219,114 @@ Tabelle: *Empfehlungen für Lizenzen nach Ressourcentyp*
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Ressourcentyp</strong></td>
-<td><strong>Lizenzempfehlung</strong></td>
+<td><strong>Resource type</strong></td>
+<td><strong>License recommendation</strong></td>
 </tr>
 <tr class="even">
-<td>Allgemeine Ressourcen (freie Inhalte)</td>
-<td><a href="https://de.creativecommons.net/">Creative
-Commons</a>-Lizenzen</td>
+<td>General resources (free content)</td>
+<td><a href="https://de.creativecommons.net/">Creative Commons</a> licenses</td>
 </tr>
 <tr class="odd">
-<td>Schriftarten</td>
-<td>Vom <a href="https://openfontlicense.org/">Summer Institute of
-Linguistics</a> empfohlene Lizenz (SIL Open Font)</td>
+<td>Fonts</td>
+<td>License recommended by the <a href="https://openfontlicense.org/">Summer Institute of Linguistics</a> (SIL Open Font)</td>
 </tr>
 <tr class="even">
-<td>Softwareprodukte (freie Software)</td>
-<td>Von der <a href="https://opensource.org/licenses/">Open Source
-Initiative</a> empfohlene Lizenzen</td>
+<td>Software products (free software)</td>
+<td>Licenses recommended by the <a href="https://opensource.org/licenses/">Open Source Initiative</a></td>
 </tr>
 </tbody>
 </table>
+**Other efforts to describe and evaluate quality**
 
-**Weitere Bestrebungen zur Erfassung und Evaluation der Qualität**
+Metadata is indicative of the quality of resources [@atenasqaoeor2013]. An automated evaluation of the quality of resources (OER) can be performed with the aid of metadata assessment and prediction models [@ochoaaemqdr2009] [@tavakoliqpoerma2020] [@tavakolimaoer2021].
 
-Metadaten sind indikativ für die Qualität von Ressourcen [@atenasqaoeor2013].
-Eine automatische Prüfung der Qualität von Ressourcen
-(OER) kann mittels Bewertungs- und Vorhersagemodellen von Metadaten
-erfolgen [@ochoaaemqdr2009] [@tavakoliqpoerma2020] [@tavakolimaoer2021].
+Due to the informative nature of metadata, they facilitate the evaluation of resource quality, for example, by allowing teachers to assess the properties of a resource in advance (Steiner, 2018). From a didactic perspective, influencing factors for learning success can be particularly relevant as a quality characteristic, for example, if resources support specific teaching or learning strategies (see [Visible Learning Meta<sup>X</sup>](https://www.visiblelearningmetax.com/influences), [Teaching/learning methods](#lehr-lernmethoden)).
 
-Durch die informative Natur von Metadaten tragen diese zur Evaluation
-der Qualität von Ressourcen bei, indem sie beispielsweise Lehrenden
-ermöglichen, die Eigenschaften einer Ressource vorab zu prüfen (Steiner,
-2018). Aus didaktischer Sicht können insbesondere auch Einflussfaktoren
-auf den Lernerfolg als Qualitätsmerkmal relevant sein, beispielsweise
-wenn Ressourcen bestimmte Lehr- oder Lernstrategien unterstützen (vgl.
-[Visible Learning
-Meta<sup>X</sup>](https://www.visiblelearningmetax.com/influences),
-[Lehr-/Lernmethoden](#lehr-lernmethoden)).
+**Other quality-related attributes in metadata standards**
 
-**Weitere Attribute mit Bezug zur Qualität in Metadatenstandards**
-
-*Bewertungen*
+*Ratings*
 
 - schema.org:
-  - [aggregateRating](https://schema.org/aggregateRating) (Typ:
-    [AggregateRating](https://schema.org/AggregateRating))
-  - [review](https://schema.org/review) (Typ:
-    [Review](https://schema.org/Review))
+  - [aggregateRating](https://schema.org/aggregateRating) (type: [AggregateRating](https://schema.org/AggregateRating))
+  - [review](https://schema.org/review) (Type: [Review](https://schema.org/Review))
 
-*Qualitätssicherungsprozess*
+*Quality assurance process*
 
-- Webseite zum Qualitätssicherungsprozess
-  ([dcatde:qualityProcessURI](https://www.dcat-ap.de/def/dcatde/2.0/implRules/#webseite-mit-beschreibung-des-qualitatssicherungsprozesses))  
-  Das für Deutschland adaptierte Profil zum Datenaustausch
-  [DCAT-AP.de](https://www.dcat-ap.de/def/dcatde/2.0/spec/)
-  ([Repo](https://github.com/GovDataOfficial/DCAT-AP.de)) mit dem
-  Datenportal [GovData](https://www.govdata.de/) nutzt das europäische
-  Applikationsprofil
-  [DCAT-AP](https://semiceu.github.io/DCAT-AP/releases/3.0.0)
-  ([Repo](https://github.com/SEMICeu/DCAT-AP/releases)) des Standards
-  [DCAT](https://w3c.github.io/dxwg/dcat/) zur Erfassung der
-  Qualitätssicherungsprozesse.
+- Website for the quality assurance process ([dcatde:qualityProcessURI](https://www.dcat-ap.de/def/dcatde/2.0/implRules/#webseite-mit-beschreibung-des-qualitatssicherungsprozesses))  
+The German profile [DCAT-AP.de](https://www.dcat-ap.de/def/dcatde/2.0/spec/) ([repo](https://github.com/GovDataOfficial/DCAT-AP.de)) used for data exchange with the data portal [GovData](https://www.govdata.de/) is adapted from the European application profile [DCAT-AP](https://semiceu.github.io/DCAT-AP/releases/3.0.0) ([repo](https://github.com/SEMICeu/DCAT-AP/releases)) of the [DCAT](https://w3c.github.io/dxwg/dcat/) standard for describing quality assurance processes.
 
-**Wertelisten mit Bezug zur Qualität**
+**Value lists relating to quality**
 
-- Vokabular zur Datenqualität: [Data Quality
-  Vocabulary](https://www.w3.org/TR/vocab-dqv/) (DQV)
-- Vokabular zur Publikationsqualität: euroCRIS:
-  [OutputQualityLevels](https://w3id.org/cerif/vocab/OutputQualityLevels)
+- Vocabulary for data quality: [Data Quality Vocabulary](https://www.w3.org/TR/vocab-dqv/) (DQV)
+- Vocabulary for publication quality: euroCRIS: [OutputQualityLevels](https://w3id.org/cerif/vocab/OutputQualityLevels)
 
-### 4.2.12 (Typische) Lerndauer
+### 4.2.12 (Typical) learning time
 
-Über dieses Metadatenfeld kann eine geschätzte Dauer angegeben werden,
-die für die Bewältigung der Ressource oder Aktivität zum Erreichen der
-Lernziele zeitlich benötigt wird. Wenngleich Zusammenhänge bestehen,
-gibt dieses Attribut hingegen *nicht* die reine Abspiel- oder
-Betrachtungsdauer an, also nicht etwa die Länge eines Videos oder
-Audios, wofür ein anderweitiges Metadatum, wie
-[duration](https://dini-ag-kim.github.io/amb/20231019/#duration),
-verwendet werden kann.
+This metadata field can be used to specify an estimated time required to complete the relevant resource or activity and thus achieve the learning objectives. Although some correlations exist, this attribute does *not* specify the pure playback or viewing time, for example, the length of a video or audio clip, for which another metadata field, such as [duration](https://dini-ag-kim.github.io/amb/20231019/#duration), can be used.
 
-Das Attribut hilft Lehrenden bei der Planung von Unterrichtsstunden oder
-Unterrichtseinheiten, die für einen bestimmten Zeitrahmen ausgelegt
-sind. Es hilft den Lernenden, die nötige Zeit für die erfolgreiche
-Arbeit mit Bildungsressourcen besser einzuschätzen. Lernende können
-gezielt nach kurzen Lerneinheiten[^21] suchen, die sich beispielsweise
-besser in einen geschäftigen Alltag einfügen (Mikrolernen).
+The attribute assists teachers in planning lessons or teaching units that are designed for a specific time frame. It helps learners to better estimate the time required to successfully complete educational resources. Learners can perform targeted searches for short learning units[\^21] that fit better into their busy everyday life (microlearning).
 
-Die Angabe der typischen Lerndauer wird von den Befragten bei Tischler
-et al. (2022) als weniger nützlich eingestuft. Das Attribut erhält sehr
-niedrige Bewertungen hinsichtlich der Nutzbarkeit, bedingt vorwiegend
-durch die Herausforderung, das Arbeitstempo der Gruppe sowie die
-Komplexität des Materials einzuschätzen [@tischlernunmbsubob2022, S. 261].
-Dies deckt sich mit der These von Arnold et al. [@arnoldpmieapuefbvf2003, S. 382],
-dass die Abbildung didaktischer Kategorien schwierig ist, da sie
-eine homogene Lerngruppe voraussetze, die in der Realität jedoch selten
-existiere. Bei Tavakoli et al. wird ebenfalls deutlich, dass die
-Zuordnung schwierig ist: Nur bei wenigen Materialien, die keiner
-Qualitätskontrolle unterlagen, war dieses Attribut vorhanden. Häufig ist
-dieses Attribut aber auch nicht vorhanden, wenn die Materialien
-qualitätsgesichert wurden [@tavakolimaoer2021, S. 628]. Dies deckt
-sich mit der Einschätzung der Befragten bei Tischler et al. (2022), dass
-die Zuordnung schwierig ist. Relevant kann das Attribut im
-institutionellen Kontext in der Verbindung mit ECTS-Punkten sein.
+The specification of the typical learning time is deemed to be of limited use by the respondents to the survey conducted by Tischler et al. (2022). The attribute receives very low ratings with regard to usability, primarily due to the challenge of assessing the working pace of the group and the complexity of the material [@tischlernunmbsubob2022, p. 261]. This is consistent with the assumption made by Arnold et al. [@arnoldpmieapuefbvf2003, p. 382] that mapping didactic categories is hindered by the need for a homogeneous learning group, which rarely exists in practice. Tavakoli et al. also highlight the difficulty of making an assignment since this attribute existed only in very few materials that were not subject to quality control. In many cases, however, the attribute was still not present even if the materials did undergo quality control [@tavakolimaoer2021, p. 628]. This is consistent with the results of the survey conducted by Tischler et al. (2022), i.e. that making the assignment is difficult. In an institutional context, the attribute can be relevant in connection with ECTS points.
 
-Verwandte Themen: Microlearning, Learning Nuggets, Learning Snacks,
-[Credentials](#standards-für-credentials) (im Hochschulkontext
-insbesondere auch die Angabe des Workloads und Nachweis von
-Studienleistungen, beispielsweise durch das
-[ECTS](https://web.archive.org/web/20240304111912/https://education.ec.europa.eu/de/education-levels/higher-education/inclusive-and-connected-higher-education/european-credit-transfer-and-accumulation-system))
+Related topics: microlearning, learning nuggets, learning snacks, [credentials](#standards-für-credentials) (in particular, specification of workloads and certification of academic achievements in a higher education context, for example via the [ECTS](https://web.archive.org/web/20240304111912/https://education.ec.europa.eu/de/education-levels/higher-education/inclusive-and-connected-higher-education/european-credit-transfer-and-accumulation-system))
 
-**Attribute in Metadatenstandards**
+**Attributes in metadata standards**
 
 - LRMI: [timeRequired](https://schema.org/timeRequired)
 - LOM: 5.9 Typical Learning Time
-- Learning Metadata: [timeRequired](https://schema.org/timeRequired)
-  (Nachnutzung des LRMI-Elements)
+- Learning Metadata Terms: [timeRequired](https://schema.org/timeRequired) (reuse of the LRMI element)
 
-**Wertelisten zur Einbindung oder Nachnutzung**
+**Value lists for integration or reuse**
 
-- LOM-CH (Lernzeit 5.9.2)
-  - Weniger als eine Lektion
-  - Eine bis fünf Lektionen
-  - Mehr als fünf Lektionen
-  - Nicht definiert
+- LOM-CH (learning time 5.9.2)
+  - Less than one lesson
+  - One to five lessons
+  - More than five lessons
+  - Undefined
 - eduki
-  - Seitenzahl für textbasierte Inhalte
-    - \<5 Seiten
-    - 5 — 20 Seiten
-    - 20+ Seiten
+  - Page number of text-based content
+    - < 5 pages
+    - 5 – 20 pages
+    - 20+ pages
 
+### 4.2.13 Technical requirements
 
-### 4.2.13 Technische Voraussetzungen
+To enable a rapid assessment of the (re)usability of a resource, this field contains a description of any mandatory hardware and/or software requirements for making use of the resource. Compliance with e-learning standards is just as relevant as the compatibility of resources with the environments in which they are to be implemented.
 
-Um die Einsetzbarkeit einer Ressource in der Nachnutzung schnell
-beurteilen zu können, erfasst dieses Feld eine Beschreibung möglicher
-Hard- und/oder Software-voraussetzungen, die für den Einsatz der
-Ressource obligatorisch sind. So ist die Konformität zu
-E-Learning-Standards ebenso relevant wie die Kompatibilität von
-Ressourcen zu den Umgebungen, in denen sie implementiert werden sollen.
+This attribute can be used to specify necessary technical requirements for the successful use of a resource. Some resources may require specific end devices (AR/VR glasses) or a dedicated operating system with regard to software. The attribute can thus be used as a filter to restrict search results to resources that can actually be used in the respective environment.
 
-Mit diesem Attribut können notwendige technische Voraussetzungen zur
-erfolgreichen Nutzung einer Ressource angegeben werden. Einige
-Ressourcen benötigen gegebenenfalls bestimmte Endgeräte (AR- /
-VR-Brillen) oder bezüglich der Software ein dediziertes Betriebssystem.
-Das Attribut kann damit als Filtermöglichkeit eingesetzt werden, um nur
-tatsächlich im jeweiligen Umfeld nutzbare Ressourcen anzuzeigen.
+LOM offers extensive options for defining relevant information, ranging from version numbers to installation instructions, often in conjunction with controlled vocabularies [@ieee111islom2020, p. 27-30]. More modern application profiles such as LOM-CH no longer make use of these attributes, but instead recommend specifying technical requirements in the form of comments [@educaal2020, p. 13]. The Educational CAD Model Library also uses a free text field for the description of supported software as well as a range of specific details in the context of CAD models, including the equipment required to produce the 3D models, e.g. 3D printers and die cutters [@bullmseo2023].
 
-LOM besitzt umfassende Möglichkeiten, entsprechende Informationen zu
-hinterlegen, die von der Angabe der Versionsnummern bis zu
-Installationshinweisen reichen, oft in Verbindung mit kontrollierten
-Vokabularen [@ieee111islom2020, S. 27-30].
-Modernere Applikationsprofile wie LOM-CH verwenden diese Attribute nicht mehr, sondern empfehlen nur noch
-die Angabe technischer Anforderungen in Form eines Kommentars [@educaal2020, S. 13].
-Auch die Educational CAD Model Library verwendet ein
-Freitextfeld zur Erfassung unterstützter Software und eine Reihe
-spezifischer Angaben im Kontext von CAD-Modellen, darunter die benötigte
-Ausrüstung, um die 3D Modelle herzustellen, bspw. 3D-Drucker,
-Stanzmaschinen [@bullmseo2023].
+The eduCheck project (FWU) is developing test criteria for digital educational offerings that encompass the area of "technology and IT security". This includes criteria from the preliminary checklist [@fwuekgjp2024], such as:
 
-Im eduCheck Projekt (FWU) werden Prüfkriterien digitaler
-Bildungsangebote entwickelt, die den Bereich “Technik und IT-Sicherheit”
-umfassen, darunter Kriterien der vorläufigen Checkliste [@fwuekgjp2024],
-wie:
+- Technology
+  - Standard SLAs defined
+  - IT processes: ITSM, IT change management, asset management, etc.
+  - Scalability of the overall architecture
+- Interoperability
+  - User data portable when changing schools
+  - API interface present
+  - Metadata standards supported
+  - LTI standard supported
+- IT security
+  - Single sign-on supported
+  - Incident response plan in place
+  - Security processes defined
+  - 2-factor authentication possible
+  - End devices secured with firewall and virus protection
+  - Encryption
+  - Network security
 
-- Technik
-  - Standard-SLAs definiert
-  - IT-Prozesse: ITSM, IT Change Management, Asset Management o.ä.
-  - Skalierbarkeit der Gesamtarchitektur
-- Interoperabilität
-  - Benutzerdaten bei Schulwechsel portierbar
-  - API-Schnittstelle vorhanden
-  - Metadatenstandards unterstützt
-  - LTI-Standard unterstützt
-- IT-Sicherheit
-  - Single-Sign-On wird unterstützt
-  - Incident Response Plan vorhanden
-  - Sicherheitsprozesse definiert
-  - 2-Faktor-Authentifizierung möglich
-  - Endgeräte durch Firewall und Virenschutz gesichert
-  - Verschlüsselung
-  - Netzwerksicherheit
+**Attributes in metadata standards**
 
-**Attribute in Metadatenstandards**
+- LOM: 4 Technical requirements
+- LOM-CH: 4.6 Other technical requirements
 
-- LOM: 4 Technische Voraussetzungen
-- LOM-CH: 4.6 Andere technische Voraussetzungen
+**Possible value lists:**
 
-**Mögliche Wertelisten:**
+In particular, value lists for software types are similar to approaches for describing [resource types](#ressourcentyp-medientyp).
 
-Insbesondere Werteliste für Softwaretypen sind vergleichbar mit Ansätzen
-zur Erfassung der [Ressourcentypen](#ressourcentyp-medientyp).
-
-Tabelle: *Hard- und Softwarevoraussetzungen*
+Table: *Hardware and software requirements*
 
 <table>
 <colgroup>
@@ -4347,66 +2335,39 @@ Tabelle: *Hard- und Softwarevoraussetzungen*
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Werteliste</strong></td>
-<td><strong>Werte</strong></td>
+<td><strong>Value list</strong></td>
+<td><strong>Values</strong></td>
 </tr>
 <tr class="even">
 <td><a
 href="https://digitallearninglab.de/api/operatingSystems?q=">DigitalLearningLab:OS</a></td>
-<td>Android, BlackBerry OS, iOS, Linux, macOS, Windows, Windows
-Phone</td>
+<td>Android, BlackBerry OS, iOS, Linux, macOS, Windows, Windows Phone</td>
 </tr>
 <tr class="odd">
 <td>ComeIn:Software</td>
-<td>Moodle, ILIAS, Bildbearbeitung (z. B. GIMP), Textverarbeitung (z. B.
-LibreOffice), Videobearbeitung (z. B. Shotcut), Audiobearbeitung (z. B.
-Audacity)</td>
+<td>Moodle, ILIAS, image editing (e.g. GIMP), word processing (e.g. LibreOffice), video editing (e.g. Shotcut), audio editing (e.g. Audacity)</td>
 </tr>
 <tr class="even">
 <td>ComeIn:Hardware</td>
-<td>Webcam, Mikrofon, Beamer/Projektor, Internetzugang, Kamera, WLAN,
-Drucker, Scanner, Maus, Tastatur, (Multi-)Touchscreen, USB-Stick,
-Speicherkarte, Monitor, Whiteboard, Notebook, Tablet, Desktop-PC,
-Smartphone</td>
+<td>Webcam, microphone, projector, internet access, camera, WLAN, printer, scanner, mouse, keyboard, (multi-)touchscreen, USB stick, memory card, monitor, whiteboard, notebook, tablet, desktop PC, smartphone</td>
 </tr>
 <tr class="odd">
-<td>ComeIn:Sensoren</td>
-<td>Umgebungslichtsensor, Beschleunigungssensor, Pulsmesser,
-Näherungssensor, Rotationssensor, Satellitennavigation (z. B. GPS,
-Galileo, Beidou, …), Fingerabdrucksensor, Barometer, Magnetometer,
-Thermometer, Pulsmesser</td>
+<td>ComeIn:Sensors</td>
+<td>Ambient light sensor, acceleration sensor, heart rate monitor, proximity sensor, rotation sensor, satellite navigation (e.g. GPS, Galileo, Beidou), fingerprint sensor, barometer, magnetometer, thermometer, heart rate monitor</td>
 </tr>
 <tr class="even">
 <td>European Schoolnet <a
-href="http://europeanschoolnet-vbe.lexaurus.net/vbe/browse">“Software
-Type”</a></td>
-<td>blog hosting service, blog software, bulletin board system,
-classroom management software, concept-mapping software, content
-management system, courseware, e-mail program, FTP client, hypermedia,
-image editor software, instant messaging service, interactive whiteboard
-software, learner response software, learning content management system,
-management information system, other, PDF software, photo sharing site,
-podcast software, presentation graphics software, search engine,
-simulation software, social bookmarking site, social networking site,
-social networking software, spreadsheet software, syndication feed,
-video editor software, virtual reality, VLE, VoIP, Web authoring
-software, Web browser, Wiki, Wiki tool, word processing software</td>
+href="http://europeanschoolnet-vbe.lexaurus.net/vbe/browse">&quot;Software Type&quot;</a></td>
+<td>blog hosting service, blog software, bulletin board system, classroom management software, concept-mapping software, content management system, courseware, e-mail program, FTP client, hypermedia, image editor software, instant messaging service, interactive whiteboard software, learner response software, learning content management system, management information system, other, PDF software, photo sharing site, podcast software, presentation graphics software, search engine, simulation software, social bookmarking site, social networking site, social networking software, spreadsheet software, syndication feed, video editor software, virtual reality, VLE, VoIP, Web authoring software, Web browser, Wiki, Wiki tool, word processing software</td>
 </tr>
 <tr class="odd">
 <td>European Schoolnet <a
-href="http://europeanschoolnet-vbe.lexaurus.net/vbe/browse">“Hardware
-Type”</a></td>
-<td>amplification system, audio capture tool, audio conference tool,
-desktop computer, document reader, games console, interactive
-multi-touch table, interactive overlay, interactive whiteboard, laptop
-computer, learner response tool, mobile device, netbook computer, other,
-photo camera, projector, scanner, server, smartphone, tablet, video
-capture tool, video conference tool, wireless slate</td>
+href="http://europeanschoolnet-vbe.lexaurus.net/vbe/browse">&quot;Hardware Type&quot;</a></td>
+<td>amplification system, audio capture tool, audio conference tool, desktop computer, document reader, games console, interactive multi-touch table, interactive overlay, interactive whiteboard, laptop computer, learner response tool, mobile device, netbook computer, other, photo camera, projector, scanner, server, smartphone, tablet, video capture tool, video conference tool, wireless slate</td>
 </tr>
 <tr class="even">
-<td><a href="https://edulabs.de/oer/">EduLabs</a></td>
-<td>ohne Internetzugang, PC / Laptop, Tablet / Smartphone, Hardware /
-Basteln</td>
+<td><a href="https://edulabs.de/oer/">edulabs</a></td>
+<td>ohne Internetzugang, PC / Laptop, Tablet / Smartphone, Hardware / Basteln</td>
 </tr>
 <tr class="odd">
 <td><a
@@ -4415,513 +2376,244 @@ href="https://www.merlot.org/merlot/materials.htm">MERLOT</a></td>
 </tr>
 <tr class="even">
 <td><a
-href="https://hack-the-summer.de/material-finder">Material-Finder</a>
-(Hack the Summer)</td>
-<td>Bastelmaterialien, Beamer, Calliope mini, Internetzugang, Kamera,
-Laptop/PC, Mit technischen Zubehör, Ohne technisches Zubehör, Scratch,
-senseBox, Smartphone, Stift und Papier, Tablet, VR-Brille</td>
+href="https://hack-the-summer.de/material-finder">Material-Finder</a> (Hack the Summer)</td>
+<td>Bastelmaterialien, Beamer, Calliope mini, Internetzugang, Kamera, Laptop/PC, Mit technischen Zubeh&ouml;r, Ohne technisches Zubeh&ouml;r, Scratch, senseBox, Smartphone, Stift und Papier, Tablet, VR-Brille</td>
 </tr>
 </tbody>
 </table>
+Outdated value lists
 
-Veraltete Wertelisten
+- LOM-EAF: [System requirements](http://agmud.de/eaf-erweitertes-austauschformat/)
+- Software types according to Gibbs and Tschiritzis (1994), software categories with a focus on their didactic construction according to Gloor (1990), classifications regarding the interaction with software according to Bodendorf (1990) \[@schulmeisterghltdd2007, p. 61-64]
 
-- LOM-EAF:
-  [Systemvoraussetzungen](http://agmud.de/eaf-erweitertes-austauschformat/),
-- Softwaretypen nach Gibbs und Tschiritzis (1994), Software-Kategorien
-  mit Fokus auf deren didaktische Konstruktion nach Gloor (1990),
-  Klassifikationen hinsichtlich der Interaktion mit Software nach
-  Bodendorf (1990) [@schulmeisterghltdd2007, S. 61-64]
+### 4.2.14 Didactic relations
 
-### 4.2.14 Didaktische Relationen
+Compared to a more linear organisation of learning content and processes (e.g. in analogue school books), granular learning modules and modified learning processes help to make learning more flexible and give rise to more complex structures with regard to the sequencing and presentation of learning content as well as the navigation both within and between different educational resources. Didactic relations facilitate the interconnection of different, modularised educational resources.
 
-Gegenüber einer eher linearen Organisation von Lerninhalten und
--prozessen (bspw. in analogen Schulbüchern) führen granulare
-Lernbausteine und veränderte Lernprozesse dazu, dass Lernen
-flexibilisiert wird und komplexere Strukturen hinsichtlich der
-Sequenzierung und Präsentation der Lerninhalte sowie Navigation
-innerhalb und zwischen verschiedenen Bildungsressourcen entstehen.
-Didaktische Relationen werden für die Vernetzung verschiedener,
-modularisierter Bildungsressourcen verwendet.
+![Figure: *Example organisational structure of learning processes (teaching/learning paths)*](./images/4_didaktische_relationen.png)
 
-![Grafik: *Exemplarische Organisationsstruktur von Lernprozessen (Lehr-/Lernpfade)*](./images/4_didaktische_relationen.png)
+Metadata can map relations between different objects, for example, competence-related references such as [prerequisites and prior knowledge](#lernvoraussetzungen-und-vorwissen), [learning objectives](#lernziele) or [learning controls](#_4.2.2.3_Lernkontrollen), part-whole relationships (is part of, has part), provenance information (is based on, is referenced by) or time-related information pertaining to the arrangement of learning content. The specification of didactic relations enables the creation of (adaptive) learning paths. Other systems can also reuse such information to provide users with suitable recommendations for educational resources.
 
-Metadaten können Relationen zwischen verschiedenen Objekten abbilden,
-beispielsweise kompetenzbezogene Bezüge wie [Voraussetzungen und
-Vorwissen](#lernvoraussetzungen-und-vorwissen), [Lernziele](#lernziele)
-oder [Lernkontrollen](#_4.2.2.3_Lernkontrollen), Teil-Ganzes
-Zusammenhänge (ist Teil von, enthält), Provenienzinformationen (basiert
-auf, wird referenziert von) oder zeitbezogene Angaben zum Arrangement
-der Lerninhalte. Die Angabe didaktischer Relationen ermöglicht die
-Erzeugung (adaptiver) Lernpfade. Auch andere Systeme können solche
-Angaben nachnutzen, um darauf basierend entsprechende Empfehlungen von
-Bildungsressourcen für Nutzer\*innen zu geben.
-
-**Attribute in Metadatenstandards**
+**Attributes in metadata standards**
 
 - LOM, LOM-CH, HS-OER-LOM:
-  - Relationen, basierend auf Dublin Core: is part of, has part, is
-    version of, has version, is format of, has format, references, is
-    referenced by, is based on, is basis for, requires, is required by
-    [@ieee111islom2020]
+  - Relations, based on Dublin Core: is part of, has part, is version of, has version, is format of, has format, references, is referenced by, is based on, is basis for, requires, is required by \[@ieee111islom2020]
 - LRMI:
-  - [isBasedOnUrl](https://www.dublincore.org/specifications/lrmi/lrmi_terms/2022-06-14/#isBasedOnUrl),
-    [teaches](https://www.dublincore.org/specifications/lrmi/lrmi_terms/2022-06-14/#teaches),
-    [assesses](https://www.dublincore.org/specifications/lrmi/lrmi_terms/2022-06-14/#assesses)
+  - [isBasedOnUrl](https://www.dublincore.org/specifications/lrmi/lrmi_terms/2022-06-14/#isBasedOnUrl), [teaches](https://www.dublincore.org/specifications/lrmi/lrmi_terms/2022-06-14/#teaches), [assesses](https://www.dublincore.org/specifications/lrmi/lrmi_terms/2022-06-14/#assesses)
 - schema.org:
-  - [isPartOf](https://schema.org/isPartOf),
-    [hasPart](https://schema.org/hasPart),
-    [isBasedOn](https://schema.org/isBasedOn),
-    [competencyRequired](https://schema.org/competencyRequired)
-- L3-Projekt (Meder, 2003, S. 170f)
-  - “didaktisch-vor” (Prerequisit)
-  - “gehört-zu” (Belongs to)
+  - [isPartOf](https://schema.org/isPartOf), [hasPart](https://schema.org/hasPart), [isBasedOn](https://schema.org/isBasedOn), [competencyRequired](https://schema.org/competencyRequired)
+- L3-Projekt (Meder, 2003, p. 170f)
+  - "didaktisch-vor" (prerequisite)
+  - "gehört-zu" (belongs to)
 
-**Mögliche Wertebereiche zur Nachnutzung**
+**Possible value ranges for reuse**
 
-- LOM, LOM-CH: Vokabular zu Beziehungen [@educaal2020, S. 25-25] [@ieee111islom2020, S. 38]
+- LOM, LOM-CH: Vocabulary for relationships [@educaal2020, p. 25] \[@ieee111islom2020, p. 38]
 
-### 4.2.15 Granularität
+### 4.2.15 Granularity
 
-Ressourcen können unterschiedlich granular bereitgestellt werden.
+Resources can be made available with varying degrees of granularity.
 
-*Wiederverwendbarkeit* ←*→ Kontextualisierung*
+*Reusability*  ←*→ contextualisation*
 
-Die Wiederverwendbarkeit von Ressourcen hängt von verschiedenen Faktoren
-ab [@sanzalore2008, S. 2f] und stellt ein wichtiges Merkmal von
-Lernobjekten dar [@siciliacurlo2003, S. 3]. Die Granularität der
-Bereitstellung von Ressourcen beeinflusst die Wiederverwendbarkeit [@heyervlnpg2005] [@hodginsflo2002] [@kramerrlolgiat2005] [@mederalvhl2003, S. 158f].
-Lehr-/Lernbausteine, die sich beliebig kombinieren und somit
-entsprechend den Bedarfen und didaktischen Voraussetzungen in die Lehre
-integrieren lassen, begünstigen eine flexible Nachnutzung [@arndtdkpfpcql2023, S. 12] [@baumgartnerdurlor2004] [@ehlerseispoeutllibz2003, S. 52f] [@grunwaldcgrloaswes2007].
-Eine stärkere Kontextualisierung verringert somit zwar die
-Wiederverwendbarkeit aufgrund der hohen Vorstrukturierung und
-spezifischen Aufbereitung, bietet zugleich jedoch unter Umständen eine
-geschlossene Struktur zum Erreichen von Lernzielen mit einem höheren
-Abstraktionsgrad, zum Beispiel von Richtzielen [@mayerlie2009, S. 8-10].
-Aus Sicht der Lernenden ist eine passende Kontextualisierung
-wünschenswert [@frantiskacrlo2016, S. 3f] [@yassinelalorofd2016].
-Das Vorhandensein einer Kontextualisierung kann eine Zeitersparnis bedeuten,
-sofern die Ressource sich ohne grundlegende Modifikation für den
-didaktischen Kontext eignet.
+The reusability of resources depends on different factors [@sanzalore2008, p. 2f] and is a key property of learning objects [@siciliacurlo2003, p. 3]. The granularity with which resources are made available influences their reusability [@heyervlnpg2005] [@hodginsflo2002] [@kramerrlolgiat2005] [@mederalvhl2003, p. 158f]. Teaching/learning modules that can be combined as needed and thus integrated into teaching based on individual needs and didactic requirements encourage flexible reuse [@arndtdkpfpcql2023, p. 12] [@baumgartnerdurlor2004] [@ehlerseispoeutllibz2003, p. 52f] [@grunwaldcgrloaswes2007]. While greater contextualisation reduces reusability due to the high degree of pre-structuring and specific preparation, it may also provide a closed structure for achieving learning objectives with a higher level of abstraction, such as target objectives [@mayerlie2009, p. 8-10]. Appropriate contextualisation is desirable from the learner's perspective [@frantiskacrlo2016, p. 3f] [@yassinelalorofd2016]. The existence of contextualisation can save time, provided the resource is suitable for the didactic context without requiring significant modification.
 
-Ressourcen geringerer Granularität eignen sich potenziell eher für eine
-unmittelbare Einbettung in eigene Lehr-/Lernkontexte, sodass diese in
-der Nachnutzung besonders für Lehrende von Interesse sind [@kerreseizhndl2019].
-Auch im ComeIn Projekt wird konstatiert:
+Resources with a lower degree of granularity are potentially more suitable for immediate integration into individual teaching/learning contexts, thus making their reuse particularly beneficial to teachers [@kerreseizhndl2019]. The ComeIn project also states:
 
-> “Die mögliche Integration und Kombinierbarkeit einzelner OER-Bausteine
-> in die eigene Lehre, entsprechend den individuellen Bedarfen und
-> didaktischen Voraussetzungen, begünstigt eine flexible Nachnutzung und
-> bietet somit Potenziale, sie an die unterschiedlichen
-> Lehr-/Lernkontexte anzupassen.“ [@arndtdkpfpcql2023, S. 12]
+> "The possibility of integrating and combining individual OER modules in one's own teaching, according to individual needs and didactic requirements, promotes flexible reuse and thus offers potential for adapting these modules to different teaching/learning contexts." \[@arndtdkpfpcql2023, p. 12]
 
-Das Prinzip ist vergleichbar mit einem frühen Konzept der Reusable
-Learning Objects, bei dem komplexere Ressourcen (z. B. umfangreiche
-Kurse) in kleinere, sinnvolle, kombinierbare Lerneinheiten zerlegt
-werden, um eine flexible Nachnutzung zu begünstigen [@baumgartneresadp2002].
-Fernandes et al. unterteilen die Granularität in sechs
-Kategorien: pedagogical assets, information, entities, context and
-schema [@fernandesslmflor2005].
+The principle is comparable to an early concept of reusable learning objects, in which very complex resources (e.g. extensive courses) are broken down into smaller, meaningful and individually combinable learning units to facilitate flexible reuse [@baumgartneresadp2002]. Fernandes et al. divide this granularity into six categories: pedagogical assets, information, entities, context and schema [@fernandesslmflor2005].
 
-**Weitere Verwendungshinweise**
+**Further notes on usage**
 
-In LOM findet sich ebenfalls das Attribut “Aggregation Level” (LOM 1.7),
-welches genutzt wird, um die Granularität eines Objektes zu beschreiben.
-Dieses Level wird dort in vier Stufen unterteilt, wobei die niedrigste
-Stufe die kleinste sinnvoll annehmbare Einheit beschreibt (bspw. ein
-einzelnes Bild) und die darüber liegenden Einheiten jeweils die darunter
-liegenden umfassen. Level 4 beschreibt die größte Einheit, bspw. eine
-Reihe von Kursen, die zu einem Zertifikat führen. Theoretisch könnte
-dieses Attribut in der Verbindung mit dem Ressourcentyp eine sehr
-zielgerichtete Suche ermöglichen, um zum Beispiel passendes Material für
-den eigenen Kurs zu finden. Faktisch hat sich das Attribut nicht
-durchgesetzt, da diese Information implizit häufig bereits über
-Ressourcentypen kommunizierbar ist, die unter Umständen sogar
-hierarchisch strukturiert sind.
+LOM also features the attribute "Aggregation Level" (LOM 1.7), which is used to describe the granularity of an object. This attribute is divided into four levels. The lowest level describes the smallest meaningfully acceptable unit (e.g. a single image), with the units above it each containing the ones below. Level 4 describes the largest unit, e.g. a set of courses that leads to a certificate. Used in conjunction with the resource type, this attribute could theoretically enable very targeted searches, for example, to find suitable material for your own course. The attribute has not caught on in practice, however, as this information can often be communicated implicitly via resource types, which may even be hierarchically structured.
 
-*Granularität im Kontext von EduArc [@kerreseizhndl2019] [@kerresoiemlsre2015]*
+*Granularity in the context of EduArc [@kerreseizhndl2019] \[@kerresoiemlsre2015]*
 
-1.  einzelne Dokumente (z. B. Übungsblatt, Schaubild, Simulation,
-    Video), die einem Thema zugeordnet sind
-2.  Lehrwerke und Kollektionen von Dokumenten, die Lernaktivitäten
-    organisieren und in Kurse eingebettet werden (z. B. H5P- oder
-    SCORM-Objekte)
-3.  Vollständige Kurse, die auf den Erwerb einer Kompetenz ausgerichtet
-    sind
+1. Individual documents (e.g. exercise sheet, diagram, simulation, video) that are assigned to a topic
+2. Textbooks and collections of documents that organise learning activities and are embedded in courses (e.g. H5P or SCORM objects)
+3. Complete courses that are aimed at acquiring a specific competence
 
-**Attribute in Metadatenstandards**
+**Attributes in metadata standards**
 
 - LOM: Aggregation Level 1.7
 
-**Mögliche Wertebereiche:**
+**Possible value ranges:**
 
-- [WirLernenOnline](https://wirlernenonline.de/):
-  [aggregationLevel](http://w3id.org/openeduhub/vocabs/aggregationLevel/),
-  spezifisch für schulische Ressourcen  
-  Unterrichtsbaustein (Aktivitäten in einer Stunde), Unterrichtsstunde,
-  Unterrichtseinheit (mehrere Unterrichtsstunden), Unterrichtsreihe (6-8
-  Wochen), Kurs (Halbjahr oder Schuljahr), Kursreihe)
-- [meinUnterricht](https://www.meinunterricht.de/) (Materialumfang):
-  Test/Prüfung, Unterrichtseinheit, Unterrichtselement (Arbeitsblatt
-  etc.), Unterrichtsstunde
-- [eduLabs](https://edulabs.de/oer/) (Dauer): Unterrichtsreihe,
-  Doppelstunde, 45 minuten, Übung (bis zu 20 min), flexibel
+- [WirLernenOnline](https://wirlernenonline.de/): [aggregationLevel](http://w3id.org/openeduhub/vocabs/aggregationLevel/), specific to school resources  
+Activity, Lesson, Unit, Module, Course, Set of courses
+- [meinUnterricht](https://www.meinunterricht.de/) (material scope): Test/Prüfung, Unterrichtseinheit, Unterrichtselement (Arbeitsblatt etc.), Unterrichtsstunde
+- [edulabs](https://edulabs.de/oer/) (duration): Unterrichtsreihe, Doppelstunde, 45 minuten, Übung (bis zu 20 min), flexibel
 
-Verwandt: [(Typische) Lerndauer](#typische-lerndauer),
-[Ressourcentypen](#ressourcentyp-medientyp)
+Related: [(typical) learning time](#typische-lerndauer), [resource types](#ressourcentyp-medientyp)
 
-## 4.3 Weitere didaktische Metadatenfelder
+## 4.3 Other educational metadata fields
 
-Im Folgenden werden weitere Metadatenfelder oder auch Themen aufgeführt
-und kurz beschrieben, die häufiger in fachlichen Communitys erwähnt und
-gewünscht werden. Sie sind in der Regel nicht vollständig
-konzeptualisiert, standardisiert oder finden keine breite Anwendung.
+The following sections contain listings and brief descriptions of additional metadata fields or topics that are frequently mentioned and/or requested in professional communities. As a rule, these are not fully conceptualised, standardised or widely adopted.
 
-### 4.3.1 Lernphasen, Unterrichtsphasen, Unterrichtsschritte
+### 4.3.1 Learning phases, lesson phases, teaching steps
 
-Ähnlich wie die Angabe des
-[Veranstaltungsformates](#lehrformat-veranstaltungsformat-lehrmodus)
-kann die Angabe dieses Attributs genutzt werden, um die Passung eines
-Objektes zu einer bestimmten Phase des Unterrichts zu bestimmen. Das
-Attribut fokussiert die Prozessstruktur des Unterrichts. Dabei ist die
-traditionelle Phasierung des Unterrichts nicht unumstritten,
-insbesondere bei eher selbstbestimmten, individualisierten
-Lernprozessen, die eventuell nicht in strikten Phasen organisiert sind.
-Unterrichtsphasen werden zum Teil auch als Unterrichtsschritte
-bezeichnet. Unterrichtsphasen sind eine spezifische Ausprägung einer
-[didaktischen
-Kontextualisierung](#didaktische-kontextualisierung-settings-und-szenarien),
-indem Material bestimmten Lernaktivitäten einer Phasierung zugeordnet
-wird. Das Metadatum wird unter anderem von den Videoportalen [ViU: Early
-Science](https://www.uni-muenster.de/Koviu/video/) und
-[ProVision](https://www.uni-muenster.de/ProVision/video/) der
-Universität Münster verwendet (Einstieg, Erarbeitung, Reflexion). Die
-Methoden-Kartothek differenziert die Lernphasen “Einsteigen”,
-"Erarbeiten", “Integrieren” und “Auswerten” [@papenkortwdme2015].
-Die [Materialdatenbank QUA-LiS
-NRW](https://www.schulentwicklung.nrw.de/materialdatenbank/) verwendet
-dazu eine verwandte Kategorie “Position im Unterricht” mit folgenden
-Werten: Anwenden, Diagnose (Selbsteinschätzung, Selbstüberprüfung),
-Einführung, Wiederholen/Üben.
+Similarly to the specification of an [event format](#lehrformat-veranstaltungsformat-lehrmodus), this attribute can be used to establish the suitability of an object for a specific phase of a lesson. The attribute focuses on the process structure of the lesson. The traditional phasing of lessons is not without controversy, particularly in the case of learning processes that are more self-determined and individualised in nature and therefore may not be organised into strict phases. Lesson phases are sometimes also referred to as teaching steps. Lesson phases represent a specific form of [didactic contextualisation](#didaktische-kontextualisierung-settings-und-szenarien) in which material is assigned to specific learning activities within a phasing. The metadata attribute is used, for example, by the video portals [ViU: Early Science](https://www.uni-muenster.de/Koviu/video/) and [ProVision](https://www.uni-muenster.de/ProVision/video/) of the University of Münster (introduction, learning, reflection). Methoden-Kartothek differentiates between the learning phases "introduction", "learning", "integration" and "evaluation" \[@papenkortwdme2015\]. The materials database [QUA-LiS NRW](https://www.schulentwicklung.nrw.de/materialdatenbank/) uses a related category "Positioning in lesson" with the following values: application, diagnosis (self-assessment, self-examination), introduction, repetition/practice.
 
-Mögliche Unterrichtsphasen und -schritte [@meyerlu2020, S. 39f]:
+Possible lesson phases and teaching steps [@meyerlu2020, p. 39f]:
 
-- Einstieg (z. B. problemorientiert)
-- Erarbeitung
-- Vertiefung
-- Übergang
-- Reflexion
-- Ergebnissicherung
-- Zusammenfassung
+- Introduction (e.g. problem-oriented)
+- Learning
+- Deepening
+- Transition
+- Reflection
+- Consolidation
+- Summary
 
-Verwandt:
-[Lern-/Unterrichtsaktivitäten](#lehr-lernaktivitäten-unterrichtsaktivitäten),
-5E-Lehrmodell
+Related: [learning/lesson activities](#lehr-lernaktivitäten-unterrichtsaktivitäten), 5E learning model
 
-### 4.3.2 Lehr-/Lernaktivitäten, Unterrichtsaktivitäten
+### 4.3.2 Teaching/learning activities, lesson activities
 
-Dieses Attribut beschreibt die Arten von Aktivitäten oder Aufgaben, die
-die Lernenden bei der Nutzung der Ressource durchführen. Damit bietet es
-Lehrenden einen Eindruck, wie die Ressource in den Unterricht integriert
-werden kann, und hilft den Lernenden zu verstehen, wie sie mit dem
-Inhalt interagieren können. Das Attribut fokussiert die
-Handlungsstruktur des Unterrichts.
+This attribute describes the types of activities or tasks that learners perform when using the resource. It gives teachers an impression of how they can integrate the resource into their lessons and helps learners to understand how they can interact with the content. The attribute focuses on the action structure of the lesson.
 
-Beispiele für Wertelisten
+Value list examples
 
-- Unterrichtsaktivitäten
-  - [ProVision](https://www.uni-muenster.de/ProVision/video/),
-    [KoViU](https://www.uni-muenster.de/Koviu/video/):
-    Lehrerinstruktion, Lehrerdemonstration, Schülerdemonstration,
-    Stillarbeit, Einzelarbeit, Unterrichtsgespräch, Gruppenarbeit,
-    Partnerarbeit, Exkursion, Stationsarbeit, Experiment, Übergang
-  - [PatternPool](https://www.patternpool.de/finden/): Rezeptive
-    Aktivitäten (dienen dem Lesen, Anschauen, Zuhören), Übende
-    Aktivitäten (dienen dem Ausprobieren, der Routinebildung etc.) ,
-    Produktive Aktivitäten (dienen der Schaffung eigener Inhalte),
-    Organisatorische Aktivitäten (dienen der Koordination, Vernetzung
-    u.ä.)
-  - [meinUnterricht](https://www.meinunterricht.de/): Experimentieren,
-    Gespräch führen, Gestalten, Gruppenarbeit / Partnerarbeit,
-    Kontrollieren/prüfen, Konzentrieren / meditieren / entspannen,
-    Lernspiel spielen, Recherchieren / dokumentieren, Sich bewegen,
-    Simulationsspiel durchführen, Still arbeiten, Szenisch arbeiten,
-    Vortragen / präsentieren
-- Didaktische Aktivitäten im Unterricht und Lehr-/Lernszenarien
-  - [ProVision](https://www.uni-muenster.de/ProVision/video/)
-    (Universität Münster), u. a.: Klassenführung, Allgemeine
-    Lernunterstützung, Sprachsensible Lernunterstützung,
-    Gleichberechtigte Teilhabe, Kognitiv aktivierende Lehr-Lern-Kultur
-  - [Szenarien@FAU](https://web.archive.org/web/20231128095015/https://www.ili.fau.de/digitalisierung/szenarien/):
-    aktivieren, motivieren, betreuen, prüfen, verarbeiten, anwenden,
-    vermitteln
-  - [Lehre-Navi](https://www.uni-hamburg.de/lehre-navi.html) (UHH):
-    Vermitteln, Aktivieren, Betreuen, Prüfen, Interaktion anregen
-  - [Digitaliada](https://www.digitaliada.ro/econtinut) (Rumänien):
-    Lehre, Vertiefung des Wissens, Bewertung
-  - [LRE Learning
-    Principles](http://europeanschoolnet-vbe.lexaurus.net/vbe/browse):
-    activate prior knowledge, analogical reasoning, collaboration,
-    expert guidance, metacognition, multiple representations, skill
-    training, support conceptual change, support for complex learning,
-    visualisation of thinking
+- Lesson activities
+  
+  - [ProVision](https://www.uni-muenster.de/ProVision/video/), [KoViU](https://www.uni-muenster.de/Koviu/video/): Lehrerinstruktion, Lehrerdemonstration, Schülerdemonstration, Stillarbeit, Einzelarbeit, Unterrichtsgespräch, Gruppenarbeit, Partnerarbeit, Exkursion, Stationsarbeit, Experiment, Übergang
+  - [PatternPool](https://www.patternpool.de/finden/): Rezeptive Aktivitäten (dienen dem Lesen, Anschauen, Zuhören), Übende Aktivitäten (dienen dem Ausprobieren, der Routinebildung etc.), Produktive Aktivitäten (dienen der Schaffung eigener Inhalte), Organisatorische Aktivitäten (dienen der Koordination, Vernetzung u.ä.)
+  - [meinUnterricht](https://www.meinunterricht.de/): Experimentieren, Gespräch führen, Gestalten, Gruppenarbeit / Partnerarbeit, Kontrollieren/prüfen, Konzentrieren / meditieren / entspannen, Lernspiel spielen, Recherchieren / dokumentieren, Sich bewegen, Simulationsspiel durchführen, Still arbeiten, Szenisch arbeiten, Vortragen / präsentieren
 
-- Verwandte Wertebereiche:
-  - Aktionsform [@heyerdsudvl2006], Sozialformen, bspw.: Plenumsunterricht,
-    Frontalunterricht, Gruppenarbeit, Tandemarbeit, Einzelarbeit [@meyerlu2020, S. 41]
+- Didactic activities in class and teaching/learning scenarios
+  
+  - E.g. [ProVision](https://www.uni-muenster.de/ProVision/video/) (University of Münster): Klassenführung, Allgemeine Lernunterstützung, Sprachsensible Lernunterstützung, Gleichberechtigte Teilhabe, Kognitiv aktivierende Lehr-Lern-Kultur
+  - [Szenarien@FAU](https://web.archive.org/web/20231128095015/https://www.ili.fau.de/digitalisierung/szenarien/): aktivieren, motivieren, betreuen, prüfen, verarbeiten, anwenden, vermitteln
+  - [Lehre-Navi](https://www.uni-hamburg.de/lehre-navi.html) (UHH): Vermitteln, Aktivieren, Betreuen, Prüfen, Interaktion anregen
+  - [Digitaliada](https://www.digitaliada.ro/econtinut) (Romania): teaching, deepening of knowledge, evaluation
+  - [LRE Learning Principles](http://europeanschoolnet-vbe.lexaurus.net/vbe/browse): activate prior knowledge, analogical reasoning, collaboration, expert guidance, metacognition, multiple representations, skill training, support conceptual change, support for complex learning, visualisation of thinking
 
-Die Wertelisten enthalten somit zum Teil auch Sozialformen oder
-[Lernorte](#lernorte-lernräume). Das Feld ist ebenfalls verwandt mit
-Aufgabenformaten/-typen.
+- Related value ranges:
+  
+  - Action form [@heyerdsudvl2006], social forms, e.g.: plenary teaching, teacher-centred approach, group work, tandem work, individual work \[@meyerlu2020, p. 41]
 
-Siehe zusätzlich Anlage “Zusammenstellung additiver Wertelisten”.
+In some cases, therefore, the value lists also contain social forms or [learning locations](#lernorte-lernräume). The field is also related to task forms/types.
 
-### 4.3.3 Lehr-/Lernmethoden
+See also the appendix "Collection of additive value lists".
 
-Lehr-/Lernmethoden sind Formen und Verfahren zur Aneignung von Wissen
-und Fähigkeiten. Darüber hinaus sind verschiedene Konzeptionen von
-Methoden auszumachen [@baumgartneruahvdtfe2006].
-Das Attribut fokussiert die Handlungsstruktur des Unterrichts. In der Literatur werden eine Vielzahl
-von Methoden benannt [@baumgartnertupfdv2014] [@meyeruip2021]. Die
-Methoden-Kartothek differenziert Methoden gemäß ihrer Eignung bezüglich
-Lernziel (kognitiv, affektiv, motorisch),
-[Lernphase](#lernphasen-unterrichtsphasen-unterrichtsschritte),
-Sozialform, Aktivierung (darbietend, interaktiv, erarbeitend),
-Konkretisierung (sprachlich, bildhaft, unmittelbar), Teilnehmendenzahl,
-Zeitaufwand [@papenkortwdme2015].
+### 4.3.3 Teaching/learning methods
 
-Das Attribut wird aufgrund der Vielzahl von Methoden gar nicht oder nur
-selten in Portalen für Bildungsressourcen genutzt, zumindest wenn die
-Methoden nicht selbst als Inhalte im Fokus stehen, wie beim
-[Methodenpool für sprachsensiblen
-Fachunterricht](https://www.mercator-institut-sprachfoerderung.de/de/publikationen/material-fuer-die-praxis/methodenpool/).
-Die [Materialdatenbank
-QUA-LiS](https://www.schulentwicklung.nrw.de/materialdatenbank/+) und
-unter Umständen perspektivisch das Portal [Lehrideen
-vernetzen](https://www.lehrideen-vernetzen.de/lehrideen/) (“methodischer
-Ansatz”) verwenden Methoden als Metadatum. Die mangelnde Realisierung
-ist eventuell auch darauf zurückzuführen, dass Methoden nicht als
-Selbstzweck verwendet werden sollten, sondern unter Umständen bestimmte
-Handlungsmuster zur Realisierung lernförderlicher Situationen eher von
-Interesse sind (vgl. [didaktische
-Kontextualisierung](#didaktische-kontextualisierung-settings-und-szenarien))
-[@baumgartneruahvdtfe2006].
+Teaching/learning methods are forms and procedures for acquiring knowledge and skills. In addition, different conceptions of methods also exist \[@baumgartneruahvdtfe2006\]. The attribute focuses on the action structure of the lesson. A great number of methods are named in the relevant literature \[@baumgartnertupfdv2014\] \[@meyeruip2021\]. Methoden-Kartothek differentiates methods according to their suitability, specifically with regard to the learning objective (cognitive, affective, motor), [learning phase](#lernphasen-unterrichtsphasen-unterrichtsschritte), social form, activation (presenting, interactive, developing), concretisation (verbal, pictorial, direct), number of participants, time required \[@papenkortwdme2015\].
 
-Siehe auch: Anlage: “Zusammenstellung additiver Wertelisten”.
+Due to the vast range of methods that exist, this attribute is used in portals for educational resources only rarely or not at all, unless the methods themselves are the content in focus – as in the case of the [method pool for language-sensitive subject teaching](https://www.mercator-institut-sprachfoerderung.de/de/publikationen/material-fuer-die-praxis/methodenpool/). The materials database [QUA-LiS](https://www.schulentwicklung.nrw.de/materialdatenbank/+) and potentially also the portal [Lehrideen vernetzen](https://www.lehrideen-vernetzen.de/lehrideen/) ("methodological approach") use methods as metadata. The limited implementation of this attribute may also be attributable to the fact that methods should not be used as an end in themselves. Instead, specific pattern activities for implementing situations that are conducive to learning may actually be of more interest (cf. [didactic contextualistion](#didaktische-kontextualisierung-settings-und-szenarien)) \[@baumgartneruahvdtfe2006\].
 
-Verwandt: Lehrstrategien / “Teaching strategies” ([Visible Learning
-Meta<sup>X</sup>](https://www.visiblelearningmetax.com/influences?domain=8)),
-[Lehr-/Lernform](#lehr-lernform-interaktivitätstyp), didaktische
-Prinzipien (z. B. Kompetenzorientierung, Handlungsorientierung,
-Prozessorientierung, Lernendenorientierung, …), methodische Analyse
-(Unterrichtsplanung, Unterrichtsentwurf)
+See also: Appendix: "Collection of additive value lists".
 
-**Attribute in Metadatenstandards**
+Related: "Teaching strategies" ([Visible Learning Meta<sup>X</sup>](https://www.visiblelearningmetax.com/influences?domain=8)), [teaching/learning form](#lehr-lernform-interaktivitätstyp), didactic principles (e.g. competence orientation, action orientation, process orientation, learner orientation, etc.), methodological analysis (lesson planning, lesson design)
 
-- Dublin Core Metadata Terms (DCMI):
-  [instructionalMethod](http://purl.org/dc/terms/instructionalMethod)
+**Attributes in metadata standards**
 
-### 4.3.4 Lernorte, Lernräume
+- Dublin Core Metadata Terms (DCMI): [instructionalMethod](http://purl.org/dc/terms/instructionalMethod)
 
-Dieses Attribut dient zur Angabe von Lernorten, an welchen eine
-Ressource genutzt werden kann oder sollte. Didaktische Konzepte
-unterscheiden sich bezüglich der Beschaffenheit und den Möglichkeiten
-zur Gestaltung des Lernraums.
+### 4.3.4 Learning locations, learning spaces
 
-*Distanz- und Präsenzunterricht*
+This attribute is used to specify learning locations where a resource can or should be used. Didactic concepts differ in terms of the nature and possibilities for designing the learning space.
 
-Mit Zunahme des Distanzunterrichts (bspw. während der COVID-19-Pandemie)
-haben sich Lehrende eine einfache Möglichkeit gewünscht, Materialien
-unterscheiden zu können, die in digitalen Lernumgebungen für einen
-Distanzunterricht (beispielsweise in E-Learning-Szenarien), im
-Klassenzimmer, für Präsenzunterricht oder auch hybrid (zum Beispiel in
-Blended Learning-Szenarien) eingesetzt werden können.
+*Distance learning and face-to-face teaching*
 
-*Formale, non-formale und informelle Lernorte*
+With the increased use of distance learning (e.g. during the COVID-19 pandemic), teachers have sought a simple way of distinguishing materials that can be used in digital learning environments for distance learning (e.g. e-learning scenarios), in classrooms, for face-to-face teaching, or even hybrid approaches (e.g. blended learning scenarios).
 
-Formale Lernorte zeichnen sich durch einen strukturierten und
-institutionalisierten Rahmen aus. Sie sind in der Regel an bestimmte
-Lernziele und -inhalte curricular gebunden und werden von pädagogischem
-Personal begleitet.
+*Formal, non-formal and informal learning locations*
 
-Non-formale Lernorte hingegen sind weniger stark strukturiert und bieten
-häufig einen größeren Freiraum für selbstbestimmtes Lernen. Sie können
-an formale Lernorte angegliedert sein, aber auch unabhängig davon
-existieren.
+Formal learning locations are characterised by a structured and institutionalised framework. They are usually tied to specific learning objectives and curricular content and are supported by educational personnel.
 
-Informelle Lernorte sind alltägliche Orte, an denen Lernen beiläufig und
-ungeplant stattfindet. Hier findet kein expliziter Unterricht statt,
-aber es gibt vielfältige Möglichkeiten, Wissen und Kompetenzen zu
-erwerben.
+Non-formal learning locations, on the other hand, are less structured and, in many cases, offer more freedom for self-determined learning. They can be linked to formal learning locations, but can also exist as independent spaces.
 
-Durch die Digitalisierung und die damit verbundenen neuen Möglichkeiten
-des Lernens werden die Grenzen zwischen formalen, non-formalen und
-informellen Lernorten zunehmend durchlässiger.
+Informal learning locations are everyday spaces where learning can take place casually and unplanned. No explicit teaching takes place here, but such locations provide diverse opportunities for acquiring knowledge and skills.
 
-*Zeit- und ortsunabhängige Lernprozesse*
+Due to the ongoing digitalisation and the associated new learning opportunities, the boundaries between formal, non-formal and informal learning locations are becoming increasingly blurred.
 
-Durch zeit- und ortsunabhängige Lernprozesse gewinnt dieses Attribut an
-Bedeutung. Die Nutzungsszenarien hängen dabei von den konkreten
-Wertelisten ab, die für das Attribut verwendet werden. Unter Umständen
-eignen sich andere Attribute besser, wie die
-[Lehr-/Lernform](#lehr-lernform-interaktivitätstyp) in Kombination mit
-dem [Ressourcentyp](#ressourcentyp-medientyp). Die Auszeichnung von
-Ressourcen mit Lernorten kann auch dafür genutzt werden, außerschulische
-und informelle Lernprozesse anzustoßen und zu begleiten, beispielsweise
-durch pädagogisches Personal in der Jugend-/Ferien-/Freizeitbetreuung,
-von Eltern oder für die Planung von Exkursionen durch Lehrkräfte. Ein
-verwandtes Konzept ist die Unterscheidung non-formaler, informeller
-Bildung und formaler Bildung, insbesondere in Bezug auf [ganzheitliche
-Ansätze](https://web.archive.org/web/20240218134718/https://www.bne-portal.de/bne/de/einstieg/bildungsbereiche/whole-institution-approach/whole-institution-approach_node.html)
-zur [Bildung für nachhaltige
-Entwicklung](https://web.archive.org/web/20230305021117/https://www.bne-portal.de/bne/de/einstieg/bildungsbereiche/non-formale-informelle-bildung/non-formale-informelle-bildung.html)
-(BNE).
+*Time and location-independent learning processes*
 
-**Exemplarische Lernorte**
+This attribute is becoming increasingly significant due to the emergence of learning processes that are independent of both time and place. The usage scenarios depend on the specific value lists that are used for the attribute. In some cases, other attributes may be more suitable, such as the [teaching/learning form](#lehr-lernform-interaktivitätstyp) in combination with the [resource type](#ressourcentyp-medientyp). The definition of learning locations for resources can also be used to initiate and support extracurricular and informal learning processes, for example, by educational personnel in youth care, for holiday/recreational activities, by parents or for planning excursions by teachers. A related concept involves the differentiation between non-formal, informal education and formal education, particularly with regard to [holistic approaches](https://web.archive.org/web/20240218134718/https://www.bne-portal.de/bne/de/einstieg/bildungsbereiche/whole-institution-approach/whole-institution-approach_node.html) to [Education for Sustainable Development](https://web.archive.org/web/20230305021117/https://www.bne-portal.de/bne/de/einstieg/bildungsbereiche/non-formale-informelle-bildung/non-formale-informelle-bildung.html) (ESD).
 
-*Eher formale und non-formale Lernorte*
+**Example learning locations**
 
-- Unterrichtsräume (Klassenzimmer, Fachräume, Hörsäle,
-  Kurs-/Seminarräume), Labore, Werkstätten, Bibliothek, Schulgarten,
-  Betriebe (z. B. Bauernhof)
+*Predominantly formal and non-formal learning locations*
 
-*Eher informelle Lernorte*
+- Teaching rooms (classrooms, specialist rooms, lecture halls, course/seminar rooms), labs, workshops, libraries, school gardens, businesses (e.g. farms)
 
-- Zuhause (Kinderzimmer, Arbeitszimmer, Küche), Bibliothek (Lesesaal,
-  Arbeitsbereiche), Zoo und Museum (Ausstellungen, Führungen), Theater
-  und Kino, Religiöse Einrichtungen und Gedenkstätten, öffentliche
-  Einrichtungen, Natur (Wald, Wiese, Berg, Park, See), Freizeit
-  (Vereine, Jugendzentren)
+*Predominantly informal learning locations*
 
-*Digitale und virtuelle Lernorte*
+- At home (children's room, office, kitchen), library (reading room, workspaces), zoo and museum (exhibitions, guided tours), theatre and cinema, religious institutions and memorials, public institutions, nature (forest, meadow, mountain, park, lake), leisure (clubs, youth centres)
 
-- Lernplattformen \[Learning Management System (LMS), Virtual Learning
-  Environments (VLE), Personal Learning Environments (PLE)\], Lern-Apps,
-  Virtuelle Welten (virtuelle Exkursionen, digitale Welten von
-  Videospielen, Simulationen, AR/VR), Massive Open Online Courses
-  (MOOCs), Computer Based Training (CBT) oder Web Based Training (WBT),
-  Serious Games
+*Digital and virtual learning locations*
 
-**Wertelisten**
+- Learning platforms [learning management system (LMS), virtual learning environment (VLE), personal learning environment (PLE)], learning apps, virtual worlds (virtual excursions, digital worlds of video games, simulations, AR/VR), massive open online courses (MOOCs), computer-based training (CBT) or web-based training (WBT), serious games
 
-- [QUA-LiS NRW
-  Materialdatenbank](https://www.schulentwicklung.nrw.de/materialdatenbank/):
-  Distanzunterricht, außerschulischer Lernort, Computerraum, Fachraum,
-  Klassenraum, Selbstlernzentrum der Schule
+**Value lists**
 
-- [Netzwerk Q4.0](https://netzwerkq40.de/vortraege-und-workshops/)
-  (Lernort): Online, Online und Präsenz
+- [QUA-LiS NRW materials database](https://www.schulentwicklung.nrw.de/materialdatenbank/): Distanzunterricht, außerschulischer Lernort, Computerraum, Fachraum, Klassenraum, Selbstlernzentrum der Schule
 
-- Lernort-orientierte Suche, bspw. [Lernort
-  Kompass](https://www.lernort-kompass.de/)
+- [Netzwerk Q4.0](https://netzwerkq40.de/vortraege-und-workshops/) (learning location): Online, online and face-to-face
 
-Verwandt:
-[Lehr-/Lernformate](#lehrformat-veranstaltungsformat-lehrmodus)
+- Location-based searches, e.g. [Lernort Kompass](https://www.lernort-kompass.de/)
 
-### 4.3.5 Lerntypen, Lernstile
+Related: [Teaching/learning formats](#lehrformat-veranstaltungsformat-lehrmodus)
 
-Lerntypen und Lernstile beschreiben die individuellen Präferenzen von
-Lernenden, Informationen aufzunehmen und zu verarbeiten. Lernende
-bevorzugen Lernerfahrungen, die ihren Stärken, Bedürfnissen und
-Herangehensweisen entsprechen und interagieren entsprechend mit ihren
-Lernumgebungen.
+### 4.3.5 Learning types, learning styles
 
-Das Attribut verweist beispielsweise auf Präferenzen bezüglich der
-Wahrnehmung und Verarbeitung von Informationen, z. B. angelehnt an die
-verschiedenen Sinne des Menschen (Sinnesmodalität):
+Learning types and styles describe the individual preferences of learners for absorbing and processing information. Learners prefer learning experiences that match their strengths, needs and approaches, and they interact with their learning environments accordingly.
 
-- visuelle Wahrnehmung, z. B. Bilder, Grafiken, Animationen, Videos
-- auditive Wahrnehmung, z. B. Vorträge, Podcasts
-- haptische und taktile Wahrnehmung, z. B. Experimente, praktische
-  Erfahrungen
-- kinästhetische Wahrnehmung, z. B. durch Motorik, Theaterpädagogik,
-  Embodiment
+This attribute refers, for example, to preferences regarding the perception and processing of information, for example, based on the various human senses (sensory modality):
 
-Die Beispiele verdeutlichen, dass sich diese Eigenschaft alternierend
-auch durch die Beschreibung der [Methodik](#lehr-lernmethoden),
-[Lernaktivitäten](#lehr-lernaktivitäten-unterrichtsaktivitäten) oder
-[Ressourcentypen](#ressourcentyp-medientyp) ausdrücken lässt und
-Zusammenhänge mit diesen Attributen bestehen.
+- Visual perception, e.g. images, graphics, animations, videos
+- Auditory perception, e.g. lectures, podcasts
+- Haptic and tactile perception, e.g. experiments, practical experiences
+- kinesthetic perception, e.g. through motor function, theatre pedagogy, embodiment
 
-Für die verschiedenen Arten des Lernens wurden unterschiedliche
-Typologien entwickelt. So werden Lernstile auch beschrieben als:
+The examples illustrate that this property can also be expressed by describing the [methodology](#lehr-lernmethoden), [learning activities](#lehr-lernaktivitäten-unterrichtsaktivitäten) or [resource types](#ressourcentyp-medientyp) and that connections exist to these attributes.
 
-- aktiv, reflektiv, theoretisch, pragmatisch
-- induktiv, deduktiv
-- sequentiell, global
+Different typologies have been developed for the various types of learning: For example, learning styles are described as:
 
-Exemplarische Lernstilinventare und -modelle:
+- Active, reflective, theoretical, pragmatic
+- Inductive, deductive
+- Sequential, global
+
+Example learning style inventories and models:
+
 - Kolb Learning Style Inventory 4.0 (LSI, KLSI 4.0):
-- Kolb Experiential Learning Profile (KELP) [@kolbkelpgeltkprv2021]
+- Kolb Experiential Learning Profile (KELP) \[@kolbkelpgeltkprv2021]
 - Experiential Learning Theory (ELT)
 - Felder-Soloman Index of Learning Styles (ILS)
-- Felder-Silverman-Lernstilmodell (FSLSM)
-- Conversational Framework: Lernen durch Wissensübernahme, Lernen durch
-  Recherche, Lernen durch Anwenden, Lernen durch Produktion, Lernen
-  durch Diskussion, Lernen durch Zusammenarbeit [@laurillardtdsbpplt2012, S. 96]
+- Felder-Silverman Learning Style Model (FSLSM)
+- Conversational Framework: learning through acquisition, learning through inquiry, learning through practice, learning through production, learning through discussion learning through collaboration \[@laurillardtdsbpplt2012, p. 96]
 
-Das Attribut hilft bei der Auswahl von Ressourcen, die den verschiedenen
-Lernpräferenzen entsprechen und so den Lernerfolg der Lernenden durch
-bessere Passung verbessern können. In der Praxis ist dieses Attribut
-kaum verbreitet.
+The attribute assists in the selection of resources that satisfy different learning preferences and can thus improve the learning success of the learners through better matching. This attribute is rarely used in practice.
 
-Weitere verwandte Konzepte:
+Other related concepts:
 
-Operatoren für Aufgaben und Anforderungsbereiche (vgl.
-[Niveaustufe](#niveaustufe)), Sonderpädagogischer Förderbedarf (vgl.
-[Zugänglichkeit und Barrierearmut](#zugänglichkeit-und-barrierearmut)).
-Lerntempo und damit verbundene Aufgabentypen (z. B. Sprintaufgaben,
-Lernsprints) \[vgl. auch [Lernniveau](#niveaustufe) (Niveaustufen)\].
+Operators for tasks and requirement areas (see [level](#niveaustufe)), special educational needs (see [accessibility](#zugänglichkeit-und-barrierearmut)). Learning speed and associated task types (e.g. sprint tasks, learning sprints) \[see also [learning level](#niveaustufe) (levels)\].
 
-### 4.3.6 Einsatzkontext und -voraussetzungen
+### 4.3.6 Usage context and requirements
 
-Es gibt zahlreiche Ansätze zur Beschreibung des Einsatzkontextes und der
--voraussetzungen. Ziel der Erfassung ist es, Kriterien abzubilden, die
-es Lehrenden ermöglichen, die tatsächliche Verwendbarkeit in ihrem
-Kontext zu prüfen. Die Verwendbarkeit hängt dabei von technischen und
-rechtlichen Faktoren ab. Im Folgenden werden einige Attribute
-vorgestellt, die unter diese Kategorie subsumiert werden können.
+There are numerous approaches to describing the usage context and corresponding requirements. The aim of the description is to include criteria that allow teachers to assess the actual usability in their specific context. The usability depends on technical and legal factors. In the following, a number of attributes are introduced that can be subsumed under this category.
 
-Mögliche Kriterien zur Prüfung der Verwendbarkeit von Ressourcen in der
-Praxis:
+Possible criteria for assessing the usability of resources in practice:
 
-1)  Soft-/Hardwarevoraussetzungen (vgl. [Technische
-    Voraussetzungen](#technische-voraussetzungen))
-2)  Zugangsvoraussetzungen
-3)  Nutzungsbedingungen (additiv zu Lizenzen)
-4)  Kosten, die mit dem Einsatz verbunden sind (z. B. Hardware,
-    Software, Lizenzen, …)
-5)  Kinder- und Jugendschutz (z. B. FSK-, USK-, PEGI-Bewertungen, …)
-6)  Rechtliche Konformität (z. B. DSGVO, URL zur Datenschutzerklärung,
-    …)
+1) Software/hardware requirements (cf. [Technical requirements](#technische-voraussetzungen))
+2) Access requirements
+3) Usage conditions (in addition to licenses)
+4) Costs associated with usage (e.g. hardware, software, licenses)
+5) Child and youth protection (e.g. FSK, USK, PEGI ratings)
+6) Legal compliance (e.g. GDPR, URL to privacy policy)
 
-**(1) Soft- und Hardwarevoraussetzungen**
+**(1) Software and hardware requirements**
 
-Die Angabe von Soft- und Hardwarevoraussetzungen unterstützt Lehrende
-bei der Einschätzung, ob Sie diese Ressourcen in ihrer Umgebung
-verwenden können, vgl. [Technische
-Voraussetzungen](#technische-voraussetzungen).
+The specification of software and hardware requirements helps teachers to assess whether they can use the respective resources in their environment (cf. [Technical requirements](#technische-voraussetzungen)).
 
-**(2) Zugangsvoraussetzungen**
+**(2) Access requirements**
 
-Auch Kriterien für einen Zugang oder die Nutzung einer Ressource spielen
-eine Rolle. So ist beispielsweise für die Nachnutzung von Ressourcen
-relevant, ob damit verbundene Dienste eine Anmeldung erfordern, frei
-zugänglich oder auf bestimmte Personengruppen beschränkt sind (vgl.
-Nutzungsbedingungen), ob spezielle Authentifikations- oder
-Autorisationsverfahren notwendig sind oder auch physische Konditionen
-oder Bildungsnachweise, beispielsweise für ein Hochschulstudium.
+Criteria for accessing or using a resource also play an important role. For the reuse of resources, for example, it is relevant whether associated services require a login or registration, are freely accessible or are restricted to certain groups of people (see terms of use), whether special authentication or authorisation procedures are necessary or whether physical conditions or educational qualifications are required, e.g. for a university degree.
 
-- **Zulassungsmodus**
-  ([Hochschulkompass](https://www.hochschulkompass.de/)):  
-  zulassungsfrei, ohne NC (ggf. mit Anmelde- oder Auswahlverfahren),
-  örtlich zulassungsbeschränkt, mit NC (ggf. mit Anmelde- oder
-  Auswahlverfahren), bundesweit zulassungsbeschränkt,
-  Auswahlverfahren/Eignungsprüfung
+- **Mode of admission** ([Higher Education Compass](https://www.hochschulkompass.de/)):  
+without admission restriction, local admission restriction, nationwide admission restriction, selection procedure / qualifying examination
 
-Tabelle: *Vergleich verschiedener Wertelisten für
-Zugangsvoraussetzungen*
+Table: *Comparison of different value lists for access requirements*
 
 <table>
 <colgroup>
@@ -4938,142 +2630,92 @@ href="http://w3id.org/openeduhub/vocabs/conditionsOfAccess/">WLO:conditionsOfAcc
 href="https://w3id.org/kim/conditionsOfAccess/">AMB:conditionsOfAccess</a></td>
 </tr>
 <tr class="even">
-<td>Ohne Login zugänglich</td>
-<td>ohne Anmeldung</td>
-<td>Keine Anmeldung erforderlich</td>
+<td>Accessible without login</td>
+<td>no login</td>
+<td>no login required</td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>Anmeldung erforderlich für erweiterte Funktionen</td>
+<td>login required for additional features</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Zugang nur mit Login</td>
-<td>Anmeldung notwendig</td>
-<td>Anmeldung erforderlich</td>
+<td>Accessible only with login</td>
+<td>login required</td>
+<td>login required</td>
 </tr>
 </tbody>
 </table>
+**Attributes in metadata standards**
 
-**Attribute in Metadatenstandards**
+- DCMI: [accessRights](http://purl.org/dc/terms/accessRights) (access restrictions (e.g. data privacy, security, other policies))
+- [Common Education Data Standard](https://ceds.ed.gov/elements.aspx): Learning Resource Access Rights URL
+- schema.org: [conditionsOfAccess](https://schema.org/conditionsOfAccess)
+- AMB: [conditionsOfAccess](https://dini-ag-kim.github.io/amb/20231019/#conditionsofaccess)
 
-- DCMI: [accessRights](http://purl.org/dc/terms/accessRights)
-  (Zugriffseinschränkungen (z. B. Datenschutz, Sicherheit, Richtlinien)
-- [Common Education Data Standard](https://ceds.ed.gov/elements.aspx):
-  Learning Resource Access Rights URL
-- schema.org:
-  [conditionsOfAccess](https://schema.org/conditionsOfAccess)
-- AMB:
-  [conditionsOfAccess](https://dini-ag-kim.github.io/amb/20231019/#conditionsofaccess)
+**(3) Usage conditions** (in addition to licenses)
 
-**(3) Nutzungsbedingungen** (additiv zu Lizenzen)
+In particular, digital learning environments and tools as well as embedded learning objects can be subject to conditions of use, for example, due to legal restrictions. This is especially relevant if no easily accessible and comprehensible licensing can be offered, for example, in the case of educational resources that cannot or must not be published as OER (see also LOM 6.3, [DCMI:Use Rights URL](https://www.dublincore.org/specifications/lrmi/lrmi_terms/2022-06-14/#useRightsUrl)).
 
-Insbesondere digitale Lernumgebungen und Werkzeuge sowie eingebettete
-Lernobjekte können Nutzungsbedingungen unterliegen, zum Beispiel
-aufgrund rechtlicher Restriktionen. Dies ist besonders relevant, wenn
-keine einfacher zugängliche und verständliche Lizenzierung angeboten
-werden kann, beispielsweise bei Bildungsressourcen, die nicht als OER
-veröffentlicht werden können oder dürfen (vgl. auch LOM 6.3, [DCMI:Use
-Rights
-URL](https://www.dublincore.org/specifications/lrmi/lrmi_terms/2022-06-14/#useRightsUrl)).
+Other examples: Media subject to GEMA/GVL
 
-Weitere Beispiele: GEMA- / GVL-pflichtige Medien
+Example value lists:
 
-Exemplarische Wertelisten:
+- LOM-EAF: [GEMA information](http://agmud.de/eaf-erweitertes-austauschformat/)
 
-- LOM-EAF:
-  [GEMA-Hinweise](http://agmud.de/eaf-erweitertes-austauschformat/)
-
-**Attribute in Metadatenstandards**
+**Attributes in metadata standards**
 
 - LOM:
-  - 6.2 - Nutzungseinschränkungen
-  - 6.3 - Nutzungsbedingungen
+  - 6.2 – Copyright and other restrictions
+  - 6.3 – Description
 - LRMI: [useRightsUrl](http://purl.org/dcx/lrmi-terms/useRightsUrl#+)
 - schema.org: [usageInfo](https://schema.org/usageInfo)
 
-**(4) Kosten, die mit dem Einsatz verbunden sind (Hardware, Software,
-Lizenzen)**
+**(4) Costs associated with usage (hardware, software, licenses)**
 
-Unter Umständen sind monetäre Aufwendungen für die Nutzung einer
-Ressource notwendig. Erfordert ein didaktisches Konzept den Einsatz
-bestimmter Hardware (z. B. VR-Headsets, Kopfhörer, o. Ä.) oder müssen
-zur Nutzung Lizenzen (z. B. Software-Abonnements) erworben werden, so
-ist eine frühzeitige Kenntnis essenziell für Lehrende, um bspw. Budget
-planen oder Erwerbsprozesse initiieren zu können. Nicht selten ist eine
-ökonomische Planung entscheidend, ob eine Ressource schlussendlich
-verwendet werden kann. Die Educational CAD Model Library unterscheidet
-Kosten für Verbrauchsmaterial und Kosten wiederverwendbares Material in
-Verbindung mit der Nutzung, Herstellung und Montage von CAD-Modellen
-[@bullmseo2023].
+In some cases, the use of a resource may involve financial expenditure. If a didactic concept necessitates the use of specific hardware (e.g. VR headsets, headphones, etc.) or if licenses (e.g. software subscriptions) need be acquired, advance knowledge of this is essential for teachers to be able to plan budgets or initiate acquisition processes, for example. Effective economic planning often dictates whether a resource can ultimately be used. The Educational CAD Model Library distinguishes between costs for consumables and costs for reusable materials associated with the use, creation and assembly of CAD models [@bullmseo2023].
 
-Mögliche exemplarische Operationalisierungen des Feldes:
+Example operationalisation of this field:
 
-- Kostenpflichtig: ja/nein
-- Kosten: numerische Angabe
+- Chargeable: yes/no
+- Costs: numerical specification
 
-**Attribute in Metadatenstandards**
+**Attributes in metadata standards**
 
-- LOM: 6.1 - Kosten
-- schema.org:
-  [isAccessibleForFree](https://schema.org/isAccessibleForFree),
-  [price](https://schema.org/price)
-- AMB:
-  [isAccessibleForFree](https://dini-ag-kim.github.io/amb/20231019/#isaccessibleforfree)
+- LOM: 6.1 – Cost
+- schema.org: [isAccessibleForFree](https://schema.org/isAccessibleForFree), [price](https://schema.org/price)
+- AMB: [isAccessibleForFree](https://dini-ag-kim.github.io/amb/20231019/#isaccessibleforfree)
 
-**(5) Kinder- und Jugendschutz**
+**(5) Child and youth protection**
 
-Nicht alle Inhalte sind für sämtliche Altersklassen geeignet. Um
-altersgerechte Einschätzungen vornehmen zu können, bieten sich gängige
-Einschätzungen im Bereich des Kinder- und Jugendschutz an, darunter
-unter anderem FSK-, USK- oder PEGI-Bewertungen.
+Not all content is suitable for all age groups. To allow age-appropriate assessments to be made, common guidelines exist in the area of child and youth protection, including FSK, USK or PEGI ratings.
 
-Exemplarische Wertelisten:
+Example value lists:
 
-- WirLernenOnline:
-  [FSK-Rating](http://w3id.org/openeduhub/vocabs/fskRating/)
-- SODIX: [Freiwillige Selbstkontrolle der
-  Filmwirtschaft](https://vocabs.sodix.de/index.de.html)
-- LOM-EAF:
-  [FSK-Vermerke](http://agmud.de/eaf-erweitertes-austauschformat/)
+- WirLernenOnline: [FSK rating](http://w3id.org/openeduhub/vocabs/fskRating/)
+- SODIX: [FSK](https://vocabs.sodix.de/index.de.html)
+- LOM-EAF: [FSK comments](http://agmud.de/eaf-erweitertes-austauschformat/)
 
-**Attribute in Metadatenstandards**
+**Attributes in metadata standards**
 
 - schema.org: [contentRating](https://schema.org/contentRating)
 
-**(6) Erfassung der rechtlichen Konformität in der Praxis**
+**(6) Describing legal compliance in practice**
 
-Die Beurteilung des Datenschutzes ist für einige Ressourcen mitunter
-nicht leicht. Werden Kriterien von Ministerien betrachtet
-[@medienberatungnrwdsnhfs2019], sind insbesondere Bewertung von Kategorien
-wie „DSGVO-Konformität“, „Auftragsdaten-verarbeitung“ und „Weitergabe
-von Daten an Dritte“ ausschlaggebend, ob ein Einsatz der Ressource
-erfolgen kann oder darf [@msbfuad2023]. Gesetze bilden somit eine
-Grundlage, um mögliche Aspekte für Kriterien auszumachen, anhand derer
-Lehrende die Einsetzbarkeit in ihrem Kontext evaluieren können.
+Assessing data protection criteria is not easy for some resources. Looking at ministry-specific criteria [@medienberatungnrwdsnhfs2019], the assessment of categories such as "GDPR compliance", "contract data processing" and "transfer of data to third parties" is particularly important when determining whether the resource can or may be used [@msbfuad2023]. Laws therefore form a basis for identifying possible aspects for criteria that teachers can use to evaluate the usability of resources in their specific context.
 
-So würden sich etwa folgende Kategorien anbieten:
+The following categories would be suitable, for example:
 
-- „Verarbeitungszweck“ (z. B. Marktforschung, Personalisierung, …),
-- „Speicherdauer“ (z. B. 1 Jahr, …),
-- „Datenkategorien“ (z. B. Telefonnummer, E-Mail-Adresse, …),
-- „Besondere Datenkategorien“ (vgl. Art. 9 DSGVO)
-- „Übermittlung von Daten an Drittstaaten“ (ja/nein)  
-  (bzw. eine genaue Erfassung der Übermittlungsorte und/oder
-  Speicherorte)
+- "Purpose of processing" (e.g. market research, personalisation, etc.),
+- "Storage period" (e.g. 1 year, etc.)
+- "Data categories" (e.g. telephone number, e-mail address, etc.)
+- "Special categories of data" (cf. Art. 9 GDPR)
+- "Transfer of data to third countries" (yes/no)  
+(or a precise definition of the transfer locations and/or storage locations)
 
-Der (vorläufige) Ansatz von WirLernenOnline / Open Edu Hub zur Bewertung
-des Datenschutzes ist vergleichbar mit einem Ansatz des
-DigitalLearningLab (vgl. Tabelle “Skalen zum Datenschutz”). Die Skalen
-zum Datenschutz orientieren sich an einer Einschätzung zur
-Datensparsamkeit und Datenminimierung als ein Grundprinzip des
-Datenschutzes (BDSG, DSGVO), um Ressourcen zu klassifizieren. Mit der
-Skala des Digital.learning.lab geht indirekt die pseudonyme bzw. anonyme
-Nutzbarkeit von Ressourcen einher, welche für Nachnutzende eine
-praktische Angabe darstellen kann und indirekt ebenfalls Bezug zur
-Thematik „Datenschutz“ und „Persönlichkeitsrechte“ hat.
+The (provisional) approach of WirLernenOnline / Open Edu Hub for evaluating data protection is comparable to an approach of the DigitalLearningLab (see table "Scales of data protection"). The scales of data protection are based on an assessment of data economy and data minimisation as a basic principle of data protection (BDSG, GDPR) in order to classify resources. The Digital.learning.lab scale indirectly involves the pseudonymous or anonymous usability of resources, which can be a practical indication for (re)users and also indirectly relates to the topic of "data protection" and "personal rights".
 
-Tabelle: *Skalen zum Datenschutz*
+Table: *Scales of data protection*
 
 <table>
 <colgroup>
@@ -5082,479 +2724,173 @@ Tabelle: *Skalen zum Datenschutz*
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>WirLernenOnline / Open Edu Hub Skala</td>
-<td>Digital.Learning.Lab-Skala</td>
+<td>WirLernenOnline / Open Edu Hub scale</td>
+<td>Digital.Learning.Lab scale</td>
 </tr>
 <tr class="even">
-<td>0D: „heimlich unangemessen datensaugend“,<br />
-1D: „intransparent unangemessen viel datensaugend“,<br />
-2D: „intransparent Daten saugend“,<br />
-3D: „transparent unangemessen viel datensaugend“,<br />
-4D: „angemessen viele Daten mit Einverständnis“,‘<br />
-5D: „keinerlei Datenweitergabe“</td>
-<td><p>0: „Unbekannt“</p>
-<p>1: „Es werden keinerlei Daten erhoben“</p>
-<p>2: „Personenbezogene Daten wie z. B. Logins werden geschützt auf dem
-Server abgelegt. Es greift die EU-Datenschutz-Grundverordnung.“</p>
-<p>3: „Personenbezogene Daten werden erhoben. Dritte haben Zugriff auf
-diese Daten. Es greift die EU-Datenschutz-Grundverordnung.“</p>
-<p>4: „Personenbezogene Daten werden erhoben. Es greift NICHT die
-EU-Datenschutz-Grundverordnung.“</p></td>
+<td>0D: &quot;secret collection of data in excessive volumes&quot;<br /> 1D: &quot;non-transparent collection of data in excessive volumes&quot;<br /> 2D: &quot;non-transparent collection of data&quot;<br /> 3D: &quot;transparent collection of data in excessive volumes&quot;<br /> 4D: &quot;appropriate collection of data with consent&quot;<br /> 5D: &quot;no transfer of data&quot;</td>
+<td><p>0: &quot;Unknown&quot;</p>
+<p>1: &quot;No data is collected&quot;</p>
+<p>2: Personal data, e.g. logins, is stored securely on the server. The EU General Data Protection Regulation applies.&quot;</p>
+<p>3: &quot;Personal data is collected. Third parties have access to this data. The EU General Data Protection Regulation applies.&quot;</p>
+<p>4: &quot;Personal data is collected. The EU General Data Protection Regulation does NOT apply.&quot;</p></td>
 </tr>
 </tbody>
 </table>
+Without further operationalisation, the (provisional) scale of WirLernenOnline / Open Edu Hub may initially seem too subjective. The difficulty with this scale lies in the collection or assessment of "appropriateness", "transparency", "data transfer", the definition of "excessive data collection" and "consent" as the basis for collection. The latter constitutes only one basis for collection according to the GDPR, although reasons other than consent may also exist (cf. Art. 6 GDPR).
 
-Die (vorläufige) Skala von WirLernenOnline / Open Edu Hub scheint ohne
-nähere Operationalisierung möglicherweise zunächst zu subjektiv. Die
-Schwierigkeit besteht bei dieser Skala in der Erhebung bzw. Einschätzung
-der „Angemessenheit“, „Transparenz“, „Datenweitergabe“, der Definition
-von „datensaugend“ sowie der Erhebungsgrundlage „Einwilligung
-(Einverständnis)“. Letzteres stellt nur eine einzelne Erhebungsgrundlage
-der DSGVO dar, wenngleich es anderweitige Grundlagen abseits des
-Einverständnisses geben kann (vgl. Art. 6 DSGVO).
+The approach adopted by the ComeIn project involves not collecting or developing resources that are perceived as "non-transparent" or "inappropriate" (a rating of 0D-3D on the WLO scale) with regard to data privacy. However, the verifiability of the criteria (inappropriateness/appropriateness as well as the volume/manner of data transmission) is not always given.
 
-Im ComeIn Projekt wurde das Credo verfolgt, keine Ressourcen zu erfassen
-oder zu entwickeln, die als „intransparent“ oder „unangemessen“ (eine
-Einstufung von 0D-3D auf der WLO-Skala) hinsichtlich des Datenschutzes
-empfunden werden. Die Prüfbarkeit der Kriterien (Un-/Angemessenheit
-sowie Anzahl/Art der Datenweitergabe) ist jedoch nicht immer unmittelbar
-gegeben.
+The somewhat static provision of metadata at a specific point in time compared to the rapid pace of development of applications and legal frameworks raises the need for a more practical means of assessing aspects of data protection.
 
-Aufgrund der eher statischen Bereitstellung von Metadaten zu einem
-bestimmten Zeitpunkt und der dazu konträr entgegenstehenden
-Schnelllebigkeit der Entwicklung von Anwendungen und rechtlichen
-Rahmenbedingungen scheint ein praktikablerer Weg zur Einschätzung des
-Datenschutzaspektes nötig.
+While the Digital Learning Lab provides a comprehensive scale in the metadata, the user interface offers just two criteria and one alternative for filtering search results:
 
-Während das Digital.learning.lab in den Metadaten eine umfangreiche
-Skala anbietet, so werden Nutzenden zur Filterung in der
-Benutzungsoberfläche lediglich zwei Kriterien und eine
-Ausweichmöglichkeit angeboten:
+- Compliance: "GDPR guidelines are complied with: use in lessons is safe"
+- Non-compliance: "GDPR guidelines not complied with: use in lessons is questionable"
+- Unknown compliance: "GDPR guidelines are unknown: use in lessons cannot be assessed"
 
-- Konformität: “DS GVO-Richtlinien werden eingehalten: Nutzung im
-  Unterricht unbedenklich”
-- Nicht-Konformität: “DS GVO-Richtlinien werden nicht eingehalten:
-  Nutzung im Unterricht bedenklich”
-- Unbekannte Konformität: “DS GVO – Richtlinien sind unbekannt: Nutzung
-  im Unterricht nicht beurteilbar”
+This rather minimalist approach in the front end of the Digital Learning Lab/Tool is comparable to the ComeIn project and an attribute of WirLernenOnline / Open Edu Hub, which also only indicates the compliance or non-compliance of resources.
 
-Dieser reduzierte Ansatz im Frontend des Digital Learning Lab / Tool ist
-vergleichbar mit dem Projekt ComeIn und einem Attribut von
-WirLernenOnline / Open Edu Hub, bei welchem ebenfalls nur eine
-Konformität bzw. Nicht-Konformität ausgewiesen wird.
+***ComeIn:dsgvoCompliance and WirLernenOnline:dataProtectionConformity***
 
-***ComeIn:dsgvoCompliance und
-WirLernenOnline:dataProtectionConformity***
-
-Da es Erfassenden von Metadaten häufig nicht ohne Weiteres möglich ist,
-die datenschutzrechtliche Unbedenklichkeit eines entsprechenden
-Angebotes gesichert festzustellen, scheint eine entsprechende
-Deklaration der Konformität des Bildungsangebots unter Umständen
-zunächst hinreichend. Somit kann ein Feld, wie
-[dataProtectionConformity](http://w3id.org/openeduhub/vocabs/dataProtectionConformity/),
-zur Erfassung der DSGVO-Konformität entsprechend einer möglichen
-Kennzeichnung durch die Ressource und/oder das Angebot festgelegt
-werden. Weiterhin besteht hier die Möglichkeit, automatisierte
-Einschätzungen vorzunehmen, beispielsweise durch Detektion verwendeter
-Trackingmaßnahmen oder die geographische Verortung eingebetteter Inhalte
-von Dritten.
+Since it is often not easy for those describing metadata to establish with certainty that an educational offer complies with data protection laws, a corresponding declaration of the conformity of the offer may initially seem sufficient. Therefore, a field such as [dataProtectionConformity](http://w3id.org/openeduhub/vocabs/dataProtectionConformity/) can be used to define GDPR conformity based on a potential indication of this compliance by the resource and/or the offer. It is also possible to carry out automated assessments, for example, by detecting any tracking measures employed or identifying the geographical location of embedded third-party content.
 
 ***ComeIn:privacyPolicyURL***
 
-Indikatoren für eine Konformität finden sich womöglich auch in der
-Datenschutzerklärung der Ressource. Anbieter von Tools/Apps weisen in
-der Regel eine Datenschutzerklärung aus, die als URL erfasst werden
-kann, was beispielsweise Verantwortlichen oder Nachnutzenden eine
-Beurteilung entsprechend der aktuell gültigen Kriterien (je nach
-Institution, Zielgruppe, Bundesland o.ä.) ermöglicht.
+Indicators of compliance may also be found in the relevant resource's privacy policy. Providers of tools/apps usually have a privacy policy that can be defined as a URL, which allows the responsible persons or (re)users to make an assessment based on the currently valid criteria (depending on the institution, target group, federal state, etc.).
 
-Das Verfahren kann Erfasser\*innen von Ressourcen (auch rechtlich)
-entlasten, indem diese rechtlich komplexe Einschätzung nicht
-eigenständig erfolgen muss und andererseits dennoch den Nachnutzenden
-ein Verfahren zur eigenständigen Überprüfung anbietet.
+This procedure relieves the (legal) burden on those describing resources since they no longer have to make this legally complex assessment themselves, while still offering (re)users a means of independent verification.
 
-**Anwendungsberechtigungen als Kriterium zur Evaluation des
-Datenschutzes**
+**Application authorisations as a criterion for evaluating data protection**
 
-In Abhängigkeit von der Plattform des Tools oder der App sind oftmals
-Berechtigungsanforderungen relevant. Mobile Endgeräte besitzen eine
-Reihe von Sensoren, die insbesondere auch besonders schützenswerte
-personenbezogene Daten (bspw. Gesundheitsdaten) erfassen können (vgl.
-Art. 9 DSGVO). Daher können nötige Berechtigungsanforderungen eine
-mögliche Grundlage der Beschreibung von Datenschutzaspekten bilden (vgl.
-[technische Voraussetzungen](#technische-voraussetzungen)).
+Depending on the platform of the tool or app, authorisation requirements are often of particular relevance. Mobile devices feature a number of sensors that can record particularly sensitive personal data (e.g. health data) (cf. Art. 9 GDPR). Therefore, the necessary authorisation requirements can form a possible basis for describing data protection aspects (cf. [Technical requirements](#technische-voraussetzungen)).
 
-Beispiel:
+Example:
 
-- Android:
-  [Berechtigungen](https://developer.android.com/reference/android/Manifest.permission)
-- Apple: [Platform
-  Security](https://web.archive.org/web/20240216225631/https://help.apple.com/pdf/security/en_US/apple-platform-security-guide.pdf)
+- Android: [permissions](https://developer.android.com/reference/android/Manifest.permission)
+- Apple: [platform security](https://web.archive.org/web/20240216225631/https://help.apple.com/pdf/security/en_US/apple-platform-security-guide.pdf)
 
-In einem Frontend könnte beispielsweise via Ikonografie die angeforderte
-Berechtigung (z. B. Standort, Mikrofon, Kamera, etc.) festgehalten
-werden, die für den Bereich „Datenschutz“ relevant erscheint.
+In a front end, for example, iconography could be used to define the requested authorisation (e.g. location, microphone, camera, etc.) that appears relevant for the subject of "data protection".
 
-Dies ist vergleichbar mit „Privacy-Rating/-Grading/-Ranking“-Ansätzen,
-wie
+This is comparable to "privacy rating/grading/ranking" approaches, such as:
 
-- PrivacyGrade Apps - Projekt
-  ([Archiv](https://web.archive.org/web/20220929202500/http://privacygrade.org/apps))
+- PrivacyGrade Apps project ([archive](https://web.archive.org/web/20220929202500/http://privacygrade.org/apps))
 - MobilSicher [AppChecker](https://appcheck.mobilsicher.de/)
-- CommonSense [Privacy
-  Program](https://privacy.commonsense.org/evaluations/1)
+- CommonSense [Privacy Program](https://privacy.commonsense.org/evaluations/1)
 - Open Web Application Security Project (OWASP):  
-  [Mobile Application Security Testing
-  Guide](https://mobile-security.gitbook.io/mobile-security-testing-guide/)
+[Mobile Application Security Testing Guide](https://mobile-security.gitbook.io/mobile-security-testing-guide/)
 
-oder Projekten, die Webseiten nach Indikatoren scannen (jedoch eher in
-technischer Hinsicht), wie die Nutzung von Tracking-Diensten (Google
-Analytics, Matomo/Piwik), die Einbettung von Inhalten Dritter o.ä.
+Other examples include projects that scan websites for indicators (but more from a technical perspective), such as the use of tracking services (Google Analytics, Matomo/Piwik), embedding of third-party content, etc.
 
-**Weitere Prüfkriterien**
+**Other check criteria**
 
-Im Projekt [eduCheck digital](https://educheck.schule) (FWU) werden
-entsprechende Prüfkriterien für Bildungsangebote entwickelt, die auch
-einen Bereich “Recht & Datenschutz” beinhalten, beispielsweise mit der
-vorläufigen Checkliste [@fwuekgjp2024]:
+As part of the [eduCheck digital](https://educheck.schule) project (FWU), suitable check criteria for educational offerings are being developed, which also include a "Legal \& data protection" section, e.g. in the form of the preliminary checklist \[@fwuekgjp2024\]:
 
-- Daten werden nur für Nutzung des Angebots verarbeitet
-- Betroffenenrechte werden umgesetzt
-- Vollständige und leicht auffindbare Datenschutzerklärung
-- Datenschutzkonforme Nutzungsbedingungen/AGBs
-- Implementiertes Löschkonzept
+- Data is processed only for use of the service
+- Data subject rights are implemented
+- Complete and easily accessible privacy policy
+- Data-protection-compliant terms of use / general terms and conditions
+- Implemented data deletion concept
 
-Dabei wurden vergleichbare Initiativen berücksichtigt, wie
-beispielsweise die „[Safer Technologies 4
-Schools](https://st4s.edu.au/)“
-([Archiv](https://web.archive.org/web/20240307203816/https://st4s.edu.au/))
-aus Australien.
+In this case, comparable initiatives were also taken into account, such as the Australian initiative "[Safer Technologies 4 Schools](https://st4s.edu.au/)" ([archive](https://web.archive.org/web/20240307203816/https://st4s.edu.au/)).
 
-### 4.3.7 Individualisierung und Personalisierung
+### 4.3.7 Individualisation and personalisation
 
-Dieses Attribut spiegelt den Wunsch von Lernenden und Lehrenden wider,
-Ressourcen passgenau auf Lernprofile und Präferenzen auszusuchen und
-abzustimmen. Ohne nähere Betrachtung datenschutzrechtlicher Kritik
-könnten Profildaten von Lernenden genutzt werden, um genau die
-Ressourcen individuell auszusuchen, die bestmögliche Passung aufweisen.
-Dadurch ließen sich Szenarien realisieren, die adaptiv Lernpfade nach
-Interessen und Kompetenzen ihrer Nutzer\*innen bereitstellen.
+This attribute reflects the desire of learners and teachers to select and match resources to their exact learning profiles and preferences. Without closer consideration of criticisms relating to data protection law, learners' profile data could be used to select the exact resources that best fit the individual user. This would allow scenarios to be implemented that adaptively provide learning paths based on the interests and competencies of the users.
 
-Um eine entsprechende Individualisierung zu erreichen, ist es nötig,
-dass die Informationen mit möglichst hohen rechtlichen und ethischen
-Standards erhoben und selbst souverän verwaltet werden können. Die
-Herausforderung liegt auch hier in der nicht vorhandenen
-maschinenlesbaren Abbildung entsprechender, validierter Modelle zur
-Abbildung individueller Kompetenzprofile (vgl. Abschnitt
-“[Lernvoraussetzungen, -ziele und -kontrollen](#lernvoraussetzungen-lernziele-und-lernkontrollen)").
+To achieve the necessary level of individualisation, it must be possible for the information to be collected with the highest possible legal and ethical standards and managed accordingly. In this case, the challenge once again lies in the lacking machine-readable representation of suitable, validated models for mapping individual competency profiles (see section "[Learning prerequisites, objectives and controls](#lernvoraussetzungen-lernziele-und-lernkontrollen)").
 
-### 4.3.8 Gruppengröße, Klassengröße
+### 4.3.8 Group size, class size
 
-Mit diesem Attribut wird die Größe der Lerngruppe gekennzeichnet, für
-die eine Ressource konzipiert wurde oder geeignet ist.
+This attribute is used to specify the size of the learning group for which a resource was designed or is suitable.
 
-Entsprechend möglicher Formen der Unterrichtsorganisation dient das
-Attribut zur Orientierung und Einschätzung einer Passgenauigkeit für die
-jeweilige Größe der intendierten Lerngruppe. So erfordern methodische
-Großformen, wie zum Beispiel ein projektorientierter Unterricht,
-bestimmte Sozialformen (z. B. Gruppenarbeiten), oder auch kollaborative
-und kooperative Unterrichtsmethoden (z. B. Gruppenpuzzle) eine bestimmte
-Anzahl von Personen, damit die Bildungsressourcen verwendet werden
-können. Dadurch wird deutlich, dass eine Verwandtschaft zu anderen
-Attributen besteht. Ähnlich wie beim typischen Alter ist die Erfassung
-einer Spanne der Gruppengröße denkbar (numerisches Intervall). Das
-Attribut unterstützt die Bedingungsanalyse der Unterrichtsplanung.
+Depending on the possible forms of teaching organisation, the attribute serves as orientation so that an assessment can be made as to the resource's suitability for the respective size of the intended learning group. For example, large-scale methodological forms such as project-oriented teaching, specific social forms (e.g. group work), or collaborative and cooperative teaching methods (e.g. group puzzles) require a certain number of people for the educational resources to be usable. This highlights that a relationship to other attributes exists. Similarly to the typical age, it is conceivable that a range of group sizes could be defined (numerical interval). The attribute supports the condition analysis of lesson planning.
 
-Verwandt: Arbeits-/Sozialformen (vgl. auch Anlage “Zusammenstellung
-additiver Wertelisten”),
-[Lern-/Unterrichtsaktivitäten](#lehr-lernaktivitäten-unterrichtsaktivitäten),
-[Lehr-/Lernmethoden](#lehr-lernmethoden).
+Related: work/social forms (see also appendix "Collection of additive value lists"), [learning/lesson activities](#lehr-lernaktivitäten-unterrichtsaktivitäten), [teaching/learning methods](#lehr-lernmethoden).
 
-## 4.4 Diskussion: Heterogenität didaktischer Metadaten und Kontexte
+## 4.4 Discussion: Heterogeneity of educational metadata and contexts
 
-Im Vergleich zu anderen Metadaten sind didaktische Metadaten häufig
-schwieriger zu fassen. Welche Herausforderungen ergeben sich
-hinsichtlich der Erfassung und Nutzung didaktischer Metadaten?
+Compared to other metadata, educational metadata is frequently more difficult to grasp. What challenges arise with regard to the description and use of educational metadata?
 
-**Bildungsföderalismus und Interdisziplinarität didaktischer Metadaten**
+**Educational federalism and interdisciplinarity of educational metadata**
 
-Im Gegensatz zu anderen Attributen ist in Deutschland der
-föderalistische Kontext und die Struktur des Bildungswesens zu
-berücksichtigen. Im institutionellen Bildungswesen (im Schulbereich)
-liegt das Thema Bildung in der Hoheit der Länder. Dies führt bei
-denselben Attributen teils zu gänzlich anderen Wertebereichen, was
-länderübergreifende Angebote vor große Herausforderungen stellt und eher
-dazu führt, dass entsprechende Dienste die ursprünglichen Wertebereiche
-entweder generalisieren und Werte damit abstrakter werden, oder diese
-didaktischen Attribute sogar gänzlich entfallen, damit eine
-Zusammenführung möglich wird.
+In contrast to other attributes, the federalist context and the structure of the education system must be taken into account in Germany. In the institutional education system (i.e. in the school sector), educational responsibility rests with the individual federal states. This can sometimes lead to entirely different value ranges for the same attributes, which poses major challenges for cross-state educational offerings and tends to result in the relevant services either generalising the original value ranges, thus making values more abstract, or even omitting these didactic attributes entirely to facilitate integration.
 
-Der Hochschulbereich ist hinsichtlich der Modulkataloge und angestrebten
-Kompetenzen aus unterschiedlichen Studienbereichen vergleichbar
-heterogen strukturiert. Modulkataloge ließen sich zwar maschinenlesbar
-abbilden, jedoch liegen auch diese Daten oft nicht öffentlich zugänglich
-und entsprechend aufbereitet vor.
+The higher education sector is comparatively heterogeneous in terms of its module catalogues and desired competencies from different study areas. While module catalogues could be provided in a machine-readable format, the corresponding data is often not publicly accessible and prepared accordingly.
 
-Didaktische Metadaten sind interdisziplinär und hängen daher mit einer
-Vielzahl von Domänen, wie Pädagogik, Sozial- oder Bildungswissenschaften
-zusammen. So facettenreich die jeweiligen Fachwissenschaften und
-Fachdidaktiken sind, so differenziert ließen sich auch potenzielle
-didaktische Metadaten erfassen. Die Herstellung eines Konsenses bindet
-zeitliche und personelle Ressourcen, falls dieser aufgrund
-unterschiedlicher Meinungen überhaupt hergestellt werden kann.
+Educational metadata is interdisciplinary and is therefore connected to a wide range of domains, such as pedagogy, social sciences or educational sciences. The individual scientific disciplines and subject didactics are as diverse as the ways in which potential educational metadata can be described. Establishing a consensus requires time and human resources, if such a consensus can be achieved at all due to vastly differing opinions.
 
-Dieser Umstand führt gelegentlich zu der grundsätzlichen These, dass die
-Entwicklung einheitlicher Felddefinitionen und Wertebereiche für
-didaktische Metadatenfelder nicht abschließend möglich sei, auch da
-disparate theoretische Fundierungen einer Standardisierung didaktischer
-Kategorien entgegenstehen [@arnoldpmieapuefbvf2003, S. 380f]. Die
-Anschlussfähigkeit von Begrifflichkeiten zwischen einzelnen Disziplinen
-oder gar mit internationaler Perspektive hinsichtlich soziologischer
-oder kultureller Übertragbarkeit von Konzepten wird dabei kritisch
-betrachtet [@arnoldpmieapuefbvf2003, S. 383] [@reckernemofrlo2001, S. 259].
-Auch von den Ressourcenersteller\*innen wird gelegentlich das Argument
-angeführt, dass sich didaktische Perspektiven teils nicht in enge
-kategoriale Standardisierungen einzwängen ließen, wenngleich Metadaten
-lediglich Ressourcen ergänzen und diese nicht ersetzen.
+This circumstance occasionally gives rise to the basic theory that developing uniform field definitions and value ranges for educational metadata fields is not conclusively possible, not least because disparate theoretical foundations stand in the way of any standardisation of didactic categories [@arnoldpmieapuefbvf2003, p. 380f]. The compatibility of terminology between individual disciplines is viewed critically, as is the sociological or cultural transferability of concepts on an international scale [@arnoldpmieapuefbvf2003, p. 383] [@reckernemofrlo2001, p. 259]. Moreover, resource creators occasionally argue that didactic perspectives cannot be forced into narrow categorical standardisations, even though metadata merely supplements resources rather than replacing them.
 
-Darüber hinaus herrscht Unsicherheit, inwiefern Bestrebungen zur
-Standardisierung zugleich eine reglementierende Wirkung haben [@arnoldhelulmdm2018, S. 425].
-So gibt es zwar Ansätze für Vokabulare,
-beispielsweise von Lehr-/Lernformen, Methoden, Lernzielen,
-Aufgabenformaten, oder ähnlichen Kategorien, jedoch scheint weiterhin
-eine Normierung kaum möglich [@arnoldpmieapuefbvf2003, S. 381], selbst wenn
-diese im Hinblick auf die eigentlichen Ressourcen nur einen
-begleitenden, deskriptiven Charakter hat.
+In addition, there is some uncertainty regarding the extent to which standardisation efforts also have a regulatory effect [@arnoldhelulmdm2018, p. 425]. There are some approaches for specific vocabularies, for example, of teaching/learning forms, methods, learning objectives, task formats, or similar categories. Yet standardisation still appears to be all but impossible [@arnoldpmieapuefbvf2003, p. 381], even if it should possess only an accompanying, descriptive character with regard to the actual resources.
 
-**Expressivität didaktischer Metadaten**
+**Expressivity of educational metadata**
 
-Wie das vorangegangene Kapitel zeigt, lassen sich ähnliche
-Nutzungsszenarien mittels zahlreicher Attribute durchaus unterschiedlich
-realisieren. Dabei sind viele didaktische Metadaten miteinander verwandt
-oder bedingen einander, sodass die Intention der Erfassung bestimmter
-didaktischer Metadaten durch verschiedene Varianten realisiert werden
-kann.
+As demonstrated in the previous chapter, similar usage scenarios can be implemented in very different ways thanks to numerous attributes. There is great deal of interconnection and interdependency between educational metadata. As a result, the intention of describing specific educational metadata can be realised in many different ways.
 
-**Zeitlicher, struktureller und politischer Wandel des Bildungssystems**
+**Temporal, structural and political change in the education system**
 
-Auf die Diskussion der letzten Jahre (Jahrzehnte) zurückblickend ist
-anzumerken, dass sich auch nach mehr als 20 Jahren (vgl. die Diskussion
-in Arnold et al., 2003) kein einheitliches Set an Attributen, geschweige
-denn Wertelisten, etabliert hat. Die grundlegende Diskussion und
-derzeitige Datenlage weisen darauf hin, dass sich auch in den nächsten
-Jahren kein einheitliches Set flächendeckend etablieren wird. Die Gründe
-dafür sind zahlreich.
+Looking back at the ongoing debate over the last few years (or decades), it should be noted that even after more than 20 years (see the discussion in Arnold et al., 2003), no uniform set of attributes, let alone value lists, has been established. Based on the fundamental discussion and current data situation, no uniform set is likely to establish itself across the board in the coming years. The reasons for this are manifold.
 
-So ist der Bildungsbereich ein recht dynamisches Feld, dessen Paradigmen
-ständig neuen Forschungsergebnissen und einem systemischen sowie
-politischen Wandel ausgesetzt sind, sodass sich potenziell relevante
-Aspekte von Ressourcen oder Wertebereiche der Felder fortlaufend ändern.
-Aktuellere Kontroversen umfassen dabei beispielsweise auch bereits
-grundlegende Konzepte, wie die Systematisierung von Ressourcen nach
-Schularten, die als Abbildung der derzeitigen Bildungslandschaft
-teilweise durch Portale oder Verlage erfolgt, um beispielsweise Material
-aufgrund von Unterschieden in den Lehrplänen für einzelne Schularten zu
-differenzieren. Während hingegen postulierte Bildungstrends zur
-Auflösung eher artifizieller Schularten in dieser Debatte auszumachen
-sind und sich insbesondere auch durch Inklusion binnendifferenzierende
-Ansätze in Schulen durchsetzen, steht die Systematisierung nach
-Schularten teils grundlegend in der Kritik, auch aufgrund der selektiven
-Konnotation von Begrifflichkeiten oder des womöglich indirekt
-implizierten Unterschieds hinsichtlich der Niveaustufe, wenn eine
-Kategorisierung von Ressourcen nach Schularten vorgenommen würde. Ein
-struktureller Wandel des Bildungssystems führt zugleich dazu, dass
-derzeit im Vokabular “Schulart” noch enthaltene Werte wie “Hauptschule”
-anderen Werten weichen müssen oder die Systematisierung dieser
-Ressourcen perspektivisch grundsätzlich anders erfolgt. Dahingehend wird
-beispielsweise eine eher abschlussorientierte Systematisierung von
-Ressourcen als vielversprechender und unter Umständen stabiler
-betrachtet.
+The education sector is a very dynamic field the paradigms of which are permanently exposed to new research results as well as systemic and political change. As a result, potentially relevant aspects of resources or value ranges of the fields are constantly changing. More recent controversies also include, for example, fundamental concepts such as the systematisation of resources according to school types, which is sometimes carried out by portals or publishers as a reflection of the current educational landscape – for example, to distinguish materials based on differences in the curricula for individual school types. Postulated educational trends towards the dissolution of the more artificial school types are apparent in this debate, and internally differentiated approaches are becoming more widespread in schools, particularly as a result of inclusion. However, the systematisation according to school types is, in part, fundamentally criticised, not least due to the selective connotation of terminology or the potentially indirectly implied differences in levels if resources were to be categorised according to school types. At the same time, a structural change in the education system means that values that are currently included in the "school type" vocabulary, such as "Hauptschule", have to give way to other values, or the systematisation of these resources will have to take a fundamentally different perspective. In this respect, a systematisation of resources that is more focused on qualifications, for instance, is viewed as a more promising and potentially more stable approach.
 
-**Multiperspektivität der Zuweisung von Metadaten**
+**Multiperspectivity in the assignment of metadata**
 
-Eine weitere Herausforderung didaktischer Metadaten besteht in der
-Zeitlichkeit und Perspektivierung der jeweiligen Wertzuweisungen für
-Attribute in Anbetracht der heterogenen und zukünftigen Nutzungskontexte
-von Ressourcen.
+A further challenge presented by educational metadata is the temporality and perspectivation of the respective value assignments for attributes in view of the heterogeneous and future usage contexts of resources.
 
-Aus welcher Perspektive sollten die Metadaten zugeordnet werden?
+From which perspective should the metadata be assigned?
 
-Aus der Sicht der Lernenden, Lehrenden oder beiden Gruppen?
+From the perspective of the learners, teachers or both groups?
 
-So finden sich in LOM-CH beispielsweise zwei Attribute zur Lernzeit,
-nämlich einerseits für die Zielgruppe (z. B. Lehrende) (LOM-CH 5.9) und
-andererseits für die Endnutzer\*innen (z. B. Lernende) (LOM-CH 5.9.2)
-[@educaal2020].
-Auch bei den Zielgruppen selbst werden die
-unterschiedlichen Perspektiven deutlich. So wird im Projekt “Gateway to
-Educational Materials (GEM)” die Frage gestellt, wem die Ressource als
-Werkzeug dient (Lehrende) und wer die letztlich Begünstigten dieses
-Werkzeuges sind (Lernende) [@caplanmfal2003, S. 120].
-Auch im ComeIn Projekt wird versucht die Beschreibung konsistenter zu gestalten, indem
-im [Beschreibungsschema](https://comein.nrw/portal/wp-content/uploads/2023/08/Imedibi_Kernschema-fuer-die-Beschreibung-von-ComeIn-relevanten-Ressourcen.pdf)
-und den dazugehörigen [Hinweisen zur Handhabung](https://comein.nrw/portal/wp-content/uploads/2023/08/Imedibi_Kernschema_Hinweise-zur-Handhabung.pdf)
-für Ressourcenersteller\*innen oder -erfasser\*innen der explizite Fokus
-auf Lernende gelegt wird [@agimedibik2023] [@agimedibikfbcirhzh2023].
-Hierbei ist zu berücksichtigen, dass viele Projekte mit generischen Rollen aus
-Metadatenstandards arbeiten (Lehrende und Lernende), bei ComeIn jedoch
-konkrete Personengruppen benannt werden.
+LOM-CH, for example, contains two attributes for the learning time: one for the target group (e.g. teachers) (LOM-CH 5.9) and the other for the end users (e.g. learners) (LOM-CH 5.9.2) \[@educaal2020\]. The different perspectives are also highlighted by the target groups themselves. For example, the "Gateway to Educational Materials (GEM)" project raises the question of who the resource serves as a tool (teachers) and who the ultimate beneficiaries of this tool are (learners) \[@caplanmfal2003, p. 120\]. The ComeIn project also attempts to make the description more consistent by focusing explicitly on learners in the [description scheme](https://comein.nrw/portal/wp-content/uploads/2023/08/Imedibi_Kernschema-fuer-die-Beschreibung-von-ComeIn-relevanten-Ressourcen.pdf) and the corresponding [usage notes](https://comein.nrw/portal/wp-content/uploads/2023/08/Imedibi_Kernschema_Hinweise-zur-Handhabung.pdf) for those creating or defining resources \[@agimedibik2023\] \[@agimedibikfbcirhzh2023\]. It should be noted that many projects work with generic roles from metadata standards (teachers and learners), while ComeIn designates specific groups of people.
 
-Daraus ergeben sich weiterführende Fragen:
+This raises further questions:
 
-Wie sollen Attribute wie Schwierigkeit oder Lerndauer sinnvoll
-zugeordnet werden, wenn die Gruppe der potenziell Nutzenden eventuell
-noch unbekannt ist? Stehen dabei eher die Inhalte im Fokus der
-Beschreibungen oder die didaktische Implementation der Ressourcen durch
-Lehrende?
+How should attributes such as difficulty or learning time be meaningfully assigned when the group of potential users may still be unknown? Should the descriptions focus on the content or on the didactic implementation of the resources by teachers?
 
-**Didaktische Konzepte**
+**Didactic concepts**
 
-Didaktische Anmerkungen und Beschreibungstexte unterscheiden sich
-womöglich inhaltlich, je nachdem, welche Gruppe von Personen
-angesprochen werden soll (z. B. Eltern, Schüler\*innen, Lehrende als
-Multiplikator\*innen). Wenn es zudem entsprechender Expertise zur
-Beschreibung didaktischer Metadaten von Lernressourcen bedarf [@arnoldhelulmdm2018, S. 427], so ist fraglich, inwiefern Lernende überhaupt
-befähigt sind, entsprechende didaktische Kriterien für die Suche und
-Filter zielführend zu nutzen [@arnoldpmieapuefbvf2003, S. 384].
-Die Entwicklungen im Bereich des maschinellen Lernens können hier sicherlich
-Hilfestellungen geben, um die vorhandenen Metadaten im Hintergrund zu
-nutzen (z. B. kontextualisierte Suchen), ohne die Nutzenden des Dienstes
-mit womöglich zahlreichen und umfangreichen Filterangeboten zu
-überfordern.
+Didactic notes and descriptions may differ in content depending on which group of people they are addressed to (e.g. parents, students, teachers as multipliers). If suitable expertise is also required to describe educational metadata of learning resources [@arnoldhelulmdm2018, p. 427], it is questionable to what extent learners are even capable of using suitable didactic criteria for targeted searching and filtering [@arnoldpmieapuefbvf2003, p. 384]. Advancements in the field of machine learning can certainly provide assistance in using the existing metadata in the background (e.g. contextualised searches) without overwhelming service users with numerous and extensive filter options.
 
-Didaktische Konzepte (Anmerkungen, Beschreibungstexte, …) sind ein
-exemplarischer Typ von Ressourcen, der eine duale Perspektive auf die
-Beschreibung mit didaktischen Metadaten einfordert. Die Konsistenz der
-Zuweisungen konkreter Werte in den jeweiligen Metadatenfeldern wirkt
-sich dabei auf das intendierte und durch Nutzer\*innen realisierbare
-Such- und Filterverhalten aus.
+Didactic concepts (notes, descriptive texts, etc.) are an example type of resource that requires a dual perspective of the description with educational metadata. The consistency of the assignment of concrete values in the respective metadata fields influences the intended and achievable search and filter behaviour of users.
 
-*Nutzungsszenarien einer rollenbasierten Suche - Eine Frage der
-Abwägung*
+*Considerations for usage scenarios of a role-based search*
 
-Lehrende möchten für ihre anvisierte Zielgruppe, z. B. Schüler\*innen
-einer neunten Klasse, ein geeignetes didaktisches Lehrkonzept finden,
-welches sie dann im Unterricht verwirklichen. Würde nun für ein
-didaktisches Konzept die Zielgruppe “Lehrende” und die Bildungsstufe
-“Fortbildung” als Metadaten zugewiesen, da das didaktische Konzept sich
-beispielsweise an Lehrkräfte an einem Gymnasium richtet und zu
-Fortbildungszwecken verwendet werden kann, so würde diese Beschreibung
-in den Metadaten zunächst nicht beinhalten, wer die “eigentliche”
-Zielgruppe ist, in diesem Beispiel: Die Schüler\*innen der neunten
-Klasse als Lernende.  
-Würde hingegen die Zielgruppe “Schüler\*in” und "neunte Klasse” als
-Bildungsstufe gewählt, so wäre durch diese Beschreibung zwar das
-genannte Nutzungsszenario möglich, bei Suchen von Schüler\*innen nach
-Lernmaterial zum eigenständigen Lernen würde dann jedoch unter Umständen
-ein Lehrkonzept für Lehrkräfte gelistet, welches eigentlich nicht
-unmittelbar für die Nachnutzung durch Schüler\*innen bestimmt ist, da es
-für die Vermittlung der Inhalte einer Lehrkraft bedarf.
+Teachers want to find a suitable didactic teaching concept for their intended target group, e.g. pupils in year 9, which they can then use in their lessons. If the target group "teachers" and the educational level "further education" were to be assigned as metadata for a didactic concept, because the didactic concept is aimed at teachers at a Gymnasium, for example, and can be used for further education purposes, the corresponding description in the metadata would initially not specify who the actual target group is, i.e. in this example: the pupils in year 9 as learners.  
+If, on the other hand, the target group "pupil" and "year 9" were selected as the educational level, the aforementioned usage scenario would be enabled by this description. However, when pupils search for materials for independent learning, a teaching concept for teachers may then be returned in the results, and such concepts are not intended for reuse by pupils since they require a teacher to convey the relevant content.
 
-Vergleichbare Schwierigkeiten gibt es bei Lernmaterialien: So bedarf es
-bei einigen Ressourcen sicherlich einer didaktischen Rahmung, z. B. wenn
-Tabellen und Diagramme als Suchergebnisse gelistet würden, diese jedoch
-ohne Aufgabenstellung, Interpretationshinweise oder einen didaktischen
-Kontext für das eigenständige Lernen womöglich nicht unmittelbar genutzt
-werden können. Ein Lösungsansatz ist die Verwendung weiterer
-didaktischer Felder wie die
-[Lehr-/Lernform](#lehr-lernform-interaktivitätstyp) zur Kennzeichnung
-von Material, das sich zum selbstständigen Lernen anbietet (z. B.
-Selbstlernmodule).
+Similar difficulties exist with regard to learning materials: While some resources certainly require a didactic framework, for example, if tables and diagrams are returned as search results, these may not be immediately usable for independent learning without a corresponding task, interpretation instructions or a didactic context. In this case, one solution is to use other didactic fields such as the [teaching/learning form](#lehr-lernform-interaktivitätstyp) to identify materials that are suitable for independent learning (e.g. self-study modules).
 
-Didaktische Konzepte sind somit einerseits für Lehrende bestimmt, die
-diese als Lehre realisieren und andererseits werden in einem solchen
-Konzept Zielgruppen angesprochen, die bei der Umsetzung eines solchen
-Konzeptes in der Rolle der Lernenden partizipieren.
+On the one hand, therefore, didactic concepts are designed for teachers who implement these in their teaching and, on the other hand, such concepts address target groups who participate in their implementation in the role of learners.
 
-Wie lässt sich dieser Konflikt auflösen?
+How can this conflict be resolved?
 
-In der Praxis finden sich dazu verschiedene Varianten. Es wird im
-Wesentlichen versucht, entweder (1) einen Konsens zu finden, aus welcher
-Perspektive einzelne Metadatenfelder beschrieben werden, oder (2) eine
-doppelte Zuweisung von Metadaten vorzunehmen. Bei Metadaten-Hubs, die
-Metadaten verschiedener Portale aggregieren, ist es schwierig, die
-unterschiedlichen Ansätze der Beschreibung von Metadaten aufzulösen.
+There are different options for this in practice. Essentially, attempts are made to either (1) establish a consensus regarding the perspective from which individual metadata fields are described or (2) perform a double assignment of metadata. In the case of metadata hubs that aggregate the metadata of different portals, it is very difficult to resolve the different approaches to describing metadata.
 
-Beispiel:
-[WirLernenOnline](https://suche.wirlernenonline.de/de/search?filters=%7B%22oehLrtAggregated%22:%5B%22http:%2F%2Fw3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt_aggregated%2F8526273b-2b21-46f2-ac8d-bbf362c8a690%22%5D,%22intendedEndUserRole%22:%5B%22http:%2F%2Fw3id.org%2Fopeneduhub%2Fvocabs%2FintendedEndUserRole%2Flearner%22,%22http:%2F%2Fw3id.org%2Fopeneduhub%2Fvocabs%2FintendedEndUserRole%2Fteacher%22%5D%7D&pageIndex=0#keep)
+Example: [WirLernenOnline](https://suche.wirlernenonline.de/de/search?filters=%7B%22oehLrtAggregated%22:%5B%22http:%2F%2Fw3id.org%2Fopeneduhub%2Fvocabs%2Fnew_lrt_aggregated%2F8526273b-2b21-46f2-ac8d-bbf362c8a690%22%5D,%22intendedEndUserRole%22:%5B%22http:%2F%2Fw3id.org%2Fopeneduhub%2Fvocabs%2FintendedEndUserRole%2Flearner%22,%22http:%2F%2Fw3id.org%2Fopeneduhub%2Fvocabs%2FintendedEndUserRole%2Fteacher%22%5D%7D&pageIndex=0#keep)
 
-Bei einer exemplarischen Suche nach dem Ressourcentyp “Unterrichtsplan”
-und der ausschließlichen Berücksichtigung der Zielgruppen “Lernende” und
-“Lehrende”, wurden für 1744 Ergebnisse bei 276 Ressourcen die Zielgruppe
-“Lernende” zugewiesen und bei 1737 die Zielgruppe “Lehrende”. Bei der
-Bildungsstufe finden sich überwiegend Zuweisungen von schulischen
-Stufen, was eine Perspektivierung der Bildungsstufe im Hinblick auf die
-Lernenden-Zielgruppe impliziert. Lediglich 81 Ressourcen wurde
-mindestens eine der Bildungsstufen “Fortbildung” oder
-“Erwachsenenbildung” zugewiesen. Daraus ergeben sich Schlussfolgerungen
-der Nutzung von Metadaten bei WirLernenOnline. Dem Ressourcentyp
-“Unterrichtsplan” wurde überwiegend “Lehrenden” als Zielgruppe
-zugewiesen, jedoch Bildungsstufen der Lernenden-Zielgruppe zugewiesen.
-Es scheint jedoch auch einige Inkonsistenzen zu geben.
+In an example search for the resource type "lesson plan" and with sole consideration of the target groups "learners" and "teachers", 1744 results were returned of which 276 resources were assigned the target group "learners" and 1737 were assigned the target group "teachers". In terms of the educational level, the predominant assignments took the form of school years, which implies a perspectivation of the educational level with regard to the learner target group. A mere 81 resources were assigned at least one of the educational levels "further education" or "adult education". This allows as to draw some conclusions about the use of metadata by WirLernenOnline. The resource type "lesson plan" was predominantly assigned "teachers" as the target group, while educational levels were assigned to the learner target group. However, some inconsistencies also appear to exist.
 
-**Pragmatische Lösungsansätze**
+**Pragmatic solution approaches**
 
-Das Bestreben, didaktische Metadaten zu konzeptualisieren, lässt sich
-auch aus einer anderen Perspektive adressieren: Der Wunsch, Objekte mit
-didaktischen Metadaten zu beschreiben, entspringt selten dem reinen
-Selbstzweck, denn meist stehen konkrete Anforderungen hinter diesem
-Vorhaben. Diese ergeben sich aus intendierten Nutzungsszenarien im
-Bildungsbereich oder konkreten Use Cases, die mit einem Dienst
-realisiert werden sollen. Um diese Herausforderung anzugehen, stellt
-sich zu Beginn des Vorhabens die Frage: Welche Metadaten werden
-benötigt, um einen konkreten Dienst im Bildungsbereich bestmöglich zur
-Verfügung stellen zu können?
+Efforts to conceptualise educational metadata can also be addressed from another perspective: The desire to describe objects with educational metadata rarely arises purely for its own sake, as there is usually a concrete need for this undertaking. Such needs arise from the intended usage scenarios in the educational sector or specific use cases that are to be implemented with a service. When tackling this challenge, the following question should be considered from the outset: What metadata is needed for a specific service to be made available in the educational sector as effectively as possible?
 
-Die Beantwortung dieser Frage führt womöglich zu einer wesentlich
-zielgerichteten Suche nach passenden Attributen und Wertelisten.
-Entsteht eine Bildungssuchmaschine im schulischen Bereich für Lehrkräfte
-in Niedersachsen? Inwiefern wären Schularten anderer Bundesländer dann
-überhaupt relevant? Aufgrund der präzisen Abgrenzung der Zielgruppe
-können unter Umständen andere Herausforderungen vernachlässigt werden,
-wie auch divergierende Fachsystematiken zwischen verschiedenen
-Bundesländern nicht mehr von Interesse wären. Je umfassender ein Dienst
-werden soll, desto vielfältiger und damit komplexer werden hingegen auch
-die benötigten Attribute und Wertelisten. Eine Bildungssuchmaschine für
-den deutschsprachigen Raum wird sich daher mit der Diversität der
-Fachsystematiken und Schularten auseinandersetzen müssen, insbesondere,
-wenn eine große Zielgruppe angesprochen werden soll.
+Answering this question may result in a much more targeted search for suitable attributes and value lists. If an educational search engine were to be created in the school sector for teachers in Lower Saxony, what relevance, if any, would school types in other federal states then have? Due to the precise definition of the target group, other challenges may be neglected, just as diverging subject classifications between different federal states would no longer be of interest. However, the more comprehensive a service is to be, the more diverse and thus more complex the required attributes and value lists become. Consequently, an educational search engine for the German-speaking area will have to contend with the great diversity of subject classifications and school types, especially if it is to address a broad target group.
 
-Auch technologische Ansätze helfen, diese Herausforderungen zu lösen.
-Wie in den vorigen Abschnitten beschrieben, gibt es Technologien, die
-eine Vernetzung und das Mapping verschiedener Wertelisten realisieren
-können. Die größere Herausforderung liegt dann in dem Design und der
-User Experience solcher umfassenden Plattformen. Um auch diese
-Herausforderung zu lösen, ist eine Kontextualisierung der Nutzung
-hilfreich. Ein Beispiel aus der Suchmaschinentechnologie: Die Ergebnisse
-identischer Suchanfragen in populären Suchmaschinen unterscheiden sich,
-je nachdem, wer sucht, welche demografischen Merkmale die Person hat,
-aus welchem Land sie kommt oder von welchem Standort sie zugreift und
-anhand vieler weiterer Eigenschaften. Diesen Dienst, erwünscht oder
-nicht, kann der Suchmaschinenanbieter anbieten, da zusätzliche
-Informationen für eine Suchanfrage erhoben werden, ohne dass Nutzende
-diese angeben müssen.
+Technological approaches can also help to address these challenges. As described above, technologies are available that can facilitate the interconnection and mapping of different value lists. The greater challenge then lies in the design and the user experience of such extensive platforms. If we are also to master this challenge, we may consider contextualising the subsequent usage. Taking an example from search engine technology: The results provided by identical search queries in popular search engines differ depending on who is searching, their demographic characteristics, their country of residence or the location from which they are searching, along with many other factors. Whether it is desired or not, the search engine provider can offer this service because additional information is collected for a search query without users needing to provide it.
 
-Die Initiative “Mein Bildungsraum” geht einen ähnlichen Weg in der
-Implementierung ihrer Wallet-Technologie. Mit der Wallet können die
-Nutzenden ihre Daten souverän verwalten und mit verschiedenen Diensten
-teilen, sofern erwünscht. Anhand dieser Daten können Dienste adaptive
-Anpassungen der Funktionalitäten vornehmen. Dies entbindet die
-Dienstanbieter\*innen jedoch nicht von der Herausforderung, die
-relevanten Attribute und Wertelisten zu identifizieren und mit den
-entsprechenden Objekten zu verknüpfen, die für die Nutzung ihres
-Dienstes entscheidend sind.
+The "Mein Bildungsraum" initiative is taking a similar path with the implementation of its wallet technology. The wallet allows users to manage their data effectively and share it with different services if desired. Based on this data, services can make adaptive adjustments to the functionality. However, this does not relieve service providers of the challenge of identifying the relevant attributes and value lists and linking them to the corresponding objects that are essential for using their service.
 
-[^15]: vgl. Kapitel "[Was sind Metadaten?](2_inhaltliche_grundlagen?id=_21-was-sind-metadaten)" zum Begriff der Metadaten-Statements.
+\[\^15\]: Refer to the chapter "[What is a metadata?](2_inhaltliche_grundlagen?id=_21-was-sind-metadaten)" for an explanation of metadata statements.
 
-[^16]: Das von LRMI eingeführte Attribut “educationalAlignment” hat sich in der Nutzung als zu kompliziert erwiesen und wurde durch die Attribute “teaches” und “assesses” ersetzt.
+[\^16]: The "educationalAlignment" attribute introduced by LRMI proved to be too complicated in use and was replaced with the attributes "teaches" and "assesses".
 
-[^17]: Im Gegensatz dazu wird eine allgemeine Beschreibung von Ressourcen, die hier nicht als didaktisches Metadatum angesehen wird, jedoch als nützlich gewertet.
+[\^17]: In contrast, a general description of resources, which is not considered educational metadata in this case, is rated as useful.
 
-[^18]: Der Zugriffsmodus (*accessMode*) beschreibt die Art und Weise, wie zum Erreichen der Lernziele notwendige Lerninhalte kodiert sind.
+[\^18]: The access mode (*accessMode*) describes the way in which learning content that is necessary to achieve the learning objectives is encoded.
 
-[^19]: Muuß-Merholz weist [in seinem Meinungsbeitrag](https://web.archive.org/web/20231219091331/https://open-educational-resources.de/das-o-in-oer-steht-nicht-fuer-qualitaet-10-dinge-die-oer-untergeschoben-werden/) (Muuß-Meerholz, 2019) darauf hin, dass die gleichen Qualitätsprobleme bei nicht-offenen Materialien vorliegen, wie [Klaus und Alamo](https://www.biorxiv.org/content/10.1101/481655v2) zeigen [@klaustilpraepfsp2018].
+\[\^19\]: Muuß-Merholz points out in his [opinion piece](https://web.archive.org/web/20231219091331/https://open-educational-resources.de/das-o-in-oer-steht-nicht-fuer-qualitaet-10-dinge-die-oer-untergeschoben-werden/) (Muuß-Meerholz, 2019) that the same quality issues exist with non-open materials, as demonstrated by [Klaus and Alamo](https://www.biorxiv.org/content/10.1101/481655v2) \[@klaustilpraepfsp2018\].
 
-[^20]: Im Befragungszeitraum waren die Qualitätsprozesse von ORCA.nrw noch nicht finalisiert.
+[\^20]: The quality processes of ORCA.nrw had not yet been finalised during the survey period.
 
-[^21]: Kurze Lerneinheiten werden auch als Lernnuggets, Lernhäppchen oder Lernsnacks bezeichnet.
-
+[\^21]: Short learning units are also referred to as learning nuggets, learning bites or learning snacks.

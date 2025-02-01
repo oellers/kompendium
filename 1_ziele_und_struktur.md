@@ -1,3 +1,8 @@
+------------------------------------------------------------------------
+
+bibliography: “metadaten.json”  
+link-citations: true —
+
 # 1 Goals and structure of the compendium
 
 ## 1.1 Who is the compendium aimed at?
@@ -16,13 +21,13 @@ What exactly is metadata and what are metadata standards? This question is answe
 
 **Individual educational journeys and lifelong learning**
 
-Learning processes accompany us throughout our lives and extend far beyond the temporal and spatial borders of the regular education system. Digital learning processes are playing an increasingly important role in this regard. Against the background of “lifelong learning” ([Europäische Kommission 2002, 17](#ref-europaeischekommissionerll2002)), it is easy to see why learners encounter a number of challenges when switching between the various stations of their learning journey. This gives rise to an important question: How can existing digital education platforms be efficiently interconnected to make individual learning journeys a seamless experience for learners and to shape ongoing transformation processes in the education system in a sustainable manner? In this context, the focus of the transformation processes is on the learner’s journey, the shaping and design of learning experiences as well as individual learning paths or learning journeys.
+Learning processes accompany us throughout our lives and extend far beyond the temporal and spatial borders of the regular education system. Digital learning processes are playing an increasingly important role in this regard. Against the background of “lifelong learning” (Europäische Kommission 2002, 17), it is easy to see why learners encounter a number of challenges when switching between the various stations of their learning journey. This gives rise to an important question: How can existing digital education platforms be efficiently interconnected to make individual learning journeys a seamless experience for learners and to shape ongoing transformation processes in the education system in a sustainable manner? In this context, the focus of the transformation processes is on the learner’s journey, the shaping and design of learning experiences as well as individual learning paths or learning journeys.
 
 **Hand in hand: connecting distributed education infrastructures**
 
 The establishment of distributed education platforms as cloud-based services along with the provision of useful microservices remains an ongoing trend in the digitalisation of the education landscape. This requires an increased focus on both the interoperability and scalability of distributed systems in order to ensure high and sustainable availability of the relevant infrastructure so that transformation processes in the education system can be supported effectively. The provision and exchange of metadata between these systems is essential in this case. Metadata is omnipresent throughout this process and plays a crucial role in supporting interactions and procedures in the digital sphere.
 
-As a result, this compendium places particular emphasis on metadata of digital objects in the context of teaching/learning environments and teaching/learning processes. The aim is to conduct a closer examination of the didactic aspects of these objects in metadata that arise during the individual educational journeys of learners in connection with a digital education hub. Educational resources are objects which, when used appropriately in educational contexts and associated teaching/learning processes, allow specific learning objectives to be achieved or the relevant skills and competencies to be developed ([Anido et al. 2002, 359](#ref-anidoemblr2002)), ([Sutton 2004, 142–47](#ref-suttonmes2004)).
+As a result, this compendium places particular emphasis on metadata of digital objects in the context of teaching/learning environments and teaching/learning processes. The aim is to conduct a closer examination of the didactic aspects of these objects in metadata that arise during the individual educational journeys of learners in connection with a digital education hub. Educational resources are objects which, when used appropriately in educational contexts and associated teaching/learning processes, allow specific learning objectives to be achieved or the relevant skills and competencies to be developed (Anido et al. 2002, 359), (Sutton 2004, 142–47).
 
 <div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
 

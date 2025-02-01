@@ -1,3 +1,8 @@
+------------------------------------------------------------------------
+
+bibliography: “metadaten.json”  
+link-citations: true —
+
 # 3 Basic technical principles of a digital education hub
 
 When data is to be exchanged within a digital education hub, two basic technical requirements have to be met:
@@ -34,7 +39,7 @@ Standards:
 - Publication date: 2020-01-20
 - Publisher: [Dublin Core Metadata Initiative](https://www.dublincore.org/)
 
-The earlier Dublin Core Metadata Element Set ([DCMES](https://dublincore.org/specifications/dublin-core/dces/)) and its newer version DCMI Metadata Terms ([DCMI Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)) were created to describe and improve the findability of web-based resources. However, the elements are also used as a basis for metadata in other domains, for example libraries \[Haynes ([2018](#ref-haynesmimrumiu2018)), p. 51f\]. The namespace contains generic attributes that enable broad application, i.e. without being restricted to the markup of learning materials.
+The earlier Dublin Core Metadata Element Set ([DCMES](https://dublincore.org/specifications/dublin-core/dces/)) and its newer version DCMI Metadata Terms ([DCMI Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)) were created to describe and improve the findability of web-based resources. However, the elements are also used as a basis for metadata in other domains, for example libraries \[Haynes (2018), p. 51f\]. The namespace contains generic attributes that enable broad application, i.e. without being restricted to the markup of learning materials.
 
 **Learning Resource Metadata Innovation (LRMI)**
 
@@ -54,15 +59,15 @@ LRMI models classes (e.g. [learning resources](https://schema.org/LearningResou
 
 **Educational Modelling Language (EML)**
 
-Various languages for modelling educational materials and pedagogical scenarios can be classified as EML ([Martinez-Ortiz et al. 2007](#ref-martinez-ortizemlcihc2007)) ([Stumpp 2003, 151–53](#ref-stumppesulopb2003)). These are usually based on the generic metamodel EML-OU developed by the Open University of the Netherlands (OU). It facilitates the pedagogical modelling of learning environments by describing the embedding of resources (learning objects) in educational contexts ([Baumgartner, Häfele, and Maier-Häfele 2002, 7](#ref-baumgartnerepalmff2002)).
+Various languages for modelling educational materials and pedagogical scenarios can be classified as EML (Martinez-Ortiz et al. 2007) (Stumpp 2003, 151–53). These are usually based on the generic metamodel EML-OU developed by the Open University of the Netherlands (OU). It facilitates the pedagogical modelling of learning environments by describing the embedding of resources (learning objects) in educational contexts (Baumgartner, Häfele, and Maier-Häfele 2002, 7).
 
 The model comprises teaching/learning theories, the model for learners (interactions in learning situations), content/application domains and a modularisation of the learning units. It formalises elements of learning processes, such as learning activities, roles, content and methodology. Educational scenarios can thus be modelled.
 
 **(IMS) Learning Design (1EdTech)**
 
-The Learning Design Framework is used to describe teaching/learning processes based on the didactic “Educational Modelling Language” (EML) ([Stracke 2007, 14](#ref-strackekrfeueiu2007)). While theoretical foundations have been defined for this ([Dalziel et al. 2016](#ref-dalzielldld2016)), they have not yet resulted in any further development of the standard.
+The Learning Design Framework is used to describe teaching/learning processes based on the didactic “Educational Modelling Language” (EML) (Stracke 2007, 14). While theoretical foundations have been defined for this (Dalziel et al. 2016), they have not yet resulted in any further development of the standard.
 
-Related: didactic design patterns \[Kohls and Wedekind ([2008](#ref-kohlsdeelmdp2008))\] \[Rensing ([2013](#ref-rensingsflulmiubl2013))\] (see also [PatternPool](https://www.patternpool.de/finden/)), process-oriented didactic-methodical scenarios (templates), best practices (methodical structures)
+Related: didactic design patterns \[Kohls and Wedekind (2008)\] \[Rensing (2013)\] (see also [PatternPool](https://www.patternpool.de/finden/)), process-oriented didactic-methodical scenarios (templates), best practices (methodical structures)
 
 **Learning Object Metadata (LOM)**
 
@@ -71,7 +76,7 @@ Related: didactic design patterns \[Kohls and Wedekind ([2008](#ref-kohlsdeelmdp
 - Publication date of current version: 2020
 - Publisher: IEEE
 
-The aim of this standard is to describe resources that are used for teaching and learning purposes. The standard was developed by the standards committee of the [Institute of Electrical and Electronics Engineers](https://en.wikipedia.org/wiki/Institute_of_Electrical_and_Electronics_Engineers) (IEEE). The standard is not openly available from IEEE, but instead requires a corresponding subscription. However, application profiles can be created from the standard and made openly available. To ensure compatibility with LOM Core, application profiles can add attributes and make optional attributes mandatory, but must never declare mandatory attributes as optional. Internationally, an unfinished [list of application profiles](https://en.wikipedia.org/wiki/Learning_object_metadata#Application_profiles) is available along with the Educational Metadata Profile (EMP) (Solomou et al., 2015). In German-speaking countries, the LOM-DE profile ([archive](https://www.bildungsserver.de/elixier/)) was developed in the context of the German Education Server and [ELIXIER](https://www.bildungsserver.de/elixier/). However, a finalised version of the profile has not been published \[Menzel ([2023](#ref-menzeldmpheor2023)), p. 265\], and little is known about its practical usage and distribution.
+The aim of this standard is to describe resources that are used for teaching and learning purposes. The standard was developed by the standards committee of the [Institute of Electrical and Electronics Engineers](https://en.wikipedia.org/wiki/Institute_of_Electrical_and_Electronics_Engineers) (IEEE). The standard is not openly available from IEEE, but instead requires a corresponding subscription. However, application profiles can be created from the standard and made openly available. To ensure compatibility with LOM Core, application profiles can add attributes and make optional attributes mandatory, but must never declare mandatory attributes as optional. Internationally, an unfinished [list of application profiles](https://en.wikipedia.org/wiki/Learning_object_metadata#Application_profiles) is available along with the Educational Metadata Profile (EMP) (Solomou et al., 2015). In German-speaking countries, the LOM-DE profile ([archive](https://www.bildungsserver.de/elixier/)) was developed in the context of the German Education Server and [ELIXIER](https://www.bildungsserver.de/elixier/). However, a finalised version of the profile has not been published \[Menzel (2023), p. 265\], and little is known about its practical usage and distribution.
 
 Two application profiles are particularly significant in German-speaking countries:
 
@@ -80,7 +85,7 @@ Two application profiles are particularly significant in German-speaking countri
 
 The LOM-based exchange of data between systems usually employs the [OAI-PMH](https://en.wikipedia.org/wiki/OAI-PMH) protocol.
 
-While LOM has been subject to criticism due to its great complexity ([Barker and Campbell 2010](#ref-barkermlmoescd2010)) ([Neumann 2013](#ref-neumannoero2013)), Pawlowski (2001) adds that the standard lacks essential didactic attributes for practical applications, including effective identification of the suitability of resources for specific didactic methods, pedagogical planning details (communication structure, evaluation, etc.) ([Pawlowski 2001, 107](#ref-pawlowskieevzecl2001)) and information on didactic-methodical decisions ([Arnold, Kilian, and Thillosen 2003, 382](#ref-arnoldpmieapuefbvf2003)). From this perspective, LOM places greater emphasis on the specific content than on the relevant methods and underlying didactic principles.
+While LOM has been subject to criticism due to its great complexity (Barker and Campbell 2010) (Neumann 2013), Pawlowski (2001) adds that the standard lacks essential didactic attributes for practical applications, including effective identification of the suitability of resources for specific didactic methods, pedagogical planning details (communication structure, evaluation, etc.) (Pawlowski 2001, 107) and information on didactic-methodical decisions (Arnold, Kilian, and Thillosen 2003, 382). From this perspective, LOM places greater emphasis on the specific content than on the relevant methods and underlying didactic principles.
 
 Note: The 1EdTech Consortium (formerly IMS Global) played a key role in developing LOM and remains heavily involved to this day. While there were some discrepancies in version 1.2 of the IMS model, these have since been rectified.
 
@@ -91,7 +96,7 @@ Note: The 1EdTech Consortium (formerly IMS Global) played a key role in developi
 - Publication date of current version: 2020
 - Publisher: IEEE
 
-IEEE set up the [P2881 working group](https://development.standards.ieee.org/myproject-web/public/view.html#pardetail/8290) with the aim of developing a successor to LOM. Despite being well known and widely adopted, IEEE considers LOM to be outdated \[IEEE ([2020](#ref-ieeeppd2020))\]. The INVITE project comes to a similar conclusion in this regard \[Goertz et al. ([2023](#ref-goertzmiiiwswfwzebimudirii2023)), p. 7\]. In particular, the taxonomies used in LOM are seen as outdated. In addition, new metadata concepts have since been devised that should be included in the subsequent standard \[IEEE ([2020](#ref-ieeeppd2020))\]. The working group made a first [draft](https://opensource.ieee.org/lmt/lmt/-/tree/main) available for public comment at the end of 2023. It is clear from this draft that RDF is now also used as the basic data model. In addition, the set of attributes has been greatly reduced, with many attributes from LRMI and schema.org being reused.
+IEEE set up the [P2881 working group](https://development.standards.ieee.org/myproject-web/public/view.html#pardetail/8290) with the aim of developing a successor to LOM. Despite being well known and widely adopted, IEEE considers LOM to be outdated \[IEEE (2020)\]. The INVITE project comes to a similar conclusion in this regard \[Goertz et al. (2023), p. 7\]. In particular, the taxonomies used in LOM are seen as outdated. In addition, new metadata concepts have since been devised that should be included in the subsequent standard \[IEEE (2020)\]. The working group made a first [draft](https://opensource.ieee.org/lmt/lmt/-/tree/main) available for public comment at the end of 2023. It is clear from this draft that RDF is now also used as the basic data model. In addition, the set of attributes has been greatly reduced, with many attributes from LRMI and schema.org being reused.
 
 *Communities of practice* are encouraged to create their own application profiles and extend the basic schema. Another significant enhancement is that the standard can also be used to describe *learning events* that relate to a learning activity or experience. Such a learning event is *ephemeral* and, in the current draft version, has a start and end date as well as a duration. In other contexts, learning events are described with extensive metadata (cf. learning analytics and standards such as xAPI, cmi5, [1EdTech Caliper Analytics](https://www.1edtech.org/standards/caliper)), which also offers relevant didactic functions for both teachers and learners.
 
@@ -99,7 +104,7 @@ Overall, this development follows the trend of basing metadata standards on the 
 
 **Excursus: libraries**
 
-The standards and data models used in the library world include Machine-Readable Cataloging 21 (MARC 21), Encoded Archival Description (EAD), Metadata Object Description Schema (MODS), Metadata Authority Description Standard (MADS), Metadata Encoding and Transmission Standard (METS), Preservation Metadata: Implementation Strategies (PREMIS), Publishing Requirements for Industry Standard Metadata (PRISM), Online Information eXchange (ONIX), [BIBFRAME](https://www.dnb.de/DE/Professionell/ProjekteKooperationen/Projekte/BIBFRAME/bibframe_node.html), IFLA Library Reference Model (LRM), Resource Description and Access ([RDA](https://www.dnb.de/DE/Professionell/Standardisierung/Standards/_content/rda.html?nn=58044)) and [Bib Extend](https://www.w3.org/community/schemabibex/wiki/Main_Page) (W3C, schema.org) \[Haynes ([2018](#ref-haynesmimrumiu2018)), p. 54-62\]. The German National Library, for instance, uses a [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/deed.de) license to make data available in a number of export formats and serialisations via various delivery channels (e.g. OAI-PMH). These include: MARC 21, RDF/XML, RDF/JSON-LD, RDF/Turtle, HDT, N-Triples, CSV, DNB Casual; MODS-xml, PDF and PicaPlus/XML \[DNB ([2023](#ref-dnbbue2023))\].
+The standards and data models used in the library world include Machine-Readable Cataloging 21 (MARC 21), Encoded Archival Description (EAD), Metadata Object Description Schema (MODS), Metadata Authority Description Standard (MADS), Metadata Encoding and Transmission Standard (METS), Preservation Metadata: Implementation Strategies (PREMIS), Publishing Requirements for Industry Standard Metadata (PRISM), Online Information eXchange (ONIX), [BIBFRAME](https://www.dnb.de/DE/Professionell/ProjekteKooperationen/Projekte/BIBFRAME/bibframe_node.html), IFLA Library Reference Model (LRM), Resource Description and Access ([RDA](https://www.dnb.de/DE/Professionell/Standardisierung/Standards/_content/rda.html?nn=58044)) and [Bib Extend](https://www.w3.org/community/schemabibex/wiki/Main_Page) (W3C, schema.org) \[Haynes (2018), p. 54-62\]. The German National Library, for instance, uses a [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/deed.de) license to make data available in a number of export formats and serialisations via various delivery channels (e.g. OAI-PMH). These include: MARC 21, RDF/XML, RDF/JSON-LD, RDF/Turtle, HDT, N-Triples, CSV, DNB Casual; MODS-xml, PDF and PicaPlus/XML \[DNB (2023)\].
 
 Examples of controlled vocabularies: [list from the Library of Congress](https://web.archive.org/web/20240301135921/https://www.loc.gov/librarians/controlled-vocabularies/).
 
@@ -253,7 +258,7 @@ Standards:
 - Publication date: 2020
 - Publisher: MOOChub
 
-The specification is used to exchange course data (MOOCs) between the [MOOChub](https://moochub.org/) members \[Ebner et al. ([2023](#ref-ebnermiemmip2023))\]. The specification builds on the [work](https://github.com/openHPI/mooc-standards) completed by the openHPI team. A JSON schema is available that allows information about the courses and the organisations providing them to be shared along with other data. The number of mandatory attributes was deliberately kept to a minimum so that new parties can easily get to grips with the schema. As of v3, the specification also supports information in multiple languages. In addition to the JSON schema, an API specification is also provided. It is used to describe the interface via which the data can be accessed.
+The specification is used to exchange course data (MOOCs) between the [MOOChub](https://moochub.org/) members \[Ebner et al. (2023)\]. The specification builds on the [work](https://github.com/openHPI/mooc-standards) completed by the openHPI team. A JSON schema is available that allows information about the courses and the organisations providing them to be shared along with other data. The number of mandatory attributes was deliberately kept to a minimum so that new parties can easily get to grips with the schema. As of v3, the specification also supports information in multiple languages. In addition to the JSON schema, an API specification is also provided. It is used to describe the interface via which the data can be accessed.
 
 **European Learning Model (ELM)**
 
@@ -280,7 +285,7 @@ The standard has since been revised, with version 3 published in April 2023. Any
 
 - Publisher: [InfoWeb Weiterbildung](https://www.iwwb.de/kurssuche/startseite.html)
 
-The standard has been developed since 2002 as part of [DIN PAS 1045](https://www.iwwb.de/information/DIN-PAS-1045-Weiterbildungsdatenbanken-und-Weiterbildungsinformationssysteme-Inhaltliche-Merkmale-und-Formate-zum-Datenaustausch-weiterbildung-55.html) in collaboration with the [InfoWeb Weiterbildung](https://www.iwwb.de/kurssuche/startseite.html) (IWWB) project (funded by the BMBF). The publicly available standard includes an XML specification for mapping information content from further education databases. Version 5.07 of the [technical specification](https://web.archive.org/web/20231226234408/https://projekt.iwwb-files.de/PAS/DEfTIS_zu_PAS1045_Ver_5_07.pdf) was published in 2007. XSD files for validation can also be found [here](https://web.archive.org/web/20240118011347/https://www.iwwb.de/information/DIN-PAS-1045-Weiterbildungsdatenbanken-und-Weiterbildungsinformationssysteme-Inhaltliche-Merkmale-und-Formate-zum-Datenaustausch-weiterbildung-55.html). As at 2011, recommendations from numerous further education portals have been implemented \[IWWB - InfoWeb Weiterbildung ([2023](#ref-iwwb-infowebweiterbildungdp1wuwimufd2023))\]. An [Excel table](https://web.archive.org/web/20160325075633/http://projekt.iwwb-files.de/AG_Infostandards/Empfehlungen%20zu%20Inhalten%20von%20Weiterbildungsdatenbanken%20-%20Version%201_4.xls) containing recommendations regarding the significance of the individual elements can be found on the same page.
+The standard has been developed since 2002 as part of [DIN PAS 1045](https://www.iwwb.de/information/DIN-PAS-1045-Weiterbildungsdatenbanken-und-Weiterbildungsinformationssysteme-Inhaltliche-Merkmale-und-Formate-zum-Datenaustausch-weiterbildung-55.html) in collaboration with the [InfoWeb Weiterbildung](https://www.iwwb.de/kurssuche/startseite.html) (IWWB) project (funded by the BMBF). The publicly available standard includes an XML specification for mapping information content from further education databases. Version 5.07 of the [technical specification](https://web.archive.org/web/20231226234408/https://projekt.iwwb-files.de/PAS/DEfTIS_zu_PAS1045_Ver_5_07.pdf) was published in 2007. XSD files for validation can also be found [here](https://web.archive.org/web/20240118011347/https://www.iwwb.de/information/DIN-PAS-1045-Weiterbildungsdatenbanken-und-Weiterbildungsinformationssysteme-Inhaltliche-Merkmale-und-Formate-zum-Datenaustausch-weiterbildung-55.html). As at 2011, recommendations from numerous further education portals have been implemented \[IWWB - InfoWeb Weiterbildung (2023)\]. An [Excel table](https://web.archive.org/web/20160325075633/http://projekt.iwwb-files.de/AG_Infostandards/Empfehlungen%20zu%20Inhalten%20von%20Weiterbildungsdatenbanken%20-%20Version%201_4.xls) containing recommendations regarding the significance of the individual elements can be found on the same page.
 
 ### 3.1.3 Standards for credentials
 
@@ -357,8 +362,8 @@ To ensure compatibility with xAPI, a [vocabulary](https://web.archive.org/web/20
 
 Other example implementations of Open Badges:
 
-- OpenVM, BeuthBonus, pMOOCs, INTEGRAL \[Buchem, Orr, and Brunn ([2019](#ref-buchemksmmobahcwgk2019))\]
-- kosLearningLab based on DigCompEdu \[Keindorf et al. ([2021](#ref-keindorfkfladke2021))\]
+- OpenVM, BeuthBonus, pMOOCs, INTEGRAL \[Buchem, Orr, and Brunn (2019)\]
+- kosLearningLab based on DigCompEdu \[Keindorf et al. (2021)\]
 
 ### 3.1.4 Standards for the distribution of content
 
@@ -484,7 +489,7 @@ This standard describes an interface for the data of students in K-12 education.
 
 - Publication date: 2000
 
-The aim of this standard is to describe various categories of learners so that, for example, individual learning profiles and preferences (learning style, learning location, available technology) as well as the learning outcomes (portfolio) of learners can be exchanged and made available in learning environments ([Pawlowski 2001, 107f](#ref-pawlowskieevzecl2001)). The process of transferring between education providers can thus be standardised, which makes it easier for individuals to exercise their rights, such as the right to data portability in accordance with Art. 20 GDPR. While the standard enables the personalisation of learning environments and processes as well as the reuse of learning and performance data across different courses and resources, it also raises similar data protection issues ([Baumgartner, Häfele, and Maier-Häfele 2002](#ref-baumgartnerepalmff2002)), to approaches for implementing learning analytics.
+The aim of this standard is to describe various categories of learners so that, for example, individual learning profiles and preferences (learning style, learning location, available technology) as well as the learning outcomes (portfolio) of learners can be exchanged and made available in learning environments (Pawlowski 2001, 107f). The process of transferring between education providers can thus be standardised, which makes it easier for individuals to exercise their rights, such as the right to data portability in accordance with Art. 20 GDPR. While the standard enables the personalisation of learning environments and processes as well as the reuse of learning and performance data across different courses and resources, it also raises similar data protection issues (Baumgartner, Häfele, and Maier-Häfele 2002), to approaches for implementing learning analytics.
 
 **(IMS) Learner Information Package (1EdTech)**
 
@@ -546,7 +551,7 @@ Standards:
 
 Learning Tools Interoperability (LTI) is a standard developed by 1EdTech (formerly IMS Global). LTI allows external tools to be connected to an LMS so that users do not have to log into each individual tool. The standard ensures secure data exchange, which can be used, for example, to transmit the scores achieved in a particular tool back to the LMS. A peculiarity in the versioning of the standard is that v1.3 is the current version even though v2.0 was also released.
 
-<img src="./images/3_anwendungsfelder_metadatenstandards.png" alt="Application areas of different metadata standards" /> Figure: *Application areas of different metadata standards* \[Rörtgen et al. ([2023](#ref-rortgenmsneidectea2023)), p. 147\]
+<img src="./images/3_anwendungsfelder_metadatenstandards.png" alt="Application areas of different metadata standards" /> Figure: *Application areas of different metadata standards* \[Rörtgen et al. (2023), p. 147\]
 
 ## 3.2 What is Linked Data and the Resource Description Framework?
 
@@ -585,7 +590,7 @@ What are the benefits of these technologies?
 </tbody>
 </table>
 
-In the preceding sections, we have frequently referred to “Linked Data” and the “Resource Description Framework (RDF)”. The use of these technologies and standards promotes the interoperability of metadata and, consequently, its distribution and acceptance ([Zeng and Chan 2009](#ref-zengsi2009)). This leads not only to harmonisation but also to desirable synergy effects within the market ([Golub et al. 2014](#ref-golubtrkosfua2014)). Since these technologies are clearly playing an increasingly important role in metadata standards, we will explain them briefly below.
+In the preceding sections, we have frequently referred to “Linked Data” and the “Resource Description Framework (RDF)”. The use of these technologies and standards promotes the interoperability of metadata and, consequently, its distribution and acceptance (Zeng and Chan 2009). This leads not only to harmonisation but also to desirable synergy effects within the market (Golub et al. 2014). Since these technologies are clearly playing an increasingly important role in metadata standards, we will explain them briefly below.
 
 **Linked Data**
 
@@ -600,9 +605,9 @@ Tim Berners-Lee formulates four basic principles of Linked Data:
 1.  Use URIs (Uniform Resource Identifiers) to uniquely identify resources
 2.  Use HTTP URIs to make the information accessible
 3.  Present this information using the relevant standards (RDF, SPARQL)
-4.  Use HTTP URIs to interlink different data sets and improve the findability of data \[Berners-Lee ([2006](#ref-berners-leelddi2006))\]
+4.  Use HTTP URIs to interlink different data sets and improve the findability of data \[Berners-Lee (2006)\]
 
-The choice of metadata standards is crucial when it comes to adapting the Linked (Open) Data principles ([Berners-Lee 2006](#ref-berners-leelddi2006)) ([Bizer et al. 2008](#ref-bizerldwl2008)) ([Petz 2023](#ref-petzlodzs2023)). Taking these principles into account allows resources and services to be interlinked and recurring challenges to be addressed. This includes:
+The choice of metadata standards is crucial when it comes to adapting the Linked (Open) Data principles (Berners-Lee 2006) (Bizer et al. 2008) (Petz 2023). Taking these principles into account allows resources and services to be interlinked and recurring challenges to be addressed. This includes:
 
 - Integration and interconnection of resources from distributed systems, such as heterogeneous datasets from repositories
 - Mapping of resource life cycles, for example, anticipated frequent changes, particularly in the context of open educational practices (OEP)
@@ -612,12 +617,12 @@ The choice of metadata standards is crucial when it comes to adapting the Linked
 
 Properties of Linked Data with regard to digital objects:
 
-- Unique, citable and stable referencing \[Petz ([2023](#ref-petzlodzs2023))\]
-- Vocabularies that contain attributes of the objects \[Petz ([2023](#ref-petzlodzs2023))\]
+- Unique, citable and stable referencing \[Petz (2023)\]
+- Vocabularies that contain attributes of the objects \[Petz (2023)\]
 
 **Resource Description Framework**
 
-The Resource Description Framework (RDF) is a data model that was created by the World Wide Web Consortium (W3C) as a standard for describing data on the web, for example, using [RDFa](https://rdfa.info/), [JSON-LD](https://json-ld.org/) or [Turtle](https://www.w3.org/TR/turtle/). It allows metadata to be made available in a manner that is understandable to both humans and machines. This approach is compatible with Linked (Open) Data principles (see above), which use RDF to publish structured metadata and thus link different resources and data sources while also enriching these resources with further metadata \[Bizer et al. ([2008](#ref-bizerldwl2008))\] \[Dietze et al. ([2013](#ref-dietzeierwdsca2013))\]. A particular benefit of the RDF approach is that it uses unique and persistent Uniform Resource Identifiers (URIs, such as URLs) to identify resources. These URIs can be referenced as globally unique identifiers, even in distributed systems. RDF is used to model data and possible statements about this data \[W3C ([2024a](#ref-w3crcas2024))\] \[W3C ([2024b](#ref-w3crs2024))\]. In the RDF model, each statement consists of three components: subject, predicate and object \[Pomerantz ([2015](#ref-pomerantzm2015)), p. 140f\]. A particular feature of RDF, and also the characteristic of the model’s reference to the web, is that the subject (resource), predicate (attribute) and object (attribute value) are represented by URIs. The object can also appear as a “literal”, which can have a character string (e.g. “Alice”) or a number (e.g. “42”) as its value.
+The Resource Description Framework (RDF) is a data model that was created by the World Wide Web Consortium (W3C) as a standard for describing data on the web, for example, using [RDFa](https://rdfa.info/), [JSON-LD](https://json-ld.org/) or [Turtle](https://www.w3.org/TR/turtle/). It allows metadata to be made available in a manner that is understandable to both humans and machines. This approach is compatible with Linked (Open) Data principles (see above), which use RDF to publish structured metadata and thus link different resources and data sources while also enriching these resources with further metadata \[Bizer et al. (2008)\] \[Dietze et al. (2013)\]. A particular benefit of the RDF approach is that it uses unique and persistent Uniform Resource Identifiers (URIs, such as URLs) to identify resources. These URIs can be referenced as globally unique identifiers, even in distributed systems. RDF is used to model data and possible statements about this data \[W3C (2024a)\] \[W3C (2024b)\]. In the RDF model, each statement consists of three components: subject, predicate and object \[Pomerantz (2015), p. 140f\]. A particular feature of RDF, and also the characteristic of the model’s reference to the web, is that the subject (resource), predicate (attribute) and object (attribute value) are represented by URIs. The object can also appear as a “literal”, which can have a character string (e.g. “Alice”) or a number (e.g. “42”) as its value.
 
 Table: *Example of a statement in the RDF model*
 
@@ -677,7 +682,7 @@ role="doc-backlink">↩︎</a>
 </ol>
 </aside>
 
-RDF thus serves as a flexible means of explicitly modelling the existence and significance of concrete relationships between different resources ([Heath and Bizer 2011](#ref-heathldewgds2011)). This creates a web of knowledge and allows new insights to be gained through inference mechanisms.
+RDF thus serves as a flexible means of explicitly modelling the existence and significance of concrete relationships between different resources (Heath and Bizer 2011). This creates a web of knowledge and allows new insights to be gained through inference mechanisms.
 
 As well as representing simple data, RDF can also be used to create complex ontologies (see “semantic staircase” below). Since the data is interlinked, it can be modelled as a graph, thus creating a network between the resources (nodes of the graph), their properties and the individual relationships (edges of the graph). As a graph-based data format, RDF enables the formal representation of such an ontology (see also “Knowledge Graphs”).
 
@@ -763,23 +768,23 @@ What technologies can I use when working with vocabularies?
 </tbody>
 </table>
 
-Knowledge Organisation Systems (KOS) exist in different levels of complexity. The semantic staircase depicts variants for the representation of concepts in ascending order of semantic richness ([Blumauer and Pellegrini 2006](#ref-blumauerswustzbuu2006)). The higher the level, the more flexibly the semantic networks – which become increasingly complex – can be used in automated evaluations ([Blumauer and Pellegrini 2006](#ref-blumauerswustzbuu2006)).
+Knowledge Organisation Systems (KOS) exist in different levels of complexity. The semantic staircase depicts variants for the representation of concepts in ascending order of semantic richness (Blumauer and Pellegrini 2006). The higher the level, the more flexibly the semantic networks – which become increasingly complex – can be used in automated evaluations (Blumauer and Pellegrini 2006).
 
 <figure>
 <img src="./images/3_semantische_treppe.svg" alt="Expanded semantic staircase (according to Blumauer &amp; Pellegrini, 2006, p. 16)" />
 <figcaption aria-hidden="true">Expanded semantic staircase (according to Blumauer &amp; Pellegrini, 2006, p. 16)</figcaption>
 </figure>
 
-Figure: *Expanded semantic staircase* (according to ([Blumauer and Pellegrini 2006, 16](#ref-blumauerswustzbuu2006)))
+Figure: *Expanded semantic staircase* (according to (Blumauer and Pellegrini 2006, 16))
 
 **Semantic staircase**
 
 - **Glossary**, e.g. in form of a non-hierarchical list of terms or words to standardise the spelling of concepts, without structural representation.
-- **Folksonomy,** e.g. in form of user-generated keywords for different content (social tagging) ([Gaiser, Hampel, and Panke 2008](#ref-gaisergtbtstw2008)) \[Haynes ([2018](#ref-haynesmimrumiu2018)), p. 199\]
-- **Typology/taxonomy,** e.g. in form of a classifying collection of terms and their hierarchical relationships (superordinate and subordinate, e.g. broader/narrower terms), but without further relationships between the individual elements ([Ullrich, Maier, and Angele 2003, 3f](#ref-ullrichtttmov2003)). While typologies tend to be derived conceptually, deductively and qualitatively, taxonomies are usually formed empirically, inductively and quantitatively ([Bailey 1994](#ref-baileyttict1994)) ([Hasler 2015, 24](#ref-haslergdhkmfat2015)). The terms are often used interchangeably and generally referred to as classifications.
-- **Thesaurus**, e.g. in form of a systematic collection of descriptors and the structural representation of relationships such as hierarchies. In addition, there can also be similarity, synonym or antonym relations between concepts ([Haynes 2018, 190f](#ref-haynesmimrumiu2018)) ([Ullrich, Maier, and Angele 2003, 4](#ref-ullrichtttmov2003)) (see also DIN 1463-1:1987-11, DIN 1463-2:1993-10 and ISO 25964-1:2011-08, ISO 25964-2:2013-03).
-- **Topic Map**, consisting of abstract concepts, associations and scopes ([Ullrich, Maier, and Angele 2003, 4f](#ref-ullrichtttmov2003)) (ISO/IEC 13250)
-- **Ontology**, which, as a formal representation of knowledge, can model complex properties and relations between concepts of one or more domains in a rule-based manner ([Borst 2006](#ref-borstozsadl2006)) ([Gruber 1993](#ref-grubertapos1993)) ([Pomerantz 2015, 46f](#ref-pomerantzm2015)) so that these can be interpreted by machines ([Ehrig, Hartmann, and Schmitz 2004](#ref-ehrigowm2004)). This representation is based on a common understanding of concepts ([Gruber 2004](#ref-grubereotiswissais2004)) and enables logical reasoning – ideally at the ontology level and not just within a software application ([Blumauer and Pellegrini 2006](#ref-blumauerswustzbuu2006)). Based on such inference mechanisms, new statements about objects can be formed and evaluated so that this newly gained knowledge can, for example, be integrated directly into software applications. Ontologies can also be used to model domain knowledge.
+- **Folksonomy,** e.g. in form of user-generated keywords for different content (social tagging) (Gaiser, Hampel, and Panke 2008) \[Haynes (2018), p. 199\]
+- **Typology/taxonomy,** e.g. in form of a classifying collection of terms and their hierarchical relationships (superordinate and subordinate, e.g. broader/narrower terms), but without further relationships between the individual elements (Ullrich, Maier, and Angele 2003, 3f). While typologies tend to be derived conceptually, deductively and qualitatively, taxonomies are usually formed empirically, inductively and quantitatively (Bailey 1994) (Hasler 2015, 24). The terms are often used interchangeably and generally referred to as classifications.
+- **Thesaurus**, e.g. in form of a systematic collection of descriptors and the structural representation of relationships such as hierarchies. In addition, there can also be similarity, synonym or antonym relations between concepts (Haynes 2018, 190f) (Ullrich, Maier, and Angele 2003, 4) (see also DIN 1463-1:1987-11, DIN 1463-2:1993-10 and ISO 25964-1:2011-08, ISO 25964-2:2013-03).
+- **Topic Map**, consisting of abstract concepts, associations and scopes (Ullrich, Maier, and Angele 2003, 4f) (ISO/IEC 13250)
+- **Ontology**, which, as a formal representation of knowledge, can model complex properties and relations between concepts of one or more domains in a rule-based manner (Borst 2006) (Gruber 1993) (Pomerantz 2015, 46f) so that these can be interpreted by machines (Ehrig, Hartmann, and Schmitz 2004). This representation is based on a common understanding of concepts (Gruber 2004) and enables logical reasoning – ideally at the ontology level and not just within a software application (Blumauer and Pellegrini 2006). Based on such inference mechanisms, new statements about objects can be formed and evaluated so that this newly gained knowledge can, for example, be integrated directly into software applications. Ontologies can also be used to model domain knowledge.
 
 **Why are controlled vocabularies used?**
 
@@ -789,11 +794,11 @@ Figure: *Expanded semantic staircase* (according to ([Blumauer and Pellegrini 20
 - (Lexical) ambiguity of natural language is resolved, e.g. through precise meanings (including homonymy, polysemy)
 - Modelling of relationship structures
 
-When compiling data from different sources, it can sometimes be the case that the same things are referred to in different ways, for example due to the use of acronyms (“Deutsch Als Zweitsprache”, “DaZ” for “German as a foreign language”, “DaF”) or different spellings for gender-inclusive terms (e.g. the German terms “Schüler:innen”, “Schüler\*innen” or “SchülerInnen” for school pupils). Regional differences can also apply – for example, school subjects may have different names in individual Federal states despite covering the same content (e.g. “Sachunterricht” and “Heimatunterricht” for general studies in primary school) ([Rörtgen 2023](#ref-rortgenhkpsmzhi2023)).
+When compiling data from different sources, it can sometimes be the case that the same things are referred to in different ways, for example due to the use of acronyms (“Deutsch Als Zweitsprache”, “DaZ” for “German as a foreign language”, “DaF”) or different spellings for gender-inclusive terms (e.g. the German terms “Schüler:innen”, “Schüler\*innen” or “SchülerInnen” for school pupils). Regional differences can also apply – for example, school subjects may have different names in individual Federal states despite covering the same content (e.g. “Sachunterricht” and “Heimatunterricht” for general studies in primary school) (Rörtgen 2023).
 
-To address these challenges, the [use of controlled vocabularies during data harmonisation](https://doi.org/10.25625/DN1X3A) is recommended \[Rörtgen ([2021](#ref-rortgenmemsipw2021))\].
+To address these challenges, the [use of controlled vocabularies during data harmonisation](https://doi.org/10.25625/DN1X3A) is recommended \[Rörtgen (2021)\].
 
-The following (slightly modified) excerpt is taken from [Einführung in SKOS am Beispiel von Open Educational Resources (OER)](https://w3id.org/kim/skos-einfuehrung/) \[Introduction to SKOS using the example of Open Educational Resources (OER)\] by [Felix Lohmeier](https://felixlohmeier.de), [Adrian Pohl](https://lobid.org/team/ap) and [Jakob Voß](https://www.wikidata.org/wiki/Q15303972) and gives a brief insight into this topic \[Lohmeier, Pohl, and Voß ([2023](#ref-lohmeieresaboero2023))\]:
+The following (slightly modified) excerpt is taken from [Einführung in SKOS am Beispiel von Open Educational Resources (OER)](https://w3id.org/kim/skos-einfuehrung/) \[Introduction to SKOS using the example of Open Educational Resources (OER)\] by [Felix Lohmeier](https://felixlohmeier.de), [Adrian Pohl](https://lobid.org/team/ap) and [Jakob Voß](https://www.wikidata.org/wiki/Q15303972) and gives a brief insight into this topic \[Lohmeier, Pohl, and Voß (2023)\]:
 
 > Generally speaking, all metadata consists of elements and corresponding values.
 >
@@ -839,7 +844,7 @@ Such word lists are known as “controlled vocabularies”. For more details on 
 
 A range of standards exist for controlled vocabularies.\[^12\] The ANSI/NISO standard provides guidelines and conventions for monolingual vocabularies (NISO, 2010). The international standard for thesauri and interoperability with other vocabularies ([ISO 25964](https://www.niso.org/schemas/iso25964)) provides a generic data model, a schema for data exchange as well as guidelines for the creation and maintenance of thesauri.
 
-The ISO standard is compatible with SKOS ([De Smedt 2013](#ref-desmedtci2ssxm2013)), which supplements the standard with, for example, porting recommendations for thesauri for web-based applications. In particular, SKOS provides means of describing and organising relations between resources published on the web. SKOS comprises different knowledge organisation systems since they possess similar structures and are used in comparable applications ([Miles and Bechhofer 2009](#ref-milessskosr2009)).
+The ISO standard is compatible with SKOS (De Smedt 2013), which supplements the standard with, for example, porting recommendations for thesauri for web-based applications. In particular, SKOS provides means of describing and organising relations between resources published on the web. SKOS comprises different knowledge organisation systems since they possess similar structures and are used in comparable applications (Miles and Bechhofer 2009).
 
 **Expressivity**
 
@@ -914,7 +919,7 @@ The following tools can be used to publish (SKOS) vocabularies:
 
 **Explicit and implicit use of values of controlled vocabularies**
 
-It should be noted that, in practice, metadata fields are not used only in strict accordance with the respective field definition. Rather, the use of controlled vocabularies is frequently accompanied by subjective expectations for specific values, e.g. regarding the interpretation or use of values for initially unintended purposes (see, for example, [implicit levels](#niveaustufe)). Users may also assume implicit connections with other criteria, e.g. context-dependent (see, for example, [didactic contextualisation](#didaktische-kontextualisierung-settings-und-szenarien)). Therefore, the intended use partially differs from the intended function and the defined, stricter semantics of the associated field. Other models for describing the intended use of metadata also take into account the distinction between actual use and the intrinsic properties of the metadata in a comparable manner \[Haynes ([2018](#ref-haynesmimrumiu2018))\].
+It should be noted that, in practice, metadata fields are not used only in strict accordance with the respective field definition. Rather, the use of controlled vocabularies is frequently accompanied by subjective expectations for specific values, e.g. regarding the interpretation or use of values for initially unintended purposes (see, for example, [implicit levels](#niveaustufe)). Users may also assume implicit connections with other criteria, e.g. context-dependent (see, for example, [didactic contextualisation](#didaktische-kontextualisierung-settings-und-szenarien)). Therefore, the intended use partially differs from the intended function and the defined, stricter semantics of the associated field. Other models for describing the intended use of metadata also take into account the distinction between actual use and the intrinsic properties of the metadata in a comparable manner \[Haynes (2018)\].
 
 <table>
 <colgroup>
@@ -1034,19 +1039,19 @@ Or
 
 ## 3.4 Where does metadata come from?
 
-The existence of specific metadata cannot simply be taken for granted. In principle, it can be assumed that the amount of metadata catalogued for resources is rather low and that the available metadata, despite automated enrichment, initially remains incomplete, especially with regard to educational metadata – as has been demonstrated in a number of projects ([Abdel-Qader et al. 2022](#ref-abdel-qaderesdbolvl2022)) ([Arndt et al. 2023](#ref-arndtdkpfpcql2023)). Metadata can be generated in a number of different ways ([Haynes 2018, 170](#ref-haynesmimrumiu2018)):
+The existence of specific metadata cannot simply be taken for granted. In principle, it can be assumed that the amount of metadata catalogued for resources is rather low and that the available metadata, despite automated enrichment, initially remains incomplete, especially with regard to educational metadata – as has been demonstrated in a number of projects (Abdel-Qader et al. 2022) (Arndt et al. 2023). Metadata can be generated in a number of different ways (Haynes 2018, 170):
 
 - **Individually**, for example, by individuals using metadata forms or editors
 
 - **Editorially**, for example, by specialist communities of practice
 
-- **Algorithmically**, for example, by means of inference systems or based on rules (e.g. logical dependencies between metadata), by means of automatic tagging ([Koutsomitropoulos 2019](#ref-koutsomitropoulossahfsduo2019)) ([Kushwaha and Prabhakar 2019](#ref-kushwahahmoersaoec2019)) \[Vallejo-Figueroa et al. ([2018](#ref-vallejo-figueroautmlodamer2018))\]
+- **Algorithmically**, for example, by means of inference systems or based on rules (e.g. logical dependencies between metadata), by means of automatic tagging (Koutsomitropoulos 2019) (Kushwaha and Prabhakar 2019) \[Vallejo-Figueroa et al. (2018)\]
 
 - **AI-assisted**, for example, by analysing text, image or video content using machine learning methods for the automatic cataloguing of resources and generation of metadata (related projects: [X5GON](https://www.x5gon.org/about/overview/), [EADTU](https://eadtu.eu/), [IT’s JOINTLY](https://its.jointly.info/), [Annif](https://annif.org/))
 
-- **Crowd-based (social tagging)**, for example, based on approaches for submitting or assessing content proposals for metadata (e.g. web of trust) \[Cooper, Olsher, and Yerushalmy ([2020](#ref-cooperdmitslrbcpd2020))\]
+- **Crowd-based (social tagging)**, for example, based on approaches for submitting or assessing content proposals for metadata (e.g. web of trust) \[Cooper, Olsher, and Yerushalmy (2020)\]
 
-The challenges posed by this undertaking, especially when it comes to individual metadata generation, are attributable to its complexity and the sheer amount of time involved ([Abdel-Qader et al. 2022](#ref-abdel-qaderesdbolvl2022)) ([Tischler, Heck, and Rittberger 2022](#ref-tischlernunmbsubob2022)).
+The challenges posed by this undertaking, especially when it comes to individual metadata generation, are attributable to its complexity and the sheer amount of time involved (Abdel-Qader et al. 2022) (Tischler, Heck, and Rittberger 2022).
 
 **Metadata and consolidation service**
 
@@ -1084,7 +1089,7 @@ What is interoperability and what role does it play in a digital education lands
 </tbody>
 </table>
 
-Interoperability refers to the ability to exchange data between distributed systems with minimal loss of information ([Riley 2017, 2](#ref-rileyumwmwi2017)), thus allowing objects to be used in different contexts and in other ways that are as automated as possible ([Duval 2001a, 592](#ref-duvalmswww2001)). It also describes the standardisation of processes and architectures ([Blumauer and Pellegrini 2006, 18f](#ref-blumauerswustzbuu2006).). To establish interoperability, the stakeholders who wish to exchange data must agree on the use of standards and make their data available accordingly. A standard permits different implementations and thus promotes competition and collaboration between different groups. Interoperable procedures are an effective means of avoiding data silos[^13](Data%20silos%20are%20collections%20of%20data%20that%20are%20not%20intended%20for%20data%20exchange,%20meaning%20that%20the%20data%20remains%20sequestered%20in%20proprietary%20systems,%20for%20example,%20and%20is%20therefore%20inaccessible%20or%20that%20related%20data%20remains%20spread%20across%20distributed%20systems%20and%20is%20therefore%20unlinked%20and%20incompatible.), thereby ensuring reliable data exchange and providing opportunities for reuse. This makes standardisation a prerequisite for the widespread use of educational resources, as it prevents users from being tied to proprietary systems (vendor lock-in) and thus creates an open educational infrastructure ([Duval 2001b, 458](#ref-duvalsmesr2001)).
+Interoperability refers to the ability to exchange data between distributed systems with minimal loss of information (Riley 2017, 2), thus allowing objects to be used in different contexts and in other ways that are as automated as possible (Duval 2001a, 592). It also describes the standardisation of processes and architectures (Blumauer and Pellegrini 2006, 18f.). To establish interoperability, the stakeholders who wish to exchange data must agree on the use of standards and make their data available accordingly. A standard permits different implementations and thus promotes competition and collaboration between different groups. Interoperable procedures are an effective means of avoiding data silos[^13](Data%20silos%20are%20collections%20of%20data%20that%20are%20not%20intended%20for%20data%20exchange,%20meaning%20that%20the%20data%20remains%20sequestered%20in%20proprietary%20systems,%20for%20example,%20and%20is%20therefore%20inaccessible%20or%20that%20related%20data%20remains%20spread%20across%20distributed%20systems%20and%20is%20therefore%20unlinked%20and%20incompatible.), thereby ensuring reliable data exchange and providing opportunities for reuse. This makes standardisation a prerequisite for the widespread use of educational resources, as it prevents users from being tied to proprietary systems (vendor lock-in) and thus creates an open educational infrastructure (Duval 2001b, 458).
 
 **Aims of interoperability**
 
@@ -1095,15 +1100,15 @@ Interoperability refers to the ability to exchange data between distributed syst
 - Automation of exchange processes
 - Safeguarding the integrability of data (e.g. in different applications, system exports/imports)
 
-In this context, different types and levels of interoperability can be distinguished. By way of example, Berger et al. classify technical, semantic, organisational and legal interoperability from the perspective of stakeholders ([Berger, Galati, and Witteler 2023](#ref-bergerihzhulfweh2023)).
+In this context, different types and levels of interoperability can be distinguished. By way of example, Berger et al. classify technical, semantic, organisational and legal interoperability from the perspective of stakeholders (Berger, Galati, and Witteler 2023).
 
-**Types of interoperability** (according to Weibel (1998) in \[Haynes ([2018](#ref-haynesmimrumiu2018)), p. 171f\])
+**Types of interoperability** (according to Weibel (1998) in \[Haynes (2018), p. 171f\])
 
 - **Structural**: The standards are based on a shared data model, common metadata schemas are used, data can be found and retrieved (e.g. via open interfaces)
 - **Syntactic**: Metadata is encoded in a suitable format, e.g. XML or JSON(-LD). Transfer and exchange processes are agreed. The structural configuration of values is standardised.
 - **Semantic**: The metadata elements employed have the same meaning in different systems. To this end, connections are established between concepts or content-specific domains (“bridging”). Standardised technologies (e.g. RDF) are used to facilitate this semantic transfer.
 
-**Levels of interoperability** (Nilsson, Baker & Johnston (2009) in ([Haynes 2018, 171](#ref-haynesmimrumiu2018)) \[Nilsson ([2010](#ref-nilssonihmsdefmh2010))\]):
+**Levels of interoperability** (Nilsson, Baker & Johnston (2009) in (Haynes 2018, 171) \[Nilsson (2010)\]):
 
 - Level 1: common terminology
 - Level 2: semantic interoperability
@@ -1133,7 +1138,7 @@ To ensure interoperability, metadata groups are establishing:
 
 Referatories collect data from different repositories, thereby acting as metaportals which provide access to universal services such as search functions. They thus serve as “testers” for the desired level of interoperability. To this end, they gather content from different sources and harmonise the data during the transfer process (see [ETL process](#wie-werden-metadaten-ausgetauscht---der-etl-prozess) below). This increases the findability of resources and users benefit from a systematic, universal search function.
 
-The below list of referatories represents an example and covers only a small part of the market. In particular, the use of universal open-source software, such as [edu-sharing](https://edu-sharing.com/) \[Klebl and Krämer ([2010](#ref-klebldrecpimec2010))\] \[Klebl et al. ([2010](#ref-klebldrecpt2010))\] \[Krämer and Klebl ([2011](#ref-krameroerrne2011))\], is producing more and more decentralised metadata hubs, which can also function as repositories. Referatories usually list their various sources, which in turn provides access to a large number of repositories.
+The below list of referatories represents an example and covers only a small part of the market. In particular, the use of universal open-source software, such as [edu-sharing](https://edu-sharing.com/) \[Klebl and Krämer (2010)\] \[Klebl et al. (2010)\] \[Krämer and Klebl (2011)\], is producing more and more decentralised metadata hubs, which can also function as repositories. Referatories usually list their various sources, which in turn provides access to a large number of repositories.
 
 Table: *List of example referatories*
 
@@ -1563,7 +1568,7 @@ Data is exchanged via interfaces as part of an ETL process<br /> (extract, trans
 
 \[^8\]: Some of the information on standards was previously published by Steffen Rörtgen in various wikis ([OER Contentbuffet](https://wiki.oer-contentbuffet.info/), [OEde](https://kurzelinks.de/oede-wiki)). For the purposes of this compendium, the information has been updated and, in some cases, expanded by the authors.
 
-\[^9\]: Now considered outdated by IEEE (IEEE, 2020b). For a similar assessment, see: INVITE project ([Goertz et al. 2023, 7](#ref-goertzmiiiwswfwzebimudirii2023)).
+\[^9\]: Now considered outdated by IEEE (IEEE, 2020b). For a similar assessment, see: INVITE project (Goertz et al. 2023, 7).
 
 \[^10\]: See section “[Basic technical principles](3_technische_grundlagen?id=_35-wie-gelingt-der-datenaustausch-in-einer-vernetzten-bildungslandschaft)”
 
@@ -1571,7 +1576,7 @@ Data is exchanged via interfaces as part of an ETL process<br /> (extract, trans
 
 \[^12\]: Also: structured vocabularies ([BS 8723-2:2005](https://knowledge.bsigroup.com/products/structured-vocabularies-for-information-retrieval-guide-thesauri?version=standard)), value vocabularies ([W3C LLDIG](https://www.w3.org/2005/Incubator/lld/XGR-lld-vocabdataset-20111025/#Published_value_vocabularies)), semantic assets ([ADMS](http://www.w3.org/TR/vocab-adms/)), concept schemes ([SKOS](http://www.w3.org/TR/skos-reference)), classification ([ISO/IEC 11179-3:2023](https://www.iso.org/standard/78915.html))
 
-\[^14\]: Parts of the following section were previously covered by Steffen Rörtgen in ([Rörtgen 2023](#ref-rortgenhkpsmzhi2023)).
+\[^14\]: Parts of the following section were previously covered by Steffen Rörtgen in (Rörtgen 2023).
 
 <div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
 

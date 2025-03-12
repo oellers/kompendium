@@ -1,5 +1,4 @@
 # Kompendium - Didaktische Metadaten
-
 Dieses Repo beinhaltet den Text zu dem "Kompendium - Didaktische Metadaten", welches von Manuel Oellers und Steffen Rörtgen in Kooperation mit dem Verein “Deutscher Akademischer Austauschdienst” ([DAAD](https://www.daad.de/de/)) im Kontext des Forschungs- und Entwicklungsprojekts “[BIRD | Bildungsraum Digital](https://www.daad.de/de/der-daad/was-wir-tun/digitalisierung/bird/)” entstanden ist.
 Das Originaldokument ist unter der DOI [10.5281/zenodo.10828758](https://zenodo.org/doi/10.5281/zenodo.10828758) erschienen und dort abrufbar.
 Um die Nachnutzung zu vereinfachen, ist das Dokument in die Auszeichnungssprache "[Markdown](https://de.wikipedia.org/wiki/Markdown)" konvertiert worden.
@@ -8,7 +7,6 @@ Du kannst es dir hier ansehen (Webversion): <https://w3id.org/kim/kompendium/>
 Hier findest du das Git-Repo: <https://github.com/dini-ag-kim/kompendium/>
 
 ## Warum Markdown in git und nicht Google Docs o.ä.?
-
 Uns ist bewusst, dass auch Markdown und die Arbeit in einem Git-Repositorium ein Gatekeeper sein kann und nicht alle Menschen mit diesen Tools täglich umgehen.
 Dennoch ist es aus diversen Gründen das Format, welches am offensten ist und die breiteste Nachnutzung ermöglicht:
 
@@ -23,11 +21,9 @@ Damit auch DU in diesem Kompendium arbeiten kannst, obwohl du kein git oder Mark
 - Du lernst Markdown und einen ganz basalen Umgang mit git. Du wirst es nicht bereuen.
 
 ## Wie mit Markdown und git arbeiten?
-
 *Hier wird noch ein Tutorial folgen, das dir zeigt, wie du Änderungen vornehmen kannst. Solange empfhielt sich ein Blick in dieses [Tutorial](https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github) und diese [Einführung in die Syntax von Markdown](https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).*
 
 ## Funding
-
 <img src="./images/EU.jpg" alt="Next Generation EU" style="height: 10em; vertical-align: middle; display: block" />
 
 Die geäußerten Ansichten und Meinungen sind ausschließlich die der Autoren und spiegeln nicht unbedingt die Ansichten der Europäischen Union oder der Europäischen Kommission wider. Weder die Europäische Union noch die Europäische Kommission können für sie verantwortlich gemacht werden.
@@ -37,12 +33,10 @@ Die geäußerten Ansichten und Meinungen sind ausschließlich die der Autoren un
 <img src="./images/BMBF_Logo.png" alt="BMBF" style="height: 10em; vertical-align: middle; display: block" />
 
 ## Contributors
-
 - [Manuel Oellers](https://github.com/oellers)
 - [Steffen Rörtgen](https://github.com/sroertgen)
 
 ## License
-
 Dieses Werk steht unter der CC-BY Lizenz.
 Davon ausgenommen sind Logos oder anders markierte Inhalte.
 

@@ -1,57 +1,50 @@
-------------------------------------------------------------------------
+# 6 Zusammenfassung und Ausblick
 
-bibliography: “metadaten.json”  
-link-citations: true —
+Metadaten spielen bei der Gestaltung einer zeitgemäßen Bildungslandschaft eine zentrale Rolle und sind für eine Vielzahl von Anwendungsszenarien von Bedeutung, um die Qualität von Lehr-/Lernprozessen zu verbessern. Verschiedenste Disziplinen und Themen treffen in diesem Kontext dabei aufeinander, sodass es besonders für Einsteiger\*innen herausfordernd ist, einen Überblick zu gewinnen. Doch obwohl bereits seit der Jahrtausendwende intensive Diskussionen um die Vernetzung und den Datenaustausch im Bildungsbereich geführt werden, wurde noch kein gemeinsamer Standard gefunden, sodass schnell der Eindruck entstehen könnte, dass es keinen Fortschritt gäbe. Woran liegt das? Gibt es wirklich keinen Fortschritt in diesem Feld?
 
-# 6 Summary and outlook
+**Herausforderungen in einer digitalisierten Bildungslandschaft**
 
-Metadata plays a key role in shaping a contemporary educational landscape and is important for a variety of application scenarios to improve the quality of teaching and learning processes. A broad range of disciplines and topics come together in this context, making it challenging to gain an overview, particularly for those who are new to the subject. Yet even though there has been intensive discussion about networking and data exchange in the education sector since the turn of the millennium, a common standard has not yet been found, quickly giving rise to the impression that no progress has been made. Why is this? Has there really not been any progress in this field?
+- **Diversität der Systeme und Schnittstellen**
 
-**Challenges in a digitalised education landscape**
+> In einer digitalisierten Bildungslandschaft gibt es eine Vielzahl von Lernplattformen, Anwendungen und Tools, die für verschiedene Zwecke entwickelt wurden. Diese Systeme verwenden heterogene Schnittstellen und Protokolle, was die Interoperabilität erschwert. Wenn Plattformen nicht nahtlos miteinander kommunizieren können, entsteht eine Fragmentierung, die für einen reibungslosen Austausch von Daten zwischen den verschiedenen Systemen hinderlich ist.
 
-- **Diversity of the systems and interfaces**
+- **Fehlende einheitliche Verwendung von Standards**
 
-> In a digitalised education landscape, there is a large number of learning platforms, applications and tools that have been developed for different purposes. These systems use heterogeneous interfaces and protocols, thereby hampering interoperability. When platforms are unable to communicate seamlessly with each other, this leads to fragmentation, which hinders the smooth exchange of data between the different systems.
+> Es mangelt an einer einheitlichen Verwendung von Standards, um digitale Bildungsressourcen in Bildungsdiensten zu erfassen und auszutauschen. Dies führt zu Inkompatibilitäten beim Datenaustausch zwischen den verschiedenen Systemen. Dabei ist es ohne die Verwendung gemeinsamer Standards schwierig, Daten zu harmonisieren und in verteilten Diensten nachzunutzen.
 
-- **Lack of consistent use of standards**
+- **Heterogene Datenqualität**
 
-> There is no consistent use of standards for creating and sharing digital educational resources in educational services. This leads to incompatibilities when exchanging data between the various systems. Without the use of common standards, it is difficult to harmonise data and reuse it in distributed services.
+> In vernetzten Bildungsräumen stammen Daten aus verschiedenen Quellen und weisen häufig eine recht heterogene Qualität auf. Auch fehlende Metadaten erschweren die Suche und das Auffinden von Bildungsressourcen. Dies führt zu Herausforderungen bei der Nachnutzung.
 
-- **Heterogeneous data quality**
+**Wie werden diese Herausforderungen adressiert?**
 
-> In digital educational hubs, data comes from different sources and is often of a very heterogeneous quality. Lack of metadata also makes it difficult to search for and find educational resources. This presents challenges when it comes to reuse.
+Zunächst ist festzustellen, dass in einigen Bereichen durchaus große Fortschritte auszumachen sind. Vor allem im Rahmen der [ersten großen OER-Förderphase 2016/17](https://www.bmbf.de/bmbf/shareddocs/bekanntmachungen/de/2016/01/1132_bekanntmachung.html) entstanden einige Initiativen, die hinsichtlich Interoperabilität, Standardisierung und Wissensaustausch große Fortschritte in der Bildungslandschaft erzielen konnten. Dazu zählt auch die [OER-Metadatengruppe](https://wiki.dnb.de/display/DINIAGKIM/OER-Metadatengruppe), die mit der kollaborativen Erarbeitung von Prozessen und Standards national Maßstäbe setzt und mit ihren verwendeten Technologien auch auf EU-Ebene und international anschlussfähig ist. Seit 2022 vernetzen sich Akteure darüber hinaus im Kooperationsnetzwerk OER-förderliche Infrastrukturen und Dienste ([KNOER](https://kn-oer.de/)).
 
-**How are these challenges being addressed?**
+**Anforderungen in einem vernetzten Bildungsraum**
 
-Firstly, it should be noted that in some areas, considerable progress has indeed been made. Particularly the [first major OER funding phase in 2016/17](https://www.bmbf.de/bmbf/shareddocs/bekanntmachungen/de/2016/01/1132_bekanntmachung.html) gave rise to a number of initiatives that resulted in significant progress in terms of interoperability, standardisation and knowledge exchange. This includes the [OER metadata group](https://wiki.dnb.de/display/DINIAGKIM/OER-Metadatengruppe), which sets national standards through the collaborative development of processes and standards and, with the technologies it uses, is also compatible with EU and international standards. Since 2022, stakeholders have also been collaborating in the Cooperation Network OER Supporting Infrastructures and Services ([KNOER](https://kn-oer.de/)).
+Bildungsressourcen und andere Objekttypen müssen nicht nur technisch mit unterschiedlichen Plattformen und Lernumgebungen kompatibel sein, sondern insbesondere auch für die Zielgruppe geeignet oder zumindest adaptierbar sein. Die Wiederverwendbarkeit von Ressourcen muss bereits bei der Erstellung und Distribution von Ressourcen verstärkt berücksichtigt werden, damit eine effiziente Nachnutzung erreicht wird. Eine Modularisierung, bspw. durch kleinere Lerneinheiten[^1], gewährleistet eine flexiblere Nachnutzung. Die Wiederverwendbarkeit wird durch granulare, didaktische Komponenten verbessert. Doch die Umsetzung dieser Aspekte bei der Erstellung, der Wiederverwendung und dem Remix von Bildungsressourcen sind nicht (nur) technisch zu lösen. Erforderlich ist darüber hinaus auch ein weiträumiges Community-Management, beispielsweise in den Themenfeldern Open Educational Resources, Open Educational Practices ([Koschorreck 2018](#ref-koschorreckoepodfp2018)) und der Wahrung einer Anschlussfähigkeit an Standards. Diesen Aspekten wird allerdings oft ein geringer Stellenwert in Projekten eingeräumt und so bleibt es häufig der Initiative von Einzelpersonen überlassen, den Transfer und den Austausch von relevantem Wissen zu organisieren, speziell auch im Feld der didaktischen Metadaten.
 
-**Requirements in a digital education hub**
+**Praxiserprobung von Metadaten-Anwendungsfällen**
 
-Educational resources and other object types not only need to be technically compatible with different platforms and learning environments, but, in particular, also suitable – or at least adaptable – for the target group. Greater consideration needs to be given to the reusability of resources right from the creation and distribution stage, in order to achieve efficient reuse. Modularisation, for example, by creating smaller learning units\[^26\], ensures greater flexibility in terms of reuse. Reusability is improved with granular, didactic components. However, the implementation of these aspects in the creation, reuse and remix of educational resources is not (simply) a technological issue. In addition, extensive community management is also required, for example, in the areas of open educational resources, open educational practices (Koschorreck 2018) and maintaining compatibility with standards. However, these aspects are often given a low priority in projects and it is often left to the initiative of individuals to organise the transfer and exchange of relevant knowledge, particularly in the field of educational metadata.
+Metadaten sind dabei kein Selbstzweck, sondern dienen der Erfüllung einer konkreten Aufgabe. Dies gilt auch für didaktische Metadaten. Wenn diese Aufgabe jedoch nicht an ein konkretes Produkt oder ein Nutzungsszenario geknüpft ist, bleibt eine Diskussion eher theoretischer Natur und das Feedback zur Nützlichkeit und Verwendbarkeit aus einer konkreten Implementierung durch einen Dienst und seitens der Nutzenden fehlt. Dies hemmt Fortschritte auf diesem Feld.
 
-**Practical testing of metadata use cases**
+Hinzu kommt, dass die Rolle der didaktischen Metadaten oft unklar bleibt: Sollen die Metadaten für eine bestimmte Funktion in einer Anwendung verwendet werden oder dienen sie lediglich deskriptiv der Repräsentation und Darstellung des Objektes? Diese beiden Fragen betreffen gänzlich unterschiedliche Aspekte, die sich in der Ausprägung der Attribute und ihrer Werte widerspiegeln. Werden die Daten darüber hinaus ausgetauscht, ist dies oft mit Informationsverlust verbunden, da die Wertelisten in den Standards zum Datenaustausch unterspezifiziert sind und den kleinsten gemeinsamen Nenner beschreiben, auf den man sich geeinigt hat.
 
-Metadata is not an end in itself, but serves to fulfil a specific task. This is also true for educational metadata. However, if this task is not linked to a concrete product or a usage scenario, any discussion will remain somewhat theoretical in nature, and no feedback regarding usefulness and usability will be gained from a concrete implementation by a service or from users. This hinders progress in this field.
+**Wie entwickelt sich das Feld der didaktischen Metadaten?**
 
-In addition, the role of educational metadata often remains unclear: Is the metadata to be used for a specific function within an application or does it merely serve to describe and represent an object? These two questions relate to completely different aspects, which are reflected in the characteristics of the attributes and their values. If the data is then also exchanged, this often results in a loss of information because the value lists in the data exchange standards are under-specified and describe the lowest common denominator that has been agreed upon.
+Insgesamt zeigt die Diskussion um didaktische Metadaten in den vergangenen Jahren, dass die Standardisierung des Feldes stark von konkreten Anwendungsfällen abhängt. Es ist entscheidend, dass die Entwicklung von didaktischen Metadaten eng mit den Zielen und Anforderungen eines bestimmten Bildungskontextes verbunden ist. Während eine generische Standardisierung aufgrund des kaum herzustellenden Konsenses äußerst schwierig scheint, können und sollten für spezifische Anwendungsfälle verschiedene Attribute und Werte standardisiert werden, um auch einen Datenaustausch zu erleichtern.
 
-**How is the field of educational metadata developing?**
+Für Anwendungsfälle wie intelligente Empfehlungssysteme, die adaptive Erstellung von Lernpfaden oder auch eine Diagnostik und Förderung in digitalen Lernumgebungen sind didaktische Metadaten unerlässlich. Daher ist es wichtig, weiterhin die Entwicklung und Implementierung von didaktischen Metadaten im Bildungsbereich voranzutreiben, um eine effektive Nutzung digitaler Technologien zur Verbesserung von Lehr-/Lernprozessen zu ermöglichen.
 
-Overall, discussion on the subject of educational metadata in recent years shows that the standardisation of the field is heavily dependent on specific use cases. It is crucial that the development of educational metadata is closely linked with the aims and requirements of a particular educational context. While generic standardisation seems extremely difficult due to the lack of consensus, various attributes and values can and should be standardised for specific use cases in order to facilitate data exchange.
+Zusammenfassend kann festgestellt werden, dass Metadaten im Bildungsbereich eine wichtige Säule für die effiziente Verwaltung und Nutzung von Bildungsressourcen sind, um datenbasierte Entscheidungen zur Verbesserung von Lehr-/Lernprozessen zu treffen. Obwohl didaktische Metadaten zahlreiche Vorteile bieten, bestehen Herausforderungen in Bezug auf die Qualität, Standardisierung und den Austausch. Um diese Herausforderungen zu bewältigen und die Nutzung von Metadaten im Bildungsbereich weiter zu verbessern, sollten sich künftige Bemühungen auf mehrere Aufgabenschwerpunkte konzentrieren:
 
-Educational metadata is essential for use cases such as intelligent recommender systems, the adaptive creation of learning paths or diagnostics and support in digital learning environments. It is therefore essential that we continue to promote the development and implementation of didactic metadata in the educational sector to enable the effective use of digital technologies that will improve teaching and learning processes.
+- Standardisierung: Förderung der Entwicklung, Akzeptanz und Adoption gemeinsamer Metadatenstandards, um Konsistenz und Kompatibilität zwischen verschiedenen Bildungsdiensten zu gewährleisten.
+- Automatisierung: Etablierung von Technologien für die automatisierte Erstellung, Validierung und Aktualisierung von Metadaten, um den Prozess der Metadatenverwaltung zu rationalisieren.
+- Forschung: Untersuchung der Verwendung von didaktischen Metadaten in verschiedenen Lehr-/Lernkontexten und der Nützlichkeit sowie Wirksamkeit von Lernunterstützung oder Empfehlungssystemen zur Unterstützung personalisierter Lernerfahrungen, die auf didaktischen Metadaten basieren.
 
-In summary, metadata in education is an important pillar for the efficient management and use of educational resources in order to make data-based decisions to improve teaching and learning processes. Even though educational metadata offers numerous benefits, challenges remain in terms of quality, standardisation and exchange. To overcome these challenges and further improve the use of metadata in education, future efforts should focus on several key tasks:
+**Mitwirkung und Nachnutzung des Kompendiums**
 
-- Standardisation: promoting the development, acceptance and adoption of common metadata standards to ensure consistency and compatibility between different educational services.
-- Automation: establishing technologies for the automated creation, validation and updating of metadata in order to rationalise the process of metadata management.
-- Research: investigating the use of educational metadata in different teaching and learning contexts as well as the usefulness and effectiveness of learning support or recommender systems to support personalised learning experiences based on educational metadata.
-
-**Participation in and subsequent use of the compendium**
-
-This compendium is intended to be a starting point for further work and future development of the subject of educational metadata. To allow the document to be reused and developed further, it has been made available in a repository in a reusable format (“Markdown”). This repository also contains information on further contributions: <https://w3id.org/kim/kompendium>
-
-\[^26\]: Smaller learning units are also referred to as learning snacks, learning nuggets, learning bites or “reusable learning objects” (RLO) (Baumgartner, Häfele, and Maier-Häfele 2002).
+Dieses Werk versteht sich als Ausgangspunkt für die Weiterarbeit und künftige Entwicklung des Themas “Didaktische Metadaten”. Um das Dokument nachzunutzen und weiterzuentwickeln, wird es mit einem nachnutzbaren Format (“Markdown”) in einem Repositorium zur Verfügung gestellt. Dort finden sich auch Hinweise zur Weiterarbeit: <https://w3id.org/kim/kompendium>
 
 <div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
 
@@ -68,3 +61,5 @@ Koschorreck, Jan. 2018. “Open Educational Practices (OEP). Der DIE-Wissensbaus
 </div>
 
 </div>
+
+[^1]: Kleinere Lerneinheiten werden auch als Learning Snacks, Learning Nuggets, Lernhäppchen oder als “Reusable Learning Objects” (RLO) ([Baumgartner, Häfele, and Maier-Häfele 2002](#ref-baumgartneresadp2002)) bezeichnet.

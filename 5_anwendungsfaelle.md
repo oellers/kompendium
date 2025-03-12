@@ -1,452 +1,481 @@
-------------------------------------------------------------------------
+# 5 Anwendungsfälle didaktischer Metadaten
 
-bibliography: “metadaten.json”  
-link-citations: true —
+Um Nutzer\*innen hilfreiche Dienste im Bildungsbereich anzubieten, können verschiedene didaktische Metadaten verwendet werden. Im Folgenden werden exemplarische Anwendungsfälle beschrieben und Einsatzmöglichkeiten didaktischer Metadaten aufgezeigt. Wenn vergleichbare Dienste bestehen, werden sie exemplarisch referenziert. Grundsätzlich ist hervorzuheben, dass die Anwendungsfälle einer einzelnen, spezifischen Anwendung unter Umständen andere didaktische Metadaten und insbesondere andere Wertelisten benötigen können, als solche, die bisher Erwähnung gefunden haben.
 
-# 5 Use cases for educational metadata
+**Service-interne vs. standardisierte Attribute**
 
-Various educational metadata can be used to offer users helpful services in the field of education. The following describes exemplary use cases and shows possible applications of educational metadata. If comparable services exist, they are referenced by way of example. It should be emphasised that the use cases of an individual, specific application may require different educational metadata and, in particular, different value lists than those previously mentioned.
+An dieser Stelle sei auf die im Abschnitt “[Was sind didaktische Metadaten?”](#was-sind-didaktische-metadaten) getroffene Unterscheidung zwischen der Verwendung service-interner Attribute und standardisierter Attribute hingewiesen. Die im vorherigen Abschnitt vorgestellten Attribute stammen größtenteils aus etablierten Metadatenstandards. Sie werden explizit zum Datenaustausch verwendet, sodass sie unter Umständen unterspezifiziert sind, abhängig davon, wie heterogen die Gruppe ist, die sich auf Attribute und Wertelisten zum Austausch geeinigt hat. Service-intern können wesentlich detailliertere Attribute und Wertelisten verwendet werden. Eine solche Vielfalt kann in einem Datenaustausch jedoch nicht immer abgebildet werden.
 
-**Service-internal vs. standardised attributes**
+## 5.1 Buddy-Finder: Ich will mich vernetzen!
 
-Here, we refer you to the distinction made under “[What is educational metadata?](#was-sind-didaktische-metadaten)” between the use of service-internal attributes and standardised attributes. The attributes presented in the previous section mostly come from established metadata standards. They are used explicitly for data exchange, meaning that they may be underspecified, depending on how heterogeneous the group is that has agreed on the attributes and value lists for exchange. Much more detailed attributes and value lists can be used internally within the service. However, it is not always possible to reflect such variety in a data exchange.
+Im Bildungsbereich dient das Konzept des “Buddy Finders” zur Vernetzung und Kooperation unter Lernenden. Entsprechende Dienste zielen darauf ab, Lernpartner oder Gruppen mit ähnlichen Bildungsinteressen oder -zielen zusammenzuführen. Sie können folgende Funktionalitäten bereitstellen:
 
-## 5.1 Buddy finder: how to network
+- **Förderung der Vernetzung unter Lernenden**: Bildungsdienste bieten eine Plattform, die es ermöglicht, Kontakte zwischen den Lernenden herzustellen, basierend auf gemeinsamen Interessen und Bildungszielen.
+- **Gegenseitige Unterstützung und kollaboratives Lernen**: Die Dienste erleichtern die Bildung von Lerngemeinschaften, um Herausforderungen gemeinsam zu bewältigen, Wissen auszutauschen und an Projekten zu arbeiten.
+- **Soziale Inklusion:** Besonders in größeren, neuen oder verteilten Lernumgebungen können Bildungsdienste die Lernenden dabei unterstützen, soziale Kontakte zu knüpfen und sich in die Gemeinschaft zu inkludieren.
+- **Anpassung an spezifische Lernbedürfnisse**: Einige Buddy-Finder-Systeme bieten personalisierte Suchfunktionen an, die es den Nutzer\*innen ermöglichen, Lernpartner\*innen basierend auf spezifischen Kriterien wie Sprachfähigkeiten oder Studienrichtungen zu finden.
+- **Nutzung digitaler Technologien**: Im Kontext des E-Learnings integrieren Buddy-Finder-Systeme digitale Werkzeuge, um die Vernetzung und Zusammenarbeit auch in virtuellen Lernumgebungen zu unterstützen.
 
-In the field of education, the “buddy finder” concept is used for networking and cooperation among learners. Such services aim to bring together learning partners or groups with similar educational interests or goals. They can provide the following functions:
+Buddy-Finder-Services tragen zur Steigerung der Interaktion, des Austauschs und der Kooperation unter Lernenden bei, was sich positiv auf die Lernerfahrung und die akademische Leistung auswirken kann. Denkbar und bereits umgesetzt sind dabei Dienste für folgende Nutzungsszenarien:
 
-- **Promoting networking among learners**: Educational services provide a platform that allows contacts to be made between learners based on common interests and educational goals.
-- **Mutual support and collaborative learning**: The services facilitate the formation of learning communities to overcome challenges together, exchange knowledge and collaborate on projects.
-- **Social inclusion:** Particularly in larger, new or distributed learning environments, educational services can support learners in establishing social connections and becoming included in the community.
-- **Adaptation to specific learning needs**: Some buddy finder systems offer personalised search functions that enable users to find learning partners based on specific criteria such as language skills or fields of study.
-- **Use of digital technologies**: In the context of e-learning, buddy finder systems integrate digital tools to support networking and collaboration in virtual learning environments.
+- Miteinander und voneinander lernen (Peer-Learning)
+  - Sprachen lernen
+    - mit Sprachpartner\*innen
+    - mit Service / KI
+  - Themenbasiert lernen
+    - Lerngruppe finden
+    - Austausch von Zusammenfassungen
+    - Klausurvorbereitung
+- Förderung und Nachhilfe (Tutoring) (online/vor Ort)
+  - Beantwortung individueller Einzelfragen
+- Bildung des persönlichen sozialen Netzwerks
+  - Menschen in ähnlichem Bildungsabschnitten oder Bildungseinrichtungen themenübergreifend kennenlernen
+  - informelles Lernen (Freizeit)
 
-Buddy finder services help to increase interaction, mutual exchange and cooperation among learners, which can have a positive impact on the learning experience and academic performance. Services for the following usage scenarios are conceivable and have already been implemented:
+**Liste exemplarischer Diensten für die genannten Nutzungsszenarien**
 
-- Learning with and from others (peer learning)
-  - Learning languages
-    - With language partners
-    - With a service/AI
-  - Topic-based learning
-    - Finding learning groups
-    - Exchanging summaries
-    - Exam preparation
-- Support and private tutoring (online / in person)
-  - Answering individual questions
-- Creating a personal social network
-  - Getting to know people in similar educational stages or educational institutions across different topics
-  - Informal learning (leisure time)
+> **Miteinander und voneinander lernen**
 
-**List of example services for the aforementioned usage scenarios**
+- Sprachen lernen
+  - [Babbel.com](https://www.babbel.com/), [Duolingo](https://de.duolingo.com/), [Interpals.net](https://www.interpals.net/), [HiLokals.com](https://www.hilokal.com/), [Speaky.com](https://www.speaky.com/), [Lingbe.com](https://www.lingbe.com/), [hellotalk.com](https://www.hellotalk.com/), [MyLanguageExchange.com](https://www.mylanguageexchange.com/), [Fluento](https://www.fluento.com/), [Preply.com](https://preply.com/), uvm.
+- Themenbasiert lernen
+  - Allgemeine Lernpartner\*innen, Lerngruppen
+    - [Peer 2 Peer University](https://www.p2pu.org/en/learning-circles/) (Learning Circles), [StudyTogether](https://www.studytogether.com/), [Lernpartnerbörse KIT](https://lernpartnerboerse.hoc.kit.edu/), [Edukatico - WeLearning](https://www.edukatico.org/de/welearning/about), [Lerngruppen-App (FernUniversität Hagen)](https://www.fernuni-hagen.de/studium/fernstudieren/lerngruppen-app.shtml), uvm.
+    - [studyprosc](https://www.studyprosc.de/), [studydrive](https://www.studydrive.net/), [unidog.de](https://www.unidog.de/), [StuDocu](https://www.studocu.com/de), uvm.  
+      (inkl. Austausch von Klausurvorbereitungen und Zusammenfassungen o.ä.)
+  - Kurse
+    - [OpenHPI](https://open.hpi.de/), [LinkedIn Learning](https://de.linkedin.com/learning/), uvm.
 
-> **Peer learning**
+> **Förderung und Nachhilfe (Tutoring)**
 
-- Learning languages
+- Allgemein
+  - [GoStudent](https://www.gostudent.org/), [Schülerhilfe](https://www.schuelerhilfe.de/), [Nachhilfe.de - Das Vergleichsportal](http://nachhilfe.de/), [Studienkreis](https://www.studienkreis.de/), [(eBay) Kleinanzeigen](https://www.kleinanzeigen.de/), uvm.
+- KI-basierte Systeme, u.a. zur Beantwortung individueller Einzelfragen
+  - GPTs von [OpenAI](https://openai.com/)
+  - [StuddyBuddy für berufliche Weiterbildung](https://study-buddy-research.de/) (BMBF)
 
-  - [Babbel.com](https://www.babbel.com/), [Duolingo](https://de.duolingo.com/), [Interpals.net](https://www.interpals.net/), [HiLokals.com](https://www.hilokal.com/), [Speaky.com](https://www.speaky.com/), [Lingbe.com](https://www.lingbe.com/), [hellotalk.com](https://www.hellotalk.com/), [MyLanguageExchange.com](https://www.mylanguageexchange.com/), [Fluento](https://www.fluento.com/), [Preply.com](https://preply.com/), etc.
+> **Bildung des persönlichen sozialen Netzwerks (Networking)**
 
-- Topic-based learning
+- Menschen in ähnlichem Bildungsabschnitten oder Bildungseinrichtungen themenübergreifend kennenlernen
+  - XING, LinkedIn, uvm.
+- informelles Lernen (Freizeit)
+  - [Buddy.me](http://buddy.me), [spontacts](https://spontacts.com/p/freizeitpartner-finden), [friendseek.com](http://friendseek.com), uvm.
 
-  - General learning partners, learning groups
-    - [Peer 2 Peer University](https://www.p2pu.org/en/learning-circles/) (learning circles), [StudyTogether](https://www.studytogether.com/), [Lernpartnerbörse KIT](https://lernpartnerboerse.hoc.kit.edu/), [Edukatico - WeLearning](https://www.edukatico.org/de/welearning/about), [Lerngruppen-App (FernUniversität in Hagen)](https://www.fernuni-hagen.de/studium/fernstudieren/lerngruppen-app.shtml), etc.
-    - [studyprosc](https://www.studyprosc.de/), [studydrive](https://www.studydrive.net/), [unidog.de](https://www.unidog.de/), [StuDocu](https://www.studocu.com/de), etc.  
-      (incl. exchange of exam preparations and summaries etc.)
-  - Courses
-    - [OpenHPI](https://open.hpi.de/), [LinkedIn Learning](https://de.linkedin.com/learning/), etc.
+Zur Umsetzung der genannten Nutzungsszenarien ist der Einsatz verschiedener didaktischer Metadaten möglich. Dabei muss beachtet werden, dass es sich hierbei um Services handelt, bei denen *nicht* der Datenaustausch im Vordergrund steht. Sie setzen daher auf Attribute und Wertelisten, die sich für ihren Use Case am besten eignen. Diese können an standardisierte Wertelisten angelehnt sein, werden aber zumeist spezifisch an den Dienst angepasst und ausgestaltet. Die gelisteten und etablierten Dienste sind teilweise kommerziell und müssen ihren Nutzer\*innen den bestmöglichen Service sowie verständliche Nutzungsoberflächen zur Verfügung stellen, um sich am Markt zu behaupten. In der Liste exemplarischer Dienste wird deutlich, dass sich die meisten Anbieter qualitativ auf einzelne Nutzungsszenarien spezialisieren und nicht alle vorstellbaren Nutzungsszenarien verwirklichen.
 
-> **Support and private tutoring**
+Buddy-Finder-Services agieren im sozialen Bereich, indem sie Menschen miteinander in Kontakt bringen, die gemeinsam oder voneinander lernen wollen.[^1] Die didaktischen Metadaten, die bei Nutzung der Services erhoben werden, sind recht reduziert und beschränken sich überwiegend auf Sprache und Sprachniveau (bei Diensten zum Erlernen einer Sprache), Fach und Thema und bisweilen Bildungskontext oder Abschluss (insbesondere bei Nachhilfe). Die weitere Passung der jeweiligen Buddys wird sodann unter den Nutzer\*innen sondiert. Neben diesen Daten werden oft weitere, personenbezogene Daten erhoben (Name, E-Mail etc.), die jedoch nicht den didaktischen Metadaten zugehörig sind.
 
-- General
+**Exemplarische Metadaten**
 
-  - [GoStudent](https://www.gostudent.org/), [Schülerhilfe](https://www.schuelerhilfe.de/), [Nachhilfe.de - Das Vergleichsportal](http://nachhilfe.de/), [Studienkreis](https://www.studienkreis.de/), [(eBay) Kleinanzeigen](https://www.kleinanzeigen.de/), etc.
+- Sprachen lernen: Sprache, Sprachniveau, (Ort)
+- Lerngruppen / Lernpartner finden: Fach / Thema, (Kurs)
+- Nachhilfe: Fach / Thema, Bildungskontext, Abschluss, (Preis)
 
-- AI-based systems, for example, for answering individual questions
+## 5.2 Persönliche Lernpfade: Wie geht es jetzt weiter?
 
-  - GPTs from [OpenAI](https://openai.com/)
-  - [StuddyBuddy for professional development](https://study-buddy-research.de/) (BMBF)
+Empfehlungen zu passenden Lernpfaden helfen Lernenden, ein Lernziel oder Thema systematisch zu durchdringen, um ihre Lernziele zu erreichen ([Raj and Renumol 2024](#ref-rajialprmdrla2024)). Doch woher stammen Lernpfade, was kennzeichnet sie und wie kann eine Empfehlung für einen Lernpfad erfolgen?
 
-> **Creating a personal social network (networking)**
+### 5.2.1 Bildungsreise: Was ist ein Lernpfad?
 
-- Getting to know people in similar educational stages or educational institutions across different topics
+Die Metapher der Bildungsreise ermöglicht eine erste Vorstellung der Ausgestaltung von möglichen Lernpfaden: So können auf einer Reise verschiedene Wege an das Ziel führen, Erfahrungen gemacht und Etappenziele erreicht werden, es müssen jedoch womöglich auch Hürden überwunden und Entscheidungen für Routen getroffen werden, die sich je nach persönlichen Voraussetzungen unterschiedlich eignen.
 
-  - XING, LinkedIn, etc.
+Das Konzept findet sich bereits zu Beginn des E-Learnings: Lernpfade stellen dabei für Lernende und Lehrende eine inhaltlich und zeitlich sinnvolle Strukturierung eines Lernverlaufs innerhalb und zwischen Lernaktivitäten sowie Lernressourcen dar, welche zum Erreichen eines Lernzieles verwendet werden ([Canter, Rivers, and Storrs 1985](#ref-cantercuncds1985)) ([Jih 1996](#ref-jihilplpmcal1996)).
 
-- Informal learning (leisure time)
+Lernpfade werden dabei besonders im mathematisch-naturwissenschaftlichen Bereich diskutiert ([Goldman 2020](#ref-goldmanlphlco2020)) ([Hillmayr et al. 2017](#ref-hillmayrdmimuseuuw2017)) ([Schmidt 2009](#ref-schmidtsldl2009)). Roth (2014) verweist auf exemplarische Lernpfade, die von Lehrenden für Lernende bereitgestellt wurden, indem einzelne Lernhilfen zu einem zusammenhängenden Gesamtkonzept vereint wurden, um Lernprozesse zu organisieren ([Roth 2014](#ref-rothldguu2014), S. 4-5).
 
-  - [Buddy.me](http://buddy.me), [spontacts](https://spontacts.com/p/freizeitpartner-finden), [friendseek.com](http://friendseek.com), etc.
+Roth (2014) führt dabei mehrere Definitionen des Lernpfades wie folgt zusammen:
 
-Various educational metadata can be used to implement the usage scenarios mentioned above. It is important to note that these are services that do *not* focus on data exchange. They are therefore based on attributes and value lists that are best suited to their use case. These can be based on standardised value lists, but are usually adapted and designed specifically for the service. The listed and established services are partly commercial and must provide their users with the best possible service and comprehensible user interfaces in order to assert themselves on the market. The list of example services makes it clear that most providers specialise in individual usage scenarios and do not implement all conceivable usage scenarios.
+> *“Ein Lernpfad ist eine internetbasierte Lernumgebung, die mit einer Sequenz von aufeinander abgestimmten Arbeitsaufträgen strukturierte Pfade durch interaktive Materialien (z. B. Applets) anbietet, auf denen Lernende handlungsorientiert, selbsttätig und eigenverantwortlich auf ein Ziel hin arbeiten. Da die Arbeitsaufträge eine Bausteinstruktur aufweisen, können die Lernenden jeweils für ihren Leistungsstand geeignete auswählen. Durch individuell abrufbare Hilfen und Ergebniskontrollen sowie die regelmäßigen Aufforderungen zum Formulieren von Vermutungen, Experimentieren, Argumentieren sowie Reflektieren und Protokollieren der Ergebnisse in den Arbeitsaufträgen wird, die eigenverantwortliche Auseinandersetzung mit dem Lernpfad explizit gefördert.” ([Roth 2014](#ref-rothldguu2014), S. 7)*
 
-Buddy finder services operate in the social sphere by bringing together people who want to learn together or from each other.[^22](Software%20or%20AI-based%20buddy%20finders,%20which%20sometimes%20integrate%20a%20social%20component%20with%20gamification%20elements%20and%20ranking%20lists,%20represent%20an%20exception.) The educational metadata collected when using the services is quite limited and is mostly restricted to language and language level (in the case of language learning services), subject and topic and sometimes educational context or qualification (especially for tutoring). The further suitability of the respective buddies is then established among the users. In addition to this data, other personal data is often collected (name, e-mail, etc.), which, however, does not belong to the educational metadata.
+Kerres & Buntins (2020) verbinden Lernpfade mit dem Instruktionsdesign (*Instructional Design*), das eine Sequenzierung der präsentierten Inhalte, eine Zuordnung von Lernaktivitäten und die Überwachung des Lernfortschritts beinhaltet ([Kerres and Buntins 2020](#ref-kerresralapid2020), S. 101f). Erste Varianten intelligenter Vorschlagssysteme wurden verwendet, um den Lernerfolg zu messen und daran anschließende Lernerfahrungen anzupassen (Kerres & Buntins, 2020) oder Lernpfade dynamisch in Echtzeit zu generieren. Konkrete Versuche zur praktischen Umsetzung eines solchen Ansatzes waren in der Vergangenheit kaum sichtbar, erzielten in Metaanalysen teilweise nur geringe Effekte und galten daher zunächst als wenig aussichtsreich ([Kerres and Buntins 2020](#ref-kerresralapid2020), S. 102). Als Ursache dafür wurde der Mangel validierter Ontologien für die Klassifikation von Lerninhalten und Lernaktivitäten sowie ferner die fehlende Wissensbasis für die Abfolge von Lerneinheiten ausgemacht ([Kerres and Buntins 2020, S.102](#ref-kerresralapid2020)).[^2]
 
-**Examples of metadata**
+In jüngster Zeit taucht jedoch wieder die Frage auf, inwieweit maschinell generierte Empfehlungen auch Lernende bei der Auswahl von Lernressourcen oder bei der Lernerfahrung unterstützen könnten. Dabei regulieren Empfehlungssysteme (*Recommender Systems*) den Lernprozess nicht direkt, sondern überlassen die Entscheidungen den Lernenden und empfehlen lediglich mögliche Lernpfade ([Kerres and Buntins 2020](#ref-kerresralapid2020), S. 103-104).
 
-- Learning languages: language, language level, (location)
-- Finding learning groups / learning partners: subject/topic, (course)
-- Tutoring: subject/topic, educational context, qualification, (price)
+### 5.2.2 Linear, adaptiv oder Empfehlungssystem – Wo liegen Herausforderungen für Lernpfade?
 
-## 5.2 Personal learning paths: What are the next steps?
+Grundsätzlich können drei Aspekte bei Lernpfaden unterschieden werden:
 
-Recommendations for suitable learning paths help learners to systematically explore a learning objective or topic in order to achieve their learning goals (Raj and Renumol 2024). But where do learning paths come from, what characterises them and how can a recommendation for a learning path be made?
+- lineare Lernpfade
+- adaptive Lernpfade
+- Empfehlungssysteme für Lernpfade
 
-### 5.2.1 Educational journey: What is a learning path?
+Lineare Lernpfade sind als eher statische Abfolge von Lerneinheiten konzipiert, die sich nicht an den aktuellen Bedürfnissen der Lernenden orientieren. Adaptive Lernpfade bieten daher einen höheren Individualisierungsgrad, indem Lernumgebungen ermöglichen, anderweitige Inhalte oder Schritte vorzuschlagen, abhängig vom individuellen Lernverhalten und Kontext. Zusätzlich entstehen Empfehlungssysteme, die den Lernenden verschiedene mögliche Lernpfade vorschlagen.
 
-The metaphor of the educational journey provides an initial idea for​the design of possible learning paths: On a journey, different paths can lead to the destination, experiences can be made and milestones can be reached, but hurdles may also have to be overcome and decisions made regarding specific routes, which may be more or less suitable depending on personal circumstances.
+**Adaptivität von Lernpfaden**
 
-The concept can be found right at the beginning of the e-learning programme: For learners and teachers, learning paths represent a meaningful structuring of a learning process within and between learning activities and learning resources that are used to achieve a learning goal. (Canter, Rivers, and Storrs 1985) (Jih 1996).
+Während bei Roth (2014) die Adaptivität bei Lernpfaden noch keine Erwähnung findet, ist diese im aktuellen Diskurs um Lernpfade bereits präsenter. Die Adaptivität wird dabei in Bezug auf Maßnahmen zur Unterstützung von Lernprozessen und Interaktionen der Lernenden erforscht und diskutiert ([Delaunay 2022](#ref-delaunayoglfasg2022)) ([Ezzaim et al. 2023](#ref-ezzaimaalsml2023)) ([Jing et al. 2023](#ref-jingrlalebsrp222023)) ([Kabudi, Pappas, and Olsen 2021](#ref-kabudiaalssml2021)) ([Kurilovas, Zilinskiene, and Dagiene 2014](#ref-kurilovasrslsalpisba2014)) ([Kurilovas, Zilinskiene, and Dagiene 2014](#ref-kurilovasrslsalpisba2014)) ([Normann et al. 2023](#ref-normannalpsblsns2023)) ([Pfaffmann and Roth 2022](#ref-pfaffmanneukuluzeundl2022)) ([Rahayu, Ferdiana, and Kusumawardani 2023](#ref-rahayusrlprs2023)) ([Raj and Renumol 2022](#ref-rajslracrple222022)) ([Raj and Renumol 2024](#ref-rajialprmdrla2024)).
 
-Learning paths are discussed particularly in the mathematical and scientific fields (Goldman 2020) (Hillmayr et al. 2017) (Schmidt 2009). Roth (2014) refers to example learning paths that have been provided by teachers for learners by combining individual learning aids into a coherent overall concept in order to organise learning processes (Roth 2014, 4–5).
+Bei der Gestaltung von Lernpfaden können verzweigte Lernwege integriert werden, die es beispielsweise ermöglichen, nachfolgende Aufgaben zu differenzieren, basierend auf der Evaluation des bisherigen Lernerfolgs, des Lernverhaltens oder anderer Faktoren. Um den individuellen Bedürfnissen von Lehrenden und Lernenden gerecht werden zu können, ist die adaptive Bereitstellung von Inhalten eine vielversprechende Strategie.
 
-Roth (2014) combines several definitions of the learning path as follows:
+Einen höheren Grad an Selbstbestimmung bieten womöglich Empfehlungssysteme für (KI-generierte)[^3] Lernpfade, deren Funktionsweise, Möglichkeiten und Grenzen im Bildungsbereich aktuell ausgelotet werden ([Kerres and Buntins 2020](#ref-kerresralapid2020)) ([Reichow et al. 2022](#ref-reichowrbwghuhdiri2022)). Diese Systeme schlagen Lernpfade vor, generieren diese jedoch nicht eigenständig. Ontologie-basierte Methoden sind erfolgsversprechend bezüglich personalisierten Empfehlungssystemen ([Raj and Renumol 2024](#ref-rajialprmdrla2024)).
 
-> *“A learning path is an internet-based learning environment that offers structured paths through interactive materials (e.g. applets) with a sequence of coordinated work assignments on which learners work towards a goal in an action-oriented, independent and autonomous manner. Since the work assignments have a modular structure, learners can select those that are suitable for their level of ability. Through individually accessible help and result controls as well as regular requests to formulate assumptions, experiment, argue as well as reflect and record the results in the work assignments, the independent engagement with the learning path is explicitly encouraged.” \[Roth (2014), p. 7\]*
+**Exemplarische Funktionsweisen von Vorschlagssystemen**
 
-Kerres & Buntins (2020) combine learning paths with *instructional design*, which includes sequencing of presented content, assignment of learning activities and monitoring of learning progress (Kerres and Buntins 2020, 101f). The first variants of intelligent recommender systems were used to measure learning success and adapt subsequent learning experiences accordingly (Kerres & Buntins, 2020) or to generate learning paths dynamically in real time. Concrete attempts to implement such an approach in practice were barely visible in the past, achieved only minor effects in some meta-analyses and were therefore initially considered unpromising (Kerres and Buntins 2020, 102). The absence of validated ontologies for the classification of learning content and learning activities and the lack of a knowledge base for the sequence of learning units were identified as the reasons for this (Kerres and Buntins 2020, 102).\[^23\]
+Vorschlagssysteme können Lehrende dabei unterstützen, erfolgreiche Lernpfade zu erstellen, um personalisiertes Lernen zu ermöglichen, beispielsweise indem Lernende anhand verschiedener Faktoren gruppiert werden, um diesen adaptiv Feedback bereitzustellen ([Jyothi et al. 2012](#ref-jyothirsaiblppls2012)). Um [Lerntypen](#lerntypen-lernstile) zu klassifizieren, werden verschiedene didaktische Metadaten aus den Lernumgebungen extrahiert ([Felder and Silverman 1988](#ref-felderltsee1988)) ([Jamali and Mohamad 2018](#ref-jamalidlses2018)) ([Jyothi et al. 2012](#ref-jyothirsaiblppls2012)). Vorschlagssysteme für Lernende versuchen bisweilen auch die Lernpräferenzen und Interessen zu berücksichtigen ([Ma et al. 2023](#ref-malrrkglsc2023)). Ebenso ist die Beziehung zwischen den Ressourcen relevant, etwa die semantische Struktur eines Sachgebiets, wie z. B. etwaige Ähnlichkeitsmaße zwischen Inhalten. Ebenso können Lernpfade anderer Lerner berücksichtigt werden, die vergleichbare Merkmale aufweisen ([Jyothi et al. 2012](#ref-jyothirsaiblppls2012)) ([Zhu et al. 2018](#ref-zhumlprabkm2018)). Ursprüngliche Verfahren zur Erhebung von Faktoren zur Bereitstellung von Vorschlagssystemen basieren häufig auf entwickelten Fragebögen zur Charakterisierung des Lernenden. Neuere Verfahren versuchen diese Faktoren unmittelbar aus den Lernumgebungen zu ermitteln (bspw. mittels Learning Analytics).
 
-Recently, however, the question has re-emerged as to the extent to which machine-generated recommendations could also support learners in the selection of learning resources or in the learning experience. *Recommender systems* do not directly regulate the learning process, but leave the decisions to the learners and merely recommend possible learning paths (Kerres and Buntins 2020, 103–4).
+**Varianten zur Generierung von Lernpfaden**
 
-### 5.2.2 Linear, adaptive or recommender system: Where do the challenges for learning paths lie?
+Die Generierung und Analyse individueller und adaptiver Lernpfade innerhalb digitaler Lernumgebungen wird in zahlreichen Forschungsbestrebungen in unterschiedlichen Kontexten untersucht ([Kabudi, Pappas, and Olsen 2021](#ref-kabudiaalssml2021)) ([Oellers, Junker, and Holodynski 2024](#ref-oellersilpmtpv2024)) ([Rahayu, Ferdiana, and Kusumawardani 2023](#ref-rahayusrlprs2023)) ([Raj and Renumol 2024](#ref-rajialprmdrla2024)) ([Rivera Muñoz, Berríos, and Arias-Gonzáles 2022](#ref-riveramunozsraltlhe2022)), wie auch die etwaigen potenziellen Unterstützungsmaßnahmen auf diesen Lernwegen und die Auswirkungen diverser Faktoren auf den Lernerfolg (vgl. [Visible Learning Meta<sup>X</sup>](https://www.visiblelearningmetax.com/), [Hattie-Wiki: Faktoren](https://web.fhnw.ch/plattformen/hattie-wiki/begriffe/Kategorie:Faktoren)) ([Hattie 2023](#ref-hattievlss1mra2023)). Eine Lernunterstützung kann neben einer adaptiven Sequenzierung vielfältig ausgestaltet sein, z. B. mittels Scaffolding, Feedback, Prompting oder Cueing im Lernprozess (vgl. auch: [Lernumgebungen: Diagnostik und Förderung](#lernumgebungen-diagnostik-und-förderung)).
 
-Essentially, three aspects of learning paths can be distinguished:
+Die Generierung von Lernpfaden kann durch Menschen erfolgen, aber auch durch Maschinen, wenngleich die maschinelle Form der Generierung nach Kerres bislang eher bei theoretischen Prototypen geblieben ist ([Kerres and Buntins 2020](#ref-kerresralapid2020), S. 102). Während Lehrende auf ihren Erfahrungsschatz bei der Erstellung von Lernpfaden zurückgreifen können, um einzuschätzen, welcher Arbeitsauftrag auf einen anderen folgt, können Maschinen auf diese Erfahrungen bisher nicht systemisch zugreifen. Eine solche Erfahrung ließe sich zwar durch die Erhebung konkreter Lehr- und Lernmuster gewinnen, ist jedoch in der Praxis mit vielfältigen Hürden verbunden, wie zum Beispiel dem unerwünschten Erlernen unproduktiven, menschlichen Lernverhaltens, etwa beim Training einer künstlichen Intelligenz. Lernförderliche Sequenzierungen durch Lehrende sind daher unter Umständen vielversprechender.
 
-- Linear learning paths
-- Adaptive learning paths
-- Recommender systems for learning paths
+**Voraussetzungen und Herausforderungen für Empfehlungssysteme**
 
-Linear learning paths are designed as a static sequence of learning units that are not oriented towards the current needs of learners. Adaptive learning paths therefore offer a higher degree of individualisation by allowing learning environments to suggest different content or steps depending on the individual learning behaviour and context. In addition, recommender systems are being developed that suggest different possible learning paths to learners.
+Für eine aussichtsreiche, automatisierte Empfehlung müssen technisch verschiedene Grundbedingungen erfüllt werden, unter anderem eine verlässliche Datengrundlage, auf deren Basis die Maschine lernen kann sowie strukturierte Daten, die die relevanten Datenfelder für eine Empfehlung betreffen ([Reichow et al. 2022](#ref-reichowrbwghuhdiri2022), S. 15-17). Die Schaffung einer entsprechenden Datengrundlage ist dabei nicht trivial, da einerseits die Maschine leicht auch unerwünschtes Verhalten lernen kann, andererseits große Mengen an Daten benötigt werden, um verlässliche Empfehlungen auszusprechen ([Reichow et al. 2022](#ref-reichowrbwghuhdiri2022), S. 6-8, 16).
 
-**Adaptivity of learning paths**
+Aber auch die Bereitstellung qualitativ hochwertiger strukturierter Daten ist mit zahlreichen Herausforderungen verbunden. Die Lernobjekte müssen mit didaktischen Metadaten (z. B. Kompetenzen) verknüpft werden, die ihrerseits entsprechende semantische Beziehungen aufweisen, zum Beispiel Abhängigkeiten wie Kompetenzvoraussetzungen. Ohne die Auszeichnung entsprechender Abhängigkeiten ist eine Umsetzung von adaptiven Eigenschaften schwierig umzusetzen.
 
-While Roth (2014) fails to mention adaptivity in learning paths, it is already more present in the current discourse on learning paths. Adaptivity is being researched and discussed in relation to measures to support learning processes and learner interactions (Delaunay 2022) (Ezzaim et al. 2023) (Jing et al. 2023) (Kabudi, Pappas, and Olsen 2021) (Kurilovas, Zilinskiene, and Dagiene 2014) (Kurilovas, Zilinskiene, and Dagiene 2014) (Normann et al. 2023) (Pfaffmann and Roth 2022) (Rahayu, Ferdiana, and Kusumawardani 2023) (Raj and Renumol 2022) (Raj and Renumol 2024).
+Die Verknüpfung von Lernobjekten mit Kompetenzen sowie die technische Abbildung sind in praktischen Implementierungen bisher kaum etabliert. In der Initiative “Mein Bildungsraum” befasst sich das [CoKoMo](https://cokomo-it.de/docs/start/)-Projekt mit diesem Thema und entwickelt ein Wissensmodell sowie eine Anwendung, um Wissen und Kompetenzen zu modellieren und anschließend maschinenlesbar zur Verfügung zu stellen.
 
-When designing learning paths, branched learning paths can be integrated, which, for example, make it possible to differentiate subsequent tasks based on the evaluation of previous learning success, learning behaviour or other factors. The adaptive provision of content is a promising strategy for meeting the individual needs of teachers and learners.
+Die Verknüpfungen und Abhängigkeiten von Kompetenzen sind elementar für die Erstellung von Lernpfaden und Empfehlungssystemen im Bildungsbereich, da sie anders funktionieren als Empfehlungssysteme, die wir im Alltag nutzen (bspw. Inhaltsempfehlungen von Spotify oder Netflix oder Produktempfehlungen von Amazon) ([Kerres and Buntins 2020](#ref-kerresralapid2020), S. 107).
 
-Recommender systems for (AI-generated)\[^24\] learning paths – the functionality, possibilities and limits of which are currently being explored in the education sector – may offer a higher degree of self-determination (Kerres and Buntins 2020) (Reichow et al. 2022). These systems suggest learning paths but do not generate them independently. Ontology-based methods show promise with regard to personalised recommender systems (Raj and Renumol 2024).
+Nach Verwendung eines Lernobjektes kommt nicht jedes beliebige weitere Objekt in Frage, sondern eines, das auf diesem aufbaut und Lernende einen Schritt näher an das gesetzte Lernziel bringt. Zusätzlich muss beachtet werden, dass durch die reine Verwendung eines Lernobjektes nicht davon ausgegangen werden kann, dass ein Lernziel auch erreicht wurde. Um Lernende auf einem lernförderlichen Pfad zu halten, muss demnach kontinuierlich überprüft werden, ob entsprechende Lernziele erreicht wurden (z. B. Kompetenzen vorhanden sind), auf Grund derer automatisiert entsprechende weitere Lernobjekte (oder Lernpfade) vorschlagen werden.
 
-**Examples of how recommender systems work**
+Die eingesetzten Technologien für Empfehlungssysteme, aber auch für die Erstellung von Lernpfaden, reichen dabei von statistischen Methoden bis zu komplexen neuronalen Netzen. Bei letzterem Vorgehen ist zum Teil nicht mehr konkret nachvollziehbar, weshalb entsprechende Empfehlungen ausgesprochen werden, womit zugleich ethische Herausforderungen einhergehen ([Kerres and Buntins 2020](#ref-kerresralapid2020), S. 108f) ([Reichow et al. 2022](#ref-reichowrbwghuhdiri2022), S. 8f.).
 
-Recommender systems can help teachers to create successful learning paths in order to facilitate personalised learning, for example, by grouping learners based on different factors as a means of providing adaptive feedback \[Jyothi et al. (2012)\]. In order to classify [learning types](#lerntypen-lernstile), various educational metadata is extracted from the learning environments \[Felder and Silverman (1988)\] \[Jamali and Mohamad (2018)\] \[Jyothi et al. (2012)\]. Recommender systems for learners sometimes also try to take learning preferences and interests into account \[Ma et al. (2023)\]. The relationship between the resources is also relevant, for example, the semantic structure of a subject area, such as any similarity measures between content. Learning paths of other learners with comparable characteristics can also be taken into account \[Jyothi et al. (2012)\] \[Zhu et al. (2018)\]. The original methods for collecting factors for the provision of recommender systems are often based on questionnaires developed to characterise the learner. Newer methods attempt to determine these factors directly from the learning environments, for example, using learning analytics.
+Obwohl Technologien und Theorien vorliegen, um diesen Herausforderungen zu begegnen, ist es nicht trivial einen entsprechenden Service zu entwickeln:
 
-**Variants for generating learning paths**
+- Die Kompetenzkataloge liegen häufig in keiner maschinenlesbaren Fassung vor.
+- Kompetenzkataloge unterscheiden sich aufgrund föderaler oder institutioneller Strukturen teilweise stark. Um übergreifende Services anzubieten, ist ein entsprechendes Mapping nötig.
+- Lernobjekte sind nicht mit Kompetenzmetadaten verknüpft.
 
-The generation and analysis of individual and adaptive learning paths within digital learning environments is being investigated in numerous research projects in different contexts \[Kabudi, Pappas, and Olsen (2021)\] \[Oellers, Junker, and Holodynski (2024)\] \[Rahayu, Ferdiana, and Kusumawardani (2023)\] \[Raj and Renumol (2024)\] \[Rivera Muñoz, Berríos, and Arias-Gonzáles (2022)\], as are any potential support measures on these learning paths and the impact of various factors on learning success (see [Visible Learning Meta<sup>X</sup>](https://www.visiblelearningmetax.com/), [Hattie-Wiki:](https://web.fhnw.ch/plattformen/hattie-wiki/begriffe/Kategorie:Faktoren)[](https://web.fhnw.ch/plattformen/hattie-wiki/begriffe/Kategorie:Faktoren)[Faktoren](https://web.fhnw.ch/plattformen/hattie-wiki/begriffe/Kategorie:Faktoren)) \[Hattie (2023)\]. In addition to adaptive sequencing, learning support can be designed in a variety of ways, for example, using scaffolding, feedback, prompting or cueing in the learning process (see also [Learning environments:](#lernumgebungen-diagnostik-und-förderung)[](#lernumgebungen-diagnostik-und-förderung)[diagnostics and support](#lernumgebungen-diagnostik-und-förderung)).
+<img src="./images/5_medienkompetenzrahmen_nrw.png" alt="Zusammenhänge zwischen Kompetenzen mit Elementen aus dem Medienkompetenzramen NRW" />
 
-Learning paths can be generated by humans, but also by machines, even though Kerres states that the machine form of generation has so far remained more of a theoretical prototype (Kerres and Buntins 2020, 102). While teachers can draw on their wealth of experience in creating learning paths to assess which work assignment follows another, machines cannot yet draw upon such experience. Although this experience could be gained by collecting concrete teaching and learning patterns, in practice it is associated with a range of hurdles, such as the unwanted learning of unproductive human learning behaviour, for example, when training artificial intelligence. Learning-enhancing sequencing by teachers may therefore be more promising.
+Grafik: *Zusammenhänge zwischen Kompetenzen mit Elementen aus dem Medienkompetenzramen NRW ([Blodau et al. 2019](#ref-blodaumn2019)). Fachlich sind Zusammenhänge zwischen Kompetenzen definierbar (hier: “setzt voraus”), jedoch liegen diese Informationen meist nicht maschinenlesbar vor, sondern z.B. als Text/Grafik.*
 
-**Prerequisites and challenges for recommender systems**
+Existierende Implementierungen, wie [Aleks](https://www.aleks.com) oder [Bettermarks](https://de.bettermarks.com/), stammen häufig aus dem MINT-Bereich, da sich die dortigen Kompetenzen gut systematisieren und hierarchisieren lassen. Eine Übertragung in geisteswissenschaftliche Themen wird als herausfordernd betrachtet ([Euler et al. 1987](#ref-eulercu1987), S. 77). Die im [Kapitel zum Buddy-Finder](#buddy-finder-ich-will-mich-vernetzen) vorgestellten tutoriellen Sprachlernapps können als sehr spezialisierte Lernpfadfinder angesehen werden.
 
-To generate a promising automated recommendation, various basic technical conditions must be met, including a reliable data basis from which the machine can learn as well as structured data that relates to the relevant data fields for a recommendation (Reichow et al. 2022, 15–17). The creation of such a data basis is not without challenges, as not only can the machine easily learn undesirable behaviour, but also large amounts of data are needed in order to make reliable recommendations (Reichow et al. 2022, 6–8, 16).
+**Wirksamkeit adaptiver Lernsysteme**
 
-Yet providing high-quality structured data also comes with numerous challenges. The learning objects must be linked to educational metadata (e.g. competencies) which in turn exhibits corresponding semantic relationships, for example, dependencies such as competency requirements. Failure to identify appropriate dependencies will hinder the implementation of adaptive properties.
+Hinsichtlich der Wirksamkeit adaptiver Systeme gibt es Kontroversen. Während einige Befunde auf eher kleinere Effekte hindeuten ([Kerres and Buntins 2020](#ref-kerresralapid2020), S. 102), schlussfolgern Hillmayr et al.:
 
-The linking of learning objects with competencies and the corresponding technical mapping have barely been established in practical implementations to date. In the “Mein Bildungsraum” initiative, the [CoKoMo](https://cokomo-it.de/docs/start/) project addresses this topic and develops a knowledge model as well as an application to model knowledge and competencies and then make them available in machine-readable format.
+> “Intelligente Tutorensysteme, die eine Anpassung an den individuellen Lernstand der Nutzer sowie differenziertes Feedback zur Aufgabenlösungen ermöglichen, weisen daher eine vergleichsweise hohe Wirksamkeit auf.” ([Hillmayr et al. 2017](#ref-hillmayrdmimuseuuw2017), S. 24).
 
-The links and dependencies between competencies are fundamental to the creation of learning paths and recommender systems in education, as they work differently to recommender systems that we use in everyday life (such as content recommendations from Spotify or Netflix or product recommendations from Amazon) (Kerres and Buntins 2020, 107).
+Das Spektrum der Ergebnisse hinsichtlich der Wirksamkeit macht deutlich, dass das Thema in der Forschung derzeit kontrovers diskutiert wird.
 
-After using a specific learning object, learners should not simply move on to any other object. They need one that builds on the previous learning object and brings them a step closer to the learning goal that has been set. It should also be noted that simply because a learning object has been used, it does not necessarily mean that a learning goal has been achieved. In order to keep learners on a path that promotes learning, it is therefore necessary to continuously check whether the relevant learning objectives have been achieved (e.g. whether the necessary competencies have been acquired), on the basis of which further learning objects (or learning paths) are automatically suggested.
+### 5.2.4 Wie kann ein Lernpfad angepasst werden?
 
-The technologies used for recommender systems as well as for creating learning paths range from statistical methods to complex neural networks. In the latter case, it is sometimes no longer clear why such recommendations are made, which also gives rise to ethical challenges (Kerres and Buntins 2020, 108f) (Reichow et al. 2022, 8f.).
+Im Folgenden werden lerntheoretische Aspekte, besonders im Hinblick auf die Adaptivität, betrachtet. Anschließend wird auf potenziell einsetzbare didaktische Metadaten eingegangen.
 
-Even though technologies and theories are available to meet these challenges, it is no mean feat to develop an appropriate service:
+Ein Lernpfad ist zunächst eine strukturierte Sammlung verschiedener Lerneinheiten, die zum Erreichen eines Lernziels verwendet werden. Für adaptive Lernpfade sollten Merkmale der Lernenden, des Lernverhaltens und ihres Kontextes berücksichtigt werden. Adaptives Lernen erfolgt durch die individuelle Anpassung des Lernangebots oder der Lernumgebung. Damit kann die Adaptivität lebenslanges und selbstgesteuertes Lernen fördern und sich an die wandelnden Bedürfnisse Lernender anpassen.
 
-- The competency catalogues are often not available in a machine-readable version.
-- Competency catalogues sometimes differ considerably due to federal or institutional structures. In order to offer comprehensive services, appropriate mapping is required.
-- Learning objects are not linked to competency metadata.
-
-<img src="./images/5_medienkompetenzrahmen_nrw.png" alt="Relationships between competencies with elements from the Media Competence Framework NRW" /> Figure: *Relationships between competencies with elements from the Media Competence Framework NRW \[@ blodaumn2019\]. In technical terms, relationships between competencies can be defined (here: “requires”), however, this information is often not available in machine-readable form, but rather as text/graphics, for example.*
-
-Existing implementations, such as [Aleks](https://www.aleks.com) or [Bettermarks](https://de.bettermarks.com/), often originate from the MINT sector, as the associated competencies can be easily systematised and arranged into a hierarchy. Transferring this to humanities-based subjects is viewed as challenging \[Euler et al. (1987), p. 77\]. The tutorial language learning apps presented in the [chapter on buddy finders](#buddy-finder-ich-will-mich-vernetzen) can be regarded as highly specialised learning path finders.
-
-**Effectiveness of adaptive learning systems**
-
-Some controversy exists when it comes to the effectiveness of adaptive systems. While some findings suggest fairly minor effects (Kerres and Buntins 2020, 102), Hillmayr et al. conclude as follows:
-
-> “Intelligent tutoring systems that allow adaptation to the individual learning level of users and differentiated feedback on task solutions therefore demonstrate a comparatively high level of effectiveness.” (Hillmayr et al. 2017, 24).
-
-The diversity of results regarding effectiveness makes it clear that the topic is currently the subject of controversial debate in research.
-
-### 5.2.4 How can a learning path be adapted?
-
-In the following, we look at learning theory aspects, particularly with regard to adaptivity. We then discuss potentially usable educational metadata.
-
-A learning path is initially a structured collection of different learning units that are used to achieve a learning objective. For adaptive learning paths, characteristics of learners, learning behaviour and their context should be taken into account. Adaptive learning takes place through the individual adaptation of the learning offer or the learning environment. In this way, adaptivity can promote lifelong and self-directed learning and adapt to the changing needs of learners.
-
-In addition to the adaptation of learning paths via the didactic sequencing of various educational resources presented above, adaptation can also take place within the individual learning activities. Learning paths can be customised taking into account various characteristics of learning and their context, including, for example:
+Neben der zunächst vorgestellten Anpassung von Lernpfaden über die didaktische Sequenzierung von verschiedenen Bildungsressourcen, kann auch eine Anpassung innerhalb der einzelnen Lernaktivitäten erfolgen. Eine individuelle Anpassung der Lernpfade kann unter Berücksichtigung verschiedener Merkmale von Lernen und deren Kontext erfolgen, darunter beispielsweise:
 
 - Motivation
 
-- Learning prerequisites (prior knowledge, previous competencies, etc.)
+- Lernvoraussetzungen (Vorwissen, bisherige Kompetenzen, …)
 
-- Personal learning preferences (format, time, language, sequencing, etc.)
+- persönliche Lernpräferenzen (Format, Zeit, Sprache, Sequenzierung, …)
 
-- Previous learning progress (fulfilment of preconditions, e.g. completed tests)
+- bisheriger Lernfortschritt (Erfüllung von Vorbedingungen, z. B. absolvierte Tests)
 
-- Assessment of performance, with dynamic adaptation of learning paths also based on current performance or current learning behaviour. The basis for this is prediction models from the field of predictive learning using methods such as learning analytics and educational data mining, artificial intelligence or machine learning (see [Learning environments:](#lernumgebungen-diagnostik-und-förderung)[](#lernumgebungen-diagnostik-und-förderung)[diagnostics and support](#lernumgebungen-diagnostik-und-förderung))
+- Leistungseinschätzung, bei dynamischer Anpassung von Lernpfaden auch anhand der aktuellen Leistung oder des aktuellen Lernverhaltens. Grundlage dafür stellen Vorhersagemodelle aus dem Bereich des prädiktiven Lernens unter Verwendung von Methoden wie Learning Analytics und Educational Data Mining, künstlicher Intelligenz oder maschinellem Lernen dar (vgl. [Lernumgebungen: Diagnostik und Förderung](#lernumgebungen-diagnostik-und-förderung))
 
-By taking into account learning theories, concepts and methods, the learning process can be individually adapted and supported. These concepts include:
+Durch die Berücksichtigung von Lerntheorien, -konzepten und -methoden kann der Lernprozess adaptiv angepasst und unterstützt werden, darunter:
 
-- Active recall and spaced repetition, for example, when learning vocabulary
-- Zone of proximal development (Vygotskij)
-- Cognitive load theory (Sweller & Chandler)
-- Cognitive theory of multimedia learning (Mayer)
-- Metacognition (Flavell)
-- Scaffolding, modelling, cueing, prompting, fading, feedback
-- Conceptual change approaches (Chi) \[usually in the natural sciences\]
-  - Continuous: revision/expansion of current knowledge concepts
-  - Discontinuous: addressing conflicting ideas or misconceptions, see also [cognitive dissonance](https://dorsch.hogrefe.com/stichwort/kognitive-dissonanz) (Piaget), Aha! moment (Bühler) and learning through insight (Köhler & Wertheimer)
+- Active Recall und Spaced Repetition, bspw. beim Vokabellernen
+- Zone der nächsten Entwicklung (Vygotskij)
+- Cognitive Load Theorie beim Lernen (Sweller & Chandler)
+- Cognitive Theory of Multimedia Learning (Mayer)
+- Metakognition (Flavell)
+- Scaffolding, Modelling, Cueing, Prompting, Fading, Feedback
+- Conceptual Change-Ansätze (Chi) \[in der Regel in den Naturwissenschaften\]
+  - Kontinuierlich: Revision/Erweiterung aktueller Wissensvorstellungen
+  - Diskontinuierlich: Konträre Vorstellungen oder Fehlkonzepte revidieren, vgl. dazu auch [kognitive Dissonanz](https://dorsch.hogrefe.com/stichwort/kognitive-dissonanz) (Piaget), “Aha-Erlebnis” (Bühler) sowie Lernen durch Einsicht (Köhler & Wertheimer)
 
-Data from adaptive learning experiences can also be used in the context of the following topics:
+Daten aus adaptiven Lernerfahrungen können darüber hinaus im Kontext folgender Themen genutzt werden:
 
-- Optimised data analysis for diagnostics (for teachers/institutions)
-- Competence-based diagnostics
-- Data-driven decision-making in education
+- optimierte Datenanalyse zur Diagnostik (für Lehrkräfte/Institutionen)
+- kompetenzbasierte Diagnostik
+- Datengestützte Entscheidungsfindung im Bildungswesen
 
-Learning systems can adapt learning objects in different ways – for example, in terms of the difficulty, instruction or format – to enable different methods of access (e.g. textual, auditory, visual) (see also [Accessibility](#zugänglichkeit-und-barrierearmut)). Adaptive testing to measure learning progress is achieved by dynamically selecting and adjusting the level of difficulty during the learning process.
+Lernsysteme können Lernobjekte auf verschiedene Arten anpassen, beispielsweise hinsichtlich der Schwierigkeit, der Instruktion oder dem Format, um verschiedene Zugänge (z. B. textuell, auditiv, visuell) zu ermöglichen (vgl. auch [Barrierearmut](#zugänglichkeit-und-barrierearmut)). Adaptives Testen zur Messung des Lernfortschritts erfolgt durch die dynamische Auswahl und Anpassung des Schwierigkeitsniveaus im Lernprozess.
 
-### 5.2.5 Why do different learning paths exist?
+### 5.2.5 Warum gibt es überhaupt verschiedene Lernwege?
 
-Offering different learning paths to achieve individual goals serves in particular to facilitate internal differentiation and the personalisation of learning. For example, further, in-depth tasks, information or tips and assistance can be provided in an individually tailored manner and a sequence of relevant resources of different types can be presented.
+Das Angebot verschiedener Lernwege zum Erreichen der Ziele dient insbesondere der Binnendifferenzierung und der Personalisierung des Lernens. So können beispielsweise weiterführende, vertiefende Aufgaben, Informationen oder Tipps und Hilfestellungen individuell passgenau bereitgestellt und eine Reihenfolge relevanter Ressourcen verschiedener Typen dargeboten werden.
 
-The choice of difficulty level may influence the motivation to learn. Tasks that are too easy should not be presented in order to avoid under-challenging students, while tasks that are too difficult should also be avoided so as not to over-challenge students; unsolved tasks can lead to a sense of frustration or a decrease in motivation. Taking into account the individual profiles of learners can improve the learning experience and success (Imran et al. 2016). Intelligent recommender systems take account of the level of difficulty and select resources that best match the learner’s abilities.
+Die Auswahl des Schwierigkeitsniveaus hat dabei unter Umständen Einfluss auf die Lernmotivation. Es sollten vorwiegend keine zu leichten Aufgaben präsentiert werden, um eine Unterforderung zu vermeiden, wohingegen zu schwierige Aufgaben zu vermeiden sind, um einer Überforderung vorzubeugen, da ungelöste Aufgaben ggf. zur Lernfrustration beziehungsweise Abnahme der Lernmotivation führen können. Die Berücksichtigung der individuellen Profile von Lernenden kann die Lernerfahrung und den Erfolg verbessern ([Imran et al. 2016](#ref-imranpplors2016)). Intelligente Vorschlagssysteme berücksichtigen das Schwierigkeitsniveau und wählen Ressourcen aus, die den Fähigkeiten des Lerners am ehesten entsprechen.
 
-Learning paths can help to achieve the desired learning goal by:
+Lernpfade können zum Erreichen des angestrebten Lernziels…
 
-- Informing learners about their current level and showing them the next steps: Where am I in the learning process, what is still to come, how and with what do I proceed?
-- Helping learners to reflect on their own learning behaviour: What previous steps have I carried out? Which resources have I already processed and analysed?
+- … über den aktuellen Lernstand informieren und die nächsten Schritte aufzeigen: Wo stehe ich im Lernprozess, was liegt noch vor mir, wie und womit geht es weiter?
+- … helfen, das eigene Lernverhalten zu reflektieren: Welche vorherigen Schritte habe ich durchgeführt? Welche Ressourcen wurden bereits bearbeitet und betrachtet?
 
-From a teacher’s point of view, such learning paths can also be used to evaluate teaching and learning success, for example, to improve incomprehensible passages in materials.
+Aus Lehrendensicht können solche Lernpfade auch der Evaluation der Lehre und des Lernerfolgs dienen, um etwa unverständliche Stellen in Materialien zu verbessern.
 
-Learning paths can be designed in different ways, e.g. through:
+Lernwege können verschieden ausgestaltet werden, bspw. durch eine …
 
-- Internal differentiation: different learning paths within one resource (e.g. branching scenarios, user flows)
-- External differentiation: various additional resources
+- … innere Differenzierung: Verschiedene Lernwege innerhalb einer Ressource (bspw. branching scenarios, user flows)
+- … äußere Differenzierung: Verschiedene, weiterführende Ressourcen
 
-### 5.2.6 Educational metadata for providing learning paths
+### 5.2.6 Didaktische Metadaten zur Bereitstellung von Lernpfaden
 
-Educational metadata serves as the foundation for the technical realisation of adaptive learning paths and recommender systems.
+Didaktische Metadaten sind grundlegende Bausteine zur technischen Realisierung adaptiver Lernpfade und Vorschlagssysteme.
 
-[**Learning objectives, their prerequisites and testing**](\l)
+[**Lernziele, deren Voraussetzungen und Testung**](\l)
 
-Hierarchically structured [topics and content](#fach--und-themenzuordnung) build on one another and are best learned one after the other so that a systemic understanding can be acquired in a logical sequence. Such a sequence of content is often defined in curricula. Here, structural metadata takes on a didactic function and reflects didactically relevant associative relationships between resources (see [structural metadata](#was-sind-typen-von-metadaten)), which in turn are used in a recommender system that presents individualised suggestions based on a learner’s learning level and progress.
+Hierarchisch strukturierte [Themen und Inhalte](#fach--und-themenzuordnung) bauen aufeinander auf und sind sinnvollerweise sukzessive nacheinander zu erlernen, um systemische Verständnisse in sachlogischer Reihenfolge erfassen zu können. Eine solche Reihenfolge von Inhalten wird häufig in Lehrplänen festgelegt. Hier übernehmen strukturelle Metadaten eine didaktische Funktion und bilden didaktisch relevante assoziative Zusammenhänge zwischen Ressourcen ab (vgl. [strukturelle Metadaten](#was-sind-typen-von-metadaten)), die wiederum in einem Vorschlagssystem verwendet werden, welches individuelle Vorschläge basierend auf dem Lernstand und Lernfortschritt eines Lernenden präsentiert.
 
-**Individual adaptation of learning content to the learner**
+**Individuelle Anpassung von Lerninhalten an den Lernenden**
 
-By defining didactic indicators to monitor learning success (number of attempts, results of an interactive task such as a quiz or similar), the [level](#niveaustufe) can be adapted accordingly. For example, the context and the profile of a learner can be used to adapt the [language level](#sprache-und-sprachniveau) or make texts more accessible by structuring them, for example, by highlighting or using alternative wording (easy language). Adaptation to the individual needs of learners can therefore be optimised with the help of educational metadata. For example, special offers can be made available to promote desired skills or take inclusive characteristics into account.
+Durch Erfassung von didaktischen Indikatoren als Lernerfolgskontrolle (Anzahl der Versuche, Ergebnisse einer interaktiven Aufgabe wie einem Quiz o.ä.), kann die [Niveaustufe](#niveaustufe) adaptiv angepasst werden. So kann der Kontext sowie das Profil eines Lerners dazu verwendet werden, um unter anderem das [Sprachniveau](#sprache-und-sprachniveau) anzupassen oder Texte durch Strukturierung zugänglicher zu machen, zum Beispiel durch Hervorhebungen oder Verwendung alternativer Formulierungen (Leichte Sprache). Die Anpassung auf individuelle Bedürfnisse der Lernenden kann also mithilfe von didaktischen Metadaten optimiert werden. So können etwa auch spezielle Angebote zur Förderung gewünschter Kompetenzen oder unter Berücksichtigung inklusiver Merkmale bereitgestellt werden.
 
-### 5.2.7 Life cycles of resources and learning paths
+### 5.2.7 Lebenszyklen von Ressourcen und Lernpfaden
 
-Roth assumes that learning paths are created by educators and does not consider automatic generation. At the end of his section, he makes a plea for teachers to share the learning paths they have created and outlines a
+Roth geht davon aus, dass Lernpfade von Lehrkräften erstellt werden und zieht keine automatische Generierung in Betracht. Zu Ende seines Abschnittes hält er ein Plädoyer dafür, dass Lehrkräfte ihre erstellten Lernpfade teilen sollen und entwirft einen
 
 <!-- ![Grafik: *Illustration eines OER-Lebenszyklus*](./images/5_lebenszyklus_oer.svg) -->
 
 <div class="clearfix" style="">
 
 <p>
+
 Hier beginnt Ihr Text, der um das Bild herum fließt. Sie können so viel Text hinzufügen, wie Sie benötigen, und er wird sich entsprechend um das Bild herum anordnen. Dies sorgt für ein ästhetisch ansprechendes Layout, das häufig in Nachrichtenartikeln, Blogs und anderen Medien verwendet wird.
 </p>
+
 <img src="./images/5_lebenszyklus_oer.png" alt="Beschreibung des Bildes" style="float: right; margin-left: 40px;" class="image-container">
 
 </div>
 
-“life cycle” (Roth 2014, 20) that is strongly reminiscent of the five freedoms of OER (Heck et al. 2020) (Muuß-Meerholz 2015). Due to the freedoms granted, OER go through various development cycles beyond their creation, for example, through customisation and distribution processes (improvement of quality, adaptation for different target groups and purposes, utilisation of the OER remix right, etc.). Different versions and forks or branches are created, in particular through the freedom to mix content and thereby create new resources. In the case of educational resources, adaptations can be understood as the reuse of content across different usage scenarios (recording, archiving, searching etc.), educational levels (adaptation to target groups and difficulty), language barriers and different educational services (Duval 2001, 458). These freedoms bring with them the challenge of linking together metadata from versions and variants of the same resource (JOINTLY.info 2020).
+“Lebenszyklus” ([Roth 2014](#ref-rothldguu2014), S. 20), der stark an die 5V-Freiheiten von OER ([Heck et al. 2020](#ref-heckdoiecoer2020)) ([Muuß-Meerholz 2015](#ref-muuss-meerholzzdooerrndwadav2015)) erinnert. OER durchlaufen aufgrund der eingeräumten Freiheiten verschiedene Entwicklungszyklen über die Erstellung hinaus, beispielsweise durch Anpassungs- und Verteilungsprozesse (Verbesserung von Qualität, Anpassung für verschiedene Zielgruppen und Zwecke, Nutzung des OER-Remix-Rechtes, …). Es entstehen verschiedene Versionen und Abspaltungen (Forks, Branches), insbesondere auch durch die Freiheit, Inhalte miteinander zu vermischen und dadurch neue Ressourcen zu erstellen. Bei Bildungsressourcen können Anpassungen darunter die Wiederverwendung von Inhalten in verschiedenen Nutzungsszenarien (Erfassung, Archivierung, Suche usw.), Bildungs- und Niveaustufen (Anpassung an Zielgruppen und der Schwierigkeit), für sprachliche Barrieren und verschiedene Bildungsdienste verstanden werden ([Duval 2001](#ref-duvalsmesr2001), S. 458). Diese Freiheiten bringen die Herausforderung mit sich, Metadaten von Versionen und Varianten derselben Ressource miteinander in Verbindung zu bringen ([JOINTLY.info 2020](#ref-jointly.infokmbos2020)).
 
 <div style="display: flex; justify-content: space-between;">
 
 <div style="width: 50%;">
 
-<img src="./images/5_5_freiheiten.png" alt="The five freedoms of OER" style="height: auto; margin: auto;" />
+<img src="./images/5_5_freiheiten.png" alt="Die 5V-Freiheiten für Offenheit" style="height: auto; margin: auto;" />
 
 </div>
 
-<img src="./images/5_lebenszyklus_lernpfade.png" alt="Life cycle of learning paths according to Roth (2014)" style="width: 50%;"/>
+<img src="./images/5_lebenszyklus_lernpfade.png" alt="Lebenszyklus von Lernpfaden nach Roth (2014)" style="width: 50%;"/>
 
 </div>
 
-Left-hand figure: *“Die 5V-Freiheiten für Offenheit” (The five freedoms of OER) by Julia Eggestein, Jöran Muuß-Merholz and Jörg Lohrer under CC BY 4.0, based on “Defining the ‘Open’ in Open Content and Open Educational Resources” by David Wiley under CC BY 4.0.*  
-Right-hand figure: *Life cycle of learning paths (Roth 2014, 20).*
+Linke Grafik: *“Die 5V-Freiheiten für Offenheit“ von Julia Eggestein, Jöran Muuß-Merholz u. Jörg Lohrer unter CC BY 4.0, basierend auf „Defining the ‘Open’ in Open Content and Open Educational Resources“ von David Wiley unter CC BY 4.0.*  
+Rechte Grafik: *Lebenszyklus von Lernpfaden ([Roth 2014](#ref-rothldguu2014), S. 20).*
 
-### 5.2.8 Tools, services and projects relating to learning paths
+### 5.2.8 Tools, Services und Projekte rund um Lernpfade
 
-Examples of tools
+Exemplarische Tools
 
-- [Adaptive learning paths](https://docs.moodle.org/403/de/Einsatzszenarien_f%C3%BCr_Voraussetzungen#Adaptive_Lernpfade) in Moodle, [H5P branching scenario](https://h5p.org/branching-scenario), [Bettermarks](https://de.bettermarks.com/), [Aleks](https://www.aleks.com/)
+- [Adaptive Lernpfade](https://docs.moodle.org/403/de/Einsatzszenarien_f%C3%BCr_Voraussetzungen#Adaptive_Lernpfade) bei Moodle, [H5P Branching Szenario](https://h5p.org/branching-scenario), [Bettermarks](https://de.bettermarks.com/), [Aleks](https://www.aleks.com/)
 
-Projects
+Projekte
 
-- [Adaptive learning cloud (ALC) \[FWU](https://fwu.de/projekte/alc/)\] (project plan, implementation unknown)
-- [CoKoMo – modelling of knowledge](https://cokomo-it.de/docs/)
+- [Adaptive Learning Cloud (ALC) \[FWU](https://fwu.de/projekte/alc/)\] (Projektplan, Umsetzung unbekannt)
+- [CoKoMo - Modellierung von Wissen](https://cokomo-it.de/docs/)
 - [E365 Maverick](https://web.archive.org/web/20231031223903/https://www.meinbildungsraum.de/vorhaben/foerderprojekte-und-partner/aktuelle-foerderprojekte/e365-maverick-ehem-eagl2-kuenstliche-intelligenz-fuer-die-automatische-generierung-von-lernpfaden):
 
-Generating learning paths automatically using artificial intelligence
+Mit Künstlicher Intelligenz Lernpfade automatisch generieren
 
-- [ITS – intelligent tutorial systems](https://www.kmk.org/de/themen/bildung-in-der-digitalen-welt/laenderuebergreifende-projekte.html)
+- [ITS – Intelligente Tutorielle Systeme](https://www.kmk.org/de/themen/bildung-in-der-digitalen-welt/laenderuebergreifende-projekte.html)
 
 <table>
+
 <colgroup>
+
 <col style="width: 6%" />
+
 <col style="width: 93%" />
+
 </colgroup>
+
 <tbody>
+
 <tr class="odd">
+
 <td>
+
 💡
 </td>
+
 <td>
-<strong>Summary</strong>
+
+<strong>Zusammenfassung</strong>
 </td>
+
 </tr>
+
 <tr class="even">
+
 <td>
+
 </td>
+
 <td>
+
 <p>
-Learning paths facilitate:
+
+Lernpfade ermöglichen …
 </p>
+
 <ul>
+
 <li>
+
 <p>
-Self-directed, independent learning
+
+… selbstgesteuertes, eigenverantwortliches Lernen
 </p>
+
 </li>
+
 <li>
+
 <p>
-Internal differentiation and individual support
+
+… eine Binnendifferenzierung und individuelle Förderung
 </p>
+
 </li>
+
 <li>
+
 <p>
-The adaptation of activities and content to the needs of learners
+
+… die Anpassung von Aktivitäten und Inhalten an die Bedürfnisse Lernender
 </p>
+
 </li>
+
 <li>
+
 <p>
-The didactically pre-structured sequencing of a learning object, e.g. for the systematic development of a topic/field of knowledge
+
+… die didaktisch vorstrukturierte Sequenzierung eines Lerngegenstands, bspw. zur systematischen Erschließung eines Themen- / Wissensgebietes
 </p>
+
 </li>
+
 <li>
+
 <p>
-The monitoring of one's own and others' learning progress
+
+… das Monitoring des eigenen und fremden Lernfortschrittes
 </p>
+
 </li>
+
 <li>
+
 <p>
-The learning-goal-orientated recommendation of resources based on the current status of a learner
+
+… die lernziel-orientierte Empfehlung von Ressourcen basierend auf dem aktuellen Stand eines Lernenden
 </p>
+
 </li>
+
 </ul>
+
 </td>
+
 </tr>
+
 </tbody>
+
 </table>
 
-## 5.3 Searching and finding: How can I find what I’m looking for?
+## 5.3 Suchen und Finden: Wie kann ich das finden, was ich suche?
 
-Searching for and finding learning resources is probably one of the most widely implemented usage scenarios for educational metadata. From international OER platforms such as [Merlot](https://www.merlot.org/merlot/index.htm) through to the national platforms [OERSI](https://oersi.org/) (university), [WirLernenOnline](https://www.wirlernenonline.de/) (school, increasingly interdisciplinary) or [MUNDO](https://mundo.schule/) (school), all platforms use educational metadata sets to direct searches to the relevant material. Commercial platforms such as [eduki](https://eduki.com/de), [4teacher](https://www.4teachers.de/) or [meinUnterricht](https://www.meinunterricht.de/) also use corresponding metadata to describe their content.
+Das Suchen und Finden von Lernressourcen gehört zu den wohl am meisten umgesetzten Nutzungsszenarien für didaktische Metadaten. Von internationalen OER-Plattformen wie [Merlot](https://www.merlot.org/merlot/index.htm), bis zu den nationalen Plattformen [OERSI](https://oersi.org/) (Hochschule), [WirLernenOnline](https://www.wirlernenonline.de/) (Schule, zunehmend bildungsbereichsübergreifend) oder [MUNDO](https://mundo.schule/) (Schule) nutzen alle Plattformen didaktische Metadatensets, um Suchende zielgerichtet zu dem relevanten Material zu führen. Auch kommerzielle Plattformen wie [eduki](https://eduki.com/de), [4teacher](https://www.4teachers.de/) oder [meinUnterricht](https://www.meinunterricht.de/) nutzen entsprechende Metadaten, um ihre Inhalte auszuzeichnen.
 
-**But how do you find the right material from the abundance of offers?**
+**Doch wie findet man in der Fülle der Angebote das richtige Material?**
 
-The platforms above offer a wide range of materials, often listing thousands to hundreds of thousands of entries. The services offer a number of filter options to narrow down the results. But even after setting several filters, numerous materials often remain. For example, for the filter combination “Deutsch”, “Lesen”, “1. Klasse”, “Arbeitsblätter”, “5-20 Seiten” [eduki](https://eduki.com/de) lists over 1500 results. Surprisingly, few of the platforms mentioned offer commenting or rating functions to enable users to provide feedback on a material and use this in the search. In addition, most of the platforms mentioned do not contain other social components, such as following authors for new materials – a function that is offered by eduki, for example. Such features are essential for large commercial content providers (YouTube, Instagram etc.) to connect content creators with their followers.
+Die genannten Plattformen bieten eine Vielzahl von Materialien an, häufig listen die Plattformen Tausende bis Hunderttausende Einträge. Zur Einschränkung der Ergebnisse bieten die Dienste einige Filtermöglichkeiten an. Doch auch nach dem Setzen mehrerer Filter bleiben oft noch zahlreiche Materialien übrig. So listet [eduki](https://eduki.com/de) für die Filterkombination “Deutsch”, “Lesen”, “1. Klasse”, “Arbeitsblätter”, “5-20 Seiten“ noch über 1500 Ergebnisse. Überraschend wenige der genannten Plattformen bieten Kommentar- oder Bewertungsfunktionen an, um es Nutzenden zu ermöglichen, Feedback zu einem Material zu geben und dieses in der Suche zu nutzen. Auch andere soziale Komponenten sind auf den meisten der genannten Plattformen nicht zu finden, wie exemplarisch das Folgen von Autor\*innen für neue Materialien, was beispielsweise eduki als Funktion anbietet. Eine Funktion, die bei großen kommerziellen Inhalteanbietern essenziell ist (Youtube, Instagram, …), um Content-Erstellende mit ihren Followern in Verbindung zu bringen und zu halten.
 
-In the following, we explain in more detail the aspects of filtering, use of a social graph and semantic search when looking for and finding materials and demonstrate their often unexploited potential.
+Im Folgenden sollen die Aspekte Filtern, Nutzung eines sozialen Graphen sowie semantische Suche beim Suchen und Finden von Materialien genauer beleuchtet und ihre (oft noch ungenutzten) Potenziale aufgezeigt werden.
 
-### 5.3.1 Finding relevant material: filtering, competence orientation and wallet
+### 5.3.1 Relevantes Material finden: Filtern, Kompetenzorientierung und Wallet
 
-To provide users with a better search experience, search engines such as Google or Bing save personalised data in order to take it into account in the search. As this use of data is often non-transparent, the procedure has been criticised. However, such a process could also be designed to be data-efficient and self-sufficient, as the wallet concept of the “Mein Bildungsraum” initiative shows. In this case, user data is stored in the respective user’s wallet and any authorisations for use with other services are then managed by the users from there. For this usage scenario, data such as “subject interest”, “educational level” and more could be saved before being automatically preselected in the search filters. If additional administrative data were stored, the search service could see which subjects a teacher teaches and make appropriate suggestions for materials. It would also be conceivable to integrate competence-orientated data into one’s own profile, resulting in overlaps with [learning paths](#persönliche-lernpfade-wie-geht-es-jetzt-weiter). A search service could use this information to display corresponding references that indicate prerequisite competencies or competencies to be acquired. These attributes can also be used in the ranking by positioning resources that do not contain any of the targeted competencies or those that contain competencies that are above or below the targeted competence in competence hierarchies lower down in the list of results.
+Um Nutzenden ein besseres Sucherlebnis zu ermöglichen, speichern unter anderem die Suchmaschinen Google oder Bing personalisierte Daten, um diese bei der Suche zu berücksichtigen. Da diese Datennutzung oft intransparent ist, stößt das Verfahren auf Kritik. Allerdings ließe sich ein solches Verfahren auch datensparsam und selbstsouverän gestalten, wie die Wallet-Konzeption der Initiative “Mein Bildungsraum” zeigt. Dort werden die Nutzerdaten auf der Wallet des jeweiligen Nutzers gespeichert und anschließend etwaige Freigaben zur Nutzung mit weiteren Services von dort durch die Nutzenden verwaltet. Für dieses Nutzungsszenario könnten dort unter anderem Daten wie “Fachinteresse”, “Klassenstufe” und weitere gespeichert werden, die dann automatisch in den Filtern der Suche vorausgewählt sind. Würden zusätzlich Verwaltungsdaten gespeichert, könnte für den Suchdienst ersichtlich sein, welche Fächer eine Lehrkraft unterrichtet und entsprechende Materialvorschläge könnten erfolgen. Ebenfalls denkbar ist die Einbindung kompetenzorientierter Daten in das eigene Profil, woraus sich Überschneidungen mit [Lernpfaden](#persönliche-lernpfade-wie-geht-es-jetzt-weiter) ergeben. Ein Suchdienst könnte diese Informationen nutzen, um entsprechende Hinweise anzuzeigen, die auf vorausgesetzte oder zu erwerbende Kompetenzen deuten. Auch im Ranking können diese Attribute genutzt werden, indem Ressourcen niedriger eingeordnet werden, die keine der angestrebten Kompetenzen enthalten oder solche, die Kompetenzen enthalten, die sich in Kompetenzhierarchien über- oder unterhalb der angestrebten Kompetenz befinden.
 
-### 5.3.2 Using the social graph for ranking and filtering
+### 5.3.2 Nutzung des sozialen Graphen zum Ranking und Filtern
 
-The wealth of material on content platforms makes it clear that there is not necessarily a supply problem, but that the challenge lies in directing searchers to the material that is relevant to them. So how do you find the needle in the haystack?
+Die Fülle an Materialien auf Content-Plattformen verdeutlicht, dass es nicht zwingend ein Angebotsproblem gibt, sondern die Herausforderung darin besteht, die Suchenden zu dem für sie relevanten Material zu führen. Wie findet man also sinnbildlich die Nadel im Heuhaufen?
 
-Teaching/learning processes usually take place in a social context. Teachers have colleagues who teach similar subjects and topics and exchange ideas regarding approaches, methods and materials. Learners want to learn the same competencies or topics, or have to prepare for the same exam. The exchange between and within the two groups works well in analogue scenarios, be it through the collection of materials in the classroom, the exchange of notes between learners or even simple personal recommendations such as “Have a look at XY, it really helped me”.
+Lehr-/Lernprozesse finden meist in einem sozialen Kontext statt. Lehrende besitzen Kolleg\*innen, die ähnliche Fächer und Themen unterrichten und tauschen Gedanken zu Ansätzen, Methoden und Materialien aus. Lernende wollen die gleichen Kompetenzen oder Themen lernen oder müssen sich auf die gleiche Prüfung vorbereiten. Der Austausch zwischen und innerhalb der beiden Gruppen funktioniert in analogen Szenarien gut, sei es durch die Materialsammlungen im Klassenzimmer, dem Austausch von Mitschriften unter Lernenden oder auch einfachen persönlichen Empfehlungen wie “Schau dir mal XY an, das hat mir sehr geholfen”.
 
-For the most part, these personal, social mechanisms have not yet been transferred to educational platforms. This is primarily due to the fact that establishing a social graph is not insignificant, both for the provision of services and for users. The greatest difficulty for services is to build up a base of relevant users with whom others can network. This is why there is usually only one comparable “type” of successful social media platform: one Facebook, one Instagram, one Reddit, one Twitter/X, etc. It does not make sense for users to switch to a counterpart if it does not have any users or content. This is also where the difficulty lies for users: Establishing a social graph is a not insignificant process – relevant people have to be found and contacts made. The construction of these graphs is primarily designed in such a way that they cannot be transferred between services. Your Facebook friends cannot be transferred to Twitter/X, your Instagram followers cannot be transferred to Spotify etc. This results in lock-in effects, which is presumably the basis for the success of these platforms.
+Diese persönlichen, sozialen Mechanismen sind zum größten Teil bisher nicht auf Bildungsplattformen übertragen worden. Dies liegt vorrangig daran, dass der Aufbau eines sozialen Graphen nicht trivial ist, sowohl für Bereitstellung der Dienste, als auch für die Nutzenden. Für Dienste besteht die größte Schwierigkeit darin, eine Basis von relevanten Nutzer\*innen aufzubauen, mit denen sich andere vernetzen können. Daher gibt es von erfolgreichen Social-Media-Plattformen meist nur einen vergleichbaren “Typ”: ein Facebook, ein Instagram, ein Reddit, ein Twitter/X. Es ist für Nutzende nicht sinnvoll, auf ein Pendant zu wechseln, wenn dort keine Nutzenden und keine Inhalte vorhanden sind. Darin besteht auch die Schwierigkeit für Nutzende: Der Aufbau eines sozialen Graphen ist nicht trivial, relevante Personen müssen gefunden und Kontakte geknüpft werden. Die Konstruktion dieser Graphen ist dabei vorwiegend so gestaltet, dass diese nicht zwischen Diensten übertragbar sind. Die “Freunde” von Facebook, können nicht zu Twitter/X transferiert werden, Instagram-Follower nicht zu Spotify usw. Dies führt zu Lock-In-Effekten, worauf mutmaßlich auch der Erfolg dieser Plattformen basiert.
 
-However, there are currently two relevant developments that address this portability challenge:
+Aktuell gibt es allerdings zwei relevante Entwicklungen, die diese Herausforderung hinsichtlich der Portabilität angehen:
 
-- Decentralised social media protocols (ActivityPub, Nostr)
-- National central platforms with standardised identity management (for example, identity and access management from the “Mein Bildungsraum” initiative or the Norwegian Digital Learning Arena)
+- dezentrale Social Media Protokolle (ActivityPub, Nostr)
+- national zentrale Plattformen mit einheitlichem Identitätsmanagement (bspw. Identitäts- & Zugangsmanagement der Initiative “Mein Bildungsraum” oder auch die Norwegian Digital Learning Arena)
 
-What both developments have in common is that services do not have to worry about identity management because this is outsourced: completely autonomous (ActivityPub, Nostr) or centralised through a platform. At the same time, these approaches also enable the formation of cross-service social networks. Such a model has been implemented on the Norwegian educational platform [NDLA](https://ndla.no/) using a central login that is available to all Norwegian teachers. Here, “circle of trust” models were introduced as part of a sub-project on the topic of quality assurance. People can classify other people as “trustworthy”. This level of trust can then be transferred transitively, in the sense of “I trust you and if you trust person B, I also trust person B”.\[^25\]
+Beide Entwicklungen vereint, dass Dienste sich nicht um das Identitätsmanagement kümmern müssen, da dieses ausgelagert ist: komplett selbstsouverän (ActivityPub, Nostr) oder zentralisiert durch eine zentrale Plattform. Gleichzeitig ermöglichen diese Ansätze auch das Bilden dienstübergreifender sozialer Netzwerke. Auf der norwegischen Bildungsplattform [NDLA](https://ndla.no/) ist ein solches Modell mithilfe eines zentralen Logins, der allen norwegischen Lehrkräften zur Verfügung steht, umgesetzt worden. Dort wurden im Rahmen eines Teilprojektes zum Thema “Qualitätssicherung” sogenannte “Circle of Trust”-Modelle eingeführt. Personen können andere Personen als “vertrauenswürdig” einstufen. Diese Vertrauenswürdigkeit lässt sich dann transitiv übertragen, im Sinne von “Ich vertraue dir und wenn du Person B vertraust, vertraue ich auch Person B”.[^4]
 
-<img src="./images/5_circle_of_trust.png" alt="Circle of Trust (figure from Frank M&uuml;ller)" /> Figure: *Circle of Trust (figure from Frank Müller) \[Müller (2019), p. 51\])*
+<img src="./images/5_circle_of_trust.png" alt="Circle of Trust (Abbildung von Frank Müller) " />
 
-Such models can be used to rank the used or positively rated material higher in searches in social contexts by including the social graphs of the searchers.
+Grafik: *Circle of Trust (Abbildung von Frank Müller) ([Müller 2019](#ref-muellercuhsffvboabpnnnwmi2019), S. 51))*
 
-### 5.3.4 Exploratory, semantic searches
+Solche Modelle lassen sich verwenden, um in sozialen Kontexten das verwendete oder positiv bewertete Material in Suchen höher zu ranken, indem die sozialen Graphen der Suchenden einbezogen werden.
 
-To use keyword searches effectively, searchers should be familiar with the logical structure and vocabulary. Particularly at the beginning of a search, insufficient background or domain knowledge (e.g. technical terms, complex relationships such as cause and effect chains, etc.) can make it difficult to find and access relevant resources, especially if relevant keywords are still unknown. Search queries can then only be formulated inadequately, making it almost impossible for traditional search engines to deliver relevant results for these searches. Exploratory, semantic searches can change this and also support the serendipity principle, which enables the chance discovery of suitable resources. They also prevent the relevance paradox, which otherwise limits the search for relevant information from the outset.
+### 5.3.4 Explorative, semantische Suchen
 
-Addressed challenges that searchers may face:
+Um Suchen mit Schlagwörtern effektiv nutzen zu können, sollten die Suchenden mit der logischen Struktur und dem Vokabular vertraut sein. Gerade zu Beginn einer Recherche kann daher unzureichendes Hintergrund- oder Domänenwissen (bspw. Fachbegriffe, komplexe Zusammenhänge wie Ursache-Wirkungs-Ketten o.ä.) das Auffinden und den Zugang zu relevanten Ressourcen erschweren, insbesondere, wenn relevante Schlagwörter noch unbekannt sind. Suchanfragen können dann nur unzureichend formuliert werden, wodurch klassische Suchmaschinen kaum in die Lage versetzt werden, relevante Treffer für diese Suchen anzubieten. Explorative, semantische Suchen können dies ändern und unterstützen darüber hinaus das Serendipitätsprinzip, womit zufällige Entdeckungen von Ressourcen möglich werden. Sie beugen zudem dem Relevanzparadoxon vor, welches die Suche nach relevanten Informationen andernfalls bereits vorab einschränkt.
 
-- Ambiguous search queries (lexical or structural ambiguity)
-- Language barriers (spelling, lexical hierarchy: hyponym/hyperonym, meronym/holonym)
-- Unknown relationships between entities
+Adressierte Herausforderungen, die bei Suchenden vorliegen können:
 
-## 5.4 Learning environments: diagnostics and support
+- Uneindeutige Suchanfragen (lexikalische oder strukturelle Ambiguität)
+- Sprachbarrieren (Orthografie, lexikalische Hierarchie: Hypo-/Hyperonym, Mero-/Holonym)
+- Unbekannte Beziehungen zwischen Entitäten
 
-A learning analytics approach enables the collection, aggregation, analysis and evaluation of data from educational learning contexts, especially within digital learning environments. The approach makes it possible to gain insights into learning processes, adapt the respective content to the needs of learners, determine, predict and improve their performance and identify success factors of and potential obstacles to educational resources, learning activities or individual learning behaviour (Chatti et al. 2012) (Conole et al. 2011) (Hoppe 2017) (Knight and Buckingham Shum 2017) (Siemens 2013) (Siemens and Baker 2012).  
-This method enables data-driven decisions to improve teaching/learning processes and materials (Khor and K 2024). In this context, metadata created in digital learning environments thus takes on a didactic function for learners and teachers. The data collected from learning processes can be used for adaptive learning support or individual feedback, for example, formatively in the learning process or summatively in an ePortfolio, each of which enables the monitoring of one’s own or other people’s learning processes. Teachers can use educational metadata from learning processes to obtain diagnostic information (e.g. via dashboards) in order to structure their teaching more effectively. Based on this data, various measures can support learning success, such as targeted individual coaching, exercises, scaffolding of learning environments, feedback and responses, adaptive learning support (modelling, prompting, cueing), and much more.
+## 5.4 Lernumgebungen: Diagnostik und Förderung
 
-**Metrics and indicators for characterising learning processes**
+Ein lernanalytischer Ansatz (Learning Analytics) ermöglicht das Sammeln, Aggregieren, Analysieren und Evaluieren von Daten aus pädagogischen Lernkontexten, speziell innerhalb digitaler Lernumgebungen. Der Ansatz ermöglicht, Erkenntnisse über Lernprozesse zu gewinnen, die jeweiligen Inhalte an die Bedürfnisse der Lernenden anzupassen, deren Leistungen zu ermitteln, vorherzusagen und zu verbessern sowie Erfolgsfaktoren von und potenzielle Hindernisse für Bildungsressourcen, Lernaktivitäten oder das individuelle Lernverhalten zu identifizieren ([Chatti et al. 2012](#ref-chattirmla2012)) ([Conole et al. 2011](#ref-conoleml2gpc2011)) ([Hoppe 2017](#ref-hoppecmalkbc2017)) ([Knight and Buckingham Shum 2017](#ref-knighttla2017)) ([Siemens 2013](#ref-siemenslaed2013)) ([Siemens and Baker 2012](#ref-siemenslaedmcc2012)).  
+Durch diese Methode werden datengestützte Entscheidungen zur Verbesserung von Lehr-/Lernprozessen und Materialien ermöglicht ([Khor and K 2024](#ref-khorsrrlaspl2024)). Metadaten, die in digitalen Lernumgebungen entstehen, erhalten in diesem Kontext somit eine didaktische Funktion für Lernende und Lehrende. So können die erhobenen Daten aus Lernprozessen für eine adaptive Lernunterstützung oder individuelles Feedback verwendet werden, etwa formativ im Lernprozess oder summativ in einem ePortfolio, welche jeweils ein Monitoring eigener oder fremder Lernprozesse erlauben. Lehrkräfte können durch didaktische Metadaten aus Lernprozessen diagnostische Informationen erhalten (z. B. über Dashboards), um ihre Lehre effektiver zu gestalten. Anhand dieser Daten können verschiedene Maßnahmen den Lernerfolg unterstützen, wie gezieltes individuelles Coaching, Übungen, Scaffolding von Lernumgebungen, Feedback und Rückmeldungen, adaptive Lernunterstützung (Modeling, Prompting, Cueing), uvm.
 
-Various metrics act as indicators to characterise learning processes (Ahmad, Schneider, Weidlich, et al. 2022) (Ahmad, Schneider, Griffiths, et al. 2022), including:
+**Metriken und Indikatoren zur Charakterisierung von Lernprozessen**
 
-- Number of views or attempts
-- Results of individual learning success checks (e.g. test or quiz formats)
-- Self-assessment
-- Processing time for individual learning content (e.g. reading time)
-- Processing progress
-- Number of resources used or processed
-- Login/logout time and frequency
-- Keystrokes (e.g. free text tasks)
+Verschiedene Metriken fungieren dabei als Indikatoren zur Charakterisierung von Lernprozessen ([Ahmad, Schneider, Weidlich, et al. 2022](#ref-ahmadwicsyerlair2022)) ([Ahmad, Schneider, Griffiths, et al. 2022](#ref-ahmadcdlrlaildp2022)), darunter unter anderem:
 
-A comprehensive directory of learning events, learning activities, metrics and indicators can be found in the [OpenLAIR](https://edutec-tool.github.io/) project.
+- Anzahl der Aufrufe oder Versuche
+- Ergebnisse einzelner Lernerfolgskontrollen (z. B. Test- oder Quizformate)
+- Selbsteinschätzung
+- Bearbeitungsdauer für einzelne Lerninhalte (z. B. Lesezeit)
+- Bearbeitungsfortschritt
+- Anzahl verwendeter oder bearbeiteter Ressourcen
+- Häufigkeit und Dauer der An- und Abmeldung
+- Tastenanschläge (z. B. Freitext-Aufgaben)
 
-Moodle LMS is based on the [Community of Inquiry model](https://coi.athabascau.ca/) \[Castellanos-Reyes (2020)\] \[Garisson, Anderson, and Archer (2000)\], which identifies three components of educational processes. Depending on the respective learning activities in Moodle, indicators were identified for these components \[Moodle (2019)\] \[Moodle (2022)\], which can characterise these learning processes, including:
+Ein umfangreiches Verzeichnis für Lernereignisse, Lernaktivitäten, Metriken und Indikatoren findet sich im [OpenLAIR](https://edutec-tool.github.io/)-Projekt.
 
-1.  Cognitive presence (scale: cognitive depth from 0 to 5)
+Das LMS Moodle basiert auf dem [Modell der Community of Inquiry](https://coi.athabascau.ca/) ([Castellanos-Reyes 2020](#ref-castellanos-reyes2ycif2020)) ([Garisson, Anderson, and Archer 2000](#ref-garissoncitecche2000)), welches drei Bestandteile von Bildungsprozessen identifiziert. Zu diesen Bestandteilen wurden in Abhängigkeit der jeweiligen Lernaktivitäten in Moodle Indikatoren identifiziert ([Moodle 2019](#ref-moodlea2019)) ([Moodle 2022](#ref-moodleaa2022)), die diese Lernprozesse charakterisieren können, darunter:
 
-    - Details of the activity were considered
-    - Content relating to the activity was submitted
-    - Feedback was considered
-    - Feedback was submitted
-    - Revised content relating to the activity was submitted
+1.  kognitive Präsenz (Skala: kognitive Tiefe von 0 bis 5)
+    - Details der Aktivität wurden betrachtet
+    - inhaltliche Beiträge zur Aktivität wurden eingereicht
+    - Feedback wurde betrachtet
+    - Feedback wurde übermittelt
+    - überarbeitete Beiträge zur Aktivität wurden eingereicht
+2.  soziale Präsenz (Skala: soziale Breite von 0 bis 5)
+    - Interaktionsvarianten mit anderen Lernenden im (Rahmen einer Aktivität)
+3.  pädagogische Präsenz
 
-2.  Social presence (scale: social breadth from 0 to 5)
+Diese Indikatoren können in Machine-Learning-basierten oder statistischen Modellen verwendet werden, um etwa Vorhersagen zu treffen (z. B. Drop-out Risiko, Schwierigkeiten bei Lernaktivitäten, niedrige Beteiligung). Dabei sollte berücksichtigt werden, dass nicht alle Lernziele quantifizierbar sind und Rückmeldungen daher oft eher indikativer Natur sind.
 
-    - Interaction variants with other learners (in the context of an activity)
+**Merkmale von Lernumgebungen**
 
-3.  Pedagogical presence
+Zur Klassifikation von Lernumgebungen können mehrere Merkmale einbezogen werden ([Pawlowski 2001](#ref-pawlowskieevzecl2001), S. 47):
 
-These indicators can be used in machine-learning-based or statistical models, for example, to make predictions (e.g. drop-out risk, difficulties with learning activities, low participation). It should be taken into account that not all learning objectives are quantifiable and feedback is therefore often of an indicative nature.
-
-**Characteristics of learning environments**
-
-Several characteristics can be included to classify learning environments (Pawlowski 2001, 47):
-
-- Context
-- Learning situation (spatial, temporal)
-- Learning content (facts/context-free rules, context-dependent rules, problem solving, complex situations, shape/pattern recognition)
-- Learning objectives (cognitive, affective, psychomotor, social)
-- Learning theories (behaviourism, cognitivism, constructivism, connectivism, etc.)
-- Learning time (synchronous, asynchronous, mixed forms)
-- Learning duration (closed, open)
-- Degree of integration (communication between the teacher, learner, computer)
-- Roles (learner, teacher, etc.)
-- Interaction
-- Presentation
-- Didactic methods
+- Kontext
+- Lernsituation (räumlich, zeitlich)
+- Lerninhalte (Fakten/kontextfreie Regeln, kontextabhängige Regeln, Problemlösung, komplexe Situationen, Gestalt-/Mustererkennung)
+- Lernziele (kognitiv, affektiv, psychomotorisch, sozial)
+- Lerntheorien (Behaviorismus, Kognitivismus, Konstruktivismus, Konnektivismus …)
+- Lernzeitpunkt (synchron, asynchron, Mischformen)
+- Lerndauer (geschlossen, offen)
+- Integrationsgrad (Kommunikation zwischen Lehrendem, Lernenden, Computer)
+- Rollen (Lernender, Lehrender, …)
+- Interaktion
+- Präsentation
+- Didaktische Methoden
 - Evaluation
 
-**Implementation and usefulness of learning analytics methods**
+**Implementierung und Nützlichkeit von lernanalytischen Verfahren**
 
-The implementation of learning analytics methods requires a complex interplay of learning activities and learning systems. Different learning activities make it difficult to process the learning data collected. Special attention must also be paid to data protection and data security. However, this method also poses challenges for learners and teachers, as the data collected is semantically and syntactically complex and therefore difficult to interpret. Teachers and learners can be supported in evaluating the data via easy-to-understand dashboards so that learning environments and learning analytical procedures can fulfil the expected diagnostic potential and opportunities for adaptive and individual support.
-
-\[^23\]: The [CoKoMo project](https://cokomo-it.de/) addresses the latter as part of the “Mein Bildungsraum” initiative.
-
-\[^24\]: For an explanation of the relationship between recommender systems and artificial intelligence, see Reichow et al. (Reichow et al. 2022, 8–9).
-
-\[^25\]: These and similar models are also discussed under the heading [“web of trust”](https://en.wikipedia.org/wiki/Web_of_trust).
+Die Implementierung von lernanalytischen Verfahren erfordert ein komplexes Zusammenspiel von Lernaktivitäten und Lernsystemen. Unterschiedliche Lernaktivitäten erschweren eine Aufbereitung erhobener Lerndaten. Zudem müssen Datenschutz und Datensicherheit besonders berücksichtigt werden. Aber auch Lernende und Lehrende stellt dieses Verfahren vor Herausforderungen, da die erhobenen Daten semantisch und syntaktisch komplex und daher nur schwerlich interpretierbar sind. Lehrende und Lernende können dabei über leicht verständliche Dashboards bei der Auswertung der Daten unterstützt werden, sodass Lernumgebungen und lernanalytische Verfahren die erwarteten diagnostische Potenziale und Möglichkeiten adaptiver und individueller Förderung einlösen können.
 
 <div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
 
@@ -459,6 +488,12 @@ Ahmad, Atezaz, Jan Schneider, Dai Griffiths, Daniel Biedermann, Daniel Schiffner
 <div id="ref-ahmadwicsyerlair2022" class="csl-entry">
 
 Ahmad, Atezaz, Jan Schneider, Joshua Weidlich, Daniele Di Mitri, Jane Yau, Daniel Schiffner, and Hendrik Drachsler. 2022. “What Indicators Can I Serve You with? An Evaluation of a Research-Driven Learning Analytics Indicator Repository:” In *Proceedings of the 14th International Conference on Computer Supported Education*, 58–68. Online Streaming, --- Select a Country ---: SCITEPRESS - Science and Technology Publications. <https://doi.org/10.5220/0010995800003182>.
+
+</div>
+
+<div id="ref-blodaumn2019" class="csl-entry">
+
+Blodau, Jan, Kathrin Gade, Karin Nachtigall, and Manuela Peschen. 2019. “Medienkompetenzrahmen NRW.” Edited by Medienberatung NRW. Https://medienkompetenzrahmen.nrw/fileadmin/pdf/LVR_ZMB_MKR_Broschuere_2019_06_Final.pdf. <https://web.archive.org/web/20240228193340/https://medienkompetenzrahmen.nrw/fileadmin/pdf/LVR_ZMB_MKR_Broschuere_2019_06_Final.pdf>.
 
 </div>
 
@@ -733,3 +768,11 @@ Zhu, Haiping, Feng Tian, Ke Wu, Nazaraf Shah, Yan Chen, Yifu Ni, Xinhui Zhang, K
 </div>
 
 </div>
+
+[^1]: Eine Ausnahme bilden die Software- oder KI-basierten Buddy-Finder, die bisweilen mit Gamification-Elementen und Ranglisten eine soziale Komponente integrieren.
+
+[^2]: Letzterem nimmt sich das [CoKoMo-Projekt](https://cokomo-it.de/) im Rahmen der Initiative “Mein Bildungsraum” an.
+
+[^3]: Für eine Erläuterung des Zusammenhangs zwischen Empfehlungssystemen und künstlicher Intelligenz, siehe Ausführungen von Reichow et al. ([Reichow et al. 2022](#ref-reichowrbwghuhdiri2022), S. 8-9).
+
+[^4]: Solche und ähnliche Modelle werden auch unter dem Begriff [“Web Of Trust”](https://en.wikipedia.org/wiki/Web_of_trust) diskutiert.
